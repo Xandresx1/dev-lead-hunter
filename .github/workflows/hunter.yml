@@ -22,8 +22,8 @@ on:
         description: "Fuentes (vacio = todas). Ej: freelancer,facebook"
         required: false
         default: ""
-  # schedule:
-  #   - cron: "*/30 * * * *"     # cada 30 min (UTC). Recuerda el presupuesto de Apify.
+  schedule:
+    - cron: "*/30 * * * *"     # cada 30 min (UTC). Recuerda el presupuesto de Apify.
 
 concurrency:
   group: dev-lead-hunter

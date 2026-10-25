@@ -1,5 +1,28 @@
 {
 "seen": [
+"freelancer:40783488",
+"freelancer:40786281",
+"freelancer:40786290",
+"freelancer:40786304",
+"freelancer:40786305",
+"freelancer:40786308",
+"freelancer:40786323",
+"freelancer:40786333",
+"freelancer:40786340",
+"freelancer:40786353",
+"freelancer:40772306",
+"freelancer:40786363",
+"freelancer:40786369",
+"freelancer:40786372",
+"freelancer:40786371",
+"freelancer:40786384",
+"freelancer:40786385",
+"freelancer:40786386",
+"freelancer:40786387",
+"freelancer:40786388",
+"freelancer:40786366",
+"freelancer:40786392",
+"freelancer:40786402",
 "freelancer:40785888",
 "freelancer:40786092",
 "freelancer:40786109",
@@ -256,17 +279,49 @@
 "facebook": 1792948852,
 "linkedin": 1792900970,
 "twitter": 1792901058,
-"freelancer": 1792948964,
-"reddit": 1792948964
+"freelancer": 1792958206,
+"reddit": 1792958206
 },
 "counters": {
-"gemini:2026-10-25": 213.0
+"gemini:2026-10-25": 235.0
 },
 "leads": [],
 "stats": {
 "leads_total": 4,
-"seen_total": 251,
-"pending_proposals": 0
+"seen_total": 274,
+"pending_proposals": 1
 },
-"pending_proposals": []
+"pending_proposals": [
+{
+"id": "freelancer:40786308",
+"payload": {
+"id": "freelancer:40786308",
+"source": "freelancer",
+"title": "Desarrollo de Web App B2B (Catálogo y Pedidos) para Tablets en Establecimientos Comerciales",
+"text": "Hola. Busco un desarrollador o especialista en plataformas No-Code / Web Apps ágiles para crear una aplicación de pedidos B2B minimalista y de uso autónomo. \n\nEl objetivo del proyecto es colocar una tablet en los establecimientos de nuestros clientes (sector productos de limpieza) para que el encargado de compras realice pedidos de reposición de forma directa, eliminando la necesidad de vendedores en campo.\n\n---\n\n### Alcance del Catálogo:\n* **Catálogo compacto de 11 productos** de limpieza.\n* Cada producto cuenta con **dos presentaciones fijas: Litro y Galón** (el cliente debe poder elegir la cantidad de litros o de galones que necesita para cada uno de los 11 productos).\n* **Dinámica de despacho:** Los pedidos se consolidan para **salidas semanales**, por lo que la app debe mostrar claramente el flujo o la confirmación de la programación de su entrega.\n\n---\n\n### Flujo y Pantallas Principales de la App:\n1. **Pantalla de Inicio / Catálogo Visual:** \n   - Visualización limpia de los 11 productos organizados por categorías o en una cuadrícula rápida.\n   - Tarjetas con foto real, nombre del producto y selectores claros para elegir presentación (**Litro vs. Galón**).\n2. **Carrito de Compras:**\n   - Botones rápidos de sumar/restar (+) (-) para ajustar cantidades en la presentación seleccionada.\n   - Carrito flotante visible en todo momento con el resumen del pedido consolidado.\n3. **Checkout / Envío de Pedido:**\n   - Botón de confirmación rápida (\"Enviar Pedido para Próximo Despacho\").\n   - Mensaje de confirmación en pantalla y generación automática de la orden.\n4. **Panel de Estatus:**\n   - Una vista sencilla donde el cliente vea el estatus de su pedido semanal (Recibido ➔ En preparación ➔ En camino / Despachado).\n\n---\n\n###  Requerimientos Técnicos y Arquitectura:\n* **Tecnología sugerida:** Preferiblemente No-Code (Glide, Bubble) o una Web App / PWA ligera que corra fluidamente desde el navegador de una tablet Android económica.\n* **Base de Datos:** Debe conectarse a una base de datos central (Google Sheets o base de datos nativa) para actualizar inventarios, precios y recibir los pedidos en tiempo real.\n* **Panel de Administración (Backoffice):** Un panel interno para nuestro equipo donde podamos ver los pedidos consolidados de la semana, cambiarles el estatus y gestionar el catálogo de productos (precios, stock, fotos).\n* **Modo Kiosco / Seguridad:** La app debe correr a pantalla completa y ser fácil de bloquear en la tablet para evitar que el usuario salga a otras aplicaciones del dispositivo.\n\n---\n\n###  Entregables Esperados:\n1. Web App funcional probada en dispositivos móviles/tablets.\n2. Panel de administración operativo.\n3. Breve documentación o sesión de transferencia para saber cómo actualizar precios y productos nosotros mismos.\n\n---\nSi tienes experiencia previa creando catálogos B2B o apps de pedidos, por favor compárteme ejemplos o links de proyectos similares en tu propuesta. ¡Gracias!\nPresupuesto: 10.0-30.0 USD\nSkills: Project Management, Agile Development, Data Visualization, API Integration, Payment Processing",
+"url": "https://www.freelancer.com/projects/payment-processing/Desarrollo-Web-App-Cat-logo",
+"author": "",
+"extra": {
+"bids": 21,
+"bid_avg": 42.95238095238095,
+"budget": "Presupuesto: 10.0-30.0 USD",
+"budget_min": 10.0,
+"budget_max": 30.0,
+"currency": "USD",
+"price_type": "fixed",
+"hourly_commitment": null,
+"escrow": false,
+"country": null,
+"lang": "es"
+},
+"language": "es",
+"score": 90,
+"summary": "Empresa del sector de productos de limpieza busca desarrollador para crear una web app B2B de pedidos en tablets.",
+"opener": "Hola, vi tu proyecto para la web app B2B de pedidos en tablets y tengo experiencia creando soluciones ágiles y Minimalistas. ¿Podemos conversar?",
+"location": null
+},
+"created": 1792958184,
+"attempts": 0
+}
+]
 }

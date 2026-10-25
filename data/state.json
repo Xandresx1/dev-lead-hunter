@@ -1,5 +1,15 @@
 {
 "seen": [
+"freelancer:40786058",
+"freelancer:40786061",
+"freelancer:40786062",
+"freelancer:40786059",
+"freelancer:40786069",
+"freelancer:40786076",
+"freelancer:40786074",
+"freelancer:40786077",
+"freelancer:40786082",
+"freelancer:40786083",
 "freelancer:40774973",
 "freelancer:40775732",
 "freelancer:40776100",
@@ -210,15 +220,17 @@
 "facebook": 1792900961,
 "linkedin": 1792900970,
 "twitter": 1792901058,
-"freelancer": 1792936047,
+"freelancer": 1792937147,
 "reddit": 1792936047
 },
 "counters": {
-"gemini:2026-10-25": 178.0
+"gemini:2026-10-25": 188.0
 },
 "leads": [],
 "stats": {
-"leads_total": 23,
-"seen_total": 205
-}
+"leads_total": 1,
+"seen_total": 215,
+"pending_proposals": 0
+},
+"pending_proposals": []
 }

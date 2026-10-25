@@ -75,7 +75,7 @@ jobs:
           PAGES_DIR: ./docs
           # --- Variables opcionales (Settings -> Variables). Si no existen se usa el valor por defecto ---
           NTFY_SERVER: ${{ vars.NTFY_SERVER || 'https://ntfy.sh' }}
-          MIN_SCORE: ${{ vars.MIN_SCORE || '65' }}
+          MIN_SCORE: ${{ vars.MIN_SCORE || '90' }}
           MAX_CLASSIFY_PER_TICK: ${{ vars.MAX_CLASSIFY_PER_TICK || '60' }}
           APIFY_MONTHLY_BUDGET_USD: ${{ vars.APIFY_MONTHLY_BUDGET_USD || '4.5' }}
           FREELANCER_ENABLED: ${{ vars.FREELANCER_ENABLED || 'true' }}

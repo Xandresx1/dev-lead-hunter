@@ -32,6 +32,9 @@ class Storage:
                 total_items INTEGER DEFAULT 0, total_leads INTEGER DEFAULT 0, total_errors INTEGER DEFAULT 0, last_error TEXT
             );
             CREATE TABLE IF NOT EXISTS counters (key TEXT PRIMARY KEY, value REAL);
+            CREATE TABLE IF NOT EXISTS pending_proposals (
+                id TEXT PRIMARY KEY, payload TEXT, created INTEGER, attempts INTEGER DEFAULT 0
+            );
             """
         )
         c.commit()
@@ -121,6 +124,36 @@ class Storage:
     def today_key(prefix: str) -> str:
         return f"{prefix}:{datetime.now(timezone.utc).strftime('%Y-%m-%d')}"
 
+    # ---------- propuestas pendientes (reintento cuando Oxion falla) ----------
+    def add_pending_proposal(self, post_id: str, payload: dict):
+        self.db.execute("INSERT OR REPLACE INTO pending_proposals(id,payload,created,attempts) VALUES(?,?,?,0)",
+                        (post_id, json.dumps(payload, ensure_ascii=False), int(time.time())))
+        self.db.commit()
+
+    def pending_proposals(self, limit: int = 10) -> list[dict]:
+        rows = self.db.execute("SELECT id,payload,created,attempts FROM pending_proposals ORDER BY created LIMIT ?", (limit,)).fetchall()
+        out = []
+        for r in rows:
+            d = json.loads(r["payload"]); d["_id"] = r["id"]; d["_created"] = r["created"]; d["_attempts"] = r["attempts"]
+            out.append(d)
+        return out
+
+    def bump_pending_proposal(self, post_id: str):
+        self.db.execute("UPDATE pending_proposals SET attempts=attempts+1 WHERE id=?", (post_id,))
+        self.db.commit()
+
+    def remove_pending_proposal(self, post_id: str):
+        self.db.execute("DELETE FROM pending_proposals WHERE id=?", (post_id,))
+        self.db.commit()
+
+    def pending_count(self) -> int:
+        return self.db.execute("SELECT COUNT(*) FROM pending_proposals").fetchone()[0]
+
+    def update_lead_proposal(self, post_id: str, proposal_text: str, price_usd: float, days: int, page_url: str | None):
+        self.db.execute("UPDATE leads SET proposal=?, price_usd=?, days=?, page_url=COALESCE(?, page_url) WHERE id=?",
+                        (proposal_text, price_usd, days, page_url, post_id))
+        self.db.commit()
+
     # ---------- export / import (modo GitHub Actions) ----------
     def export_json(self, path: Path, max_seen: int = 8000, include_leads: bool = False):
         """Estado minimo para GitHub Actions. Por defecto NO incluye el texto de los leads
@@ -129,10 +162,12 @@ class Storage:
         runs = {r["source"]: r["last_run"] for r in self.db.execute("SELECT source,last_run FROM source_runs").fetchall()}
         counters = {r[0]: r[1] for r in self.db.execute("SELECT key,value FROM counters").fetchall()}
         leads = self.recent_leads(100) if include_leads else []
-        stats = {"leads_total": self.leads_count(), "seen_total": self.seen_count()}
+        pending = [{"id": r["id"], "payload": json.loads(r["payload"]), "created": r["created"], "attempts": r["attempts"]}
+                   for r in self.db.execute("SELECT id,payload,created,attempts FROM pending_proposals").fetchall()]
+        stats = {"leads_total": self.leads_count(), "seen_total": self.seen_count(), "pending_proposals": len(pending)}
         Path(path).parent.mkdir(parents=True, exist_ok=True)
-        Path(path).write_text(json.dumps({"seen": seen, "runs": runs, "counters": counters, "leads": leads, "stats": stats},
-                                         ensure_ascii=False, indent=0))
+        Path(path).write_text(json.dumps({"seen": seen, "runs": runs, "counters": counters, "leads": leads, "stats": stats,
+                                          "pending_proposals": pending}, ensure_ascii=False, indent=0))
 
     def import_json(self, path: Path):
         p = Path(path)
@@ -145,6 +180,9 @@ class Storage:
             self.db.execute("INSERT OR IGNORE INTO source_runs(source,last_run) VALUES(?,?)", (source, last_run))
         for k, v in (data.get("counters") or {}).items():
             self.db.execute("INSERT OR IGNORE INTO counters(key,value) VALUES(?,?)", (k, v))
+        for p in data.get("pending_proposals") or []:
+            self.db.execute("INSERT OR IGNORE INTO pending_proposals(id,payload,created,attempts) VALUES(?,?,?,?)",
+                            (p["id"], json.dumps(p["payload"], ensure_ascii=False), p.get("created", now), p.get("attempts", 0)))
         for lead in data.get("leads") or []:
             cols = ",".join(lead.keys()); qs = ",".join("?" * len(lead))
             self.db.execute(f"INSERT OR IGNORE INTO leads ({cols}) VALUES ({qs})", tuple(lead.values()))

@@ -44,7 +44,7 @@ class Settings:
     # --- General ---
     data_dir: Path = field(default_factory=lambda: Path(os.getenv("DATA_DIR", str(BASE_DIR / "data"))))
     loop_tick_minutes: int = _int("LOOP_TICK_MINUTES", 5)
-    min_score: int = _int("MIN_SCORE", 65)
+    min_score: int = _int("MIN_SCORE", 90)
     max_post_chars: int = _int("MAX_POST_CHARS", 1500)
     log_level: str = os.getenv("LOG_LEVEL", "INFO")
 
@@ -77,6 +77,9 @@ class Settings:
     proposal_languages: list[str] = field(default_factory=lambda: [l.lower()[:2] for l in _list("PROPOSAL_LANGUAGES", ["es"])])
     proposal_prompt_file: str = os.getenv("PROPOSAL_PROMPT_FILE", "")
     proposal_experience: str = os.getenv("PROPOSAL_EXPERIENCE", "")
+    proposal_pause_minutes: int = _int("PROPOSAL_PAUSE_MINUTES", 15)      # pausa tras un 503 de Oxion
+    proposal_retry_per_run: int = _int("PROPOSAL_RETRY_PER_RUN", 10)     # pendientes a reintentar por corrida
+    proposal_pending_ttl_hours: int = _int("PROPOSAL_PENDING_TTL_HOURS", 48)
 
     # --- Mini paginas (GitHub Pages) con boton Copiar ---
     pages_enabled: bool = _bool("PAGES_ENABLED", True)

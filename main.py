@@ -102,15 +102,20 @@ class Hunter:
         proposal = None
         proposal_failed = False
         try:
-            if self.proposals.applies(post, verdict.language):
-                proposal = self.proposals.write(post, verdict.language)
+            if self.proposals.applies(post, verdict.language, ignore_pause=True):
+                proposal = self.proposals.write(post, verdict.language) if not self.proposals.paused else None
                 if proposal:
                     log.info("[%s] propuesta generada: %s / %d dias", post.source, proposal.price_label, proposal.days)
                 else:
-                    proposal_failed = True
+                    proposal_failed = True  # Oxion caido o pausado -> se encola para reintento
         except Exception as e:
             proposal_failed = True
             log.warning("Propuesta fallo para %s: %s", post.id, e)
+        if proposal_failed:
+            loc = verdict.location if verdict.location and verdict.location.lower() != "no indicado" else None
+            self.storage.add_pending_proposal(post.id, ProposalWriter.post_payload(post, verdict.language, verdict.score,
+                                                                                    verdict.summary_es, verdict.reply_opener, loc))
+            log.info("[%s] propuesta encolada para reintento (%d pendientes)", post.source, self.storage.pending_count())
         page_url = None
         try:
             page_url = self.pages.write(post_id=post.id, source=post.source, score=verdict.score, title=post.title or verdict.summary_es,
@@ -161,6 +166,51 @@ class Hunter:
         log.info("Fuente %s: %d posts, %d leads nuevos (%.1fs)", source.name, len(posts), leads, time.time() - t0)
         return len(posts), leads
 
+    def retry_pending_proposals(self) -> int:
+        """Reintenta propuestas que fallaron (Oxion caido). Devuelve cuantas se completaron."""
+        if not self.proposals.enabled or self.proposals.paused:
+            return 0
+        pending = self.storage.pending_proposals(limit=settings.proposal_retry_per_run)
+        if not pending:
+            return 0
+        log.info("Reintentando %d propuestas pendientes...", len(pending))
+        done = 0
+        ttl = settings.proposal_pending_ttl_hours * 3600
+        for d in pending:
+            pid = d["_id"]
+            if time.time() - d["_created"] > ttl:
+                log.info("Propuesta pendiente %s expiro (> %dh), la descarto.", pid, settings.proposal_pending_ttl_hours)
+                self.storage.remove_pending_proposal(pid)
+                continue
+            if self.proposals.paused:
+                break
+            post = ProposalWriter.post_from_payload(d)
+            try:
+                proposal = self.proposals.write(post, d.get("language", "es"))
+            except Exception as e:
+                log.warning("Reintento de propuesta %s fallo: %s", pid, e)
+                proposal = None
+            if not proposal:
+                self.storage.bump_pending_proposal(pid)
+                continue
+            page_url = None
+            try:
+                page_url = self.pages.write(post_id=post.id, source=post.source, score=d.get("score", 0), title=post.title or d.get("summary", ""),
+                                            text=post.full_text, url=post.url, summary=d.get("summary", ""), opener=d.get("opener", ""),
+                                            location=d.get("location"), proposal=proposal)
+            except Exception as e:
+                log.warning("Pagina (reintento) fallo para %s: %s", pid, e)
+            self.storage.update_lead_proposal(post.id, proposal.text, proposal.price_usd, proposal.days, page_url)
+            self.storage.remove_pending_proposal(pid)
+            done += 1
+            log.info("Propuesta lista (reintento) %s: %s / %d dias", pid, proposal.price_label, proposal.days)
+            if self.dry_run:
+                print(f"\n=== PROPUESTA LISTA (dry-run) [{post.source}] {proposal.price_label} / {proposal.days} dias ===\n{proposal.text[:300]}\n{page_url or ''}\n")
+            else:
+                self.notifier.send_proposal_ready(source=post.source, title=post.title, summary=d.get("summary", ""), url=post.url,
+                                                  proposal=proposal, page_url=page_url, post_id=post.id)
+        return done
+
     def due_sources(self, force: bool = False) -> list[Source]:
         if force:
             return list(self.sources)
@@ -178,6 +228,11 @@ class Hunter:
         total_posts = total_leads = 0
         self._classified_this_tick = 0
         self._deferred = 0
+        try:
+            retried = self.retry_pending_proposals()
+        except Exception as e:
+            retried = 0
+            log.exception("Error reintentando propuestas: %s", e)
         for s in due:
             if _stop:
                 break
@@ -189,7 +244,8 @@ class Hunter:
                      self._deferred, settings.max_classify_per_tick)
         if self.state_json:
             self.storage.export_json(self.state_json)
-        return {"sources": [s.name for s in due], "posts": total_posts, "leads": total_leads, "deferred": self._deferred}
+        return {"sources": [s.name for s in due], "posts": total_posts, "leads": total_leads, "deferred": self._deferred,
+                "proposals_retried": retried, "proposals_pending": self.storage.pending_count()}
 
     def loop(self):
         names = [s.name for s in self.sources]
@@ -217,7 +273,7 @@ class Hunter:
             print(f"  {r['source']:<11} ultima={last} items={r['total_items']} leads={r['total_leads']} "
                   f"errores={r['total_errors']} {('ERR: ' + (r['last_error'] or '')[:60]) if r['last_error'] else ''}")
         print(f"\n== Totales == vistos={self.storage.seen_count()} leads={self.storage.leads_count()} "
-              f"gemini_hoy={int(self.storage.get_counter(Storage.today_key('gemini')))}")
+              f"gemini_hoy={int(self.storage.get_counter(Storage.today_key('gemini')))} propuestas_pendientes={self.storage.pending_count()}")
         if settings.apify_token:
             try:
                 from sources.apify_base import apify_budget_status

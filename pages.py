@@ -89,6 +89,10 @@ class PageWriter:
             self._ensure_index()
 
     def _ensure_index(self):
+        (self.dir / "p").mkdir(parents=True, exist_ok=True)
+        keep = self.dir / "p" / ".gitkeep"
+        if not keep.exists():
+            keep.write_text("", encoding="utf-8")
         idx = self.dir / "index.html"
         if not idx.exists():
             idx.write_text('<!doctype html><meta charset="utf-8"><meta name="robots" content="noindex"><title>Dev Lead Hunter</title>'

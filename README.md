@@ -154,6 +154,8 @@ una pregunta/riesgo para el chat. En inglés y en las demás fuentes no se gener
 - **Botón "📋 Copiar propuesta"** en la notificación: abre una mini página de tu **GitHub Pages** (color azul = Freelancer, verde =
   Facebook, morado = LinkedIn, negro = X, naranja = Reddit; contenido en negrita) con precio, plazo, la propuesta y botones de copiar.
   Actívalo una vez: repo → **Settings → Pages → Source: Deploy from a branch → Branch `main` → carpeta `/docs` → Save**.
+  La carpeta `docs/` (con `index.html`, `.nojekyll` y `p/`) **debe existir en el repo** antes de activar Pages; ya viene en el ZIP.
+  Si Pages marca *"No such file or directory - /docs"*, es porque falta esa carpeta: súbela, haz push y vuelve a guardar en Settings → Pages.
   El workflow commitea las páginas en `docs/p/<id>.html`; la URL no se adivina (hash) y lleva `noindex`. La página tarda ~1 min en
   publicarse tras cada corrida.
 - Coloca tu experiencia extra en la variable `PROPOSAL_EXPERIENCE` (va en `{{EXPERIENCIA_RELEVANTE}}`). Para cambiar el prompt edita
@@ -194,7 +196,7 @@ Si se agota, clasifica solo por keywords y lo marca en la notificación.
   (La búsqueda de LinkedIn vía Apify es la de menor calidad: espera ruido.)
 - **Query X** (`TWITTER_QUERY`): sintaxis de búsqueda avanzada de X. Agrega `lang:es` si solo quieres español.
 - **Freelancer** (`FREELANCER_QUERIES_ES/EN`): términos de búsqueda; la fuente más productiva y gratis.
-- **Sensibilidad**: `MIN_SCORE` (65). Súbelo a 75 si llegan muchos leads flojos; bájalo a 55 si quieres ver todo.
+- **Sensibilidad**: `MIN_SCORE` (90 = solo leads muy claros). Bájalo a 80-85 si quieres ver más; a 65 para ver casi todo.
 - **Prompt de la IA**: `classifier.py` → `SYSTEM_PROMPT`. Ahí defines qué es y qué no es un lead para ti.
 - **Keywords** (pre-filtro): `keywords.py` → `NEED_PATTERNS`, `NEGATIVE_PATTERNS`, `SOFTWARE_TERMS`.
 

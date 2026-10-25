@@ -53,8 +53,11 @@ class ProposalWriter:
             log.warning("No pude leer el prompt de propuestas (%s): %s", p, e)
             return ""
 
-    def applies(self, post: Post, language: str) -> bool:
-        if not self.enabled or not self._template or time.time() < self._disabled_until:
+    def applies(self, post: Post, language: str, ignore_pause: bool = False) -> bool:
+        """True si a este lead le corresponde propuesta automatica. ignore_pause=True para decidir si se encola aunque Oxion este caido."""
+        if not self.enabled or not self._template:
+            return False
+        if not ignore_pause and time.time() < self._disabled_until:
             return False
         if post.source not in settings.proposal_sources:
             return False
@@ -117,6 +120,11 @@ class ProposalWriter:
                 if r.status_code == 429:
                     time.sleep(5 * (attempt + 1))
                     continue
+                if r.status_code in (502, 503, 504):
+                    log.warning("Oxion no disponible (%s: %s). Pauso propuestas %d min; los leads quedan en cola de reintento.",
+                                r.status_code, r.text[:90].replace("\n", " "), settings.proposal_pause_minutes)
+                    self._disabled_until = time.time() + settings.proposal_pause_minutes * 60
+                    return None
                 r.raise_for_status()
                 content = r.json()["choices"][0]["message"]["content"]
                 data = self._parse_json(content)
@@ -132,7 +140,24 @@ class ProposalWriter:
             except Exception as e:
                 log.warning("Oxion intento %d fallo: %s: %s", attempt + 1, type(e).__name__, str(e)[:200])
                 time.sleep(2)
+        log.warning("Oxion fallo 3 veces; pauso propuestas %d min.", settings.proposal_pause_minutes)
+        self._disabled_until = time.time() + settings.proposal_pause_minutes * 60
         return None
+
+    @property
+    def paused(self) -> bool:
+        return time.time() < self._disabled_until
+
+    @staticmethod
+    def post_payload(post: Post, language: str, score: int, summary: str, opener: str, location: str | None) -> dict:
+        """Serializa lo necesario para reintentar la propuesta mas tarde (cola en state.json)."""
+        return {"id": post.id, "source": post.source, "title": post.title, "text": post.text, "url": post.url, "author": post.author,
+                "extra": post.extra, "language": language, "score": score, "summary": summary, "opener": opener, "location": location}
+
+    @staticmethod
+    def post_from_payload(d: dict) -> Post:
+        return Post(id=d["id"], source=d["source"], text=d.get("text", ""), url=d.get("url", ""), title=d.get("title", ""),
+                    author=d.get("author", ""), extra=d.get("extra") or {})
 
     @staticmethod
     def _parse_json(content: str) -> dict:

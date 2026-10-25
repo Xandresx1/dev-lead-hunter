@@ -125,6 +125,25 @@ class Notifier:
         actions += self.reply_actions(source, url, opener, post_id)
         return self.send(title, "\n".join(parts), priority=prio, tags=tags, click=page_url or url, actions=actions)
 
+    def send_proposal_ready(self, *, source: str, title: str, summary: str, url: str, proposal, page_url: str | None, post_id: str = "") -> bool:
+        dot = SOURCE_DOT.get(source, "\u26AA")
+        t = f"{dot} \U0001F4DD Propuesta lista \u00b7 {proposal.price_label} \u00b7 {proposal.days} d\u00edas"
+        parts = [f"**{title or summary}**", f"_{summary}_" if title and summary else "",
+                 f"\U0001F4B0 **Cobrar: {proposal.price_label}** \u00b7 \u23F1 **{proposal.days} d\u00edas**"]
+        if proposal.justification:
+            parts.append(f"_{proposal.justification}_")
+        prop = proposal.text if len(proposal.text) <= 900 else proposal.text[:900] + "\u2026"
+        parts.append(f"\n{prop}")
+        if proposal.question:
+            parts.append(f"\n\u2753 **Preguntar en el chat:** {proposal.question}")
+        parts.append(f"\n\U0001F517 {url}")
+        actions = []
+        if page_url:
+            actions.append({"action": "view", "label": "\U0001F4CB Copiar propuesta", "url": page_url, "clear": False})
+        actions += self.reply_actions(source, url, "", post_id)
+        return self.send(t, "\n".join(x for x in parts if x), priority="high", tags=SOURCE_TAGS.get(source, "bell"),
+                         click=page_url or url, actions=actions)
+
     def send_error(self, source: str, error: str) -> bool:
         if not settings.notify_errors:
             return False

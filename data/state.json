@@ -1,5 +1,41 @@
 {
 "seen": [
+"freelancer:40785888",
+"freelancer:40786092",
+"freelancer:40786109",
+"freelancer:40786122",
+"freelancer:40786140",
+"freelancer:40786144",
+"freelancer:40786147",
+"freelancer:40786180",
+"freelancer:40786193",
+"freelancer:40786201",
+"freelancer:40786202",
+"freelancer:40786212",
+"freelancer:40786216",
+"freelancer:40786221",
+"freelancer:40786223",
+"freelancer:40786218",
+"freelancer:40786240",
+"freelancer:40786248",
+"freelancer:40786260",
+"freelancer:40786262",
+"freelancer:40786263",
+"freelancer:40786266",
+"freelancer:40786265",
+"freelancer:40786267",
+"freelancer:40786269",
+"facebook:UzpfSTY5NTY4NDA2MzpWSzoyODgwMjE0MTIyNjA4MDk1NA==",
+"facebook:UzpfSTYxNTc2NjE3NjMwNjk4OlZLOjQyMjY5MDMzODc2MDc3Njg=",
+"facebook:UzpfSTY5NTY4NDA2MzpWSzoyODgwMjEwMzQ3NjA4NDcyOQ==",
+"facebook:UzpfSTYxNTc2NjE3NjMwNjk4OlZLOjQyMjY4OTMyNzQyNzU0NDY=",
+"facebook:UzpfSTYxNTc2NjE3NjMwNjk4OlZLOjQyMjY4OTA4MTA5NDIzNTk=",
+"facebook:UzpfSTEwMDA3ODIyODUyMjAyMzpWSzo1NTg0ODA3MDI4MzI3Mzc3",
+"facebook:UzpfSTEwMDAwMDYxMjUxMDEwMzpWSzo1NTg0NzEyMTc1MDAzNTI5",
+"facebook:UzpfSTY5NTY4NDA2MzpWSzoyODgwMDQ0MjM1OTU4NDE3NA==",
+"facebook:UzpfSTEwMDAzNjA0OTI2MTU1NzpWSzo0MjA2NjY2NTMyNzk3NDY3",
+"facebook:UzpfSTEwMDA2Mzc3MTYwMjg2NzpWSzo0MjA2NjA0MTgyODAzNzAy",
+"facebook:UzpfSTEwMDAwNjA1MzA3NTA3NDpWSzo0MjA2MDA0Nzc5NTMwMzA5",
 "freelancer:40786058",
 "freelancer:40786061",
 "freelancer:40786062",
@@ -217,19 +253,19 @@
 "linkedin:7519729759472230400"
 ],
 "runs": {
-"facebook": 1792900961,
+"facebook": 1792948852,
 "linkedin": 1792900970,
 "twitter": 1792901058,
-"freelancer": 1792937147,
-"reddit": 1792936047
+"freelancer": 1792948964,
+"reddit": 1792948964
 },
 "counters": {
-"gemini:2026-10-25": 188.0
+"gemini:2026-10-25": 213.0
 },
 "leads": [],
 "stats": {
-"leads_total": 1,
-"seen_total": 215,
+"leads_total": 4,
+"seen_total": 251,
 "pending_proposals": 0
 },
 "pending_proposals": []

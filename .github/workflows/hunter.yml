@@ -76,6 +76,7 @@ jobs:
           FACEBOOK_INTERVAL_MINUTES: ${{ vars.FACEBOOK_INTERVAL_MINUTES || '480' }}
           FACEBOOK_GROUPS: ${{ vars.FACEBOOK_GROUPS || 'https://www.facebook.com/groups/programadoresperu' }}
           FACEBOOK_POSTS_PER_GROUP: ${{ vars.FACEBOOK_POSTS_PER_GROUP || '5' }}
+          FACEBOOK_NEWER_THAN: ${{ vars.FACEBOOK_NEWER_THAN || '1 day' }}
           LINKEDIN_ENABLED: ${{ vars.LINKEDIN_ENABLED || 'false' }}
           LINKEDIN_INTERVAL_MINUTES: ${{ vars.LINKEDIN_INTERVAL_MINUTES || '720' }}
           LINKEDIN_KEYWORDS: ${{ vars.LINKEDIN_KEYWORDS || 'busco desarrollador,necesito un sistema' }}

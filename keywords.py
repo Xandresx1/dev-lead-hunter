@@ -69,6 +69,23 @@ _need_re = [re.compile(p) for p in NEED_PATTERNS]
 _neg_re = [re.compile(p) for p in NEGATIVE_PATTERNS]
 
 
+# Monedas/medios de pago a excluir por reportes de estafas (ademas de EXCLUDED_CURRENCIES en la fuente)
+_CURRENCY_TEXT_PATTERNS = {
+    "INR": re.compile(r"(\bINR\b|\u20b9|\brupees?\b|\brupias?\b|\bRs\.? ?\d)", re.I),
+}
+
+
+def excluded_currency_hit(text: str, excluded: list[str]) -> str | None:
+    """Devuelve el codigo de moneda excluida si aparece en el texto (ej. 'INR'), si no None."""
+    for code in excluded:
+        pat = _CURRENCY_TEXT_PATTERNS.get(code.upper())
+        if pat and pat.search(text or ""):
+            return code.upper()
+        if not pat and re.search(rf"\b{re.escape(code)}\b", text or "", re.I):
+            return code.upper()
+    return None
+
+
 @dataclass
 class PrefilterResult:
     passes: bool

@@ -37,9 +37,10 @@ class Storage:
         c.commit()
         # migracion suave para bases creadas antes de la columna location
         cols = {r[1] for r in c.execute("PRAGMA table_info(leads)").fetchall()}
-        if "location" not in cols:
-            c.execute("ALTER TABLE leads ADD COLUMN location TEXT")
-            c.commit()
+        for col, typ in (("location", "TEXT"), ("proposal", "TEXT"), ("price_usd", "REAL"), ("days", "INTEGER"), ("page_url", "TEXT")):
+            if col not in cols:
+                c.execute(f"ALTER TABLE leads ADD COLUMN {col} {typ}")
+        c.commit()
 
     # ---------- dedup ----------
     def is_seen(self, post_id: str) -> bool:

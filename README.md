@@ -143,6 +143,28 @@ Afinar sin tocar código: **Settings → Secrets and variables → Actions → V
 
 ---
 
+## 6b. Propuestas automáticas con Claude (Oxion AI) + botón "Copiar"
+
+Para leads de **Freelancer en español**, Claude (vía tu cuenta de Oxion AI, API compatible OpenAI) redacta con **tu prompt**
+(`prompts/proposal_es.md`) una propuesta lista para pegar, **cuánto cobrar (USD)**, **en cuántos días**, una justificación y
+una pregunta/riesgo para el chat. En inglés y en las demás fuentes no se genera (configurable con `PROPOSAL_SOURCES` / `PROPOSAL_LANGUAGES`).
+
+- **Key**: https://www.oxionai.com → dashboard → API key → `OXION_API_KEY` (Secret en GitHub). Modelo: `OXION_MODEL=claude-sonnet-5`
+  (lista los disponibles con `python main.py --models`).
+- **Botón "📋 Copiar propuesta"** en la notificación: abre una mini página de tu **GitHub Pages** (color azul = Freelancer, verde =
+  Facebook, morado = LinkedIn, negro = X, naranja = Reddit; contenido en negrita) con precio, plazo, la propuesta y botones de copiar.
+  Actívalo una vez: repo → **Settings → Pages → Source: Deploy from a branch → Branch `main` → carpeta `/docs` → Save**.
+  El workflow commitea las páginas en `docs/p/<id>.html`; la URL no se adivina (hash) y lleva `noindex`. La página tarda ~1 min en
+  publicarse tras cada corrida.
+- Coloca tu experiencia extra en la variable `PROPOSAL_EXPERIENCE` (va en `{{EXPERIENCIA_RELEVANTE}}`). Para cambiar el prompt edita
+  `prompts/proposal_es.md` (placeholders: `{{DESCRIPCION}}`, `{{PRESUPUESTO}}`, `{{PROMEDIO}}`, `{{INFO_CLIENTE}}`, `{{EXPERIENCIA_RELEVANTE}}`).
+- Si Oxion no responde, el lead igual te llega (con el mensaje sugerido) y una nota de que la propuesta no se generó.
+
+## 6c. Anti-estafa: monedas excluidas
+
+`EXCLUDED_CURRENCIES=INR` (por defecto) descarta proyectos cuyo presupuesto esté en rupias **o** que mencionen INR/₹/rupees en el texto
+(se reportaron estafas con ese medio de pago). Agrega más códigos separados por coma si lo necesitas.
+
 ## 7. Costos y presupuesto de Apify (importante)
 
 Precios medidos en el POC: **Facebook ≈ $0.0045 por post leído**, **LinkedIn ≈ $0.0012 por post**, **X gratis** (límite ~50 runs/mes en cuenta free).

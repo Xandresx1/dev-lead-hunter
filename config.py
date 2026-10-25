@@ -66,6 +66,24 @@ class Settings:
     apify_monthly_budget_usd: float = _float("APIFY_MONTHLY_BUDGET_USD", 4.5)
     apify_max_charge_per_run_usd: float = _float("APIFY_MAX_CHARGE_PER_RUN_USD", 0.15)
 
+    # --- Filtro anti-estafa: monedas excluidas (ej. INR por reportes de estafas) ---
+    excluded_currencies: list[str] = field(default_factory=lambda: [c.upper() for c in _list("EXCLUDED_CURRENCIES", ["INR"])])
+
+    # --- Propuestas automaticas con Claude via Oxion AI (API compatible OpenAI) ---
+    oxion_api_key: str = os.getenv("OXION_API_KEY", "")
+    oxion_base_url: str = os.getenv("OXION_BASE_URL", "https://www.oxionai.com/v1")
+    oxion_model: str = os.getenv("OXION_MODEL", "claude-sonnet-5")
+    proposal_sources: list[str] = field(default_factory=lambda: _list("PROPOSAL_SOURCES", ["freelancer"]))
+    proposal_languages: list[str] = field(default_factory=lambda: [l.lower()[:2] for l in _list("PROPOSAL_LANGUAGES", ["es"])])
+    proposal_prompt_file: str = os.getenv("PROPOSAL_PROMPT_FILE", "")
+    proposal_experience: str = os.getenv("PROPOSAL_EXPERIENCE", "")
+
+    # --- Mini paginas (GitHub Pages) con boton Copiar ---
+    pages_enabled: bool = _bool("PAGES_ENABLED", True)
+    pages_dir: str = os.getenv("PAGES_DIR", str(BASE_DIR / "docs"))
+    pages_base_url: str = os.getenv("PAGES_BASE_URL", "")
+    pages_salt: str = os.getenv("PAGES_SALT", "dev-lead-hunter")
+
     # --- Fuente: Freelancer (gratis, sin key) ---
     freelancer_enabled: bool = _bool("FREELANCER_ENABLED", True)
     freelancer_interval_minutes: int = _int("FREELANCER_INTERVAL_MINUTES", 10)
@@ -126,6 +144,8 @@ class Settings:
             warnings.append("GEMINI_API_KEY vacio: se usara solo filtrado por keywords (mas falsos positivos).")
         if not self.apify_token and (self.facebook_enabled or self.linkedin_enabled or self.twitter_enabled):
             warnings.append("APIFY_TOKEN vacio: Facebook/LinkedIn/X quedan desactivados.")
+        if self.oxion_api_key and not self.pages_base_url:
+            warnings.append("PAGES_BASE_URL vacio: las propuestas iran solo en la notificacion (sin pagina con boton Copiar).")
         if self.telegram_enabled and not (self.telegram_api_id and self.telegram_api_hash):
             warnings.append("TELEGRAM_ENABLED=true pero faltan TELEGRAM_API_ID/HASH: Telegram desactivado.")
         return warnings

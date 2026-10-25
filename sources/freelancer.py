@@ -48,6 +48,9 @@ class FreelancerSource(Source):
                         continue
                     budget = p.get("budget") or {}
                     cur = (p.get("currency") or {}).get("code", "")
+                    if cur.upper() in settings.excluded_currencies:
+                        log.info("Freelancer: omito proyecto %s por moneda excluida (%s)", p.get("id"), cur)
+                        continue
                     budget_txt = ""
                     if budget.get("minimum") is not None:
                         budget_txt = f"Presupuesto: {budget.get('minimum')}-{budget.get('maximum')} {cur}"
@@ -66,7 +69,20 @@ class FreelancerSource(Source):
                         url=f"https://www.freelancer.com/projects/{p.get('seo_url', p['id'])}",
                         author=str((p.get("owner_id") or "")),
                         posted_at=parse_dt(p.get("time_submitted")),
-                        extra={"bids": (p.get("bid_stats") or {}).get("bid_count"), "budget": budget_txt, "lang": p.get("language")},
+                        extra={
+                            "bids": (p.get("bid_stats") or {}).get("bid_count"),
+                            "bid_avg": (p.get("bid_stats") or {}).get("bid_avg"),
+                            "budget": budget_txt,
+                            "budget_min": budget.get("minimum"),
+                            "budget_max": budget.get("maximum"),
+                            "currency": cur,
+                            "price_type": p.get("type"),  # fixed | hourly
+                            "hourly_commitment": (lambda h: f"{h.get('hours')} h/{h.get('interval')}" if h and h.get("hours") else None)(
+                                (p.get("hourly_project_info") or {}).get("commitment")),
+                            "escrow": p.get("is_escrow_project"),
+                            "country": ((p.get("location") or {}).get("country") or {}).get("name"),
+                            "lang": p.get("language"),
+                        },
                     )
         log.info("Freelancer: %d proyectos", len(posts))
         return list(posts.values())

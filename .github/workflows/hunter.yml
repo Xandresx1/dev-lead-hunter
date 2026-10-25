@@ -64,6 +64,15 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          OXION_API_KEY: ${{ secrets.OXION_API_KEY }}
+          # --- Propuestas automaticas (Claude via Oxion) y paginas con boton Copiar ---
+          OXION_MODEL: ${{ vars.OXION_MODEL || 'claude-sonnet-5' }}
+          PROPOSAL_SOURCES: ${{ vars.PROPOSAL_SOURCES || 'freelancer' }}
+          PROPOSAL_LANGUAGES: ${{ vars.PROPOSAL_LANGUAGES || 'es' }}
+          PROPOSAL_EXPERIENCE: ${{ vars.PROPOSAL_EXPERIENCE || '' }}
+          EXCLUDED_CURRENCIES: ${{ vars.EXCLUDED_CURRENCIES || 'INR' }}
+          PAGES_BASE_URL: ${{ vars.PAGES_BASE_URL || format('https://{0}.github.io/{1}', github.repository_owner, github.event.repository.name) }}
+          PAGES_DIR: ./docs
           # --- Variables opcionales (Settings -> Variables). Si no existen se usa el valor por defecto ---
           NTFY_SERVER: ${{ vars.NTFY_SERVER || 'https://ntfy.sh' }}
           MIN_SCORE: ${{ vars.MIN_SCORE || '65' }}
@@ -73,9 +82,9 @@ jobs:
           FREELANCER_INTERVAL_MINUTES: ${{ vars.FREELANCER_INTERVAL_MINUTES || '1' }}
           REDDIT_ENABLED: ${{ vars.REDDIT_ENABLED || 'true' }}
           FACEBOOK_ENABLED: ${{ vars.FACEBOOK_ENABLED || 'true' }}
-          FACEBOOK_INTERVAL_MINUTES: ${{ vars.FACEBOOK_INTERVAL_MINUTES || '480' }}
-          FACEBOOK_GROUPS: ${{ vars.FACEBOOK_GROUPS || 'https://www.facebook.com/groups/programadoresperu' }}
-          FACEBOOK_POSTS_PER_GROUP: ${{ vars.FACEBOOK_POSTS_PER_GROUP || '5' }}
+          FACEBOOK_INTERVAL_MINUTES: ${{ vars.FACEBOOK_INTERVAL_MINUTES || '720' }}
+          FACEBOOK_GROUPS: ${{ vars.FACEBOOK_GROUPS || 'https://www.facebook.com/groups/3355006434797472/,https://www.facebook.com/groups/660236834107139/,https://www.facebook.com/groups/3196840540371041/,https://www.facebook.com/groups/pe.emprendedores/' }}
+          FACEBOOK_POSTS_PER_GROUP: ${{ vars.FACEBOOK_POSTS_PER_GROUP || '4' }}
           FACEBOOK_NEWER_THAN: ${{ vars.FACEBOOK_NEWER_THAN || '1 day' }}
           LINKEDIN_ENABLED: ${{ vars.LINKEDIN_ENABLED || 'false' }}
           LINKEDIN_INTERVAL_MINUTES: ${{ vars.LINKEDIN_INTERVAL_MINUTES || '720' }}
@@ -92,12 +101,12 @@ jobs:
           echo "python main.py $ARGS"
           python main.py $ARGS
 
-      - name: Guardar memoria del bot (data/state.json)
+      - name: Guardar memoria del bot (data/state.json) y paginas (docs/)
         if: always()
         run: |
           git config user.name "dev-lead-hunter-bot"
           git config user.email "bot@users.noreply.github.com"
-          git add data/state.json || true
+          git add data/state.json docs || true
           if git diff --cached --quiet; then
             echo "Sin cambios en el estado"
           else

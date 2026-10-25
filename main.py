@@ -25,8 +25,10 @@ from pathlib import Path
 
 from classifier import Classifier
 from config import settings
-from keywords import prefilter
+from keywords import excluded_currency_hit, prefilter
 from notifier import Notifier
+from pages import PageWriter
+from proposals import ProposalWriter
 from sources import build_sources
 from sources.base import Post, Source
 from storage import Storage
@@ -61,6 +63,8 @@ class Hunter:
             self.storage.import_json(state_json)
         self.notifier = Notifier()
         self.classifier = Classifier(self.storage)
+        self.proposals = ProposalWriter()
+        self.pages = PageWriter()
         self.sources: list[Source] = [s for s in build_sources() if not only or s.name in only]
         self._error_notified: dict[str, float] = {}
         self._classified_this_tick = 0
@@ -73,6 +77,11 @@ class Hunter:
             return False
         text = post.full_text
         if len(text) < 25:
+            return False
+        cur = excluded_currency_hit(text, settings.excluded_currencies) or (
+            (post.extra.get("currency") or "").upper() if (post.extra.get("currency") or "").upper() in settings.excluded_currencies else None)
+        if cur:
+            log.info("[%s] descartado por moneda excluida (%s): %s", post.source, cur, text[:60])
             return False
         src = next((s for s in self.sources if s.name == post.source), None)
         pre = prefilter(text, source_is_request=bool(src and src.is_request_source))
@@ -90,19 +99,41 @@ class Hunter:
                  verdict.score, verdict.lead_type, verdict.ai, (verdict.summary_es or text)[:80])
         if not verdict.is_lead or verdict.score < settings.min_score:
             return False
+        proposal = None
+        proposal_failed = False
+        try:
+            if self.proposals.applies(post, verdict.language):
+                proposal = self.proposals.write(post, verdict.language)
+                if proposal:
+                    log.info("[%s] propuesta generada: %s / %d dias", post.source, proposal.price_label, proposal.days)
+                else:
+                    proposal_failed = True
+        except Exception as e:
+            proposal_failed = True
+            log.warning("Propuesta fallo para %s: %s", post.id, e)
+        page_url = None
+        try:
+            page_url = self.pages.write(post_id=post.id, source=post.source, score=verdict.score, title=post.title or verdict.summary_es,
+                                        text=text, url=post.url, summary=verdict.summary_es, opener=verdict.reply_opener,
+                                        location=verdict.location if verdict.location.lower() != "no indicado" else None, proposal=proposal)
+        except Exception as e:
+            log.warning("Pagina fallo para %s: %s", post.id, e)
         self.storage.save_lead(
             id=post.id, source=post.source, score=verdict.score, lead_type=verdict.lead_type, language=verdict.language,
             summary=verdict.summary_es, opener=verdict.reply_opener, url=post.url, author=post.author,
             text=text[:2000], posted_at=post.posted_at_str, notified_at=int(time.time()), ai_classified=int(verdict.ai),
-            location=verdict.location,
+            location=verdict.location, proposal=proposal.text if proposal else None,
+            price_usd=proposal.price_usd if proposal else None, days=proposal.days if proposal else None, page_url=page_url,
         )
         if self.dry_run:
-            print(f"\n=== LEAD (dry-run) {verdict.score}/100 [{post.source}] ===\n{verdict.summary_es}\n{post.url}\n")
+            extra = f"\n$ {proposal.price_label} / {proposal.days} dias\n{proposal.text[:300]}" if proposal else ""
+            print(f"\n=== LEAD (dry-run) {verdict.score}/100 [{post.source}] ===\n{verdict.summary_es}\n{post.url}{extra}\n{page_url or ''}\n")
             return True
         return self.notifier.send_lead(
             source=post.source, score=verdict.score, language=verdict.language, summary=verdict.summary_es,
             opener=verdict.reply_opener, text=text, url=post.url, author=post.author, ai=verdict.ai, posted_at=post.posted_at_str,
             location=verdict.location if verdict.location and verdict.location.lower() != "no indicado" else None, post_id=post.id,
+            proposal=proposal, page_url=page_url, proposal_failed=proposal_failed,
         )
 
     def run_source(self, source: Source) -> tuple[int, int]:
@@ -214,6 +245,7 @@ def main(argv=None):
     ap.add_argument("--state-json", default="", help="ruta JSON para importar/exportar dedup (GitHub Actions)")
     ap.add_argument("--test-notify", action="store_true", help="enviar notificacion de prueba")
     ap.add_argument("--stats", action="store_true", help="mostrar estadisticas")
+    ap.add_argument("--models", action="store_true", help="listar modelos disponibles en Oxion AI")
     args = ap.parse_args(argv)
 
     setup_logging()
@@ -221,15 +253,27 @@ def main(argv=None):
         log.warning("CONFIG: %s", w)
 
     if args.test_notify:
+        from proposals import Proposal
         n = Notifier()
-        ok = n.send_lead(source="facebook", score=92, language="es",
+        demo = Proposal(text="Necesitas un sistema de ventas e inventario para tu bodega con boletas electronicas SUNAT. Lo construyo como app web (Python + PostgreSQL) para que funcione en tu PC y celular...",
+                        price_usd=650, price_type="fijo", days=21, justification="Rango del cliente 400-800; promedio de ofertas 520; 60 h + 30% colchon.",
+                        question="La facturacion electronica, la emites via OSE o directo a SUNAT?", model=settings.oxion_model)
+        ok = n.send_lead(source="freelancer", score=92, language="es", proposal=demo, page_url=(settings.pages_base_url or None),
                          summary="Duena de bodega en Lima busca sistema de ventas e inventario con boletas electronicas",
                          opener="Hola! Vi que necesitas un sistema de ventas para tu bodega, he hecho varios con facturacion electronica, te cuento?",
                          text="Hola, busco un programador que me haga un sistema de ventas e inventario para mi bodega en Lima...",
-                         url="https://www.facebook.com/groups/programadoresperu", author="Prueba", ai=True, posted_at=None,
-                         location="Lima, Peru", post_id="facebook:test")
+                         url="https://www.freelancer.es/projects/demo", author="Prueba", ai=True, posted_at=None,
+                         location="Lima, Peru", post_id="freelancer:test")
         print("Notificacion enviada" if ok else "No se pudo enviar (revisa NTFY_TOPIC)")
         return 0 if ok else 1
+
+    if args.models:
+        pw = ProposalWriter()
+        if not pw.enabled:
+            print("OXION_API_KEY vacio"); return 1
+        for m in pw.list_models():
+            print(m)
+        return 0
 
     only = [s.strip() for s in args.sources.split(",") if s.strip()] or None
     state = Path(args.state_json) if args.state_json else None

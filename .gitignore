@@ -15,3 +15,5 @@ venv/
 # Varios
 .DS_Store
 *.log
+
+# docs/ (GitHub Pages) SI se sube al repo: ahi viven las paginas con boton Copiar

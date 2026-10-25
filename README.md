@@ -29,7 +29,7 @@ Probado con datos reales: el POC detectó leads como *"Dueño de restaurante nec
 | **Nitter (X gratis)** | Descartado | En 2026 ya no quedan instancias funcionales. X solo por Apify. |
 | **Workana / Upwork** | Descartados por ahora | Están detrás de Cloudflare. Se pueden agregar vía Apify si lo necesitas. |
 | **IA** | Gemini `gemini-3.5-flash-lite` (gratis) | ~1000 clasificaciones/día gratis. Salida JSON estricta. Si se acaba la cuota → fallback automático a keywords. |
-| **Notificaciones** | ntfy | Gratis, instantáneo, sin cuenta, app Android/iOS/web. |
+| **Notificaciones** | ntfy | Gratis, instantáneo, sin cuenta, app Android/iOS/web. Cada alerta trae botón **"Responder en Facebook/LinkedIn…"** que abre la publicación; en X la respuesta llega **pre-escrita** con el opener. Facebook/LinkedIn no permiten pre-llenar mensajes desde un link: mantén presionado el opener en la notificación para copiarlo. |
 | **Hosting** | **DigitalOcean VPS + Docker** (primario) | 24/7 real, chequea Freelancer cada 10 min. Droplet de $6/mes → con tus $200 de crédito tienes **más de 2 años**. |
 | **Fallback** | GitHub Actions "dormido" | Si la VPS muere, descomentas 2 líneas y sigue funcionando (con menos frecuencia). |
 
@@ -123,21 +123,23 @@ El instalador deja un cron diario que hace `git pull` + rebuild automáticamente
 
 ---
 
-## 6. Fallback: GitHub Actions "dormido"
+## 6. GitHub Actions como motor principal (sin VPS)
 
-El archivo `.github/workflows/hunter.yml` **no se ejecuta solo**. Si algún día pierdes la VPS:
+`.github/workflows/hunter.yml` corre el bot **cada 20 min** (GitHub puede retrasarlo 5-30 min). En cada corrida el bot
+ejecuta solo las fuentes a las que les toca según su intervalo, usando `data/state.json` como memoria (posts ya vistos +
+última ejecución de cada fuente), que el propio workflow commitea al repo.
 
-1. Repo → **Settings → Secrets and variables → Actions** → agrega `GEMINI_API_KEY`, `APIFY_TOKEN`, `NTFY_TOPIC`.
-2. **Settings → Actions → General → Workflow permissions → Read and write** (para que guarde `data/state.json`, el archivo de "ya vistos").
-3. Edita `hunter.yml` y descomenta:
-   ```yaml
-   schedule:
-     - cron: "*/30 * * * *"
-   ```
-4. Commit. También puedes lanzarlo a mano: pestaña **Actions → dev-lead-hunter (fallback) → Run workflow**.
+1. Repo → **Settings → Secrets and variables → Actions → Secrets** → `GEMINI_API_KEY`, `APIFY_TOKEN`, `NTFY_TOPIC` (solo el valor, sin comillas).
+2. **Settings → Actions → General → Workflow permissions → Read and write permissions → Save.**
+3. Pestaña **Actions** → si aparece el aviso de habilitar workflows, acéptalo → **dev-lead-hunter → Run workflow** para la primera corrida (ver logs ahí mismo).
+4. Después corre solo. Para pausar: **Actions → dev-lead-hunter → ⋯ → Disable workflow**.
 
-En Actions el bot corre con `--once --force` (todas las fuentes cada corrida). Por defecto el workflow deja
-LinkedIn y X desactivados ahí para cuidar el presupuesto de Apify; actívalos con *Variables* del repo (`LINKEDIN_ENABLED=true`, etc.).
+Afinar sin tocar código: **Settings → Secrets and variables → Actions → Variables** → ej. `FACEBOOK_GROUPS`,
+`LINKEDIN_KEYWORDS`, `MIN_SCORE`, `FACEBOOK_INTERVAL_MINUTES`, `APIFY_MONTHLY_BUDGET_USD`. Los nombres son los mismos del `.env.example`.
+
+> Repos **públicos**: minutos ilimitados. Repos **privados**: 2000 min/mes (3000 con GitHub Pro / Student Pack) → usa `cron: "*/45 * * * *"` o `"0 * * * *"`.
+> `data/state.json` solo guarda IDs de posts vistos, última ejecución por fuente y contadores — **no** el texto de los leads — así que un repo público no expone nada útil.
+> **Nunca** corras Actions y la VPS a la vez: tendrías dos bots con memorias distintas → leads duplicados y doble gasto de Apify.
 
 ---
 

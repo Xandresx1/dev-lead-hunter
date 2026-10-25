@@ -94,6 +94,7 @@ class Hunter:
             id=post.id, source=post.source, score=verdict.score, lead_type=verdict.lead_type, language=verdict.language,
             summary=verdict.summary_es, opener=verdict.reply_opener, url=post.url, author=post.author,
             text=text[:2000], posted_at=post.posted_at_str, notified_at=int(time.time()), ai_classified=int(verdict.ai),
+            location=verdict.location,
         )
         if self.dry_run:
             print(f"\n=== LEAD (dry-run) {verdict.score}/100 [{post.source}] ===\n{verdict.summary_es}\n{post.url}\n")
@@ -101,6 +102,7 @@ class Hunter:
         return self.notifier.send_lead(
             source=post.source, score=verdict.score, language=verdict.language, summary=verdict.summary_es,
             opener=verdict.reply_opener, text=text, url=post.url, author=post.author, ai=verdict.ai, posted_at=post.posted_at_str,
+            location=verdict.location if verdict.location and verdict.location.lower() != "no indicado" else None, post_id=post.id,
         )
 
     def run_source(self, source: Source) -> tuple[int, int]:
@@ -224,7 +226,8 @@ def main(argv=None):
                          summary="Duena de bodega en Lima busca sistema de ventas e inventario con boletas electronicas",
                          opener="Hola! Vi que necesitas un sistema de ventas para tu bodega, he hecho varios con facturacion electronica, te cuento?",
                          text="Hola, busco un programador que me haga un sistema de ventas e inventario para mi bodega en Lima...",
-                         url="https://www.facebook.com/groups/programadoresperu", author="Prueba", ai=True, posted_at=None)
+                         url="https://www.facebook.com/groups/programadoresperu", author="Prueba", ai=True, posted_at=None,
+                         location="Lima, Peru", post_id="facebook:test")
         print("Notificacion enviada" if ok else "No se pudo enviar (revisa NTFY_TOPIC)")
         return 0 if ok else 1
 

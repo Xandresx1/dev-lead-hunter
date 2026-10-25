@@ -1,11 +1,25 @@
 # ============================================================================
 #  Dev Lead Hunter - GitHub Actions como MOTOR PRINCIPAL del bot
-#  Corre cada 20 min. En cada corrida ejecuta SOLO las fuentes a las que les toca
-#  segun su intervalo (memoria en data/state.json):
-#     Freelancer -> siempre | Reddit -> 20 min | Facebook -> 12 h | LinkedIn -> 12 h | X -> 16 h
-#  Secrets: GEMINI_API_KEY, APIFY_TOKEN, NTFY_TOPIC
+#
+#  Corre cada 20 min (GitHub suele retrasarlo 5-30 min; en repos publicos los
+#  minutos son ilimitados). En cada corrida el bot ejecuta SOLO las fuentes a las
+#  que ya les toca segun su intervalo (guardado en data/state.json):
+#     - Freelancer.com -> en cada corrida (gratis)
+#     - Reddit         -> cada 20 min (gratis; suele dar 403 desde runners, se omite solo)
+#     - Facebook       -> cada 12 h   (Apify ~$0.02/run)
+#     - LinkedIn       -> cada 12 h   (Apify ~$0.024/run)
+#     - X / Twitter    -> cada 16 h   (Apify, gratis, ~45 runs/mes)
+#  Total Apify estimado: ~$3/mes (dentro de los $5 gratis). El bot ademas consulta
+#  tu gasto real y deja de llamar a Apify al pasar APIFY_MONTHLY_BUDGET_USD.
+#
+#  Configuracion necesaria en el repo (Settings -> Secrets and variables -> Actions):
+#    Secrets: GEMINI_API_KEY, APIFY_TOKEN, NTFY_TOPIC
+#    Variables (opcionales, para afinar sin tocar codigo): FACEBOOK_GROUPS,
+#      LINKEDIN_KEYWORDS, MIN_SCORE, APIFY_MONTHLY_BUDGET_USD, FACEBOOK_INTERVAL_MINUTES, ...
 #  Settings -> Actions -> General -> Workflow permissions -> "Read and write permissions"
-#  Pausar: Actions -> dev-lead-hunter -> ... -> Disable workflow
+#  (para que pueda guardar data/state.json = memoria de posts ya vistos).
+#
+#  Para PAUSAR el bot: pestana Actions -> "dev-lead-hunter" -> "..." -> Disable workflow.
 # ============================================================================
 name: dev-lead-hunter
 
@@ -46,9 +60,11 @@ jobs:
 
       - name: Ejecutar bot
         env:
+          # --- Secrets ---
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          # --- Variables opcionales (Settings -> Variables). Si no existen se usa el valor por defecto ---
           NTFY_SERVER: ${{ vars.NTFY_SERVER || 'https://ntfy.sh' }}
           MIN_SCORE: ${{ vars.MIN_SCORE || '65' }}
           MAX_CLASSIFY_PER_TICK: ${{ vars.MAX_CLASSIFY_PER_TICK || '60' }}
@@ -57,10 +73,10 @@ jobs:
           FREELANCER_INTERVAL_MINUTES: ${{ vars.FREELANCER_INTERVAL_MINUTES || '1' }}
           REDDIT_ENABLED: ${{ vars.REDDIT_ENABLED || 'true' }}
           FACEBOOK_ENABLED: ${{ vars.FACEBOOK_ENABLED || 'true' }}
-          FACEBOOK_INTERVAL_MINUTES: ${{ vars.FACEBOOK_INTERVAL_MINUTES || '720' }}
+          FACEBOOK_INTERVAL_MINUTES: ${{ vars.FACEBOOK_INTERVAL_MINUTES || '480' }}
           FACEBOOK_GROUPS: ${{ vars.FACEBOOK_GROUPS || 'https://www.facebook.com/groups/programadoresperu' }}
           FACEBOOK_POSTS_PER_GROUP: ${{ vars.FACEBOOK_POSTS_PER_GROUP || '5' }}
-          LINKEDIN_ENABLED: ${{ vars.LINKEDIN_ENABLED || 'true' }}
+          LINKEDIN_ENABLED: ${{ vars.LINKEDIN_ENABLED || 'false' }}
           LINKEDIN_INTERVAL_MINUTES: ${{ vars.LINKEDIN_INTERVAL_MINUTES || '720' }}
           LINKEDIN_KEYWORDS: ${{ vars.LINKEDIN_KEYWORDS || 'busco desarrollador,necesito un sistema' }}
           TWITTER_ENABLED: ${{ vars.TWITTER_ENABLED || 'true' }}
@@ -85,6 +101,7 @@ jobs:
             echo "Sin cambios en el estado"
           else
             git commit -m "chore: memoria del bot [skip ci]"
+            # si otra corrida empujo antes, rebase y reintenta
             git pull --rebase origin ${{ github.ref_name }} || true
             git push origin HEAD:${{ github.ref_name }}
           fi

@@ -25,7 +25,7 @@ class Storage:
             CREATE TABLE IF NOT EXISTS leads (
                 id TEXT PRIMARY KEY, source TEXT, score INTEGER, lead_type TEXT, language TEXT,
                 summary TEXT, opener TEXT, url TEXT, author TEXT, text TEXT, posted_at TEXT,
-                notified_at INTEGER, ai_classified INTEGER DEFAULT 1
+                notified_at INTEGER, ai_classified INTEGER DEFAULT 1, location TEXT
             );
             CREATE TABLE IF NOT EXISTS source_runs (
                 source TEXT PRIMARY KEY, last_run INTEGER, last_ok INTEGER, last_items INTEGER,
@@ -35,6 +35,11 @@ class Storage:
             """
         )
         c.commit()
+        # migracion suave para bases creadas antes de la columna location
+        cols = {r[1] for r in c.execute("PRAGMA table_info(leads)").fetchall()}
+        if "location" not in cols:
+            c.execute("ALTER TABLE leads ADD COLUMN location TEXT")
+            c.commit()
 
     # ---------- dedup ----------
     def is_seen(self, post_id: str) -> bool:
@@ -116,13 +121,16 @@ class Storage:
         return f"{prefix}:{datetime.now(timezone.utc).strftime('%Y-%m-%d')}"
 
     # ---------- export / import (modo GitHub Actions) ----------
-    def export_json(self, path: Path, max_seen: int = 8000):
+    def export_json(self, path: Path, max_seen: int = 8000, include_leads: bool = False):
+        """Estado minimo para GitHub Actions. Por defecto NO incluye el texto de los leads
+        (el repo puede ser publico); el historial de leads vive en tus notificaciones ntfy."""
         seen = [r[0] for r in self.db.execute("SELECT id FROM seen ORDER BY first_seen DESC LIMIT ?", (max_seen,)).fetchall()]
         runs = {r["source"]: r["last_run"] for r in self.db.execute("SELECT source,last_run FROM source_runs").fetchall()}
         counters = {r[0]: r[1] for r in self.db.execute("SELECT key,value FROM counters").fetchall()}
-        leads = self.recent_leads(100)
+        leads = self.recent_leads(100) if include_leads else []
+        stats = {"leads_total": self.leads_count(), "seen_total": self.seen_count()}
         Path(path).parent.mkdir(parents=True, exist_ok=True)
-        Path(path).write_text(json.dumps({"seen": seen, "runs": runs, "counters": counters, "leads": leads},
+        Path(path).write_text(json.dumps({"seen": seen, "runs": runs, "counters": counters, "leads": leads, "stats": stats},
                                          ensure_ascii=False, indent=0))
 
     def import_json(self, path: Path):

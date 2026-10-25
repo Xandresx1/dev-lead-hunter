@@ -22,6 +22,7 @@ class LeadVerdict(BaseModel):
     language: Literal["es", "en", "otro"]
     summary_es: str
     reply_opener: str
+    location: str
 
 
 @dataclass
@@ -32,7 +33,8 @@ class Verdict:
     language: str
     summary_es: str
     reply_opener: str
-    ai: bool  # True si lo decidio Gemini, False si fue fallback por keywords
+    ai: bool
+    location: str = ""  # True si lo decidio Gemini, False si fue fallback por keywords
 
 
 SYSTEM_PROMPT = """Eres el filtro de un ingeniero de software/sistemas freelance de Peru que busca CLIENTES (no empleo).
@@ -59,6 +61,7 @@ Premia: proyecto claro, negocio real, menciona presupuesto/cotizacion, pide cont
 language: es | en | otro.
 summary_es: 1 linea en espanol: QUIEN necesita QUE (max 30 palabras).
 reply_opener: primera frase sugerida para contactar a la persona, escrita en el idioma del post, cercana y concreta, max 30 palabras.
+location: ciudad/pais si el post lo menciona o se deduce claramente (ej. "Arequipa, Peru", "Lima", "Mexico", "remoto/EEUU"); si no, "no indicado".
 """
 
 
@@ -137,6 +140,7 @@ class Classifier:
                     summary_es=parsed.summary_es.strip(),
                     reply_opener=parsed.reply_opener.strip(),
                     ai=True,
+                    location=(parsed.location or "").strip(),
                 )
             except Exception as e:
                 msg = str(e)

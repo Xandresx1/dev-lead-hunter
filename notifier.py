@@ -2,7 +2,9 @@
 from __future__ import annotations
 
 import logging
+import re
 from datetime import datetime
+from urllib.parse import quote
 
 import httpx
 
@@ -34,7 +36,8 @@ class Notifier:
             h["Authorization"] = f"Bearer {settings.ntfy_token}"
         return h
 
-    def send(self, title: str, message: str, *, priority: str = "default", tags: str = "bell", click: str | None = None) -> bool:
+    def send(self, title: str, message: str, *, priority: str = "default", tags: str = "bell", click: str | None = None,
+             actions: list[dict] | None = None) -> bool:
         if not self.enabled:
             log.info("[ntfy desactivado] %s | %s", title, message[:120])
             return False
@@ -44,6 +47,8 @@ class Notifier:
                        "tags": tags.split(","), "markdown": True}
             if click:
                 payload["click"] = click
+            if actions:
+                payload["actions"] = actions[:3]  # ntfy permite max 3 botones
             headers = {"Authorization": f"Bearer {settings.ntfy_token}"} if settings.ntfy_token else {}
             r = httpx.post(settings.ntfy_server, json=payload, headers=headers, timeout=20)
             r.raise_for_status()
@@ -52,8 +57,26 @@ class Notifier:
             log.error("Fallo ntfy: %s", e)
             return False
 
+    @staticmethod
+    def reply_actions(source: str, url: str, opener: str, post_id: str = "") -> list[dict]:
+        """Botones de la notificacion. 'view' abre la publicacion; en X la respuesta va pre-escrita."""
+        actions = []
+        if source == "twitter" and opener:
+            tweet_id = post_id.split(":")[-1] if post_id else ""
+            m = re.search(r"/status/(\d+)", url or "")
+            if m:
+                tweet_id = m.group(1)
+            if tweet_id.isdigit():
+                intent = f"https://twitter.com/intent/tweet?in_reply_to={tweet_id}&text={quote(opener)}"
+                actions.append({"action": "view", "label": "Responder (pre-escrito)", "url": intent, "clear": True})
+        if url:
+            label = {"facebook": "Responder en Facebook", "linkedin": "Responder en LinkedIn", "freelancer": "Ver proyecto y ofertar",
+                     "reddit": "Responder en Reddit", "telegram": "Abrir en Telegram", "twitter": "Ver tweet"}.get(source, "Abrir publicacion")
+            actions.append({"action": "view", "label": label, "url": url, "clear": True})
+        return actions
+
     def send_lead(self, *, source: str, score: int, language: str, summary: str, opener: str, text: str, url: str,
-                  author: str | None, ai: bool, posted_at: str | None) -> bool:
+                  author: str | None, ai: bool, posted_at: str | None, location: str | None = None, post_id: str = "") -> bool:
         if score >= 85:
             prio, flag = "urgent", "🔥"
         elif score >= 70:
@@ -67,16 +90,19 @@ class Notifier:
         parts = [f"**{summary}**"]
         if author:
             parts.append(f"👤 {author}")
+        if location:
+            parts.append(f"📍 {location}")
         if posted_at:
             parts.append(f"🕒 {posted_at}")
         parts.append(f"\n{excerpt}")
         if opener:
-            parts.append(f"\n💬 **Sugerencia para abrir:**\n{opener}")
+            parts.append(f"\n💬 **Sugerencia para abrir** (mantén presionado para copiar):\n{opener}")
         parts.append(f"\n🔗 {url}")
         if not ai:
             parts.append("\n_(clasificado solo por keywords, sin IA)_")
         tags = SOURCE_TAGS.get(source, "bell")
-        return self.send(title, "\n".join(parts), priority=prio, tags=tags, click=url)
+        return self.send(title, "\n".join(parts), priority=prio, tags=tags, click=url,
+                         actions=self.reply_actions(source, url, opener, post_id))
 
     def send_error(self, source: str, error: str) -> bool:
         if not settings.notify_errors:

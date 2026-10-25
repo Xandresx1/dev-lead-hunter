@@ -1,0 +1,17 @@
+# Secretos y datos locales
+.env
+data/*
+!data/.gitkeep
+!data/state.json
+*.session
+*.session-journal
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Varios
+.DS_Store
+*.log

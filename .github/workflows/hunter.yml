@@ -1,0 +1,75 @@
+# ============================================================================
+#  Dev Lead Hunter - FALLBACK en GitHub Actions ("dormido" por defecto)
+#
+#  Este workflow NO se ejecuta solo. Esta pensado como plan B si la VPS falla.
+#  Para despertarlo:
+#    1) Descomenta el bloque `schedule:` de abajo (y elige la frecuencia).
+#    2) Agrega los Secrets del repo: GEMINI_API_KEY, APIFY_TOKEN, NTFY_TOPIC
+#       (Settings -> Secrets and variables -> Actions -> New repository secret)
+#    3) Settings -> Actions -> General -> Workflow permissions -> "Read and write"
+#       (necesario para que guarde data/state.json con los posts ya vistos)
+#  Tambien puedes lanzarlo a mano desde la pestana Actions -> "Run workflow".
+#
+#  Nota: GitHub ejecuta los cron con retraso (5-30 min, a veces mas) y el minimo
+#  real es ~5 min. Repos privados tienen 2000 min/mes gratis; publicos ilimitado.
+# ============================================================================
+name: dev-lead-hunter (fallback)
+
+on:
+  workflow_dispatch:
+    inputs:
+      sources:
+        description: "Fuentes (vacio = todas). Ej: freelancer,facebook"
+        required: false
+        default: ""
+  # schedule:
+  #   - cron: "*/30 * * * *"     # cada 30 min (UTC). Recuerda el presupuesto de Apify.
+
+concurrency:
+  group: dev-lead-hunter
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  hunt:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Ejecutar bot (una pasada, todas las fuentes)
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          NTFY_SERVER: ${{ vars.NTFY_SERVER || 'https://ntfy.sh' }}
+          APIFY_MONTHLY_BUDGET_USD: ${{ vars.APIFY_MONTHLY_BUDGET_USD || '4.5' }}
+          MIN_SCORE: ${{ vars.MIN_SCORE || '60' }}
+          FACEBOOK_GROUPS: ${{ vars.FACEBOOK_GROUPS || 'https://www.facebook.com/groups/programadoresperu' }}
+          # En Actions los intervalos los decide el cron, por eso usamos --force.
+          # Si NO quieres gastar Apify en cada corrida, desactiva fuentes aqui:
+          FACEBOOK_ENABLED: ${{ vars.FACEBOOK_ENABLED || 'true' }}
+          LINKEDIN_ENABLED: ${{ vars.LINKEDIN_ENABLED || 'false' }}
+          TWITTER_ENABLED: ${{ vars.TWITTER_ENABLED || 'false' }}
+          DATA_DIR: ./data
+        run: |
+          mkdir -p data
+          ARGS="--once --force --state-json data/state.json"
+          if [ -n "${{ github.event.inputs.sources }}" ]; then ARGS="$ARGS --sources ${{ github.event.inputs.sources }}"; fi
+          python main.py $ARGS
+
+      - name: Guardar estado (dedup) en el repo
+        run: |
+          git config user.name "dev-lead-hunter-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/state.json
+          git diff --cached --quiet || (git commit -m "chore: estado del bot [skip ci]" && git push)

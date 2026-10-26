@@ -1,5 +1,54 @@
 {
 "seen": [
+"freelancer:40778396",
+"freelancer:40786934",
+"freelancer:40787034",
+"freelancer:40787130",
+"freelancer:40787162",
+"freelancer:40787166",
+"freelancer:40787215",
+"freelancer:40787218",
+"freelancer:40787243",
+"freelancer:40787208",
+"freelancer:40787253",
+"freelancer:40787276",
+"freelancer:40787290",
+"freelancer:40787295",
+"freelancer:40787322",
+"freelancer:40787329",
+"freelancer:40787340",
+"freelancer:40787177",
+"freelancer:40787360",
+"freelancer:40787323",
+"freelancer:40787379",
+"freelancer:40787391",
+"freelancer:40787410",
+"freelancer:40787420",
+"freelancer:40787434",
+"freelancer:40787418",
+"freelancer:40787438",
+"freelancer:40787440",
+"freelancer:40787439",
+"freelancer:40787437",
+"freelancer:40787441",
+"freelancer:40787443",
+"freelancer:40787442",
+"freelancer:40787445",
+"freelancer:40787451",
+"freelancer:40787450",
+"freelancer:40787446",
+"facebook:UzpfSTEwMDAwMjY3Mjg3NTM5MTpWSzo0MjI3NjcyNDA3NTMwODY2",
+"facebook:UzpfSTEwMDA2Mzg2MzI5MzI4MTpWSzo0MjI3NjY2NzE0MTk4MTAy",
+"facebook:UzpfSTEwMDAwMzA4ODQ4NTAwMTpWSzo0MjI3NjYwNzgwODY1MzYy",
+"facebook:UzpfSTEwMDA4NzQzMTE3MTM0NDpWSzo1NTg1NDMzNDU0OTMxNDAx",
+"facebook:UzpfSTEzODY5NDU1Njc6Vks6NTU4NTM5NjAzODI2ODQ3Ng==",
+"facebook:UzpfSTYxNTc5MzA3OTMyNDI1OlZLOjU1ODUzOTU2MzQ5MzUxODM=",
+"facebook:UzpfSTYxNTc4Mzc5MzAyNzcyOlZLOjI4ODA2NzM3ODk1NjIxMjg3",
+"facebook:UzpfSTYxNTc4Mzc5MzAyNzcyOlZLOjI4ODA2NzA5NTU4OTU3NDU0",
+"facebook:UzpfSTEwMDAwNjA1MzA3NTA3NDpWSzoyODgwNjQwNzgxNTY1NDI5NQ==",
+"facebook:UzpfSTEwMDAwNjA1MzA3NTA3NDpWSzo0MjA3Mzk2Mjg2MDU3ODI1",
+"facebook:UzpfSTYxNTcyNTgxOTIwNjQ2OlZLOjQyMDczODI4MzI3MjU4Mzc=",
+"facebook:UzpfSTYxNTUyNTM4ODI4MTg0OlZLOjQyMDcwMjM4MzYwOTUwNzA=",
 "freelancer:40783998",
 "freelancer:40784010",
 "freelancer:40784000",
@@ -355,20 +404,20 @@
 "linkedin:7519729759472230400"
 ],
 "runs": {
-"facebook": 1792948852,
+"facebook": 1793013059,
 "linkedin": 1792900970,
 "twitter": 1792966385,
-"freelancer": 1792991781,
-"reddit": 1792991781
+"freelancer": 1793013218,
+"reddit": 1793013219
 },
 "counters": {
 "gemini:2026-10-25": 260.0,
-"gemini:2026-10-26": 51.0
+"gemini:2026-10-26": 84.0
 },
 "leads": [],
 "stats": {
-"leads_total": 9,
-"seen_total": 353,
+"leads_total": 6,
+"seen_total": 402,
 "pending_proposals": 2
 },
 "pending_proposals": [
@@ -401,7 +450,7 @@
 "location": null
 },
 "created": 1792958184,
-"attempts": 3
+"attempts": 4
 },
 {
 "id": "freelancer:40786713",

@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow"><title>Animated Flutter Onboarding UI Design</title>
+<style>
+:root{--c:#1e88e5;}
+*{box-sizing:border-box}body{margin:0;background:#0f141b;color:#e6edf3;font:15px/1.55 -apple-system,Segoe UI,Roboto,Inter,sans-serif}
+.wrap{max-width:720px;margin:0 auto;padding:18px 16px 60px}
+.src{display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--c);border:1px solid var(--c);border-radius:999px;padding:4px 10px}
+h1{color:var(--c);font-size:22px;line-height:1.25;margin:12px 0 6px}
+.meta{color:#94a3b8;font-size:13px;margin-bottom:14px}
+.card{background:#161d27;border:1px solid #243041;border-radius:14px;padding:16px;margin:12px 0}
+.card h2{margin:0 0 10px;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:#94a3b8}
+.kpis{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.kpi{background:#0f141b;border:1px solid #243041;border-radius:12px;padding:12px;text-align:center}
+.kpi b{display:block;font-size:24px;color:var(--c)}.kpi span{font-size:12px;color:#94a3b8}
+.content{font-weight:700;white-space:pre-wrap;word-wrap:break-word}
+.proposal{white-space:pre-wrap;word-wrap:break-word;font-weight:600}
+.muted{color:#94a3b8;font-size:13px}
+.btn{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;padding:14px;border-radius:12px;border:0;font-weight:700;font-size:16px;cursor:pointer;background:var(--c);color:#fff;margin-top:10px}
+.btn.alt{background:#243041;color:#e6edf3}
+.btn:active{transform:scale(.99)}
+.toast{position:fixed;left:50%;bottom:22px;transform:translateX(-50%);background:#22c55e;color:#06130a;font-weight:700;padding:10px 16px;border-radius:999px;opacity:0;transition:opacity .2s}
+.toast.show{opacity:1}
+a{color:var(--c)}
+</style></head><body><div class="wrap">
+<span class="src">🔵 Freelancer &middot; Lead 90/100</span>
+<h1>Animated Flutter Onboarding UI Design</h1>
+<div class="meta">El equipo de ReceiptSync busca un freelancer en Flutter para rediseñar la interfaz de onboarding con animaciones y paywall.</div>
+<div class="card"><h2>Mensaje sugerido para abrir</h2><div class="proposal">Hi there! I saw your post regarding the ReceiptSync Flutter onboarding redesign. I have solid experience with Flutter UI and animations and would love to help you improve your trial conversions.</div><button class="btn" onclick="copyOpener()">📋 Copiar mensaje</button></div>
+<div class="card"><h2>Publicación original</h2><div class="content">Animated Flutter Onboarding UI Design
+**Flutter Onboarding Redesign for ReceiptSync — Animated Product Demos and Trial Paywall**
+
+I’m looking for a freelancer to design and implement a new onboarding variation for ReceiptSync, an existing Flutter receipt-management app.
+
+The goal is to help new users understand the app’s value quickly and improve free-trial conversion. I’ll provide a reference video showing the direction: large product demonstrations, a dark gradient behind concise benefit-focused text, and a prominent Continue button at the bottom. The trial paywall also continues showing a product demonstration while the offer and button remain visible.
+
+This project includes both creating the visual content and integrating the experience into our existing Flutter app.
+
+**Scope of work**
+
+**1. Design the onboarding flow**
+- Design approximately three benefit screens followed by a trial paywall.
+- Adapt the reference style to ReceiptSync’s branding and actual capabilities.
+- Develop concise headlines and supporting copy with me.
+- Use our existing receipt mascot selectively where it fits.
+- Deliver a storyboard or prototype for approval before production.
+
+**2. Create ReceiptSync-specific demonstrations**
+Create short demonstrations showing workflows such as:
+- Scanning a receipt and extracting its merchant, date, and total.
+- Saving and categorizing the resulting expense.
+- Viewing a report or exporting receipt data.
+
+The demonstrations must accurately represent our app. They can use edited app recordings, animated app UI, or original phone-in-hand footage, depending on the agreed approach.
+
+Please specify whether your quote includes screen recording, motion design, video editing, and any filming or licensed assets. Generic stock animations alone will not meet the brief.
+
+**3. Implement the experience in Flutter**
+- Build the approved screens within the existing project.
+- Add smooth transitions and optimized playback for the demonstrations.
+- Keep headlines, buttons, and trial information readable and stable while media plays.
+- Integrate with our existing navigation and subscription purchase flow.
+- Display actual localized pricing and trial eligibility from the existing subscription system.
+- Preserve restore purchases, purchase states, and required subscription links.
+- Support different phone sizes, safe areas, larger text, and reduced-motion preferences.
+- Support our existing seven-language localization setup, keeping text separate from video wherever practical.
+
+The reference uses a dark presentation. We’ll agree on whether onboarding uses that appearance consistently or needs separate light and dark designs.
+
+**4. Make it testable**
+- Keep the current onboarding available and add this as a separate variation.
+- Coordinate with our developer on experiment assignment and analytics.
+- Track key steps such as onboarding completion, paywall views, and successful trial starts.
+
+The objective is to measure conversion; an improvement is not as</div>
+<a class="btn alt" href="https://www.freelancer.com/projects/flutter/Animated-Flutter-Onboarding-Design" target="_blank" rel="noopener">Abrir publicación en Freelancer</a></div>
+<div class="muted">Generado 2026-10-26 06:13 &middot; Dev Lead Hunter</div>
+<div class="toast" id="toast">Copiado</div>
+<textarea id="clip" style="position:fixed;left:-9999px;top:0"></textarea>
+<script>
+const DATA={"proposal": "", "opener": "Hi there! I saw your post regarding the ReceiptSync Flutter onboarding redesign. I have solid experience with Flutter UI and animations and would love to help you improve your trial conversions.", "question": ""};
+function toast(t){const e=document.getElementById('toast');e.textContent=t;e.classList.add('show');setTimeout(()=>e.classList.remove('show'),1600);}
+async function copyText(t,label){try{await navigator.clipboard.writeText(t);toast(label||'Copiado');}catch(e){const ta=document.getElementById('clip');ta.value=t;ta.select();document.execCommand('copy');toast(label||'Copiado');}}
+function copyProposal(){copyText(DATA.proposal,'Propuesta copiada');}
+function copyOpener(){copyText(DATA.opener,'Mensaje copiado');}
+function copyAll(){copyText(DATA.proposal+"\n\n"+(DATA.question?('Pregunta: '+DATA.question):''),'Todo copiado');}
+</script></div></body></html>

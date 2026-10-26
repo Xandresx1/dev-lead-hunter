@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow"><title>DESARROLLO WEB / SEO+SEM</title>
+<style>
+:root{--c:#1e88e5;}
+*{box-sizing:border-box}body{margin:0;background:#0f141b;color:#e6edf3;font:15px/1.55 -apple-system,Segoe UI,Roboto,Inter,sans-serif}
+.wrap{max-width:720px;margin:0 auto;padding:18px 16px 60px}
+.src{display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--c);border:1px solid var(--c);border-radius:999px;padding:4px 10px}
+h1{color:var(--c);font-size:22px;line-height:1.25;margin:12px 0 6px}
+.meta{color:#94a3b8;font-size:13px;margin-bottom:14px}
+.card{background:#161d27;border:1px solid #243041;border-radius:14px;padding:16px;margin:12px 0}
+.card h2{margin:0 0 10px;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:#94a3b8}
+.kpis{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.kpi{background:#0f141b;border:1px solid #243041;border-radius:12px;padding:12px;text-align:center}
+.kpi b{display:block;font-size:24px;color:var(--c)}.kpi span{font-size:12px;color:#94a3b8}
+.content{font-weight:700;white-space:pre-wrap;word-wrap:break-word}
+.proposal{white-space:pre-wrap;word-wrap:break-word;font-weight:600}
+.muted{color:#94a3b8;font-size:13px}
+.btn{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;padding:14px;border-radius:12px;border:0;font-weight:700;font-size:16px;cursor:pointer;background:var(--c);color:#fff;margin-top:10px}
+.btn.alt{background:#243041;color:#e6edf3}
+.btn:active{transform:scale(.99)}
+.toast{position:fixed;left:50%;bottom:22px;transform:translateX(-50%);background:#22c55e;color:#06130a;font-weight:700;padding:10px 16px;border-radius:999px;opacity:0;transition:opacity .2s}
+.toast.show{opacity:1}
+a{color:var(--c)}
+</style></head><body><div class="wrap">
+<span class="src">🔵 Freelancer &middot; Lead 90/100</span>
+<h1>DESARROLLO WEB / SEO+SEM</h1>
+<div class="meta">Una empresa busca un freelance para maquetar un e-commerce en Webflow, WordPress o Next.js con integración de pagos de Stripe.</div>
+<div class="card"><h2>Mensaje sugerido para abrir</h2><div class="proposal">Hola, vi tu proyecto para la maquetación del e-commerce y la integración con Stripe. Tengo experiencia desarrollando sitios web ultrarrápidos en WordPress y Webflow.</div><button class="btn" onclick="copyOpener()">📋 Copiar mensaje</button></div>
+<div class="card"><h2>Publicación original</h2><div class="content">DESARROLLO WEB / SEO+SEM
+DESARROLLO WEB
+
+Maquetación e-commerce simple Webflow/WordPress + Stripe
+
+Tengo el diseño completo en PDF (Home + 3 internas). Busco freelance para maquetarlo y dejarlo funcionando con pagos.
+
+*Tareas exactas:*
+- Maquetación pixel perfect (carrusel infinito en home)
+- Flujo: Selector de plan  &gt; Formulario briefing  &gt; Subida de archivos drag&amp;drop &gt; Pago Stripe
+- Checkout con Stripe + email automático
+- Web ultra rápida (Core Web Vitals 90+), responsive y SEO-ready
+- No diseño, solo desarrollo
+
+*Stack abierto:* Webflow o WordPress Elementor + WooCommerce. Si propones http://Next.js, también lo valoro si justificas velocidad/precio.
+
+*Para aplicar:* Mándame 2 webs que hayas montado que carguen muy rápido + en qué stack lo harías tú.
+
+ SEO + SEM
+
+*Título del proyecto:* SEO Freelance para e-commerce nuevo + Google Ads inicial 
+
+*Descripción:*
+Proyecto E-commerce recién lanzado. Nicho con competencia SEO muy antigua y posicionable.
+
+*Mes 1-2:*
+- Keyword research + arquitectura 4 URLs
+- Optimización On-Page + velocidad (carrusel)
+- Schema Product + Search Console
+- 4 artículos SEO long-tail
+- Montaje campaña inicial Google Ads Search 
+
+*Objetivo claro:* 1 cliente/día orgánico (30/mes = 1.200 visitas). Con Ads ya rentable desde mes 1.
+
+*Requisitos:*
+- Portfolio con 2 casos reales de e-commerce posicionado (captura GSC)
+- Sin promesas de #1 en 1 mes
+Presupuesto: 30.0-250.0 EUR
+Skills: Website Design, SEO, WordPress, HTML, Stripe, WooCommerce</div>
+<a class="btn alt" href="https://www.freelancer.com/projects/web-development/DESARROLLO-WEB-SEO-SEM" target="_blank" rel="noopener">Abrir publicación en Freelancer</a></div>
+<div class="muted">Generado 2026-10-26 16:56 &middot; Dev Lead Hunter</div>
+<div class="toast" id="toast">Copiado</div>
+<textarea id="clip" style="position:fixed;left:-9999px;top:0"></textarea>
+<script>
+const DATA={"proposal": "", "opener": "Hola, vi tu proyecto para la maquetación del e-commerce y la integración con Stripe. Tengo experiencia desarrollando sitios web ultrarrápidos en WordPress y Webflow.", "question": ""};
+function toast(t){const e=document.getElementById('toast');e.textContent=t;e.classList.add('show');setTimeout(()=>e.classList.remove('show'),1600);}
+async function copyText(t,label){try{await navigator.clipboard.writeText(t);toast(label||'Copiado');}catch(e){const ta=document.getElementById('clip');ta.value=t;ta.select();document.execCommand('copy');toast(label||'Copiado');}}
+function copyProposal(){copyText(DATA.proposal,'Propuesta copiada');}
+function copyOpener(){copyText(DATA.opener,'Mensaje copiado');}
+function copyAll(){copyText(DATA.proposal+"\n\n"+(DATA.question?('Pregunta: '+DATA.question):''),'Todo copiado');}
+</script></div></body></html>

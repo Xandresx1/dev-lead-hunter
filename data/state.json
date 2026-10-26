@@ -1,5 +1,35 @@
 {
 "seen": [
+"freelancer:40783998",
+"freelancer:40784010",
+"freelancer:40784000",
+"freelancer:40786633",
+"freelancer:40786634",
+"freelancer:40786641",
+"freelancer:40786687",
+"freelancer:40786671",
+"freelancer:40786693",
+"freelancer:40786699",
+"freelancer:40786700",
+"freelancer:40786713",
+"freelancer:40786721",
+"freelancer:40786723",
+"freelancer:40786728",
+"freelancer:40786736",
+"freelancer:40786746",
+"freelancer:40786756",
+"freelancer:40786630",
+"freelancer:40786794",
+"freelancer:40786804",
+"freelancer:40786745",
+"freelancer:40786844",
+"freelancer:40786873",
+"freelancer:40786878",
+"freelancer:40786881",
+"freelancer:40786893",
+"freelancer:40786895",
+"freelancer:40786896",
+"freelancer:40786904",
 "freelancer:40786503",
 "freelancer:40786516",
 "freelancer:40786524",
@@ -328,18 +358,18 @@
 "facebook": 1792948852,
 "linkedin": 1792900970,
 "twitter": 1792966385,
-"freelancer": 1792974408,
-"reddit": 1792974409
+"freelancer": 1792991781,
+"reddit": 1792991781
 },
 "counters": {
 "gemini:2026-10-25": 260.0,
-"gemini:2026-10-26": 22.0
+"gemini:2026-10-26": 51.0
 },
 "leads": [],
 "stats": {
-"leads_total": 2,
-"seen_total": 323,
-"pending_proposals": 1
+"leads_total": 9,
+"seen_total": 353,
+"pending_proposals": 2
 },
 "pending_proposals": [
 {
@@ -371,7 +401,38 @@
 "location": null
 },
 "created": 1792958184,
-"attempts": 2
+"attempts": 3
+},
+{
+"id": "freelancer:40786713",
+"payload": {
+"id": "freelancer:40786713",
+"source": "freelancer",
+"title": "Asterisk-Zoiper AWS Configuration",
+"text": "Necesito que Asterisk quede funcionando en un servidor Amazon Web Services y que Zoiper en Android se registre sin problemas. El escenario es sencillo pero debe quedar completamente operativo:\n\n• Tipo de llamadas: entrantes y salientes usando números telefónicos reales.  \n• Extensiones simultáneas: entre 1 y 5 en Zoiper para Android.  \n• Proveedor de telefonía: ya dispongo de los números, pero aún no cuento con los datos de conexión; por eso requiero tu ayuda para seleccionar o configurar correctamente el troncal (SIP o IAX) que garantice buena calidad y tarifas competitivas.\n\nAl finalizar espero:\n\n1. Instancia AWS debidamente asegurada (puertos, firewall, NAT) con Asterisk actualizado y estable.  \n2. Dialplan configurado para llamadas entrantes y salientes, grabación opcional y buzón de voz básico.  \n3. Creación de las extensiones, credenciales y QR de aprovisionamiento para Zoiper en Android.  \n4. Configuración del troncal con el proveedor elegido, pruebas de llamada y registro de calidad.  \n5. Breve guía en español con los pasos esenciales por si necesito añadir más usuarios o cambiar números.\n\nCon todo listo, podremos marcar y recibir desde los móviles de inmediato.\nPresupuesto: 30.0-250.0 USD\nSkills: Linux, Android, Cloud Computing, Asterisk PBX, VoIP, Network Security",
+"url": "https://www.freelancer.com/projects/sip/Asterisk-Zoiper-AWS-Configuration",
+"author": "",
+"extra": {
+"bids": 56,
+"bid_avg": 149.98214285714286,
+"budget": "Presupuesto: 30.0-250.0 USD",
+"budget_min": 30.0,
+"budget_max": 250.0,
+"currency": "USD",
+"price_type": "fixed",
+"hourly_commitment": null,
+"escrow": false,
+"country": null,
+"lang": "es"
+},
+"language": "es",
+"score": 90,
+"summary": "Cliente necesita configurar un servidor Asterisk en AWS con troncal SIP y registro para Zoiper en Android.",
+"opener": "Hola, vi tu proyecto para configurar Asterisk en AWS y Zoiper. Tengo experiencia en VoIP y seguridad en Linux, ¿lo conversamos?",
+"location": null
+},
+"created": 1792991736,
+"attempts": 0
 }
 ]
 }

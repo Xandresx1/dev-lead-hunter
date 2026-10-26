@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow"><title>Android Wake-Word Recorder</title>
+<style>
+:root{--c:#1e88e5;}
+*{box-sizing:border-box}body{margin:0;background:#0f141b;color:#e6edf3;font:15px/1.55 -apple-system,Segoe UI,Roboto,Inter,sans-serif}
+.wrap{max-width:720px;margin:0 auto;padding:18px 16px 60px}
+.src{display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--c);border:1px solid var(--c);border-radius:999px;padding:4px 10px}
+h1{color:var(--c);font-size:22px;line-height:1.25;margin:12px 0 6px}
+.meta{color:#94a3b8;font-size:13px;margin-bottom:14px}
+.card{background:#161d27;border:1px solid #243041;border-radius:14px;padding:16px;margin:12px 0}
+.card h2{margin:0 0 10px;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:#94a3b8}
+.kpis{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.kpi{background:#0f141b;border:1px solid #243041;border-radius:12px;padding:12px;text-align:center}
+.kpi b{display:block;font-size:24px;color:var(--c)}.kpi span{font-size:12px;color:#94a3b8}
+.content{font-weight:700;white-space:pre-wrap;word-wrap:break-word}
+.proposal{white-space:pre-wrap;word-wrap:break-word;font-weight:600}
+.muted{color:#94a3b8;font-size:13px}
+.btn{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;padding:14px;border-radius:12px;border:0;font-weight:700;font-size:16px;cursor:pointer;background:var(--c);color:#fff;margin-top:10px}
+.btn.alt{background:#243041;color:#e6edf3}
+.btn:active{transform:scale(.99)}
+.toast{position:fixed;left:50%;bottom:22px;transform:translateX(-50%);background:#22c55e;color:#06130a;font-weight:700;padding:10px 16px;border-radius:999px;opacity:0;transition:opacity .2s}
+.toast.show{opacity:1}
+a{color:var(--c)}
+</style></head><body><div class="wrap">
+<span class="src">🔵 Freelancer &middot; Lead 90/100</span>
+<h1>Android Wake-Word Recorder</h1>
+<div class="meta">Un cliente busca un desarrollador Android para crear una app con activacion por voz y subida automatizada a la nube.</div>
+<div class="card"><h2>Mensaje sugerido para abrir</h2><div class="proposal">Hi! I have strong experience in Android development (Kotlin/Java) and integrating local wake-word engines like TFLite or Porcupine with cloud storage.</div><button class="btn" onclick="copyOpener()">📋 Copiar mensaje</button></div>
+<div class="card"><h2>Publicación original</h2><div class="content">Android Wake-Word Recorder
+I need a small Android application that constantly listens for a single wake word, then—without any extra taps—begins recording audio straight away. As soon as the recording ends it should push the file to a cloud location I can configure (Google Drive, S3, or similar).
+
+Smooth, local wake-word spotting is important; detection must run entirely on-device so there’s no latency or need for an internet connection until the upload step. Feel free to leverage Porcupine, Snowboy, TensorFlow Lite, or another lightweight engine, provided it performs reliably on common Android phones and tablets.
+
+What I expect from you:
+
+• An Android Studio project (Kotlin or Java) with clear, well-commented code  
+• Wake word model integrated and configurable  
+• Immediate microphone capture after detection  
+• Automatic upload of the resulting audio file to the chosen cloud service, with a simple settings screen for credentials and folder/bucket path  
+• Basic UI only for status indicators; the task is primarily backend logic  
+• README explaining build steps, how to swap in a different wake word model, and how to point uploads to another provider
+
+Acceptance is a clean installable APK plus source that I can open in Android Studio, build, test the wake word, see the recording begin instantly, and watch the file appear in my cloud storage.
+Presupuesto: 250.0-750.0 USD
+Skills: Java, Mobile App Development, Android, Software Architecture, Kotlin, Mobile Development</div>
+<a class="btn alt" href="https://www.freelancer.com/projects/android-app-development/Android-Wake-Word-Recorder" target="_blank" rel="noopener">Abrir publicación en Freelancer</a></div>
+<div class="muted">Generado 2026-10-26 12:26 &middot; Dev Lead Hunter</div>
+<div class="toast" id="toast">Copiado</div>
+<textarea id="clip" style="position:fixed;left:-9999px;top:0"></textarea>
+<script>
+const DATA={"proposal": "", "opener": "Hi! I have strong experience in Android development (Kotlin/Java) and integrating local wake-word engines like TFLite or Porcupine with cloud storage.", "question": ""};
+function toast(t){const e=document.getElementById('toast');e.textContent=t;e.classList.add('show');setTimeout(()=>e.classList.remove('show'),1600);}
+async function copyText(t,label){try{await navigator.clipboard.writeText(t);toast(label||'Copiado');}catch(e){const ta=document.getElementById('clip');ta.value=t;ta.select();document.execCommand('copy');toast(label||'Copiado');}}
+function copyProposal(){copyText(DATA.proposal,'Propuesta copiada');}
+function copyOpener(){copyText(DATA.opener,'Mensaje copiado');}
+function copyAll(){copyText(DATA.proposal+"\n\n"+(DATA.question?('Pregunta: '+DATA.question):''),'Todo copiado');}
+</script></div></body></html>

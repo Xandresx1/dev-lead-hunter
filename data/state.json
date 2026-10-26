@@ -1,5 +1,37 @@
 {
 "seen": [
+"freelancer:40786555",
+"freelancer:40787717",
+"freelancer:40787830",
+"freelancer:40787855",
+"freelancer:40787864",
+"freelancer:40787866",
+"freelancer:40787887",
+"freelancer:40787888",
+"freelancer:40787892",
+"freelancer:40787895",
+"freelancer:40787894",
+"freelancer:40787916",
+"freelancer:40787928",
+"freelancer:40787931",
+"freelancer:40787935",
+"freelancer:40787956",
+"freelancer:40787955",
+"freelancer:40787957",
+"freelancer:40787959",
+"freelancer:40787965",
+"freelancer:40787968",
+"freelancer:40787964",
+"freelancer:40787972",
+"freelancer:40787979",
+"freelancer:40787978",
+"freelancer:40787975",
+"freelancer:40787989",
+"freelancer:40787990",
+"freelancer:40787996",
+"freelancer:40787983",
+"freelancer:40787997",
+"freelancer:40788001",
 "freelancer:40787477",
 "freelancer:40787479",
 "freelancer:40787484",
@@ -478,22 +510,22 @@
 "runs": {
 "facebook": 1793013059,
 "linkedin": 1792900970,
-"twitter": 1792966385,
-"freelancer": 1793023028,
-"reddit": 1793023028,
+"twitter": 1793035528,
+"freelancer": 1793035849,
+"reddit": 1793035849,
 "fbgroups": 1793022260,
 "fbsearch": 1793022440
 },
 "counters": {
 "gemini:2026-10-25": 260.0,
-"gemini:2026-10-26": 113.0,
+"gemini:2026-10-26": 139.0,
 "brightdata:records:2026-10": 24.0
 },
 "leads": [],
 "stats": {
-"leads_total": 5,
-"seen_total": 474,
-"pending_proposals": 2
+"leads_total": 7,
+"seen_total": 506,
+"pending_proposals": 3
 },
 "pending_proposals": [
 {
@@ -525,7 +557,7 @@
 "location": null
 },
 "created": 1792958184,
-"attempts": 5
+"attempts": 6
 },
 {
 "id": "freelancer:40786713",
@@ -556,6 +588,37 @@
 "location": null
 },
 "created": 1792991736,
+"attempts": 0
+},
+{
+"id": "freelancer:40787894",
+"payload": {
+"id": "freelancer:40787894",
+"source": "freelancer",
+"title": "Multiagente Redes Sociales Integrado",
+"text": "Necesito desarrollar un multiagente capaz de atender de forma automática los mensajes que llegan por WhatsApp, Instagram y Facebook Messenger.  \nEl objetivo principal es que el sistema responda de manera natural y coherente a:\n\n• Preguntas frecuentes sobre nuestros productos o servicios  \n• Consultas relacionadas con ventas y pedidos  \n• Solicitudes de soporte y resolución de problemas  \n\nCuando el bot no pueda resolver una consulta, deberá transferir la conversación a una persona de mi equipo sin pérdida de contexto.\n\nBusco una solución que incluya:  \n– Integración estable con las API oficiales de los tres canales mencionados.  \n– Motor de procesamiento de lenguaje que permita respuestas personalizadas y consistentes.  \n– Lógica de enrutamiento inteligente para identificar cuándo derivar al equipo humano.  \n– Panel o dashboard básico para que podamos supervisar conversaciones, añadir respuestas y actualizar flujos.  \n\nEntrego la documentación de marca y las FAQ existentes; tú te encargas de configurar, entrenar y probar el modelo para que quede listo para producción. Valoraré experiencia previa con bots multicanal, WhatsApp Business API, Meta Graph API y buenas prácticas de hand-off a agentes humanos.\nPresupuesto: 30.0-250.0 USD\nSkills: Chatbot, API Integration, Natural Language Processing, AI Chatbot Development, AI Content Creation, AI Development",
+"url": "https://www.freelancer.com/projects/ai-chatbot-development/Multiagente-Redes-Sociales-Integrado",
+"author": "",
+"extra": {
+"bids": 113,
+"bid_avg": 128.97345132743362,
+"budget": "Presupuesto: 30.0-250.0 USD",
+"budget_min": 30.0,
+"budget_max": 250.0,
+"currency": "USD",
+"price_type": "fixed",
+"hourly_commitment": null,
+"escrow": false,
+"country": null,
+"lang": "es"
+},
+"language": "es",
+"score": 90,
+"summary": "Negocio necesita desarrollar un sistema multiagente de IA para automatizar atención por WhatsApp, Instagram y Facebook Messenger con derivación a humanos.",
+"opener": "Hola, vi tu proyecto para el multiagente de redes sociales y tengo experiencia integrando la API de WhatsApp y Meta con bots conversacionales. ¿Podemos conversar?",
+"location": null
+},
+"created": 1793035718,
 "attempts": 0
 }
 ],

@@ -105,13 +105,38 @@ class Settings:
     reddit_client_id: str = os.getenv("REDDIT_CLIENT_ID", "")
     reddit_client_secret: str = os.getenv("REDDIT_CLIENT_SECRET", "")
 
-    # --- Fuente: Facebook grupos (Apify) ---
-    facebook_enabled: bool = _bool("FACEBOOK_ENABLED", True)
-    facebook_interval_minutes: int = _int("FACEBOOK_INTERVAL_MINUTES", 720)
+    # --- Fuente: Facebook grupos (Apify). Apagado por defecto: Bright Data cubre los grupos 3x mas barato ---
+    facebook_enabled: bool = _bool("FACEBOOK_ENABLED", False)
+    facebook_interval_minutes: int = _int("FACEBOOK_INTERVAL_MINUTES", 1440)
     facebook_groups: list[str] = field(default_factory=lambda: _list(
         "FACEBOOK_GROUPS", ["https://www.facebook.com/groups/programadoresperu"]))
     facebook_posts_per_group: int = _int("FACEBOOK_POSTS_PER_GROUP", 5)
     facebook_newer_than: str = os.getenv("FACEBOOK_NEWER_THAN", "2 days")
+
+    # --- Fuente: Busqueda por palabra clave en TODO Facebook (Apify, scrapeforge/facebook-search-posts) ---
+    fbsearch_enabled: bool = _bool("FACEBOOK_SEARCH_ENABLED", True)
+    fbsearch_interval_minutes: int = _int("FACEBOOK_SEARCH_INTERVAL_MINUTES", 720)
+    fbsearch_queries: list[str] = field(default_factory=lambda: _list(
+        "FACEBOOK_SEARCH_QUERIES",
+        ["busco programador", "necesito un programador", "busco desarrollador", "necesito un sistema para mi negocio",
+         "quien me puede hacer una pagina web", "necesito una app para mi negocio"]))
+    fbsearch_results_per_query: int = _int("FACEBOOK_SEARCH_RESULTS", 5)   # plan Free de Apify: max 5 por run
+    fbsearch_recent_first: bool = _bool("FACEBOOK_SEARCH_RECENT_FIRST", True)
+
+    # --- Fuente: Facebook grupos via Bright Data (Web Scraper API "Posts by group URL", ~$0.0015 por post) ---
+    brightdata_token: str = os.getenv("BRIGHTDATA_API_TOKEN", "")
+    brightdata_enabled: bool = _bool("BRIGHTDATA_ENABLED", True)
+    brightdata_interval_minutes: int = _int("BRIGHTDATA_INTERVAL_MINUTES", 360)   # cada 6 h
+    brightdata_groups: list[str] = field(default_factory=lambda: _list(
+        "BRIGHTDATA_GROUPS",
+        ["https://www.facebook.com/groups/280022727038494", "https://www.facebook.com/groups/660236834107139",
+         "https://www.facebook.com/groups/327987354235895", "https://www.facebook.com/groups/desarrolladorweb",
+         "https://www.facebook.com/groups/266641914362970", "https://www.facebook.com/groups/164148235452561"]))
+    brightdata_posts_per_group: int = _int("BRIGHTDATA_POSTS_PER_GROUP", 4)        # 6 grupos x 4 x 4/dia = ~2900/mes
+    brightdata_days_back: int = _int("BRIGHTDATA_DAYS_BACK", 1)                    # solo posts de las ultimas 24-48 h
+    brightdata_monthly_records: int = _int("BRIGHTDATA_MONTHLY_RECORDS", 3000)     # tope de registros/mes (~$4.5 de $5)
+    brightdata_wait_seconds: int = _int("BRIGHTDATA_WAIT_SECONDS", 420)            # espera max por corrida; si no esta listo, sigue en la proxima
+    brightdata_dataset_id: str = os.getenv("BRIGHTDATA_DATASET_ID", "gd_lz11l67o2cb3r0lkj3")
 
     # --- Fuente: LinkedIn posts (Apify) ---
     linkedin_enabled: bool = _bool("LINKEDIN_ENABLED", True)
@@ -147,6 +172,11 @@ class Settings:
             warnings.append("GEMINI_API_KEY vacio: se usara solo filtrado por keywords (mas falsos positivos).")
         if not self.apify_token and (self.facebook_enabled or self.linkedin_enabled or self.twitter_enabled):
             warnings.append("APIFY_TOKEN vacio: Facebook/LinkedIn/X quedan desactivados.")
+        if self.brightdata_enabled and not self.brightdata_token:
+            warnings.append("BRIGHTDATA_API_TOKEN vacio: grupos de Facebook via Bright Data desactivados.")
+        if self.brightdata_token and self.brightdata_enabled and self.apify_token and self.facebook_enabled:
+            warnings.append("Bright Data y Apify (FACEBOOK_ENABLED) estan leyendo grupos de Facebook a la vez: gasto doble. "
+                            "Recomendado FACEBOOK_ENABLED=false.")
         if self.oxion_api_key and not self.pages_base_url:
             warnings.append("PAGES_BASE_URL vacio: las propuestas iran solo en la notificacion (sin pagina con boton Copiar).")
         if self.telegram_enabled and not (self.telegram_api_id and self.telegram_api_hash):

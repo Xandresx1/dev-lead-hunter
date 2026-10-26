@@ -74,7 +74,7 @@ class Notifier:
                 intent = f"https://twitter.com/intent/tweet?in_reply_to={tweet_id}&text={quote(opener)}"
                 actions.append({"action": "view", "label": "Responder (pre-escrito)", "url": intent, "clear": True})
         if url:
-            label = {"facebook": "Responder en Facebook", "linkedin": "Responder en LinkedIn", "freelancer": "Ver proyecto y ofertar",
+            label = {"facebook": "Responder en Facebook", "fbsearch": "Responder en Facebook", "fbgroups": "Responder en Facebook", "linkedin": "Responder en LinkedIn", "freelancer": "Ver proyecto y ofertar",
                      "reddit": "Responder en Reddit", "telegram": "Abrir en Telegram", "twitter": "Ver tweet"}.get(source, "Abrir publicacion")
             actions.append({"action": "view", "label": label, "url": url, "clear": True})
         return actions

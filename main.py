@@ -66,6 +66,8 @@ class Hunter:
         self.proposals = ProposalWriter()
         self.pages = PageWriter()
         self.sources: list[Source] = [s for s in build_sources() if not only or s.name in only]
+        for s in self.sources:
+            s.storage = self.storage
         self._error_notified: dict[str, float] = {}
         self._classified_this_tick = 0
         self._deferred = 0
@@ -218,7 +220,7 @@ class Hunter:
         due = []
         for s in self.sources:
             last = self.storage.last_run(s.name)
-            if last is None or now - last >= s.interval_minutes * 60:
+            if s.is_due(last, now):
                 due.append(s)
         return due
 
@@ -281,6 +283,15 @@ class Hunter:
                 print(f"== Apify == gastado este mes: ${used:.3f} / plan ${mx:.2f} (tope bot ${settings.apify_monthly_budget_usd})")
             except Exception:
                 pass
+        if settings.brightdata_token and settings.brightdata_enabled:
+            try:
+                src = next((s for s in self.sources if s.name == "fbgroups"), None)
+                if src:
+                    used, cap = src.budget_status()
+                    snap = src.pending_snapshot()
+                    print(f"== Bright Data == registros este mes: {used} / tope {cap} (~${used * 0.0015:.2f}){' | snapshot pendiente: ' + snap if snap else ''}")
+            except Exception:
+                pass
         print("\n== Ultimos leads ==")
         for l in self.storage.recent_leads(10):
             print(f"  [{l['score']:>3}] {l['source']:<10} {l['summary'][:70]}\n        {l['url']}")
@@ -297,7 +308,7 @@ def main(argv=None):
     ap.add_argument("--once", action="store_true", help="una sola pasada y salir")
     ap.add_argument("--force", action="store_true", help="ignorar intervalos (ejecutar todas las fuentes)")
     ap.add_argument("--dry-run", action="store_true", help="no enviar notificaciones")
-    ap.add_argument("--sources", default="", help="lista separada por comas: freelancer,reddit,facebook,linkedin,twitter,telegram")
+    ap.add_argument("--sources", default="", help="lista separada por comas: freelancer,reddit,fbgroups,fbsearch,facebook,linkedin,twitter,telegram")
     ap.add_argument("--state-json", default="", help="ruta JSON para importar/exportar dedup (GitHub Actions)")
     ap.add_argument("--test-notify", action="store_true", help="enviar notificacion de prueba")
     ap.add_argument("--stats", action="store_true", help="mostrar estadisticas")

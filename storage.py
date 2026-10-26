@@ -35,6 +35,7 @@ class Storage:
             CREATE TABLE IF NOT EXISTS pending_proposals (
                 id TEXT PRIMARY KEY, payload TEXT, created INTEGER, attempts INTEGER DEFAULT 0
             );
+            CREATE TABLE IF NOT EXISTS meta (key TEXT PRIMARY KEY, value TEXT);
             """
         )
         c.commit()
@@ -124,6 +125,27 @@ class Storage:
     def today_key(prefix: str) -> str:
         return f"{prefix}:{datetime.now(timezone.utc).strftime('%Y-%m-%d')}"
 
+    @staticmethod
+    def month_key(prefix: str) -> str:
+        return f"{prefix}:{datetime.now(timezone.utc).strftime('%Y-%m')}"
+
+    # ---------- meta (clave -> texto; ej. snapshot pendiente de Bright Data) ----------
+    def get_meta(self, key: str, default: str | None = None) -> str | None:
+        r = self.db.execute("SELECT value FROM meta WHERE key=?", (key,)).fetchone()
+        return r[0] if r else default
+
+    def set_meta(self, key: str, value: str | None):
+        if value is None:
+            self.db.execute("DELETE FROM meta WHERE key=?", (key,))
+        else:
+            self.db.execute("INSERT OR REPLACE INTO meta(key,value) VALUES(?,?)", (key, str(value)))
+        self.db.commit()
+
+    def seen_ids(self, prefix: str, limit: int = 500) -> list[str]:
+        """IDs ya vistos que empiezan por `prefix` (ej. 'facebook:'), mas recientes primero."""
+        rows = self.db.execute("SELECT id FROM seen WHERE id LIKE ? ORDER BY first_seen DESC LIMIT ?", (prefix + "%", limit)).fetchall()
+        return [r[0] for r in rows]
+
     # ---------- propuestas pendientes (reintento cuando Oxion falla) ----------
     def add_pending_proposal(self, post_id: str, payload: dict):
         self.db.execute("INSERT OR REPLACE INTO pending_proposals(id,payload,created,attempts) VALUES(?,?,?,0)",
@@ -165,9 +187,10 @@ class Storage:
         pending = [{"id": r["id"], "payload": json.loads(r["payload"]), "created": r["created"], "attempts": r["attempts"]}
                    for r in self.db.execute("SELECT id,payload,created,attempts FROM pending_proposals").fetchall()]
         stats = {"leads_total": self.leads_count(), "seen_total": self.seen_count(), "pending_proposals": len(pending)}
+        meta = {r[0]: r[1] for r in self.db.execute("SELECT key,value FROM meta").fetchall()}
         Path(path).parent.mkdir(parents=True, exist_ok=True)
         Path(path).write_text(json.dumps({"seen": seen, "runs": runs, "counters": counters, "leads": leads, "stats": stats,
-                                          "pending_proposals": pending}, ensure_ascii=False, indent=0))
+                                          "pending_proposals": pending, "meta": meta}, ensure_ascii=False, indent=0))
 
     def import_json(self, path: Path):
         p = Path(path)
@@ -180,6 +203,8 @@ class Storage:
             self.db.execute("INSERT OR IGNORE INTO source_runs(source,last_run) VALUES(?,?)", (source, last_run))
         for k, v in (data.get("counters") or {}).items():
             self.db.execute("INSERT OR IGNORE INTO counters(key,value) VALUES(?,?)", (k, v))
+        for k, v in (data.get("meta") or {}).items():
+            self.db.execute("INSERT OR IGNORE INTO meta(key,value) VALUES(?,?)", (k, str(v)))
         for p in data.get("pending_proposals") or []:
             self.db.execute("INSERT OR IGNORE INTO pending_proposals(id,payload,created,attempts) VALUES(?,?,?,?)",
                             (p["id"], json.dumps(p["payload"], ensure_ascii=False), p.get("created", now), p.get("attempts", 0)))

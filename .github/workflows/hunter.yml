@@ -4,18 +4,19 @@
 #  Corre cada 20 min (GitHub suele retrasarlo 5-30 min; en repos publicos los
 #  minutos son ilimitados). En cada corrida el bot ejecuta SOLO las fuentes a las
 #  que ya les toca segun su intervalo (guardado en data/state.json):
-#     - Freelancer.com -> en cada corrida (gratis)
-#     - Reddit         -> cada 20 min (gratis; suele dar 403 desde runners, se omite solo)
-#     - Facebook       -> cada 12 h   (Apify ~$0.02/run)
-#     - LinkedIn       -> cada 12 h   (Apify ~$0.024/run)
-#     - X / Twitter    -> cada 16 h   (Apify, gratis, ~45 runs/mes)
-#  Total Apify estimado: ~$3/mes (dentro de los $5 gratis). El bot ademas consulta
-#  tu gasto real y deja de llamar a Apify al pasar APIFY_MONTHLY_BUDGET_USD.
+#     - Freelancer.com      -> en cada corrida (gratis)
+#     - Reddit              -> cada 20 min (gratis; suele dar 403 desde runners, se omite solo)
+#     - Facebook GRUPOS     -> cada 6 h via Bright Data (~$0.0015/post, 5000 creditos gratis/mes)
+#     - Facebook BUSQUEDA   -> cada 12 h via Apify (keyword search en todo Facebook)
+#     - LinkedIn            -> cada 12 h (Apify, desactivado por defecto)
+#     - X / Twitter         -> cada 16 h (Apify, gratis, ~45 runs/mes)
+#  El bot consulta el gasto real de Apify y deja de llamarlo al pasar APIFY_MONTHLY_BUDGET_USD;
+#  para Bright Data lleva un contador de registros/mes y se detiene en BRIGHTDATA_MONTHLY_RECORDS.
 #
 #  Configuracion necesaria en el repo (Settings -> Secrets and variables -> Actions):
-#    Secrets: GEMINI_API_KEY, APIFY_TOKEN, NTFY_TOPIC
-#    Variables (opcionales, para afinar sin tocar codigo): FACEBOOK_GROUPS,
-#      LINKEDIN_KEYWORDS, MIN_SCORE, APIFY_MONTHLY_BUDGET_USD, FACEBOOK_INTERVAL_MINUTES, ...
+#    Secrets: GEMINI_API_KEY, APIFY_TOKEN, BRIGHTDATA_API_TOKEN, NTFY_TOPIC, OXION_API_KEY
+#    Variables (opcionales, para afinar sin tocar codigo): BRIGHTDATA_GROUPS, FACEBOOK_GROUPS,
+#      LINKEDIN_KEYWORDS, MIN_SCORE, APIFY_MONTHLY_BUDGET_USD, BRIGHTDATA_INTERVAL_MINUTES, ...
 #  Settings -> Actions -> General -> Workflow permissions -> "Read and write permissions"
 #  (para que pueda guardar data/state.json = memoria de posts ya vistos).
 #
@@ -47,7 +48,7 @@ permissions:
 jobs:
   hunt:
     runs-on: ubuntu-latest
-    timeout-minutes: 18
+    timeout-minutes: 22
     steps:
       - uses: actions/checkout@v4
 
@@ -63,6 +64,7 @@ jobs:
           # --- Secrets ---
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
+          BRIGHTDATA_API_TOKEN: ${{ secrets.BRIGHTDATA_API_TOKEN }}
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
           OXION_API_KEY: ${{ secrets.OXION_API_KEY }}
           # --- Propuestas automaticas (Claude via Oxion) y paginas con boton Copiar ---
@@ -81,11 +83,25 @@ jobs:
           FREELANCER_ENABLED: ${{ vars.FREELANCER_ENABLED || 'true' }}
           FREELANCER_INTERVAL_MINUTES: ${{ vars.FREELANCER_INTERVAL_MINUTES || '1' }}
           REDDIT_ENABLED: ${{ vars.REDDIT_ENABLED || 'true' }}
-          FACEBOOK_ENABLED: ${{ vars.FACEBOOK_ENABLED || 'true' }}
-          FACEBOOK_INTERVAL_MINUTES: ${{ vars.FACEBOOK_INTERVAL_MINUTES || '720' }}
+          # Grupos de Facebook via Bright Data (Web Scraper API). 6 grupos x 4 posts x 4 veces/dia = ~2900 registros/mes (~$4.3 de los $5 gratis)
+          BRIGHTDATA_ENABLED: ${{ vars.BRIGHTDATA_ENABLED || 'true' }}
+          BRIGHTDATA_INTERVAL_MINUTES: ${{ vars.BRIGHTDATA_INTERVAL_MINUTES || '360' }}
+          BRIGHTDATA_GROUPS: ${{ vars.BRIGHTDATA_GROUPS || 'https://www.facebook.com/groups/280022727038494,https://www.facebook.com/groups/660236834107139,https://www.facebook.com/groups/327987354235895,https://www.facebook.com/groups/desarrolladorweb,https://www.facebook.com/groups/266641914362970,https://www.facebook.com/groups/164148235452561' }}
+          BRIGHTDATA_POSTS_PER_GROUP: ${{ vars.BRIGHTDATA_POSTS_PER_GROUP || '4' }}
+          BRIGHTDATA_DAYS_BACK: ${{ vars.BRIGHTDATA_DAYS_BACK || '1' }}
+          BRIGHTDATA_MONTHLY_RECORDS: ${{ vars.BRIGHTDATA_MONTHLY_RECORDS || '3000' }}
+          BRIGHTDATA_WAIT_SECONDS: ${{ vars.BRIGHTDATA_WAIT_SECONDS || '420' }}
+          # Grupos de Facebook via Apify: APAGADO por defecto (Bright Data ya cubre los grupos y cuesta 3x menos por post)
+          FACEBOOK_ENABLED: ${{ vars.FACEBOOK_ENABLED || 'false' }}
+          FACEBOOK_INTERVAL_MINUTES: ${{ vars.FACEBOOK_INTERVAL_MINUTES || '1440' }}
           FACEBOOK_GROUPS: ${{ vars.FACEBOOK_GROUPS || 'https://www.facebook.com/groups/3355006434797472/,https://www.facebook.com/groups/660236834107139/,https://www.facebook.com/groups/3196840540371041/,https://www.facebook.com/groups/pe.emprendedores/' }}
           FACEBOOK_POSTS_PER_GROUP: ${{ vars.FACEBOOK_POSTS_PER_GROUP || '4' }}
           FACEBOOK_NEWER_THAN: ${{ vars.FACEBOOK_NEWER_THAN || '1 day' }}
+          # Busqueda por palabra clave en TODO Facebook (la fuente mas directa: "busco programador", "necesito un sistema"...)
+          FACEBOOK_SEARCH_ENABLED: ${{ vars.FACEBOOK_SEARCH_ENABLED || 'true' }}
+          FACEBOOK_SEARCH_INTERVAL_MINUTES: ${{ vars.FACEBOOK_SEARCH_INTERVAL_MINUTES || '720' }}
+          FACEBOOK_SEARCH_QUERIES: ${{ vars.FACEBOOK_SEARCH_QUERIES || 'busco programador,necesito un programador,busco desarrollador,necesito un sistema para mi negocio,quien me puede hacer una pagina web,necesito una app para mi negocio' }}
+          FACEBOOK_SEARCH_RESULTS: ${{ vars.FACEBOOK_SEARCH_RESULTS || '5' }}
           LINKEDIN_ENABLED: ${{ vars.LINKEDIN_ENABLED || 'false' }}
           LINKEDIN_INTERVAL_MINUTES: ${{ vars.LINKEDIN_INTERVAL_MINUTES || '720' }}
           LINKEDIN_KEYWORDS: ${{ vars.LINKEDIN_KEYWORDS || 'busco desarrollador,necesito un sistema' }}

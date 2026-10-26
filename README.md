@@ -6,7 +6,8 @@ celular por ntfy** con: resumen, score 0-100, link directo a la publicación y u
 
 ```
 Fuentes ──► Dedup (SQLite) ──► Filtro keywords ES/EN ──► Gemini (IA) ──► ntfy 📲
- Facebook grupos (Apify)      barato, 0 costo       is_lead / score / resumen / opener
+ Facebook grupos (Bright Data) barato, 0 costo      is_lead / score / resumen / opener
+ Facebook búsqueda (Apify)
  LinkedIn posts  (Apify)
  X / Twitter     (Apify)
  Freelancer.com  (gratis)
@@ -23,7 +24,8 @@ Probado con datos reales: el POC detectó leads como *"Dueño de restaurante nec
 
 | Tema | Decisión | Por qué |
 |---|---|---|
-| **Facebook / LinkedIn / X** | **Apify** (scraping como servicio) | **No usa tus credenciales → cero riesgo de que te baneen tu cuenta.** Solo lee grupos/posts PÚBLICOS. Plan gratis: $5 de créditos/mes. |
+| **Facebook grupos** | **Bright Data** Web Scraper API (posts por grupo) | Lee los grupos que elijas, ~$0.0015 por post (3x más barato que Apify). 5000 créditos gratis/mes. Asíncrono: si tarda, el bot retoma el snapshot en la siguiente corrida sin volver a pagar. |
+| **Facebook búsqueda / LinkedIn / X** | **Apify** (scraping como servicio) | **No usa tus credenciales → cero riesgo de que te baneen tu cuenta.** Solo lee grupos/posts PÚBLICOS. Plan gratis: $5 de créditos/mes. |
 | **Freelancer.com** | API pública, sin key | Gratis e ilimitada. Todo lo que publica un cliente ahí es un pedido real de trabajo. Soporta español. |
 | **Reddit** | JSON público, tolerante | Reddit cerró la creación self-service de apps (nov 2025) y bloquea IPs cloud. El bot lo intenta; si responde 403 lo pausa 6 h y sigue con el resto. **No rompe nada.** |
 | **Nitter (X gratis)** | Descartado | En 2026 ya no quedan instancias funcionales. X solo por Apify. |
@@ -48,6 +50,7 @@ Probado con datos reales: el POC detectó leads como *"Dueño de restaurante nec
 | `NTFY_TOPIC` | Tú lo inventas. Instala la app **ntfy** (Play Store / App Store / https://ntfy.sh/app) → **Subscribe to topic** → escribe el mismo nombre que pongas en el `.env`. El que viene en `.env.example` es `devleads-pe-7x4k9q2m`; **cámbialo por uno propio** (cualquiera que lo adivine vería tus alertas). | Gratis |
 | `GEMINI_API_KEY` | https://aistudio.google.com/apikey → *Create API key* | Gratis |
 | `APIFY_TOKEN` | https://console.apify.com → Settings → *API & Integrations* → *Personal API tokens* | Gratis ($5 créditos/mes) |
+| `BRIGHTDATA_API_TOKEN` | https://brightdata.com/cp/setting/users → *API keys* → *Add API key* (se muestra una sola vez). **No** necesitas crear nada en "Acceso web / Agregar API": el bot llama directo al dataset *Facebook - Posts by group URL*. | Gratis (5000 créditos/mes ≈ $5) |
 | `TELEGRAM_API_ID/HASH` (opcional) | https://my.telegram.org → API development tools | Gratis |
 
 > Las keys que me pasaste ya las probé y funcionan. Por seguridad **no van dentro del ZIP**: pégalas tú en el `.env`.
@@ -129,7 +132,7 @@ El instalador deja un cron diario que hace `git pull` + rebuild automáticamente
 ejecuta solo las fuentes a las que les toca según su intervalo, usando `data/state.json` como memoria (posts ya vistos +
 última ejecución de cada fuente), que el propio workflow commitea al repo.
 
-1. Repo → **Settings → Secrets and variables → Actions → Secrets** → `GEMINI_API_KEY`, `APIFY_TOKEN`, `NTFY_TOPIC` (solo el valor, sin comillas).
+1. Repo → **Settings → Secrets and variables → Actions → Secrets** → `GEMINI_API_KEY`, `APIFY_TOKEN`, `BRIGHTDATA_API_TOKEN`, `NTFY_TOPIC`, `OXION_API_KEY` (solo el valor, sin comillas).
 2. **Settings → Actions → General → Workflow permissions → Read and write permissions → Save.**
 3. Pestaña **Actions** → si aparece el aviso de habilitar workflows, acéptalo → **dev-lead-hunter → Run workflow** para la primera corrida (ver logs ahí mismo).
 4. Después corre solo. Para pausar: **Actions → dev-lead-hunter → ⋯ → Disable workflow**.
@@ -167,6 +170,22 @@ una pregunta/riesgo para el chat. En inglés y en las demás fuentes no se gener
 `EXCLUDED_CURRENCIES=INR` (por defecto) descarta proyectos cuyo presupuesto esté en rupias **o** que mencionen INR/₹/rupees en el texto
 (se reportaron estafas con ese medio de pago). Agrega más códigos separados por coma si lo necesitas.
 
+## 6d. Grupos de Facebook con Bright Data (cada 6 h)
+
+El bot usa la **Web Scraper API** de Bright Data (dataset `gd_lz11l67o2cb3r0lkj3`, *Facebook - Posts by group URL*) para leer los
+grupos de `BRIGHTDATA_GROUPS`. Cómo funciona y cómo cuida tu crédito:
+
+- **Asíncrono**: dispara un *snapshot* con todos los grupos, espera hasta `BRIGHTDATA_WAIT_SECONDS` (7 min) y descarga. Si Bright Data
+  tarda más, guarda el `snapshot_id` en `data/state.json` y lo **retoma en la corrida siguiente** (sin disparar ni pagar de nuevo).
+- **Solo posts nuevos**: filtra por fecha (`BRIGHTDATA_DAYS_BACK=1` → desde ayer) y envía los IDs ya vistos en `posts_to_not_include`.
+- **Tope mensual**: cuenta los registros entregados y deja de disparar al llegar a `BRIGHTDATA_MONTHLY_RECORDS` (3000 ≈ $4.5).
+  Con 6 grupos × 4 posts × 4 veces/día ≈ 2900/mes. Para más grupos baja `BRIGHTDATA_POSTS_PER_GROUP` o sube el intervalo.
+- **Apify queda para la búsqueda global** por palabra clave (`FACEBOOK_SEARCH_*`) y X. El scraper de grupos de Apify (`FACEBOOK_ENABLED`)
+  queda **apagado** para no pagar dos veces por los mismos grupos.
+- Si Bright Data no responde o un snapshot falla, te llega un aviso por ntfy (máx. 1 cada 6 h) y el resto de fuentes sigue normal.
+- `python main.py --stats` muestra los registros usados en el mes y si hay un snapshot pendiente.
+- Prueba sin notificar: `python main.py --once --force --dry-run --sources fbgroups` (gasta ~24 registros ≈ $0.04).
+
 ## 7. Costos y presupuesto de Apify (importante)
 
 Precios medidos en el POC: **Facebook ≈ $0.0045 por post leído**, **LinkedIn ≈ $0.0012 por post**, **X gratis** (límite ~50 runs/mes en cuenta free).
@@ -190,7 +209,7 @@ Si se agota, clasifica solo por keywords y lo marca en la notificación.
 
 ## 8. Afinar el bot
 
-- **Grupos de Facebook** (`FACEBOOK_GROUPS`): deben ser **públicos**. Los mejores para leads no son grupos de programadores sino de
+- **Grupos de Facebook** (`BRIGHTDATA_GROUPS`): deben ser **públicos**. Los mejores para leads no son grupos de programadores sino de
   **emprendedores / negocios / tu ciudad** ("Emprendedores Perú", "Negocios Lima", "Compra y venta Arequipa"). Copia la URL del grupo tal cual.
 - **Keywords LinkedIn** (`LINKEDIN_KEYWORDS`): frases que diría un cliente: `busco desarrollador`, `necesito un sistema`, `cotización página web`.
   (La búsqueda de LinkedIn vía Apify es la de menor calidad: espera ruido.)
@@ -216,6 +235,7 @@ dev-lead-hunter/
 │   ├── base.py             # Post / Source
 │   ├── freelancer.py       # API pública
 │   ├── reddit.py           # JSON público (tolerante a 403)
+│   ├── brightdata_facebook.py # Bright Data Web Scraper API (grupos de Facebook, asincrono + tope mensual)
 │   ├── apify_base.py       # cliente Apify + budget guard real
 │   ├── apify_facebook.py   # apify/facebook-groups-scraper
 │   ├── apify_linkedin.py   # datadoping/linkedin-posts-search-scraper

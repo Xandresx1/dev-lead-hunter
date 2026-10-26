@@ -37,9 +37,15 @@ class Source:
     interval_minutes: int = 60
     is_request_source: bool = False  # True si TODO lo que devuelve son pedidos de trabajo (ej. Freelancer)
     uses_apify: bool = False
+    paid: bool = False  # True si cada post leido cuesta dinero (Apify, Bright Data)
+    storage = None  # lo inyecta Hunter; permite a la fuente guardar estado entre corridas (ej. snapshot pendiente)
 
     def fetch(self) -> list[Post]:  # pragma: no cover - interface
         raise NotImplementedError
+
+    def is_due(self, last_run: float | None, now: float) -> bool:
+        """Toca ejecutar? Por defecto respeta interval_minutes. Las fuentes pueden forzar (ej. trabajo pendiente)."""
+        return last_run is None or now - last_run >= self.interval_minutes * 60
 
     def __repr__(self) -> str:
         return f"<{self.__class__.__name__} every {self.interval_minutes}m>"

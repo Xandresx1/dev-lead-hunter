@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow"><title>Telemarketing Performance Dashboard App</title>
+<style>
+:root{--c:#1e88e5;}
+*{box-sizing:border-box}body{margin:0;background:#0f141b;color:#e6edf3;font:15px/1.55 -apple-system,Segoe UI,Roboto,Inter,sans-serif}
+.wrap{max-width:720px;margin:0 auto;padding:18px 16px 60px}
+.src{display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--c);border:1px solid var(--c);border-radius:999px;padding:4px 10px}
+h1{color:var(--c);font-size:22px;line-height:1.25;margin:12px 0 6px}
+.meta{color:#94a3b8;font-size:13px;margin-bottom:14px}
+.card{background:#161d27;border:1px solid #243041;border-radius:14px;padding:16px;margin:12px 0}
+.card h2{margin:0 0 10px;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:#94a3b8}
+.kpis{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.kpi{background:#0f141b;border:1px solid #243041;border-radius:12px;padding:12px;text-align:center}
+.kpi b{display:block;font-size:24px;color:var(--c)}.kpi span{font-size:12px;color:#94a3b8}
+.content{font-weight:700;white-space:pre-wrap;word-wrap:break-word}
+.proposal{white-space:pre-wrap;word-wrap:break-word;font-weight:600}
+.muted{color:#94a3b8;font-size:13px}
+.btn{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;padding:14px;border-radius:12px;border:0;font-weight:700;font-size:16px;cursor:pointer;background:var(--c);color:#fff;margin-top:10px}
+.btn.alt{background:#243041;color:#e6edf3}
+.btn:active{transform:scale(.99)}
+.toast{position:fixed;left:50%;bottom:22px;transform:translateX(-50%);background:#22c55e;color:#06130a;font-weight:700;padding:10px 16px;border-radius:999px;opacity:0;transition:opacity .2s}
+.toast.show{opacity:1}
+a{color:var(--c)}
+</style></head><body><div class="wrap">
+<span class="src">🔵 Freelancer &middot; Lead 90/100</span>
+<h1>Telemarketing Performance Dashboard App</h1>
+<div class="meta">Una empresa necesita una aplicacion de panel de rendimiento de telemarketing para carga de datos, metricas por rol y visuales.</div>
+<div class="card"><h2>Mensaje sugerido para abrir</h2><div class="proposal">Hi, I can help you build this telemarketing performance dashboard app with custom roles and real-time metrics. Let&#x27;s discuss your requirements.</div><button class="btn" onclick="copyOpener()">📋 Copiar mensaje</button></div>
+<div class="card"><h2>Publicación original</h2><div class="content">Telemarketing Performance Dashboard App
+I need an easy-to-use application that lets our designated person (the preference would be for each employee to be able to input their own data into the app) to upload a weekly spreadsheet and instantly see how their telemarketing campaigns are performing. The primary goal is to surface the exact figures entered for each project so project leaders can judge progress in real time and make quick adjustments without digging through raw data.
+
+Once a file is imported or individuals have inputted their data, the dashboard has to break the numbers down by individual and role, by team and by campaign, highlighting:
+
+Market Information Team:
+
+• time spent on MI and Number of Decision Maker records generated for each project they work on.
+
+Telemarketing Team
+
+Leads and appointments set, and overall conversions per hour on the project 
+• caller activity statistics such as calls to Decision Makers, Leads provided and whether daily, weekly and monthly targets were hit .
+
+The app should enable project leaders to log their key daily, weekly and monthly management activities and provide the project leader with reminders and overdue prompts. And provide a dashboard for Individual market researchers, telemarketers, Project Leaders, Senior managers and bespoke dashboards for individual clients/projects.
+
+Clean visual summaries (tables, charts, or both) are essential so leaders can spot trends at a glance. The import process should accept a simple CSV or XLSX template but if would be preferable for users to be able to input their own data directly, map the columns automatically, and store the data so historical comparisons are possible.
+
+Deliverables  
+• A working web or cross-platform app with secure login  
+• Spreadsheet import module with mapping and validation  
+• Real-time dashboard displaying the metrics above, filterable by date range, team, and campaign  
+• Basic admin area to manage users and tweak target figures
+
+I’m happy to clarify the spreadsheet format, desired stack, or any edge cases once the build approach is outlined.
+Presupuesto: 18.0-36.0 GBP
+Skills: Data Entry, Telemarketing, Sales, Leads</div>
+<a class="btn alt" href="https://www.freelancer.com/projects/telemarketing/Telemarketing-Performance-Dashboard-App" target="_blank" rel="noopener">Abrir publicación en Freelancer</a></div>
+<div class="muted">Generado 2026-10-27 07:48 &middot; Dev Lead Hunter</div>
+<div class="toast" id="toast">Copiado</div>
+<textarea id="clip" style="position:fixed;left:-9999px;top:0"></textarea>
+<script>
+const DATA={"proposal": "", "opener": "Hi, I can help you build this telemarketing performance dashboard app with custom roles and real-time metrics. Let's discuss your requirements.", "question": ""};
+function toast(t){const e=document.getElementById('toast');e.textContent=t;e.classList.add('show');setTimeout(()=>e.classList.remove('show'),1600);}
+async function copyText(t,label){try{await navigator.clipboard.writeText(t);toast(label||'Copiado');}catch(e){const ta=document.getElementById('clip');ta.value=t;ta.select();document.execCommand('copy');toast(label||'Copiado');}}
+function copyProposal(){copyText(DATA.proposal,'Propuesta copiada');}
+function copyOpener(){copyText(DATA.opener,'Mensaje copiado');}
+function copyAll(){copyText(DATA.proposal+"\n\n"+(DATA.question?('Pregunta: '+DATA.question):''),'Todo copiado');}
+</script></div></body></html>

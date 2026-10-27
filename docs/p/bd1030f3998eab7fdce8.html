@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow"><title>Modern Rebuild for JSMA.com</title>
+<style>
+:root{--c:#1e88e5;}
+*{box-sizing:border-box}body{margin:0;background:#0f141b;color:#e6edf3;font:15px/1.55 -apple-system,Segoe UI,Roboto,Inter,sans-serif}
+.wrap{max-width:720px;margin:0 auto;padding:18px 16px 60px}
+.src{display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--c);border:1px solid var(--c);border-radius:999px;padding:4px 10px}
+h1{color:var(--c);font-size:22px;line-height:1.25;margin:12px 0 6px}
+.meta{color:#94a3b8;font-size:13px;margin-bottom:14px}
+.card{background:#161d27;border:1px solid #243041;border-radius:14px;padding:16px;margin:12px 0}
+.card h2{margin:0 0 10px;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:#94a3b8}
+.kpis{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.kpi{background:#0f141b;border:1px solid #243041;border-radius:12px;padding:12px;text-align:center}
+.kpi b{display:block;font-size:24px;color:var(--c)}.kpi span{font-size:12px;color:#94a3b8}
+.content{font-weight:700;white-space:pre-wrap;word-wrap:break-word}
+.proposal{white-space:pre-wrap;word-wrap:break-word;font-weight:600}
+.muted{color:#94a3b8;font-size:13px}
+.btn{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;padding:14px;border-radius:12px;border:0;font-weight:700;font-size:16px;cursor:pointer;background:var(--c);color:#fff;margin-top:10px}
+.btn.alt{background:#243041;color:#e6edf3}
+.btn:active{transform:scale(.99)}
+.toast{position:fixed;left:50%;bottom:22px;transform:translateX(-50%);background:#22c55e;color:#06130a;font-weight:700;padding:10px 16px;border-radius:999px;opacity:0;transition:opacity .2s}
+.toast.show{opacity:1}
+a{color:var(--c)}
+</style></head><body><div class="wrap">
+<span class="src">🔵 Freelancer &middot; Lead 90/100</span>
+<h1>Modern Rebuild for JSMA.com</h1>
+<div class="meta">Dueño de JSMA.com necesita rediseñar y reconstruir su sitio web desactualizado con un CMS fácil de usar y opción multilingüe en español.</div>
+<div class="card"><h2>Mensaje sugerido para abrir</h2><div class="proposal">Hi! I saw your project to rebuild JSMA.com. I specialize in modern, responsive web redesigns with easy-to-manage CMS and multilingual support. I&#x27;d love to help.</div><button class="btn" onclick="copyOpener()">📋 Copiar mensaje</button></div>
+<div class="card"><h2>Publicación original</h2><div class="content">Modern Rebuild for JSMA.com
+My current site, www.jsma.com, has out-grown its original WordPress template—the controls are broken and the look feels dated. I want the whole site rebuilt so it feels fresh, contemporary, and responsive on every device while still letting me manage content without technical headaches.
+
+Platform &amp; editing
+The new build must sit on a website builder that offers free core updates. WordPress remains an option, yet I’m open to builders that are genuinely easier to edit (Webflow, Wix Studio, Squarespace 7.1, etc.). Whatever you recommend, show me how simple it will be for me to tweak copy or swap photos later.
+
+Design direction
+The primary goal is a more modern look and feel: clean lines, generous white space, intuitive navigation, and strong calls-to-action that guide visitors to enquire. I’m not attached to the current template—replace it entirely. Key pages can stay in place conceptually, but they may need new layouts or reorganised content to match the refreshed design.
+
+International reach
+Please include an optional Spanish version toggle. If the chosen platform supports native multilingual tools (e.g., Weglot, Polylang, Squarespace Translate), note that in your plan.
+
+Hosting
+I’m likely to move away from the current host, so advise on a reliable alternative that pairs well with the builder you propose.
+
+Submission notes
+Show me past work that proves you can:
+• Transform an outdated site into a modern, mobile-friendly one  
+• Implement user-friendly editors or CMS collections  
+• Add multilingual capability cleanly  
+
+A short outline of your approach and estimated timeline will help me visualise next steps.
+Presupuesto: 8.0-15.0 USD
+Skills: Website Design, HTML, Webflow, Web Design, Website Development</div>
+<a class="btn alt" href="https://www.freelancer.com/projects/web-design/Modern-Rebuild-for-JSMA-com" target="_blank" rel="noopener">Abrir publicación en Freelancer</a></div>
+<div class="muted">Generado 2026-10-27 17:21 &middot; Dev Lead Hunter</div>
+<div class="toast" id="toast">Copiado</div>
+<textarea id="clip" style="position:fixed;left:-9999px;top:0"></textarea>
+<script>
+const DATA={"proposal": "", "opener": "Hi! I saw your project to rebuild JSMA.com. I specialize in modern, responsive web redesigns with easy-to-manage CMS and multilingual support. I'd love to help.", "question": ""};
+function toast(t){const e=document.getElementById('toast');e.textContent=t;e.classList.add('show');setTimeout(()=>e.classList.remove('show'),1600);}
+async function copyText(t,label){try{await navigator.clipboard.writeText(t);toast(label||'Copiado');}catch(e){const ta=document.getElementById('clip');ta.value=t;ta.select();document.execCommand('copy');toast(label||'Copiado');}}
+function copyProposal(){copyText(DATA.proposal,'Propuesta copiada');}
+function copyOpener(){copyText(DATA.opener,'Mensaje copiado');}
+function copyAll(){copyText(DATA.proposal+"\n\n"+(DATA.question?('Pregunta: '+DATA.question):''),'Todo copiado');}
+</script></div></body></html>

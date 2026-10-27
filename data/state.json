@@ -1,5 +1,61 @@
 {
 "seen": [
+"freelancer:40789943",
+"freelancer:40789946",
+"freelancer:40789953",
+"freelancer:40789973",
+"freelancer:40789988",
+"freelancer:40790023",
+"freelancer:40790039",
+"freelancer:40790060",
+"freelancer:40790063",
+"freelancer:40790045",
+"freelancer:40790079",
+"freelancer:40790088",
+"freelancer:40790089",
+"freelancer:40790104",
+"freelancer:40790106",
+"freelancer:40790107",
+"freelancer:40790117",
+"freelancer:40790119",
+"freelancer:40790130",
+"freelancer:40790131",
+"freelancer:40790146",
+"freelancer:40790142",
+"freelancer:40790140",
+"freelancer:40790150",
+"freelancer:40790152",
+"freelancer:40790157",
+"freelancer:40790165",
+"freelancer:40790166",
+"freelancer:40790173",
+"freelancer:40790170",
+"facebook:2501523583926614",
+"facebook:29001760446097010",
+"facebook:122108002941511030",
+"facebook:122113692399492182",
+"facebook:4704119999834881",
+"facebook:1764693311250074",
+"facebook:10240744547285008",
+"facebook:1877233593446172",
+"facebook:2507557559989883",
+"facebook:2199563084277811",
+"facebook:1407563904695264",
+"facebook:122184912596856044",
+"facebook:1137927508888481",
+"facebook:2507641206648185",
+"facebook:2507961619949477",
+"facebook:122116308087492101",
+"facebook:2507848143294158",
+"facebook:2507733393305633",
+"facebook:1441294564757756",
+"facebook:2508010686611237",
+"facebook:39636690289279794",
+"facebook:1767431924523222",
+"facebook:1138768969100453",
+"facebook:1627499418591465",
+"facebook:1151264887272673",
+"facebook:3011009099234108",
 "freelancer:40789487",
 "freelancer:40789512",
 "freelancer:40789566",
@@ -758,55 +814,24 @@
 "facebook": 1793013059,
 "linkedin": 1792900970,
 "twitter": 1793105145,
-"freelancer": 1793125211,
-"reddit": 1793125211,
+"freelancer": 1793139761,
+"reddit": 1793139761,
 "fbgroups": 1793124950,
-"fbsearch": 1793082253
+"fbsearch": 1793139640
 },
 "counters": {
 "gemini:2026-10-25": 260.0,
 "gemini:2026-10-26": 180.0,
 "brightdata:records:2026-10": 78.0,
-"gemini:2026-10-27": 128.0
+"gemini:2026-10-27": 163.0
 },
 "leads": [],
 "stats": {
-"leads_total": 9,
-"seen_total": 753,
+"leads_total": 11,
+"seen_total": 809,
 "pending_proposals": 10
 },
 "pending_proposals": [
-{
-"id": "freelancer:40786308",
-"payload": {
-"id": "freelancer:40786308",
-"source": "freelancer",
-"title": "Desarrollo de Web App B2B (Catálogo y Pedidos) para Tablets en Establecimientos Comerciales",
-"text": "Hola. Busco un desarrollador o especialista en plataformas No-Code / Web Apps ágiles para crear una aplicación de pedidos B2B minimalista y de uso autónomo. \n\nEl objetivo del proyecto es colocar una tablet en los establecimientos de nuestros clientes (sector productos de limpieza) para que el encargado de compras realice pedidos de reposición de forma directa, eliminando la necesidad de vendedores en campo.\n\n---\n\n### Alcance del Catálogo:\n* **Catálogo compacto de 11 productos** de limpieza.\n* Cada producto cuenta con **dos presentaciones fijas: Litro y Galón** (el cliente debe poder elegir la cantidad de litros o de galones que necesita para cada uno de los 11 productos).\n* **Dinámica de despacho:** Los pedidos se consolidan para **salidas semanales**, por lo que la app debe mostrar claramente el flujo o la confirmación de la programación de su entrega.\n\n---\n\n### Flujo y Pantallas Principales de la App:\n1. **Pantalla de Inicio / Catálogo Visual:** \n   - Visualización limpia de los 11 productos organizados por categorías o en una cuadrícula rápida.\n   - Tarjetas con foto real, nombre del producto y selectores claros para elegir presentación (**Litro vs. Galón**).\n2. **Carrito de Compras:**\n   - Botones rápidos de sumar/restar (+) (-) para ajustar cantidades en la presentación seleccionada.\n   - Carrito flotante visible en todo momento con el resumen del pedido consolidado.\n3. **Checkout / Envío de Pedido:**\n   - Botón de confirmación rápida (\"Enviar Pedido para Próximo Despacho\").\n   - Mensaje de confirmación en pantalla y generación automática de la orden.\n4. **Panel de Estatus:**\n   - Una vista sencilla donde el cliente vea el estatus de su pedido semanal (Recibido ➔ En preparación ➔ En camino / Despachado).\n\n---\n\n###  Requerimientos Técnicos y Arquitectura:\n* **Tecnología sugerida:** Preferiblemente No-Code (Glide, Bubble) o una Web App / PWA ligera que corra fluidamente desde el navegador de una tablet Android económica.\n* **Base de Datos:** Debe conectarse a una base de datos central (Google Sheets o base de datos nativa) para actualizar inventarios, precios y recibir los pedidos en tiempo real.\n* **Panel de Administración (Backoffice):** Un panel interno para nuestro equipo donde podamos ver los pedidos consolidados de la semana, cambiarles el estatus y gestionar el catálogo de productos (precios, stock, fotos).\n* **Modo Kiosco / Seguridad:** La app debe correr a pantalla completa y ser fácil de bloquear en la tablet para evitar que el usuario salga a otras aplicaciones del dispositivo.\n\n---\n\n###  Entregables Esperados:\n1. Web App funcional probada en dispositivos móviles/tablets.\n2. Panel de administración operativo.\n3. Breve documentación o sesión de transferencia para saber cómo actualizar precios y productos nosotros mismos.\n\n---\nSi tienes experiencia previa creando catálogos B2B o apps de pedidos, por favor compárteme ejemplos o links de proyectos similares en tu propuesta. ¡Gracias!\nPresupuesto: 10.0-30.0 USD\nSkills: Project Management, Agile Development, Data Visualization, API Integration, Payment Processing",
-"url": "https://www.freelancer.com/projects/payment-processing/Desarrollo-Web-App-Cat-logo",
-"author": "",
-"extra": {
-"bids": 21,
-"bid_avg": 42.95238095238095,
-"budget": "Presupuesto: 10.0-30.0 USD",
-"budget_min": 10.0,
-"budget_max": 30.0,
-"currency": "USD",
-"price_type": "fixed",
-"hourly_commitment": null,
-"escrow": false,
-"country": null,
-"lang": "es"
-},
-"language": "es",
-"score": 90,
-"summary": "Empresa del sector de productos de limpieza busca desarrollador para crear una web app B2B de pedidos en tablets.",
-"opener": "Hola, vi tu proyecto para la web app B2B de pedidos en tablets y tengo experiencia creando soluciones ágiles y Minimalistas. ¿Podemos conversar?",
-"location": null
-},
-"created": 1792958184,
-"attempts": 11
-},
 {
 "id": "freelancer:40786713",
 "payload": {
@@ -836,7 +861,7 @@
 "location": null
 },
 "created": 1792991736,
-"attempts": 0
+"attempts": 1
 },
 {
 "id": "freelancer:40787894",
@@ -1084,6 +1109,37 @@
 "location": null
 },
 "created": 1793125211,
+"attempts": 0
+},
+{
+"id": "freelancer:40790060",
+"payload": {
+"id": "freelancer:40790060",
+"source": "freelancer",
+"title": "App Bíblica Multiplataforma",
+"text": "Deseo desarrollar una aplicación que permita leer la Biblia por libros y capítulos de forma clara y cómoda en dispositivos Android y iPhone.  \n\nAlcance principal  \n• Pantalla de selección de libro y capítulo con navegación intuitiva.  \n• Lectura fluida del texto bíblico, con opción de ajustar fuente y modo oscuro.  \n• Marcadores y favoritos básicos para que el usuario retome fácilmente su lectura.  \n• Sincronización de progreso entre Android e iOS usando un backend ligero (Firebase o similar).  \n• Publicación en Google Play y App Store, listas para descarga.\n\nQué espero recibir  \n– Código fuente completo y bien documentado.  \n– Paquetes instalables (APK y archivo IPA/TestFlight).  \n– Breve guía de despliegue y mantenimiento.\n\nPara tu propuesta  \nEnvíame una propuesta detallada del proyecto que incluya la arquitectura sugerida, tecnología recomendada (React Native, Flutter o nativo), fases de trabajo y tiempo estimado. También agradezco enlaces a proyectos similares si los tienes.\n\nBusco una solución robusta pero sencilla, lista para iterar en futuras versiones con planes de estudio y devocionales.\nPresupuesto: 250.0-750.0 USD\nSkills: Mobile App Development, iPhone, Android, iPad, App Design, React Native",
+"url": "https://www.freelancer.com/projects/react-native/App-blica-Multiplataforma",
+"author": "",
+"extra": {
+"bids": 132,
+"bid_avg": 421.18939393939394,
+"budget": "Presupuesto: 250.0-750.0 USD",
+"budget_min": 250.0,
+"budget_max": 750.0,
+"currency": "USD",
+"price_type": "fixed",
+"hourly_commitment": null,
+"escrow": false,
+"country": null,
+"lang": "es"
+},
+"language": "es",
+"score": 90,
+"summary": "Cliente busca desarrollador para crear app bíblica multiplataforma (Android e iOS) con backend ligero y publicación en tiendas.",
+"opener": "Hola, vi tu proyecto de la app bíblica multiplataforma y tengo experiencia en desarrollo móvil con Flutter y React Native.",
+"location": null
+},
+"created": 1793139730,
 "attempts": 0
 }
 ],

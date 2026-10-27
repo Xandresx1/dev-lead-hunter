@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow"><title>Automatización NBA 1Q en Google Sheets</title>
+<style>
+:root{--c:#1e88e5;}
+*{box-sizing:border-box}body{margin:0;background:#0f141b;color:#e6edf3;font:15px/1.55 -apple-system,Segoe UI,Roboto,Inter,sans-serif}
+.wrap{max-width:720px;margin:0 auto;padding:18px 16px 60px}
+.src{display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--c);border:1px solid var(--c);border-radius:999px;padding:4px 10px}
+h1{color:var(--c);font-size:22px;line-height:1.25;margin:12px 0 6px}
+.meta{color:#94a3b8;font-size:13px;margin-bottom:14px}
+.card{background:#161d27;border:1px solid #243041;border-radius:14px;padding:16px;margin:12px 0}
+.card h2{margin:0 0 10px;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:#94a3b8}
+.kpis{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.kpi{background:#0f141b;border:1px solid #243041;border-radius:12px;padding:12px;text-align:center}
+.kpi b{display:block;font-size:24px;color:var(--c)}.kpi span{font-size:12px;color:#94a3b8}
+.content{font-weight:700;white-space:pre-wrap;word-wrap:break-word}
+.proposal{white-space:pre-wrap;word-wrap:break-word;font-weight:600}
+.muted{color:#94a3b8;font-size:13px}
+.btn{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;padding:14px;border-radius:12px;border:0;font-weight:700;font-size:16px;cursor:pointer;background:var(--c);color:#fff;margin-top:10px}
+.btn.alt{background:#243041;color:#e6edf3}
+.btn:active{transform:scale(.99)}
+.toast{position:fixed;left:50%;bottom:22px;transform:translateX(-50%);background:#22c55e;color:#06130a;font-weight:700;padding:10px 16px;border-radius:999px;opacity:0;transition:opacity .2s}
+.toast.show{opacity:1}
+a{color:var(--c)}
+</style></head><body><div class="wrap">
+<span class="src">🔵 Freelancer &middot; Lead 90/100</span>
+<h1>Automatización NBA 1Q en Google Sheets</h1>
+<div class="meta">Cliente busca un desarrollador para automatizar Google Sheets conectándolo a una API de la NBA para análisis de apuestas del primer cuarto.</div>
+<div class="card"><h2>Mensaje sugerido para abrir</h2><div class="proposal">Hola, vi tu proyecto para automatizar Google Sheets con la API de la NBA y me interesa mucho. Tengo experiencia con Apps Script y APIs, ¿podemos conversar?</div><button class="btn" onclick="copyOpener()">📋 Copiar mensaje</button></div>
+<div class="card"><h2>Publicación original</h2><div class="content">Automatización NBA 1Q en Google Sheets
+TÍTULO DEL PROYECTO:
+Google Sheets automatizado con API NBA: tablas por cuarto, cálculo de total y hándicap del 1er cuarto
+
+DESCRIPCIÓN DEL PROYECTO:
+Necesito un archivo de Google Sheets totalmente automatizado para analizar apuestas de la NBA, centrado en el primer cuarto (1Q). No tengo conocimientos técnicos. El freelancer debe encargarse de toda la configuración, conexión, fórmulas y puesta en marcha. Mi único trabajo diario será abrir el archivo, pulsar actualizar, escribir la línea de la casa de apuestas y leer el resultado. No quiero copiar y pegar datos ni tocar fórmulas.
+
+PARTE 1: CONEXIÓN AUTOMÁTICA A UNA API GRATUITA DE LA NBA
+Usar una API gratuita y estable, preferiblemente ESPN (endpoints públicos sin clave) o balldontlie.io (tier gratuito). El freelancer puede elegir la que considere más fiable y debe documentar la URL usada.
+Al pulsar un botón o abrir el archivo, el script de Apps Script debe refrescar automáticamente estas tablas:
+
+1. Partidos del día: equipos, fecha, hora y estado del partido.
+2. Boxscore por cuarto: puntos de cada equipo en 1Q, 2Q, 3Q y 4Q. Es imprescindible que traiga los puntos de ambos equipos en cada partido, no solo de uno.
+3. Estadísticas por jugador: jugador, equipo, minutos, puntos y faltas, filtrable por cuarto si la fuente lo permite.
+4. Tabla de referencia de los 30 equipos, generada automáticamente desde la API o precargada una sola vez. No debo escribirla a mano.
+
+PARTE 2: CÁLCULOS AUTOMÁTICOS DEL PRIMER CUARTO
+El freelancer debe dejar montadas las fórmulas para que, dados los últimos 15 partidos de cada equipo, la hoja calcule sola:
+
+· Media de puntos anotados en 1Q por el Equipo A.
+· Media de puntos permitidos en 1Q por el Equipo A (puntos del rival en esos mismos partidos).
+· Media de puntos anotados en 1Q por el Equipo B.
+· Media de puntos permitidos en 1Q por el Equipo B.
+· Puntos esperados de A = (media anotada de A + media permitida de B) / 2.
+· Puntos esperados de B = (media anotada de B + media permitida de A) / 2.
+· Total 1Q esperado = puntos esperados de A + puntos esperados de B.
+· Hándicap 1Q esperado = puntos esperados de A − puntos esperados de B.
+  La ventana móvil debe ser configurable (por defecto 15 partidos), para poder cambiarla sin tocar fórmulas.
+
+PARTE 3: COMPARACIÓN CON LA LÍNEA DE LA CASA Y SEMÁFORO DE VALOR
+En una hoja de Resultados debe haber:
+
+· Una columna vacía para que yo escriba la línea de Total 1Q de la casa de apuestas.
+· Una columna vacía para que yo escriba la línea de Hándicap 1Q de la casa de apuestas.
+· Una celda que calcule la diferencia entre mi estimación y la línea.
+· Un semáforo automático con formato condicional: verde si la diferencia absoluta es de 2 puntos o más (POSIBLE VALOR), rojo si es menor (SIN VALOR). Lo mismo para el total y para el hándicap.
+
+PARTE 4: INTERFAZ SENCILLA
+Una hoja Resultados donde se vea claramente, para el partido del día:
+
+· Equipos que juegan.
+· Total 1Q esperado.
+· Hándicap 1Q esperado.</div>
+<a class="btn alt" href="https://www.freelancer.com/projects/google-sheets/Automatizaci-NBA-Google-Sheets" target="_blank" rel="noopener">Abrir publicación en Freelancer</a></div>
+<div class="muted">Generado 2026-10-27 13:19 &middot; Dev Lead Hunter</div>
+<div class="toast" id="toast">Copiado</div>
+<textarea id="clip" style="position:fixed;left:-9999px;top:0"></textarea>
+<script>
+const DATA={"proposal": "", "opener": "Hola, vi tu proyecto para automatizar Google Sheets con la API de la NBA y me interesa mucho. Tengo experiencia con Apps Script y APIs, ¿podemos conversar?", "question": ""};
+function toast(t){const e=document.getElementById('toast');e.textContent=t;e.classList.add('show');setTimeout(()=>e.classList.remove('show'),1600);}
+async function copyText(t,label){try{await navigator.clipboard.writeText(t);toast(label||'Copiado');}catch(e){const ta=document.getElementById('clip');ta.value=t;ta.select();document.execCommand('copy');toast(label||'Copiado');}}
+function copyProposal(){copyText(DATA.proposal,'Propuesta copiada');}
+function copyOpener(){copyText(DATA.opener,'Mensaje copiado');}
+function copyAll(){copyText(DATA.proposal+"\n\n"+(DATA.question?('Pregunta: '+DATA.question):''),'Todo copiado');}
+</script></div></body></html>

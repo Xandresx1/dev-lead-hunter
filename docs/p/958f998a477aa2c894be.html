@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow"><title>Hospital Operations Web App Development</title>
+<style>
+:root{--c:#1e88e5;}
+*{box-sizing:border-box}body{margin:0;background:#0f141b;color:#e6edf3;font:15px/1.55 -apple-system,Segoe UI,Roboto,Inter,sans-serif}
+.wrap{max-width:720px;margin:0 auto;padding:18px 16px 60px}
+.src{display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--c);border:1px solid var(--c);border-radius:999px;padding:4px 10px}
+h1{color:var(--c);font-size:22px;line-height:1.25;margin:12px 0 6px}
+.meta{color:#94a3b8;font-size:13px;margin-bottom:14px}
+.card{background:#161d27;border:1px solid #243041;border-radius:14px;padding:16px;margin:12px 0}
+.card h2{margin:0 0 10px;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:#94a3b8}
+.kpis{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.kpi{background:#0f141b;border:1px solid #243041;border-radius:12px;padding:12px;text-align:center}
+.kpi b{display:block;font-size:24px;color:var(--c)}.kpi span{font-size:12px;color:#94a3b8}
+.content{font-weight:700;white-space:pre-wrap;word-wrap:break-word}
+.proposal{white-space:pre-wrap;word-wrap:break-word;font-weight:600}
+.muted{color:#94a3b8;font-size:13px}
+.btn{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;padding:14px;border-radius:12px;border:0;font-weight:700;font-size:16px;cursor:pointer;background:var(--c);color:#fff;margin-top:10px}
+.btn.alt{background:#243041;color:#e6edf3}
+.btn:active{transform:scale(.99)}
+.toast{position:fixed;left:50%;bottom:22px;transform:translateX(-50%);background:#22c55e;color:#06130a;font-weight:700;padding:10px 16px;border-radius:999px;opacity:0;transition:opacity .2s}
+.toast.show{opacity:1}
+a{color:var(--c)}
+</style></head><body><div class="wrap">
+<span class="src">🔵 Freelancer &middot; Lead 90/100</span>
+<h1>Hospital Operations Web App Development</h1>
+<div class="meta">Una clínica u hospital necesita una aplicación web segura para gestionar operaciones, camas, expedientes de pacientes y facturación con control de accesos.</div>
+<div class="card"><h2>Mensaje sugerido para abrir</h2><div class="proposal">Hi there! I saw your project description for the hospital operations web app. I have solid experience building secure, role-based web systems with strict privacy standards. Let&#x27;s discuss your requirements.</div><button class="btn" onclick="copyOpener()">📋 Copiar mensaje</button></div>
+<div class="card"><h2>Publicación original</h2><div class="content">Hospital Operations Web App Development
+I want to replace our scattered spreadsheets and legacy software with one secure, browser-based application that keeps the whole hospital running smoothly. The core focus is on the operational side—assigning staff, managing rooms and beds, tracking hospitalisations, handling prescriptions, and giving management clear oversight of daily activity.
+
+Alongside those workflows, the same system must store full patient records: medical history, visit notes, prescriptions, test results, plus all billing and insurance information in one place. Different user groups will see only what they need: doctors and nurses for clinical data entry, reception and billing staff for scheduling and invoicing, and hospital managers or administrators for high-level dashboards and analytics.
+
+Key elements I expect:
+• Intuitive, role-based dashboards (doctors/nurses, reception/billing, managers).  
+• CRUD interfaces for staff rosters, room/bed allocation, prescriptions, and hospitalisation logs.  
+• Patient record modules covering history, notes, lab results, prescriptions, billing, and insurance.  
+• Searchable audit trail for every change.  
+• Secure login (preferably JWT or OAuth2), granular permission matrix, and HIPAA-grade encryption at rest and in transit.  
+• Responsive UI so clinicians can open it on tablets at the bedside.  
+• Clear documentation and a deployment script (Docker or similar) so IT can host the solution on-prem or in the cloud.
+
+I’m open on the stack—if you prefer MERN, Django + React, or Laravel + Vue, outline why it fits best, along with database choice (PostgreSQL, MySQL, or MongoDB). Include any relevant libraries for charts, calendar scheduling, or PDF generation for discharge summaries.
+
+Deliverables will be: 
+1. A fully functional web application meeting the specs above.  
+2. Source code in a private Git repo with commit history.  
+3. Setup instructions and environment files.  
+4. A short hand-over session (video call or recorded demo) walking through deployment and key features.  
+
+Please estimate timeline and milestones, highlight similar hospital or clinic systems you’ve built, and mention any compliance experience you can bring to the project.
+Presupuesto: 750.0-1500.0 CAD
+Skills: JavaScript, Django, Node.js, Database Development, React.js, Web Development</div>
+<a class="btn alt" href="https://www.freelancer.com/projects/api-developmet/Hospital-Operations-Web-App-Development" target="_blank" rel="noopener">Abrir publicación en Freelancer</a></div>
+<div class="muted">Generado 2026-10-28 18:54 &middot; Dev Lead Hunter</div>
+<div class="toast" id="toast">Copiado</div>
+<textarea id="clip" style="position:fixed;left:-9999px;top:0"></textarea>
+<script>
+const DATA={"proposal": "", "opener": "Hi there! I saw your project description for the hospital operations web app. I have solid experience building secure, role-based web systems with strict privacy standards. Let's discuss your requirements.", "question": ""};
+function toast(t){const e=document.getElementById('toast');e.textContent=t;e.classList.add('show');setTimeout(()=>e.classList.remove('show'),1600);}
+async function copyText(t,label){try{await navigator.clipboard.writeText(t);toast(label||'Copiado');}catch(e){const ta=document.getElementById('clip');ta.value=t;ta.select();document.execCommand('copy');toast(label||'Copiado');}}
+function copyProposal(){copyText(DATA.proposal,'Propuesta copiada');}
+function copyOpener(){copyText(DATA.opener,'Mensaje copiado');}
+function copyAll(){copyText(DATA.proposal+"\n\n"+(DATA.question?('Pregunta: '+DATA.question):''),'Todo copiado');}
+</script></div></body></html>

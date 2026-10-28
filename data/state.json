@@ -1,5 +1,42 @@
 {
 "seen": [
+"freelancer:40791132",
+"freelancer:40791081",
+"freelancer:40791670",
+"freelancer:40791839",
+"freelancer:40791855",
+"freelancer:40791886",
+"freelancer:40791864",
+"freelancer:40791891",
+"freelancer:40791893",
+"freelancer:40791902",
+"freelancer:40791901",
+"freelancer:40791908",
+"freelancer:40791852",
+"freelancer:40791922",
+"freelancer:40791947",
+"freelancer:40791962",
+"freelancer:40791959",
+"freelancer:40791973",
+"freelancer:40791974",
+"freelancer:40791993",
+"freelancer:40791994",
+"freelancer:40791998",
+"freelancer:40792000",
+"freelancer:40755651",
+"freelancer:40792010",
+"freelancer:40792008",
+"freelancer:40792012",
+"freelancer:40792018",
+"freelancer:40792015",
+"freelancer:40792014",
+"freelancer:40792024",
+"freelancer:40792026",
+"freelancer:40792031",
+"freelancer:40792033",
+"freelancer:40792023",
+"freelancer:40792030",
+"freelancer:40792038",
 "freelancer:40790817",
 "freelancer:40790245",
 "freelancer:40791622",
@@ -979,10 +1016,10 @@
 "runs": {
 "facebook": 1793013059,
 "linkedin": 1792900970,
-"twitter": 1793172069,
-"freelancer": 1793217171,
-"reddit": 1793217171,
-"fbgroups": 1793197943,
+"twitter": 1793231582,
+"freelancer": 1793231733,
+"reddit": 1793231733,
+"fbgroups": 1793231571,
 "fbsearch": 1793198046
 },
 "counters": {
@@ -990,46 +1027,15 @@
 "gemini:2026-10-26": 180.0,
 "brightdata:records:2026-10": 120.0,
 "gemini:2026-10-27": 163.0,
-"gemini:2026-10-28": 104.0
+"gemini:2026-10-28": 138.0
 },
 "leads": [],
 "stats": {
-"leads_total": 3,
-"seen_total": 975,
+"leads_total": 4,
+"seen_total": 1012,
 "pending_proposals": 9
 },
 "pending_proposals": [
-{
-"id": "freelancer:40788158",
-"payload": {
-"id": "freelancer:40788158",
-"source": "freelancer",
-"title": "DESARROLLO WEB / SEO+SEM",
-"text": "DESARROLLO WEB\n\nMaquetación e-commerce simple Webflow/WordPress + Stripe\n\nTengo el diseño completo en PDF (Home + 3 internas). Busco freelance para maquetarlo y dejarlo funcionando con pagos.\n\n*Tareas exactas:*\n- Maquetación pixel perfect (carrusel infinito en home)\n- Flujo: Selector de plan  > Formulario briefing  > Subida de archivos drag&drop > Pago Stripe\n- Checkout con Stripe + email automático\n- Web ultra rápida (Core Web Vitals 90+), responsive y SEO-ready\n- No diseño, solo desarrollo\n\n*Stack abierto:* Webflow o WordPress Elementor + WooCommerce. Si propones http://Next.js, también lo valoro si justificas velocidad/precio.\n\n*Para aplicar:* Mándame 2 webs que hayas montado que carguen muy rápido + en qué stack lo harías tú.\n\n SEO + SEM\n\n*Título del proyecto:* SEO Freelance para e-commerce nuevo + Google Ads inicial \n\n*Descripción:*\nProyecto E-commerce recién lanzado. Nicho con competencia SEO muy antigua y posicionable.\n\n*Mes 1-2:*\n- Keyword research + arquitectura 4 URLs\n- Optimización On-Page + velocidad (carrusel)\n- Schema Product + Search Console\n- 4 artículos SEO long-tail\n- Montaje campaña inicial Google Ads Search \n\n*Objetivo claro:* 1 cliente/día orgánico (30/mes = 1.200 visitas). Con Ads ya rentable desde mes 1.\n\n*Requisitos:*\n- Portfolio con 2 casos reales de e-commerce posicionado (captura GSC)\n- Sin promesas de #1 en 1 mes\nPresupuesto: 30.0-250.0 EUR\nSkills: Website Design, SEO, WordPress, HTML, Stripe, WooCommerce",
-"url": "https://www.freelancer.com/projects/web-development/DESARROLLO-WEB-SEO-SEM",
-"author": "",
-"extra": {
-"bids": 134,
-"bid_avg": 127.93343283582091,
-"budget": "Presupuesto: 30.0-250.0 EUR",
-"budget_min": 30.0,
-"budget_max": 250.0,
-"currency": "EUR",
-"price_type": "fixed",
-"hourly_commitment": null,
-"escrow": false,
-"country": null,
-"lang": "es"
-},
-"language": "es",
-"score": 90,
-"summary": "Una empresa busca un freelance para maquetar un e-commerce en Webflow, WordPress o Next.js con integración de pagos de Stripe.",
-"opener": "Hola, vi tu proyecto para la maquetación del e-commerce y la integración con Stripe. Tengo experiencia desarrollando sitios web ultrarrápidos en WordPress y Webflow.",
-"location": null
-},
-"created": 1793051763,
-"attempts": 1
-},
 {
 "id": "freelancer:40789886",
 "payload": {
@@ -1059,7 +1065,7 @@
 "location": null
 },
 "created": 1793125072,
-"attempts": 0
+"attempts": 1
 },
 {
 "id": "freelancer:40789791",
@@ -1277,7 +1283,41 @@
 },
 "created": 1793172137,
 "attempts": 0
+},
+{
+"id": "freelancer:40791962",
+"payload": {
+"id": "freelancer:40791962",
+"source": "freelancer",
+"title": "Plataforma de Turismo y Experiencias Inmersivas",
+"text": "Buscamos un desarrollador o equipo de desarrollo de software para diseñar una APP de turismo, con un funcionamiento similar al de Airbnb Experiences. Requerimos una aplicación web responsive, escalable y adaptable a una futura aplicación móvil (iOS y Android), con arquitectura frontend/backend, base de datos y APIs REST o GraphQL. La plataforma debe incluir autenticación y gestión de usuarios (OAuth 2.0), perfiles diferenciados para usuarios y anfitriones, publicación y administración de experiencias con fotografías, descripciones, ubicación, precios y disponibilidad; motor de búsqueda con filtros por categoría, ubicación y fechas; geolocalización y mapas interactivos mediante Google Maps API o Mapbox; sistema de reservas con calendario y disponibilidad en tiempo real; integración de pasarelas de pago mediante APIs como Stripe, Mercado Pago o Wompi; notificaciones automáticas por correo electrónico y push (Firebase Cloud Messaging); sistema de valoraciones y reseñas, favoritos y paneles de administración para gestionar usuarios, experiencias y reservas. Se requiere una interfaz UX/UI intuitiva, visualmente atractiva y optimizada para dispositivos móviles, con infraestructura cloud, almacenamiento seguro de datos, integración de servicios externos y una arquitectura modular que permita incorporar nuevas funcionalidades progresivamente. Buscamos profesionales con experiencia en plataformas tipo marketplace, sistemas de reservas, integraciones API y desarrollo de aplicaciones escalables. Se requiere el desarrollo de un módulo de experiencias digitales inmersivas e interactivas, integrado a la plataforma principal, con capacidad de reproducción y sincronización de contenido multimedia (audio, imágenes, animaciones y recursos interactivos). El sistema deberá contar con infraestructura de almacenamiento en la nube (AWS S3, Google Cloud Storage o Firebase Storage), distribución de contenido mediante CDN y tecnologías de streaming para optimizar la carga y reproducción de archivos. Se contempla la implementación de motores de interacción basados en eventos, secuencias dinámicas y mecánicas de gamificación mediante tecnologías como HTML5, WebGL, Three.js o motores compatibles con entornos web. Adicionalmente, se requiere integración con APIs de respuesta háptica (Vibration API o funcionalidades nativas según compatibilidad del dispositivo), Web Audio API para procesamiento y sincronización de sonido, y sistemas de seguimiento del progreso e interacción del usuario. La arquitectura deberá permitir la administración de contenidos desde un CMS, la ejecución de experiencias interactivas sin instalaciones adicionales y la incorporación progresiva de nuevos módulos, garantizando compatibilidad multidispositivo, rendimiento, escalabilidad y una experiencia fluida.\nPresupuesto: 100000.0-None USD\nSkills: Mobile App Development, iPhone, Android, PhoneGap, UX / User Experience, Web Development",
+"url": "https://www.freelancer.com/projects/web-development/Plataforma-Turismo-Experiencias",
+"author": "",
+"extra": {
+"bids": 64,
+"bid_avg": 101629.1875,
+"budget": "Presupuesto: 100000.0-None USD",
+"budget_min": 100000.0,
+"budget_max": null,
+"currency": "USD",
+"price_type": "fixed",
+"hourly_commitment": null,
+"escrow": false,
+"country": null,
+"lang": "es"
+},
+"language": "es",
+"score": 90,
+"summary": "Una empresa busca un desarrollador o equipo para crear una plataforma web responsive de turismo estilo Airbnb Experiences con pasarela de pagos y mapas.",
+"opener": "Hola, vi su proyecto para la plataforma de turismo tipo Airbnb Experiences y me interesa mucho. Tengo experiencia en marketplaces, mapas y pasarelas de pago. ¿Podemos conversar?",
+"location": null
+},
+"created": 1793231675,
+"attempts": 0
 }
 ],
-"meta": {}
+"meta": {
+"brightdata:snapshot": "sd_mvsriz3q1hruvbkgr1",
+"brightdata:snapshot_ts": "1793231150"
+}
 }

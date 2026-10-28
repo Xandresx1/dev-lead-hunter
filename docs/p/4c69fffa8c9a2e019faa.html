@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow"><title>Raspberry Pi Locker System Gym</title>
+<style>
+:root{--c:#1e88e5;}
+*{box-sizing:border-box}body{margin:0;background:#0f141b;color:#e6edf3;font:15px/1.55 -apple-system,Segoe UI,Roboto,Inter,sans-serif}
+.wrap{max-width:720px;margin:0 auto;padding:18px 16px 60px}
+.src{display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--c);border:1px solid var(--c);border-radius:999px;padding:4px 10px}
+h1{color:var(--c);font-size:22px;line-height:1.25;margin:12px 0 6px}
+.meta{color:#94a3b8;font-size:13px;margin-bottom:14px}
+.card{background:#161d27;border:1px solid #243041;border-radius:14px;padding:16px;margin:12px 0}
+.card h2{margin:0 0 10px;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:#94a3b8}
+.kpis{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.kpi{background:#0f141b;border:1px solid #243041;border-radius:12px;padding:12px;text-align:center}
+.kpi b{display:block;font-size:24px;color:var(--c)}.kpi span{font-size:12px;color:#94a3b8}
+.content{font-weight:700;white-space:pre-wrap;word-wrap:break-word}
+.proposal{white-space:pre-wrap;word-wrap:break-word;font-weight:600}
+.muted{color:#94a3b8;font-size:13px}
+.btn{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;padding:14px;border-radius:12px;border:0;font-weight:700;font-size:16px;cursor:pointer;background:var(--c);color:#fff;margin-top:10px}
+.btn.alt{background:#243041;color:#e6edf3}
+.btn:active{transform:scale(.99)}
+.toast{position:fixed;left:50%;bottom:22px;transform:translateX(-50%);background:#22c55e;color:#06130a;font-weight:700;padding:10px 16px;border-radius:999px;opacity:0;transition:opacity .2s}
+.toast.show{opacity:1}
+a{color:var(--c)}
+</style></head><body><div class="wrap">
+<span class="src">🔵 Freelancer &middot; Lead 90/100</span>
+<h1>Raspberry Pi Locker System Gym</h1>
+<div class="meta">Un gimnasio busca un desarrollador con Raspberry Pi para construir un sistema de casilleros inteligentes con CAN bus y RFID.</div>
+<div class="card"><h2>Mensaje sugerido para abrir</h2><div class="proposal">Hi, I have experience with Raspberry Pi, CAN bus protocols, and hardware integration. I&#x27;d love to help you with the Phase 1 Proof of Concept for your smart lockers.</div><button class="btn" onclick="copyOpener()">📋 Copiar mensaje</button></div>
+<div class="card"><h2>Publicación original</h2><div class="content">Raspberry Pi Locker System Gym
+Raspberry Pi 4 Smart Locker System – CAN Bus, RFID and Automatic Lock Initialization
+
+1. Project Overview
+
+We are looking for an experienced developer to build a smart locker management system for a small fitness studio, using a Raspberry Pi 4, electronic locks, CAN bus communication, and RFID cards.
+
+Our existing electronic locks communicate via CAN bus and an API. We have identified the following GitHub repository as a starting point:
+
+GitHub repository: https://github.com/sigar-nxp/CAN
+
+We want to reuse existing functionality wherever possible.
+
+Important: Before starting the complete development, we want to verify that the developer can successfully initialize new locks and assign them unique IDs. This is the most critical technical requirement and the first, separately paid project phase.
+
+2. Phase 1 – Proof of Concept: Automatic Lock Initialization
+
+The first assignment is limited to verifying and demonstrating that new locks can be initialized and uniquely addressed.
+
+Our locks are delivered with the default software CAN ID 1. According to our current understanding, they do not have a separate hardware identification number.
+
+We need to establish whether it is technically possible to connect multiple locks, identify each new lock individually, and assign a unique software ID to each one.
+
+The developer must:
+
+* Review the existing GitHub repository and relevant documentation.
+* Analyze the CAN bus protocol and available API commands.
+* Determine how locks with the default ID 1 can be distinguished from one another.
+* Investigate whether the hardware supports a commissioning, learning, or address-assignment procedure.
+* Implement and test a proof of concept using the actual hardware, subject to hardware availability.
+* Demonstrate that multiple locks can receive different IDs and remain individually addressable.
+* Document any hardware, firmware, or protocol limitations.
+
+Expected result: A working demonstration of the initialization procedure, or a clear technical report explaining why it is not possible with the existing hardware and what changes would be required.
+
+We do not want to invest time or money in the full application until this fundamental requirement has been verified.
+
+Please provide a fixed-price quote for Phase 1 only.
+
+3. Phase 2 – Core Locker Management Software
+
+If Phase 1 is successful, we would like to continue with the same developer.
+
+The software should manage electronic lockers for a small fitness studio.
+
+Required functionality:
+
+* Read RFID card IDs sent by the locks over CAN bus.
+* Maintain a local database, preferably SQLite.
+* Assign one RFID card to an available locker.
+* Prevent a card from opening a locker assigned to another card.
+* Unlock a locker when the correct card is presented again.
+* Release the locker and its card assignment after the customer retrieves their belongings.
+* Control the lock status and red LED using the existing API.
+* Store locker assignments and conf</div>
+<a class="btn alt" href="https://www.freelancer.com/projects/raspberry-pi/Raspberry-Locker-System-Gym" target="_blank" rel="noopener">Abrir publicación en Freelancer</a></div>
+<div class="muted">Generado 2026-10-28 02:21 &middot; Dev Lead Hunter</div>
+<div class="toast" id="toast">Copiado</div>
+<textarea id="clip" style="position:fixed;left:-9999px;top:0"></textarea>
+<script>
+const DATA={"proposal": "", "opener": "Hi, I have experience with Raspberry Pi, CAN bus protocols, and hardware integration. I'd love to help you with the Phase 1 Proof of Concept for your smart lockers.", "question": ""};
+function toast(t){const e=document.getElementById('toast');e.textContent=t;e.classList.add('show');setTimeout(()=>e.classList.remove('show'),1600);}
+async function copyText(t,label){try{await navigator.clipboard.writeText(t);toast(label||'Copiado');}catch(e){const ta=document.getElementById('clip');ta.value=t;ta.select();document.execCommand('copy');toast(label||'Copiado');}}
+function copyProposal(){copyText(DATA.proposal,'Propuesta copiada');}
+function copyOpener(){copyText(DATA.opener,'Mensaje copiado');}
+function copyAll(){copyText(DATA.proposal+"\n\n"+(DATA.question?('Pregunta: '+DATA.question):''),'Todo copiado');}
+</script></div></body></html>

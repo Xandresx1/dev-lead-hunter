@@ -1,5 +1,27 @@
 {
 "seen": [
+"freelancer:40790377",
+"freelancer:40790595",
+"freelancer:40790443",
+"freelancer:40790635",
+"freelancer:40790636",
+"freelancer:40790669",
+"freelancer:40790683",
+"freelancer:40790685",
+"freelancer:40790691",
+"freelancer:40790703",
+"freelancer:40790720",
+"freelancer:40790728",
+"freelancer:40790729",
+"freelancer:40790737",
+"freelancer:40790751",
+"freelancer:40790755",
+"freelancer:40790759",
+"freelancer:40790772",
+"freelancer:40790775",
+"freelancer:40790781",
+"freelancer:40790776",
+"twitter:2115089995426091192",
 "freelancer:40790184",
 "freelancer:40790185",
 "freelancer:40790190",
@@ -857,9 +879,9 @@
 "runs": {
 "facebook": 1793013059,
 "linkedin": 1792900970,
-"twitter": 1793105145,
-"freelancer": 1793151279,
-"reddit": 1793151279,
+"twitter": 1793172069,
+"freelancer": 1793172160,
+"reddit": 1793172160,
 "fbgroups": 1793151158,
 "fbsearch": 1793139640
 },
@@ -868,46 +890,15 @@
 "gemini:2026-10-26": 180.0,
 "brightdata:records:2026-10": 98.0,
 "gemini:2026-10-27": 163.0,
-"gemini:2026-10-28": 27.0
+"gemini:2026-10-28": 48.0
 },
 "leads": [],
 "stats": {
-"leads_total": 5,
-"seen_total": 853,
+"leads_total": 7,
+"seen_total": 875,
 "pending_proposals": 10
 },
 "pending_proposals": [
-{
-"id": "freelancer:40786713",
-"payload": {
-"id": "freelancer:40786713",
-"source": "freelancer",
-"title": "Asterisk-Zoiper AWS Configuration",
-"text": "Necesito que Asterisk quede funcionando en un servidor Amazon Web Services y que Zoiper en Android se registre sin problemas. El escenario es sencillo pero debe quedar completamente operativo:\n\n• Tipo de llamadas: entrantes y salientes usando números telefónicos reales.  \n• Extensiones simultáneas: entre 1 y 5 en Zoiper para Android.  \n• Proveedor de telefonía: ya dispongo de los números, pero aún no cuento con los datos de conexión; por eso requiero tu ayuda para seleccionar o configurar correctamente el troncal (SIP o IAX) que garantice buena calidad y tarifas competitivas.\n\nAl finalizar espero:\n\n1. Instancia AWS debidamente asegurada (puertos, firewall, NAT) con Asterisk actualizado y estable.  \n2. Dialplan configurado para llamadas entrantes y salientes, grabación opcional y buzón de voz básico.  \n3. Creación de las extensiones, credenciales y QR de aprovisionamiento para Zoiper en Android.  \n4. Configuración del troncal con el proveedor elegido, pruebas de llamada y registro de calidad.  \n5. Breve guía en español con los pasos esenciales por si necesito añadir más usuarios o cambiar números.\n\nCon todo listo, podremos marcar y recibir desde los móviles de inmediato.\nPresupuesto: 30.0-250.0 USD\nSkills: Linux, Android, Cloud Computing, Asterisk PBX, VoIP, Network Security",
-"url": "https://www.freelancer.com/projects/sip/Asterisk-Zoiper-AWS-Configuration",
-"author": "",
-"extra": {
-"bids": 56,
-"bid_avg": 149.98214285714286,
-"budget": "Presupuesto: 30.0-250.0 USD",
-"budget_min": 30.0,
-"budget_max": 250.0,
-"currency": "USD",
-"price_type": "fixed",
-"hourly_commitment": null,
-"escrow": false,
-"country": null,
-"lang": "es"
-},
-"language": "es",
-"score": 90,
-"summary": "Cliente necesita configurar un servidor Asterisk en AWS con troncal SIP y registro para Zoiper en Android.",
-"opener": "Hola, vi tu proyecto para configurar Asterisk en AWS y Zoiper. Tengo experiencia en VoIP y seguridad en Linux, ¿lo conversamos?",
-"location": null
-},
-"created": 1792991736,
-"attempts": 2
-},
 {
 "id": "freelancer:40787894",
 "payload": {
@@ -937,7 +928,7 @@
 "location": null
 },
 "created": 1793035718,
-"attempts": 0
+"attempts": 1
 },
 {
 "id": "freelancer:40788158",
@@ -1185,6 +1176,37 @@
 "location": null
 },
 "created": 1793139730,
+"attempts": 0
+},
+{
+"id": "freelancer:40790683",
+"payload": {
+"id": "freelancer:40790683",
+"source": "freelancer",
+"title": "Sistema de Cursos en Apps Script",
+"text": "Quiero centralizar la gestión de mis cursos dentro del entorno de Google Workspace y necesito una aplicación creada con Google Apps Script que se conecte a Google Sheets y sea accesible desde internet. Estas son las funciones clave que debe cubrir el desarrollo:\n\n• Registro de cursos: alta, edición y eliminación.  \n• Registro de alumnos con campos personalizados (solicitaré datos adicionales aparte de los habituales).  \n• Vincular alumnos a uno o varios cursos.  \n• Control de asistencia marcando presente o ausente desde una lista diaria.  \n• Generación de reportes:  \n – listado completo de alumnos,  \n – reporte por curso,  \n – búsqueda y ficha individual de alumno,  \n – estadísticas de asistencia.  \n• Panel de control (dashboard) que muestre, de forma gráfica:  \n – cursos por mes,  \n – ganancia por curso,  \n – número de alumnos por horario.  \n• Calendario integrado con colores: verde cuando el curso sea rentable, rojo cuando esté en pérdida.  \n• Acceso online protegido con permisos de usuario.\n\nPrefiero que toda la lógica quede en Google Apps Script y la información viva en Google Sheets; puedes emplear HTML/CSS/JS para la interfaz y aprovechar Material Design o Bootstrap si facilita la experiencia. El código debe quedar documentado para poder mantenerlo y escalarlo más adelante.\nPresupuesto: 30.0-250.0 USD\nSkills: JavaScript, CSS, HTML, Bootstrap, Web Development, Data Visualization",
+"url": "https://www.freelancer.com/projects/google-sheets/Sistema-Cursos-Apps-Script",
+"author": "",
+"extra": {
+"bids": 111,
+"bid_avg": 126.81981981981981,
+"budget": "Presupuesto: 30.0-250.0 USD",
+"budget_min": 30.0,
+"budget_max": 250.0,
+"currency": "USD",
+"price_type": "fixed",
+"hourly_commitment": null,
+"escrow": false,
+"country": null,
+"lang": "es"
+},
+"language": "es",
+"score": 90,
+"summary": "Un cliente busca desarrollar un sistema de gestión de cursos y asistencia basado en Google Apps Script y Google Sheets con presupuesto definido.",
+"opener": "Hola, vi tu proyecto para centralizar la gestión de tus cursos con Google Apps Script y Google Sheets. Tengo experiencia en este tipo de desarrollos a medida.",
+"location": null
+},
+"created": 1793172137,
 "attempts": 0
 }
 ],

@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow"><title>WordPress Site Build</title>
+<style>
+:root{--c:#1e88e5;}
+*{box-sizing:border-box}body{margin:0;background:#0f141b;color:#e6edf3;font:15px/1.55 -apple-system,Segoe UI,Roboto,Inter,sans-serif}
+.wrap{max-width:720px;margin:0 auto;padding:18px 16px 60px}
+.src{display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--c);border:1px solid var(--c);border-radius:999px;padding:4px 10px}
+h1{color:var(--c);font-size:22px;line-height:1.25;margin:12px 0 6px}
+.meta{color:#94a3b8;font-size:13px;margin-bottom:14px}
+.card{background:#161d27;border:1px solid #243041;border-radius:14px;padding:16px;margin:12px 0}
+.card h2{margin:0 0 10px;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:#94a3b8}
+.kpis{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.kpi{background:#0f141b;border:1px solid #243041;border-radius:12px;padding:12px;text-align:center}
+.kpi b{display:block;font-size:24px;color:var(--c)}.kpi span{font-size:12px;color:#94a3b8}
+.content{font-weight:700;white-space:pre-wrap;word-wrap:break-word}
+.proposal{white-space:pre-wrap;word-wrap:break-word;font-weight:600}
+.muted{color:#94a3b8;font-size:13px}
+.btn{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;padding:14px;border-radius:12px;border:0;font-weight:700;font-size:16px;cursor:pointer;background:var(--c);color:#fff;margin-top:10px}
+.btn.alt{background:#243041;color:#e6edf3}
+.btn:active{transform:scale(.99)}
+.toast{position:fixed;left:50%;bottom:22px;transform:translateX(-50%);background:#22c55e;color:#06130a;font-weight:700;padding:10px 16px;border-radius:999px;opacity:0;transition:opacity .2s}
+.toast.show{opacity:1}
+a{color:var(--c)}
+</style></head><body><div class="wrap">
+<span class="src">🔵 Freelancer &middot; Lead 90/100</span>
+<h1>WordPress Site Build</h1>
+<div class="meta">Un consultor de empaques sostenibles necesita desarrollar un sitio web en WordPress de 3 a 6 páginas con botón de llamada rápida.</div>
+<div class="card"><h2>Mensaje sugerido para abrir</h2><div class="proposal">Hi, I saw your project for a sustainable packaging consultancy WordPress site. I have experience building fast, conversion-focused B2B websites with custom layouts. Would love to share some examples.</div><button class="btn" onclick="copyOpener()">📋 Copiar mensaje</button></div>
+<div class="card"><h2>Publicación original</h2><div class="content">WordPress Site Build
+I want to turn my sustainable packaging consultancy concept into a clean, modern WordPress website that feels expert, trustworthy and easy to contact at a glance.
+
+The site will be around 3–6 pages (for example: Home, Services, About, Case Studies/Impact, Contact). I already have a brand direction and want the design to use sustainability-focused visuals, clear typography and simple navigation.
+
+A key requirement is a very prominent quick-call button on both mobile and desktop, always easy to find and linked directly to my phone number. Visitors should immediately understand what I do and be able to call me within seconds of landing on the site.
+
+I’d like you to:
+- Design the page layouts and overall look and feel within WordPress
+- Build fully responsive templates that work smoothly on mobile, tablet and desktop
+- Configure and test the quick-call button so it works reliably across devices
+
+Please share examples of B2B or consultancy WordPress sites you’ve built, especially where clear calls to action and fast performance were important. I’m looking for someone who can move from idea to a polished live site in a straightforward, collaborative way.
+Presupuesto: 200.0-350.0 USD
+Skills: Graphic Design, WordPress, Branding, Website Management, Web Development, Website Build</div>
+<a class="btn alt" href="https://www.freelancer.com/projects/branding/WordPress-Site-Build" target="_blank" rel="noopener">Abrir publicación en Freelancer</a></div>
+<div class="muted">Generado 2026-10-28 22:56 &middot; Dev Lead Hunter</div>
+<div class="toast" id="toast">Copiado</div>
+<textarea id="clip" style="position:fixed;left:-9999px;top:0"></textarea>
+<script>
+const DATA={"proposal": "", "opener": "Hi, I saw your project for a sustainable packaging consultancy WordPress site. I have experience building fast, conversion-focused B2B websites with custom layouts. Would love to share some examples.", "question": ""};
+function toast(t){const e=document.getElementById('toast');e.textContent=t;e.classList.add('show');setTimeout(()=>e.classList.remove('show'),1600);}
+async function copyText(t,label){try{await navigator.clipboard.writeText(t);toast(label||'Copiado');}catch(e){const ta=document.getElementById('clip');ta.value=t;ta.select();document.execCommand('copy');toast(label||'Copiado');}}
+function copyProposal(){copyText(DATA.proposal,'Propuesta copiada');}
+function copyOpener(){copyText(DATA.opener,'Mensaje copiado');}
+function copyAll(){copyText(DATA.proposal+"\n\n"+(DATA.question?('Pregunta: '+DATA.question):''),'Todo copiado');}
+</script></div></body></html>

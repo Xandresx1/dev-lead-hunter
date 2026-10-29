@@ -1,5 +1,32 @@
 {
 "seen": [
+"freelancer:40789799",
+"freelancer:40793244",
+"freelancer:40793249",
+"freelancer:40793438",
+"freelancer:40793460",
+"freelancer:40793503",
+"freelancer:40793513",
+"freelancer:40793520",
+"freelancer:40793594",
+"freelancer:40793595",
+"freelancer:40793612",
+"freelancer:40793618",
+"freelancer:40793691",
+"freelancer:40793679",
+"freelancer:40793709",
+"freelancer:40793711",
+"freelancer:40790082",
+"freelancer:40793717",
+"freelancer:40793719",
+"freelancer:40793723",
+"freelancer:40793715",
+"freelancer:40793724",
+"freelancer:40793728",
+"freelancer:40793733",
+"freelancer:40793736",
+"freelancer:40793737",
+"freelancer:40793740",
 "freelancer:40793172",
 "freelancer:40793142",
 "freelancer:40793174",
@@ -1200,8 +1227,8 @@
 "facebook": 1793013059,
 "linkedin": 1792900970,
 "twitter": 1793293803,
-"freelancer": 1793294241,
-"reddit": 1793294241,
+"freelancer": 1793310729,
+"reddit": 1793310729,
 "fbgroups": 1793293596,
 "fbsearch": 1793293797
 },
@@ -1211,201 +1238,15 @@
 "brightdata:records:2026-10": 161.0,
 "gemini:2026-10-27": 163.0,
 "gemini:2026-10-28": 138.0,
-"gemini:2026-10-29": 97.0
+"gemini:2026-10-29": 123.0
 },
 "leads": [],
 "stats": {
-"leads_total": 5,
-"seen_total": 1195,
-"pending_proposals": 14
+"leads_total": 6,
+"seen_total": 1222,
+"pending_proposals": 9
 },
 "pending_proposals": [
-{
-"id": "freelancer:40789886",
-"payload": {
-"id": "freelancer:40789886",
-"source": "freelancer",
-"title": "Busco desarrollador web para página informativa de empresa de decoraciones navideñas",
-"text": "Busco un profesional freelance para diseñar y desarrollar una página web para mi empresa especializada en decoraciones navideñas para hogares, empresas y espacios comerciales.\n\nLa página debe tener un diseño moderno, elegante, atractivo y con temática navideña, ser completamente adaptable a celulares y computadores y estar desarrollada en WordPress o HTML, según la recomendación del profesional.\n\nRequerimientos principales:\n- Página de inicio y presentación de la empresa.\n- Descripción de servicios.\n- Galería de fotografías de proyectos.\n- Sección de contacto con formulario y botón de WhatsApp.\n- Diseño responsive.\n- SEO optimizado para mejorar el posicionamiento en Google.\n- Configuración de Google Analytics y Search Console.\n- Página rápida, segura y fácil de actualizar.\n\nBusco un profesional que tenga experiencia demostrable en diseño web y SEO.\n\nAl enviar su propuesta, por favor incluir portafolio, tecnología recomendada, tiempo de entrega y presupuesto total, especificando qué servicios están incluidos.\nPresupuesto: 30.0-250.0 USD\nSkills: Website Design, Graphic Design, Logo Design, SEO, WordPress, Google Analytics",
-"url": "https://www.freelancer.com/projects/web-design/Busco-desarrollador-web-para-gina",
-"author": "",
-"extra": {
-"bids": 130,
-"bid_avg": 134.16153846153847,
-"budget": "Presupuesto: 30.0-250.0 USD",
-"budget_min": 30.0,
-"budget_max": 250.0,
-"currency": "USD",
-"price_type": "fixed",
-"hourly_commitment": null,
-"escrow": false,
-"country": null,
-"lang": "es"
-},
-"language": "es",
-"score": 90,
-"summary": "Empresa de decoraciones navideñas busca desarrollador web freelance para crear una página informativa optimizada para SEO y móviles.",
-"opener": "Hola, vi tu proyecto para la página web de decoraciones navideñas y tengo experiencia creando sitios rápidos y optimizados para SEO. ¿Podemos conversar?",
-"location": null
-},
-"created": 1793125072,
-"attempts": 4
-},
-{
-"id": "freelancer:40789791",
-"payload": {
-"id": "freelancer:40789791",
-"source": "freelancer",
-"title": "Automatización NBA 1Q en Google Sheets",
-"text": "TÍTULO DEL PROYECTO:\nGoogle Sheets automatizado con API NBA: tablas por cuarto, cálculo de total y hándicap del 1er cuarto\n\nDESCRIPCIÓN DEL PROYECTO:\nNecesito un archivo de Google Sheets totalmente automatizado para analizar apuestas de la NBA, centrado en el primer cuarto (1Q). No tengo conocimientos técnicos. El freelancer debe encargarse de toda la configuración, conexión, fórmulas y puesta en marcha. Mi único trabajo diario será abrir el archivo, pulsar actualizar, escribir la línea de la casa de apuestas y leer el resultado. No quiero copiar y pegar datos ni tocar fórmulas.\n\nPARTE 1: CONEXIÓN AUTOMÁTICA A UNA API GRATUITA DE LA NBA\nUsar una API gratuita y estable, preferiblemente ESPN (endpoints públicos sin clave) o balldontlie.io (tier gratuito). El freelancer puede elegir la que considere más fiable y debe documentar la URL usada.\nAl pulsar un botón o abrir el archivo, el script de Apps Script debe refrescar automáticamente estas tablas:\n\n1. Partidos del día: equipos, fecha, hora y estado del partido.\n2. Boxscore por cuarto: puntos de cada equipo en 1Q, 2Q, 3Q y 4Q. Es imprescindible que traiga los puntos de ambos equipos en cada partido, no solo de uno.\n3. Estadísticas por jugador: jugador, equipo, minutos, puntos y faltas, filtrable por cuarto si la fuente lo permite.\n4. Tabla de referencia de los 30 equipos, generada automáticamente desde la API o precargada una sola vez. No debo escribirla a mano.\n\nPARTE 2: CÁLCULOS AUTOMÁTICOS DEL PRIMER CUARTO\nEl freelancer debe dejar montadas las fórmulas para que, dados los últimos 15 partidos de cada equipo, la hoja calcule sola:\n\n· Media de puntos anotados en 1Q por el Equipo A.\n· Media de puntos permitidos en 1Q por el Equipo A (puntos del rival en esos mismos partidos).\n· Media de puntos anotados en 1Q por el Equipo B.\n· Media de puntos permitidos en 1Q por el Equipo B.\n· Puntos esperados de A = (media anotada de A + media permitida de B) / 2.\n· Puntos esperados de B = (media anotada de B + media permitida de A) / 2.\n· Total 1Q esperado = puntos esperados de A + puntos esperados de B.\n· Hándicap 1Q esperado = puntos esperados de A − puntos esperados de B.\n  La ventana móvil debe ser configurable (por defecto 15 partidos), para poder cambiarla sin tocar fórmulas.\n\nPARTE 3: COMPARACIÓN CON LA LÍNEA DE LA CASA Y SEMÁFORO DE VALOR\nEn una hoja de Resultados debe haber:\n\n· Una columna vacía para que yo escriba la línea de Total 1Q de la casa de apuestas.\n· Una columna vacía para que yo escriba la línea de Hándicap 1Q de la casa de apuestas.\n· Una celda que calcule la diferencia entre mi estimación y la línea.\n· Un semáforo automático con formato condicional: verde si la diferencia absoluta es de 2 puntos o más (POSIBLE VALOR), rojo si es menor (SIN VALOR). Lo mismo para el total y para el hándicap.\n\nPARTE 4: INTERFAZ SENCILLA\nUna hoja Resultados donde se vea claramente, para el partido del día:\n\n· Equipos que juegan.\n· Total 1Q esperado.\n· Hándicap 1Q esperado.\n· Línea de la casa (la escribo yo).\n· Diferencia y semáforo de valor.\n· Alertas si falta una estrella, un pívot clave o un creador de juego, si la fuente de datos lo permite.\n  El resto de hojas pueden ser de datos, configuración o históricos, pero no quiero tener que tocarlas.\n\nPARTE 5: ENTREGABLES\n\n· Archivo de Google Sheets completamente funcional y compartido con permiso de edición.\n· Script de Apps Script incluido y documentado.\n· Breve guía de uso de 1 a 2 páginas: cómo actualizar, dónde escribir la línea, qué significa cada columna y cada semáforo.\n· Prueba de funcionamiento con al menos un partido real: que el total y hándicap del 1Q calculados coincidan con los datos oficiales, y que el semáforo responda correctamente al cambiar la línea.\n· Video de 2 minutos o llamada corta mostrando cómo se actualiza el archivo, dónde se escribe la línea y cómo cambia el semáforo.\n\nREQUISITOS DEL FREELANCER\n\n· Experiencia demostrable en Google Sheets, Apps Script, conexión a APIs y JSON.\n· Conocimiento de la NBA y de mercados de apuestas como totales, hándicap y primer cuarto es un plus.\n· Debe encargarse de toda la implementación técnica. Yo no puedo programar ni configurar conexiones.\n· Debe entregar el sistema estable y documentado para que no requiera mantenimiento por mi parte.\n\nPRESUPUESTO Y PLAZO\n\n· Presupuesto orientativo: 80–150 USD.\n· Plazo deseado: 1–2 semanas.\n· Acepto hitos de pago: uno al validar la conexión y las tablas de datos, y otro al entregar los cálculos del 1Q, el semáforo y la guía final.\n\nNOTA\nNo busco un producto genérico de apuestas, sino una herramienta concreta para el primer cuarto de la NBA. No espero garantías de rentabilidad, solo una herramienta técnica bien construida, estable y sin mantenimiento por mi parte. Si la fuente de datos cambia en el futuro, el freelancer debe dejarlo documentado para poder actualizarlo fácilmente.\n\nHABILIDADES REQUERIDAS\nGoogle Sheets, Apps Script, API, JSON, Sports Betting, NBA, Data Automation.\nPresupuesto: 30.0-250.0 USD\nSkills: Data Processing, Excel, Cloud Computing, Statistical Analysis, JSON, API",
-"url": "https://www.freelancer.com/projects/google-sheets/Automatizaci-NBA-Google-Sheets",
-"author": "",
-"extra": {
-"bids": 40,
-"bid_avg": 120.875,
-"budget": "Presupuesto: 30.0-250.0 USD",
-"budget_min": 30.0,
-"budget_max": 250.0,
-"currency": "USD",
-"price_type": "fixed",
-"hourly_commitment": null,
-"escrow": false,
-"country": null,
-"lang": "es"
-},
-"language": "es",
-"score": 90,
-"summary": "Cliente busca un desarrollador para automatizar Google Sheets conectándolo a una API de la NBA para análisis de apuestas del primer cuarto.",
-"opener": "Hola, vi tu proyecto para automatizar Google Sheets con la API de la NBA y me interesa mucho. Tengo experiencia con Apps Script y APIs, ¿podemos conversar?",
-"location": null
-},
-"created": 1793125156,
-"attempts": 0
-},
-{
-"id": "freelancer:40789763",
-"payload": {
-"id": "freelancer:40789763",
-"source": "freelancer",
-"title": "DESARROLLO WEB ",
-"text": "SOLO ESPAÑOL\n\nHola,\n\nBusco presupuesto cerrado para desarrollo web completo. Diseño en AI entregado. Necesito programador/a, no diseñador/a.\n\n*1. OBJETIVO DEL PROYECTO:*\nMontar e-commerce minimalista, ultrarrápido y 100% SEO-friendly, orientado a conversión directa.\n\n*2. ESTRUCTURA WEB (5 páginas):*\n- Home (con carrusel / portfolio infinito)\n- Página de información / cómo funciona\n- Página de precios / planes\n- Blog (plantilla lista para artículos SEO)\n- Página de contacto / FAQ\n\n*3. REQUISITOS TÉCNICOS OBLIGATORIOS (PARA PRESUPUESTO):*\n\n*A) SEO On-Page de serie (Muy importante):*\n- Código limpio y semántico H1, H2, H3\n- URLs amigables editables /precios /blog/articulo\n- Metatitles y Metadescripciones editables por página\n- http://Sitemap.xml + http://robots.txt automáticos\n- Datos estructurados http://Schema.org (Product + FAQ + Article)\n- Open Graph para redes sociales\n- Web optimizada para Core Web Vitals (LCP <2.5s, 90+ en PageSpeed)\n- Imágenes en WebP con lazy load\n\n*B) Checkout / Formulario avanzado:*\n- Selector de 2 planes de precio\n- Formulario multi-step con campos: texto corto, texto largo, selector de estilo, selector de colores\n- Módulo de subida de archivos (drag & drop, pdf, jpg, png)\n- Carrito + pago integrado con Stripe (tarjeta)\n- Email transaccional automático tras pago\n- Panel admin para ver pedidos y descargar archivos del cliente\n\n*C) Palabras clave objetivo para las que debe estar preparada la web:*\nLa web debe permitir posicionar fácil por términos como:\n\"servicio barato\", \"servicio en 24h\", \"servicio sin IA\", \"servicio profesional para autónomos y pymes\", \"entrega rápida\"\n(Necesito que la arquitectura de contenidos permita atacar long-tails tipo \"servicio + sector + 24h\")\n\n*4. STACK PREFERIDO (abierto a propuesta):*\nWebflow, WordPress + WooCommerce ligero, o http://Next.js. No quiero constructores pesados tipo Divi. Busco velocidad y mantenimiento cero.\n\n*5. QUÉ ENTREGO YO:*\n- Diseño completo\n- Textos finales\n- Hosting y dominio ya comprados\n\n*6. QUÉ NECESITO QUE INCLUYA TU PRESUPUESTO:*\n- Precio cerrado por todo el desarrollo\n- Plazo de entrega\n- Revisiones incluidas\n- Instalación en mi hosting + conexión Stripe operativa\n- Formación básica para subir artículos al blog\n\n\nPara aplicar, por favor indica: stack que usarías, ejemplos de e-commerce rápidos que hayas hecho y si incluyes optimización WPO/SEO inicial.\n\nGracias!\nPresupuesto: 30.0-200.0 EUR\nSkills: SEO, WordPress, CSS, HTML, Web Hosting, WooCommerce",
-"url": "https://www.freelancer.com/projects/web-development/DESARROLLO-WEB-40789763",
-"author": "",
-"extra": {
-"bids": 160,
-"bid_avg": 138.539375,
-"budget": "Presupuesto: 30.0-200.0 EUR",
-"budget_min": 30.0,
-"budget_max": 200.0,
-"currency": "EUR",
-"price_type": "fixed",
-"hourly_commitment": null,
-"escrow": false,
-"country": null,
-"lang": "es"
-},
-"language": "es",
-"score": 90,
-"summary": "Una persona busca programador con presupuesto cerrado para desarrollar un e-commerce minimalista y optimizado para SEO con pasarela de pagos.",
-"opener": "Hola, vi los detalles de tu proyecto web y cumplo con todos los requisitos técnicos y de optimización SEO que mencionas. ¿Podemos conversar sobre el presupuesto?",
-"location": null
-},
-"created": 1793125169,
-"attempts": 0
-},
-{
-"id": "freelancer:40789749",
-"payload": {
-"id": "freelancer:40789749",
-"source": "freelancer",
-"title": "App Android Juego Finanzas Minimalista",
-"text": "Quiero el código fuente de una aplicación Android muy sencilla y visualmente minimalista que funcione como un pequeño juego de finanzas.  \nEl objetivo principal es que el usuario aprenda a ahorrar y controlar gastos mientras juega.\n\nAlcance funcional  \n• El jugador debe poder registrar ingresos, gastos y metas de ahorro desde una interfaz limpia y rápida.  \n• Las cifras se almacenan localmente; me basta con Room / SQLite o SharedPreferences, lo que resulte más ligero.  \n• Cada registro debe actualizar de inmediato el saldo y mostrar el progreso hacia la meta.  \n• Pantalla de inicio con resumen del saldo, barra de avance de la meta y botón para añadir movimiento.  \n• Modo oscuro y claro automáticos siguiendo los ajustes del sistema.\n\nTecnología preferida  \n• Kotlin con Android Jetpack (ViewModel, LiveData) para mantener el código modular y fácil de mantener.  \n• Material 3 para la capa UI; maquetado simple y coherente.  \n• El proyecto debe compilarse sin errores en Android Studio Flamingo o posterior.\n\nEntregables  \n1. Proyecto completo en un repositorio Git o ZIP.  \n2. APK de prueba.  \n3. Breve README que explique estructura, dependencias y pasos de compilación.\n\nValoraré ideas opcionales, como retos diarios o pequeños gráficos de hábitos, siempre que no compliquen el alcance inicial.\nPresupuesto: 30.0-250.0 USD\nSkills: Java, Mobile App Development, Android, C# Programming, SQLite, Kotlin",
-"url": "https://www.freelancer.com/projects/kotlin/App-Android-Juego-Finanzas-Minimalista",
-"author": "",
-"extra": {
-"bids": 104,
-"bid_avg": 126.52884615384616,
-"budget": "Presupuesto: 30.0-250.0 USD",
-"budget_min": 30.0,
-"budget_max": 250.0,
-"currency": "USD",
-"price_type": "fixed",
-"hourly_commitment": null,
-"escrow": false,
-"country": null,
-"lang": "es"
-},
-"language": "es",
-"score": 90,
-"summary": "Un cliente busca un desarrollador freelance para crear una app Android minimalista de finanzas en Kotlin con SQLite.",
-"opener": "Hola, vi tu propuesta para desarrollar la app Android de finanzas en Kotlin y me interesa bastante. Tengo experiencia creando aplicaciones móviles nativas limpias y eficientes. ¿Charlamos?",
-"location": null
-},
-"created": 1793125173,
-"attempts": 0
-},
-{
-"id": "freelancer:40789512",
-"payload": {
-"id": "freelancer:40789512",
-"source": "freelancer",
-"title": "Implementar Cobro por Transferencia",
-"text": "Quiero una solución sencilla que me permita recibir pagos de mis clientes exclusivamente por transferencia bancaria. La idea es que, desde mi computadora o teléfono, pueda generar un mensaje preformateado con el monto, concepto y mis datos bancarios, y enviarlo de inmediato por WhatsApp o correo electrónico.\n\nLo que necesito concretamente:\n• Una interfaz muy simple (puede ser una hoja de cálculo con script, un formulario web privado o una pequeña app) donde introduzca nombre del cliente, importe y motivo del pago.  \n• Al pulsar “generar”, la herramienta crea:  \n  – Un mensaje listo para copiar/pegar en WhatsApp.  \n  – Un correo electrónico con el mismo contenido o un PDF/HTML adjunto.  \n• El mensaje debe incluir mis datos bancarios fijos (CLABE, banco, titular) y un pequeño recordatorio de plazo de pago.  \n• Todo debe estar en español y ser editable si cambio de cuenta en el futuro.  \n\nValoro que la solución sea liviana, sin suscripciones caras, y que funcione tanto en escritorio como en móvil. Si manejas la API de WhatsApp, excelente; si no, con que el mensaje quede listo para copiar es suficiente. Adjunta breve guía de uso para que pueda adaptarlo yo mismo cuando cambie algún dato.\nPresupuesto: 18.0-36.0 EUR\nSkills: JavaScript, HTML, Scripting, Web Development, API, Google Sheets",
-"url": "https://www.freelancer.com/projects/web-development/Implementar-Cobro-por-Transferencia",
-"author": "",
-"extra": {
-"bids": 164,
-"bid_avg": 23.70731707317073,
-"budget": "Presupuesto: 18.0-36.0 EUR",
-"budget_min": 18.0,
-"budget_max": 36.0,
-"currency": "EUR",
-"price_type": "hourly",
-"hourly_commitment": "40 h/week",
-"escrow": false,
-"country": null,
-"lang": "es"
-},
-"language": "es",
-"score": 90,
-"summary": "Cliente necesita una herramienta ligera web o en Google Sheets para generar mensajes de cobro por transferencia para WhatsApp y correo.",
-"opener": "Hola, vi tu proyecto para automatizar la generación de mensajes de cobro. Puedo hacerlo rápido con Google Sheets o una web sencilla, ¿lo conversamos?",
-"location": null
-},
-"created": 1793125202,
-"attempts": 0
-},
-{
-"id": "freelancer:40789487",
-"payload": {
-"id": "freelancer:40789487",
-"source": "freelancer",
-"title": "Prueba y ajuste formulario Wix",
-"text": "Tengo una web en Wix (editor Harmony) con una colección del CMS llamada “Talentos” que alimenta la página Talentos y el Directorio de Talentos. Necesito que los datos y la foto que los usuarios envían en el formulario de Registro de Artistas lleguen a esa colección.\n\n* Situación actual:\n\n- Los formularios funcionan y me llega el aviso por correo.\n- Los envíos NO pasan al CMS. El soporte de Wix me confirmó por escrito que Harmony no permite vincular de forma nativa los archivos o imágenes de Wix Forms con colecciones del CMS.\n- En Harmony no tengo modo desarrollador ni Velo.\n\nPropuesta de solución (abierto a otras mejores): formulario ---- automatización (Make o Zapier) ---- CMS. No quiero migrar a Wix Studio salvo que sea imprescindible y se me justifique técnicamente, con presupuesto previo.\n\n* FASE 1. Prueba de viabilidad (1-2 horas, precio fijo).\nAntes de hacer nada más, necesito comprobar que esto es posible en mi sitio. Objetivo: Enviar un formulario de prueba y verificar que el texto Y la imagen llegan a un elemento de la colección “Talentos”. Al terminar, quiero un informe breve con:\n\n- Si funciona o no, y por qué.\n- Cómo se resuelve el tema de la imagen.\n- Si Harmony lo permite o hace falta otra vía (y cuál).\n- Precio cerrado y plazo de la fase 2.\n\n* FASE 2. Implantación (solo se la fase 1 es positiva).\n\n1. Cada envío (texto+imagen) crea un elemento en “Talentos”.\n2. La imagen se guarda correctamente en el campo de imagen.\n3. Revisar que la página de Talentos y el Directorio apunten a esa colección y muestren foto, disciplina, categoría, email y texto.\n4. Guía breve de cómo funciona, para poder mantenerlo yo.\n\n* Condiciones:\n\n- Alcance cerrado a este flujo, con presupuesto fijo por escrito para cada fase.\n- Pruebas en una copia del sitio.\n- Valorable experiencia demostrable con Wix CMS y Make/Zapier (portfolio o reseñas).\n\nSi te interesa, indícame precio de cada fase, plazo y cómo lo harías. Si crees que no es posible en Harmony, dímelo claramente y explica por qué.\n\nGracias,\nMiguel Angel.\nPresupuesto: 30.0-250.0 EUR\nSkills: Website Design, CMS, HTML, Website Management, Wix, Web Development",
-"url": "https://www.freelancer.com/projects/wix/Prueba-ajuste-formulario-Wix",
-"author": "",
-"extra": {
-"bids": 164,
-"bid_avg": 119.45621951219512,
-"budget": "Presupuesto: 30.0-250.0 EUR",
-"budget_min": 30.0,
-"budget_max": 250.0,
-"currency": "EUR",
-"price_type": "fixed",
-"hourly_commitment": null,
-"escrow": false,
-"country": null,
-"lang": "es"
-},
-"language": "es",
-"score": 95,
-"summary": "Dueño de web en Wix necesita automatizar con Make o Zapier el envío de formularios con imágenes hacia el CMS.",
-"opener": "Hola, vi tu requerimiento sobre la integración en Wix usando Make o Zapier. Puedo ayudarte con la prueba de viabilidad de la Fase 1 de inmediato.",
-"location": null
-},
-"created": 1793125211,
-"attempts": 0
-},
 {
 "id": "freelancer:40790060",
 "payload": {
@@ -1435,7 +1276,7 @@
 "location": null
 },
 "created": 1793139730,
-"attempts": 0
+"attempts": 1
 },
 {
 "id": "freelancer:40790683",
@@ -1652,6 +1493,37 @@
 "location": "Colombia"
 },
 "created": 1793270418,
+"attempts": 0
+},
+{
+"id": "freelancer:40793503",
+"payload": {
+"id": "freelancer:40793503",
+"source": "freelancer",
+"title": "Landing Page y Google Ads Lima",
+"text": "Título del proyecto: Creación de Landing Page + Campaña de Google Ads para empresa de construcción en Lima - Peru\n\nDescripción:\nHola. Estoy iniciando una empresa en Lima dedicada a los servicios de construcción, alquiler de andamios, eliminación de desmonte y venta de materiales. Mi público objetivo son maestros de obra y particulares, por lo que las ventas se cerrarán directamente por WhatsApp.\nNo cuento con página web, así que necesito cotizar el siguiente trabajo:\n1. Desarrollo de una Landing Page (Web de una sola página): Rápida, muy bien optimizada para celulares, que muestre fotos de los servicios que ofrezco con botones directos y flotantes hacia mi WhatsApp.\n2. Configuración de Campaña en Google Ads: Investigación de las palabras clave que usan los maestros de obra en Lima y armado de los anuncios de búsqueda para captar clientes desde el primer día.\n\nPor favor, enviar cotización detallada (indicar si el costo incluye ambas cosas o solo una), tiempo de entrega y ejemplos de páginas sencillas o catálogos que hayan realizado antes.\n\n¡Muchas gracias!\nPresupuesto: 30.0-250.0 USD\nSkills: PHP, Website Design, Graphic Design, HTML, Digital Marketing, Web Development",
+"url": "https://www.freelancer.com/projects/google-ads/Landing-Page-Google-Ads-Lima",
+"author": "",
+"extra": {
+"bids": 130,
+"bid_avg": 121.6,
+"budget": "Presupuesto: 30.0-250.0 USD",
+"budget_min": 30.0,
+"budget_max": 250.0,
+"currency": "USD",
+"price_type": "fixed",
+"hourly_commitment": null,
+"escrow": false,
+"country": null,
+"lang": "es"
+},
+"language": "es",
+"score": 90,
+"summary": "Empresario en Lima necesita desarrollo de landing page optimizada para móviles y configuración de Google Ads para empresa de construcción.",
+"opener": "Hola, ¿qué tal? Vi tu proyecto para la empresa de construcción en Lima y me interesa ayudarte con la landing page y la campaña de Google Ads.",
+"location": "Lima, Peru"
+},
+"created": 1793310711,
 "attempts": 0
 }
 ],

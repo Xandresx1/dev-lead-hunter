@@ -1,5 +1,75 @@
 {
 "seen": [
+"freelancer:40794215",
+"freelancer:40794859",
+"freelancer:40795030",
+"freelancer:40795085",
+"freelancer:40795121",
+"freelancer:40795124",
+"freelancer:40795130",
+"freelancer:40795144",
+"freelancer:40795133",
+"freelancer:40795152",
+"freelancer:40795156",
+"freelancer:40795148",
+"freelancer:40114529",
+"freelancer:40700750",
+"freelancer:40795167",
+"freelancer:40795165",
+"freelancer:40795179",
+"freelancer:40795190",
+"freelancer:40795194",
+"freelancer:40795195",
+"freelancer:40795199",
+"freelancer:40795204",
+"freelancer:40795205",
+"freelancer:40795207",
+"freelancer:40795210",
+"freelancer:40795217",
+"freelancer:40795215",
+"freelancer:40795218",
+"freelancer:40795224",
+"freelancer:40795223",
+"freelancer:40795225",
+"freelancer:40795226",
+"freelancer:40795229",
+"freelancer:40795230",
+"freelancer:40795232",
+"facebook:29549388778000905",
+"facebook:971240855582412",
+"facebook:29109321365377133",
+"facebook:39441484668828527",
+"facebook:1355506926516937",
+"facebook:4388590698058935",
+"facebook:28860315453590624",
+"facebook:2200794177524520",
+"facebook:1920802618904983",
+"facebook:4403953646530592",
+"facebook:2153757072199177",
+"facebook:122132746994693244",
+"facebook:2131488607467383",
+"facebook:2161588624432275",
+"facebook:2131419477474296",
+"facebook:2511009062978066",
+"facebook:1667452368070991",
+"facebook:4416096798643968",
+"facebook:2511202009625438",
+"facebook:3065416913804129",
+"facebook:39716141494668006",
+"facebook:2042073329826471",
+"facebook:122378207870000429",
+"facebook:1667480558068172",
+"facebook:122126471355307690",
+"facebook:1852231839137295",
+"facebook:1852230459137433",
+"facebook:1668436558357047",
+"facebook:1668435815023788",
+"facebook:1772802120439193",
+"facebook:1852227352471077",
+"facebook:1772800320439373",
+"facebook:1772790683773670",
+"facebook:1772775513775187",
+"facebook:4214075395389914",
 "freelancer:40794533",
 "freelancer:40794582",
 "freelancer:40794674",
@@ -1369,25 +1439,25 @@
 "facebook": 1793013059,
 "linkedin": 1792900970,
 "twitter": 1793371890,
-"freelancer": 1793372105,
-"reddit": 1793372105,
-"fbgroups": 1793371884,
-"fbsearch": 1793346312
+"freelancer": 1793389949,
+"reddit": 1793389949,
+"fbgroups": 1793389721,
+"fbsearch": 1793389791
 },
 "counters": {
 "gemini:2026-10-25": 260.0,
 "gemini:2026-10-26": 180.0,
-"brightdata:records:2026-10": 203.0,
+"brightdata:records:2026-10": 216.0,
 "gemini:2026-10-27": 163.0,
 "gemini:2026-10-28": 138.0,
 "gemini:2026-10-29": 123.0,
-"gemini:2026-10-30": 79.0
+"gemini:2026-10-30": 116.0
 },
 "leads": [],
 "stats": {
-"leads_total": 6,
-"seen_total": 1364,
-"pending_proposals": 8
+"leads_total": 4,
+"seen_total": 1434,
+"pending_proposals": 10
 },
 "pending_proposals": [
 {
@@ -1419,7 +1489,7 @@
 "location": null
 },
 "created": 1793231675,
-"attempts": 2
+"attempts": 3
 },
 {
 "id": "freelancer:40792220",
@@ -1637,10 +1707,69 @@
 },
 "created": 1793346357,
 "attempts": 0
+},
+{
+"id": "freelancer:40795133",
+"payload": {
+"id": "freelancer:40795133",
+"source": "freelancer",
+"title": "Construcción Tienda Online Moda",
+"text": "Quiero lanzar una tienda online para vender ropa de mujer de estilo casual y cómoda para el día a día. Necesito a alguien que se encargue de todo el proceso de creación de la tienda, desde la elección y configuración de la plataforma (Shopify, WooCommerce o similar) hasta que el sitio esté listo para recibir pedidos.\n\nAlcance esperado  \n• Diseño de una identidad visual coherente con la propuesta “casual-confort”.  \n• Maquetación responsive con una navegación sencilla y fotografías atractivas.  \n• Carga inicial de productos (yo proporcionaré las imágenes y descripciones básicas).  \n• Configuración de pasarelas de pago seguras y métodos de envío estándar.  \n• Integración con redes sociales para facilitar la difusión de lanzamientos y promociones.  \n• Ajustes básicos de SEO on-page y conexión con Google Analytics para seguimiento.\n\nEntregables  \n1. Sitio web funcional publicado en mi dominio.  \n2. Manual breve (o video) donde pueda ver cómo añadir nuevos productos y gestionar pedidos.  \n3. Una revisión posterior al lanzamiento para afinar detalles de usabilidad o contenido.\n\nBusco a un profesional que tenga experiencia previa montando e-commerce de moda y sepa equilibrar buen diseño con rapidez de carga. Si dominas herramientas de optimización de imágenes, plugins de marketing y prácticas de usabilidad, menciónalo en tu propuesta.\nPresupuesto: 250.0-750.0 EUR\nSkills: PHP, Website Design, SEO, HTML, Shopify, WooCommerce",
+"url": "https://www.freelancer.com/projects/shopify-site/Construcci-Tienda-Online-Moda",
+"author": "",
+"extra": {
+"bids": 114,
+"bid_avg": 401.9298245614035,
+"budget": "Presupuesto: 250.0-750.0 EUR",
+"budget_min": 250.0,
+"budget_max": 750.0,
+"currency": "EUR",
+"price_type": "fixed",
+"hourly_commitment": null,
+"escrow": false,
+"country": null,
+"lang": "es"
+},
+"language": "es",
+"score": 90,
+"summary": "Emprendedora busca desarrollador para crear una tienda online completa de ropa de mujer con Shopify o WooCommerce.",
+"opener": "Hola, he visto tu proyecto para la tienda online de ropa casual y tengo experiencia montando e-commerce optimizados. ¿Podemos hablar de los detalles?",
+"location": null
+},
+"created": 1793389910,
+"attempts": 0
+},
+{
+"id": "freelancer:40795085",
+"payload": {
+"id": "freelancer:40795085",
+"source": "freelancer",
+"title": "Chatbot WhatsApp Respuestas Automáticas",
+"text": "Necesito implementar un asistente virtual que atienda a mis clientes en WhatsApp las 24 h. Su función principal será responder de forma automática todas las preguntas frecuentes que ya tengo recopiladas en un documento de preguntas y respuestas.\n\nCuando el cliente quiera hacer un pedido o una reserva, el bot debe solicitar estos tres datos de forma clara y ordenada:\n• producto o servicio deseado  \n• cantidad  \n• dirección de entrega  \n\nUna vez recibida la información, confirmará el pedido y lo enviará a nuestro sistema interno para que un agente humano continúe el proceso.\n\nAlcance del proyecto  \n– Integración completa con mi número de WhatsApp Business (puedes trabajar con la API oficial, Twilio, WATI u otra plataforma fiable).  \n– Carga y mantenimiento sencillo del documento de FAQ para que yo mismo pueda actualizar respuestas.  \n– Flujo conversacional en español con detección de intenciones, repreguntas y gestión de respuestas no previstas.  \n– Registro automático de cada conversación en una hoja de cálculo (Google Sheets, Airtable o similar).  \n– Manual breve para que mi equipo pueda administrar, pausar o modificar el bot una vez en producción.\n\nEntrego el documento de FAQ, el acceso al número de prueba y cualquier otro recurso que necesites. Considero el trabajo finalizado cuando el asistente esté activo, probado y documentado.\n\nIndica en tu propuesta qué tecnología emplearás, plazo estimado y ejemplos de chatbots similares que hayas desarrollado. ¡Gracias!\nPresupuesto: 25.0-50.0 USD\nSkills: PHP, Python, Software Architecture, Spanish Translator, API Integration, AI Chatbot",
+"url": "https://www.freelancer.com/projects/ai-chatbot/Chatbot-WhatsApp-Respuestas-Autom-ticas",
+"author": "",
+"extra": {
+"bids": 166,
+"bid_avg": 32.48795180722892,
+"budget": "Presupuesto: 25.0-50.0 USD",
+"budget_min": 25.0,
+"budget_max": 50.0,
+"currency": "USD",
+"price_type": "hourly",
+"hourly_commitment": "40 h/week",
+"escrow": false,
+"country": null,
+"lang": "es"
+},
+"language": "es",
+"score": 95,
+"summary": "Negocio necesita implementar un chatbot de WhatsApp automatizado para FAQs y toma de pedidos con integración a Google Sheets.",
+"opener": "Hola, vi tu proyecto para implementar el chatbot en WhatsApp y tengo experiencia integrando la API y flujos conversacionales. ¿Podemos conversar?",
+"location": null
+},
+"created": 1793389929,
+"attempts": 0
 }
 ],
-"meta": {
-"brightdata:snapshot": "sd_mvv32b4l1fpw45ia9z",
-"brightdata:snapshot_ts": "1793371460"
-}
+"meta": {}
 }

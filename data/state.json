@@ -1,5 +1,49 @@
 {
 "seen": [
+"freelancer:40788562",
+"freelancer:40793114",
+"freelancer:40793714",
+"freelancer:40793758",
+"freelancer:40793773",
+"freelancer:40793776",
+"freelancer:40793788",
+"freelancer:40793790",
+"freelancer:40793791",
+"freelancer:40793813",
+"freelancer:40793818",
+"freelancer:40793833",
+"freelancer:40793842",
+"freelancer:40793835",
+"freelancer:40793846",
+"freelancer:40793854",
+"freelancer:40793859",
+"freelancer:40793877",
+"freelancer:40793884",
+"freelancer:40793885",
+"freelancer:40793878",
+"freelancer:40793892",
+"freelancer:40793893",
+"freelancer:40793898",
+"freelancer:40793904",
+"freelancer:40793914",
+"facebook:1851660879194391",
+"facebook:1667855461748490",
+"facebook:1851659099194569",
+"facebook:4213493488781438",
+"facebook:1851657962528016",
+"facebook:1772242053828533",
+"facebook:2911191092582162",
+"facebook:1772218053830933",
+"facebook:1772216767164395",
+"facebook:1772193073833431",
+"facebook:1663897108651042",
+"facebook:4213109138819873",
+"facebook:2910892172612054",
+"facebook:1667865971747439",
+"facebook:1851668975860248",
+"facebook:1667863341747702",
+"facebook:1667862155081154",
+"facebook:2911236949244243",
 "freelancer:40789799",
 "freelancer:40793244",
 "freelancer:40793249",
@@ -1227,57 +1271,27 @@
 "facebook": 1793013059,
 "linkedin": 1792900970,
 "twitter": 1793293803,
-"freelancer": 1793310729,
-"reddit": 1793310729,
-"fbgroups": 1793293596,
+"freelancer": 1793324181,
+"reddit": 1793324181,
+"fbgroups": 1793324068,
 "fbsearch": 1793293797
 },
 "counters": {
 "gemini:2026-10-25": 260.0,
 "gemini:2026-10-26": 180.0,
-"brightdata:records:2026-10": 161.0,
+"brightdata:records:2026-10": 180.0,
 "gemini:2026-10-27": 163.0,
 "gemini:2026-10-28": 138.0,
-"gemini:2026-10-29": 123.0
+"gemini:2026-10-29": 123.0,
+"gemini:2026-10-30": 26.0
 },
 "leads": [],
 "stats": {
-"leads_total": 6,
-"seen_total": 1222,
-"pending_proposals": 9
+"leads_total": 3,
+"seen_total": 1266,
+"pending_proposals": 8
 },
 "pending_proposals": [
-{
-"id": "freelancer:40790060",
-"payload": {
-"id": "freelancer:40790060",
-"source": "freelancer",
-"title": "App Bíblica Multiplataforma",
-"text": "Deseo desarrollar una aplicación que permita leer la Biblia por libros y capítulos de forma clara y cómoda en dispositivos Android y iPhone.  \n\nAlcance principal  \n• Pantalla de selección de libro y capítulo con navegación intuitiva.  \n• Lectura fluida del texto bíblico, con opción de ajustar fuente y modo oscuro.  \n• Marcadores y favoritos básicos para que el usuario retome fácilmente su lectura.  \n• Sincronización de progreso entre Android e iOS usando un backend ligero (Firebase o similar).  \n• Publicación en Google Play y App Store, listas para descarga.\n\nQué espero recibir  \n– Código fuente completo y bien documentado.  \n– Paquetes instalables (APK y archivo IPA/TestFlight).  \n– Breve guía de despliegue y mantenimiento.\n\nPara tu propuesta  \nEnvíame una propuesta detallada del proyecto que incluya la arquitectura sugerida, tecnología recomendada (React Native, Flutter o nativo), fases de trabajo y tiempo estimado. También agradezco enlaces a proyectos similares si los tienes.\n\nBusco una solución robusta pero sencilla, lista para iterar en futuras versiones con planes de estudio y devocionales.\nPresupuesto: 250.0-750.0 USD\nSkills: Mobile App Development, iPhone, Android, iPad, App Design, React Native",
-"url": "https://www.freelancer.com/projects/react-native/App-blica-Multiplataforma",
-"author": "",
-"extra": {
-"bids": 132,
-"bid_avg": 421.18939393939394,
-"budget": "Presupuesto: 250.0-750.0 USD",
-"budget_min": 250.0,
-"budget_max": 750.0,
-"currency": "USD",
-"price_type": "fixed",
-"hourly_commitment": null,
-"escrow": false,
-"country": null,
-"lang": "es"
-},
-"language": "es",
-"score": 90,
-"summary": "Cliente busca desarrollador para crear app bíblica multiplataforma (Android e iOS) con backend ligero y publicación en tiendas.",
-"opener": "Hola, vi tu proyecto de la app bíblica multiplataforma y tengo experiencia en desarrollo móvil con Flutter y React Native.",
-"location": null
-},
-"created": 1793139730,
-"attempts": 1
-},
 {
 "id": "freelancer:40790683",
 "payload": {
@@ -1307,7 +1321,7 @@
 "location": null
 },
 "created": 1793172137,
-"attempts": 0
+"attempts": 1
 },
 {
 "id": "freelancer:40791962",

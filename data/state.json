@@ -1,5 +1,58 @@
 {
 "seen": [
+"freelancer:40795579",
+"freelancer:40795637",
+"freelancer:40795642",
+"freelancer:40795689",
+"freelancer:40795721",
+"freelancer:40795755",
+"freelancer:40795794",
+"freelancer:40795799",
+"freelancer:40795804",
+"freelancer:40795828",
+"freelancer:40795837",
+"freelancer:40795838",
+"freelancer:40795851",
+"freelancer:40795832",
+"freelancer:40795857",
+"freelancer:40795858",
+"freelancer:40794781",
+"freelancer:40794824",
+"freelancer:40795880",
+"facebook:1648504289931962",
+"facebook:2511357969609842",
+"facebook:122223254090859249",
+"facebook:2131453854137525",
+"facebook:4939322652970091",
+"facebook:4531950550382198",
+"facebook:1976174973707147",
+"facebook:1631554438372065",
+"facebook:1393033199036080",
+"facebook:26013493228332641",
+"facebook:1638998527685716",
+"facebook:2511788789566760",
+"facebook:122116912173500206",
+"facebook:122214285500333957",
+"facebook:2511750222903950",
+"facebook:122199828026766386",
+"facebook:2511678539577785",
+"facebook:122177216702707478",
+"facebook:1664729978566520",
+"facebook:122116034565502795",
+"facebook:2511852552893717",
+"facebook:1852986972395115",
+"facebook:1669170834950286",
+"facebook:1773503320369073",
+"facebook:1852979809062498",
+"facebook:1852971792396633",
+"facebook:1852971559063323",
+"facebook:1669126098288093",
+"facebook:1669093831624653",
+"facebook:2912566889111249",
+"facebook:1773407113712027",
+"facebook:1773406180378787",
+"facebook:1773359310383474",
+"facebook:1665199845187435",
 "freelancer:40795263",
 "freelancer:40795393",
 "freelancer:40795426",
@@ -1506,91 +1559,29 @@
 "runs": {
 "facebook": 1793013059,
 "linkedin": 1792900970,
-"twitter": 1793371890,
-"freelancer": 1793414862,
-"reddit": 1793414863,
-"fbgroups": 1793414805,
-"fbsearch": 1793389791
+"twitter": 1793438211,
+"freelancer": 1793438290,
+"reddit": 1793438290,
+"fbgroups": 1793438103,
+"fbsearch": 1793438206
 },
 "counters": {
 "gemini:2026-10-25": 260.0,
 "gemini:2026-10-26": 180.0,
-"brightdata:records:2026-10": 238.0,
+"brightdata:records:2026-10": 252.0,
 "gemini:2026-10-27": 163.0,
 "gemini:2026-10-28": 138.0,
 "gemini:2026-10-29": 123.0,
 "gemini:2026-10-30": 146.0,
-"gemini:2026-10-31": 13.0
+"gemini:2026-10-31": 34.0
 },
 "leads": [],
 "stats": {
 "leads_total": 3,
-"seen_total": 1502,
-"pending_proposals": 9
+"seen_total": 1555,
+"pending_proposals": 7
 },
 "pending_proposals": [
-{
-"id": "freelancer:40792220",
-"payload": {
-"id": "freelancer:40792220",
-"source": "freelancer",
-"title": "MVP Web de App Educativa 2",
-"text": "Quiero llevar a la web de escritorio nuestro producto móvil y necesito un MVP funcional que respete la identidad de marca existente. Ya dispongo de los wireframes principales en Figma; las pantallas clave están definidas y sólo quedan por pulir algunos detalles, así que avanzarás con una base visual sólida.\n\nAlcance principal\n• Autenticación de usuarios con la restricción de un solo dispositivo por cuenta, incluyendo flujo de registro e inicio de sesión.  \n• Navegación por niveles de aprendizaje, reflejando la lógica ya operativa en la app móvil.  \n• Secciones secundarias: Biblioteca de recursos y Comunidad.  \n   – En la Comunidad los usuarios deben poder ver, crear y comentar publicaciones, además de añadir reacciones.  \n• Integración limpia con nuestra API backend existente para datos de usuario, progreso y contenido.  \n\nExpectativas técnicas\n– Código claro, modular y documentado.  \n– Buen manejo de estado y rutas.  \n– Componentes responsivos para resoluciones de escritorio habituales.  \n– Entorno preparado para pruebas y futuras iteraciones.\n\nEntregables\n1. Repositorio con la aplicación web lista para desplegar.  \n2. Guía breve de instalación y configuración.  \n3. Demo funcional conectada a la API.\n\nBusco a un desarrollador o equipo que combine solidez en frontend y backend, pueda trabajar con los diseños de Figma y entregue un MVP estable que siente las bases para futuras mejoras.\nPresupuesto: 3000.0-5000.0 USD\nSkills: PHP, Website Design, Software Architecture, HTML, Web Development, Backend Development",
-"url": "https://www.freelancer.com/projects/frontend-development/MVP-Web-App-Educativa-40792220",
-"author": "",
-"extra": {
-"bids": 100,
-"bid_avg": 3694.5,
-"budget": "Presupuesto: 3000.0-5000.0 USD",
-"budget_min": 3000.0,
-"budget_max": 5000.0,
-"currency": "USD",
-"price_type": "fixed",
-"hourly_commitment": null,
-"escrow": false,
-"country": null,
-"lang": "es"
-},
-"language": "es",
-"score": 95,
-"summary": "Una empresa busca un desarrollador fullstack para crear el MVP web de una aplicación educativa conectada a su API existente.",
-"opener": "Hola, vi tu proyecto para llevar la app educativa a la web. Tengo experiencia sólida en frontend, backend y consumo de APIs, y puedo ayudarte con este MVP.",
-"location": null
-},
-"created": 1793246216,
-"attempts": 1
-},
-{
-"id": "freelancer:40792212",
-"payload": {
-"id": "freelancer:40792212",
-"source": "freelancer",
-"title": "MVP Web de App Educativa",
-"text": "Ya contamos con una app móvil funcionando y ahora quiero llevar sus funciones clave a una versión web de escritorio. Entrego identidad de marca, wireframes y flujos de usuario en Figma para que trabajes sobre ellos.\n\nPrioridad del MVP  \nLo primero que necesito publicado es el flujo de aprendizaje con su navegación por niveles. Dentro de cada nivel el usuario debe poder:  \n• Ver contenido y marcarlo como completado  \n• Completar actividades o preguntas  \n• Reanudar el nivel desde su último avance  \n\nEl avance se mostrará mediante un mapa o ruta visual que refleje niveles bloqueados y desbloqueados.  \n\nMódulos a desarrollar  \n1. Autenticación de usuarios con vinculación de dispositivos  \n2. Interfaz de navegación de niveles (prioridad mencionada)  \n3. Biblioteca de recursos  \n4. Feed comunitario básico  \n\nRequerimientos técnicos  \n• Frontend responsive para desktop, construido con un framework moderno (React, Vue o similar)  \n• Backend o integración directa con nuestra API REST ya existente  \n• Código limpio, estructurado y documentado siguiendo buenas prácticas  \n• Entorno de staging para pruebas y despliegue sencillo  \n\nEntrega esperada  \nUn MVP funcional que permita a los usuarios iniciar sesión, recorrer el mapa de niveles, interactuar con el contenido según lo descrito y acceder a las secciones de recursos y comunidad. Incluye setup del repositorio, instrucciones de despliegue y un breve manual técnico.\nPresupuesto: 100000.0-None USD\nSkills: PHP, JavaScript, Website Design, HTML5, HTML, Web Development",
-"url": "https://www.freelancer.com/projects/frontend-development/MVP-Web-App-Educativa",
-"author": "",
-"extra": {
-"bids": 81,
-"bid_avg": 105395.24691358025,
-"budget": "Presupuesto: 100000.0-None USD",
-"budget_min": 100000.0,
-"budget_max": null,
-"currency": "USD",
-"price_type": "fixed",
-"hourly_commitment": null,
-"escrow": false,
-"country": null,
-"lang": "es"
-},
-"language": "es",
-"score": 90,
-"summary": "Una empresa busca un desarrollador freelance para crear el MVP web de una app educativa existente usando React/Vue y conectándose a una API REST.",
-"opener": "Hola, vi que buscas desarrollar el MVP web de tu app educativa y tengo amplia experiencia con React y APIs REST. ¿Podemos conversar?",
-"location": null
-},
-"created": 1793246229,
-"attempts": 0
-},
 {
 "id": "freelancer:40792672",
 "payload": {
@@ -1620,7 +1611,7 @@
 "location": "España"
 },
 "created": 1793270389,
-"attempts": 0
+"attempts": 1
 },
 {
 "id": "freelancer:40792655",

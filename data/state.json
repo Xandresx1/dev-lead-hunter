@@ -1,5 +1,40 @@
 {
 "seen": [
+"freelancer:40795263",
+"freelancer:40795393",
+"freelancer:40795426",
+"freelancer:40795437",
+"freelancer:40795018",
+"freelancer:40795469",
+"freelancer:40795471",
+"freelancer:40795470",
+"freelancer:40795451",
+"freelancer:40795479",
+"freelancer:40795484",
+"freelancer:40795483",
+"freelancer:40795465",
+"freelancer:40795496",
+"freelancer:40795490",
+"facebook:1852730722420740",
+"facebook:1852730565754089",
+"facebook:1668934724973897",
+"facebook:1852729842420828",
+"facebook:1852728695754276",
+"facebook:1668930084974361",
+"facebook:1668929874974382",
+"facebook:1668928311641205",
+"facebook:1773245133728225",
+"facebook:1773222480397157",
+"facebook:1773218690397536",
+"facebook:4214938121970308",
+"facebook:4214896681974452",
+"facebook:4214801481983972",
+"facebook:2912174205817184",
+"facebook:1664910858549667",
+"facebook:4214700475327406",
+"facebook:2912059695828635",
+"facebook:1664862528554500",
+"facebook:2911932292508042",
 "freelancer:40795067",
 "freelancer:40795076",
 "freelancer:40795243",
@@ -1472,58 +1507,28 @@
 "facebook": 1793013059,
 "linkedin": 1792900970,
 "twitter": 1793371890,
-"freelancer": 1793402815,
-"reddit": 1793402816,
-"fbgroups": 1793389721,
+"freelancer": 1793414862,
+"reddit": 1793414863,
+"fbgroups": 1793414805,
 "fbsearch": 1793389791
 },
 "counters": {
 "gemini:2026-10-25": 260.0,
 "gemini:2026-10-26": 180.0,
-"brightdata:records:2026-10": 216.0,
+"brightdata:records:2026-10": 238.0,
 "gemini:2026-10-27": 163.0,
 "gemini:2026-10-28": 138.0,
 "gemini:2026-10-29": 123.0,
-"gemini:2026-10-30": 146.0
+"gemini:2026-10-30": 146.0,
+"gemini:2026-10-31": 13.0
 },
 "leads": [],
 "stats": {
-"leads_total": 4,
-"seen_total": 1467,
-"pending_proposals": 10
+"leads_total": 3,
+"seen_total": 1502,
+"pending_proposals": 9
 },
 "pending_proposals": [
-{
-"id": "freelancer:40791962",
-"payload": {
-"id": "freelancer:40791962",
-"source": "freelancer",
-"title": "Plataforma de Turismo y Experiencias Inmersivas",
-"text": "Buscamos un desarrollador o equipo de desarrollo de software para diseñar una APP de turismo, con un funcionamiento similar al de Airbnb Experiences. Requerimos una aplicación web responsive, escalable y adaptable a una futura aplicación móvil (iOS y Android), con arquitectura frontend/backend, base de datos y APIs REST o GraphQL. La plataforma debe incluir autenticación y gestión de usuarios (OAuth 2.0), perfiles diferenciados para usuarios y anfitriones, publicación y administración de experiencias con fotografías, descripciones, ubicación, precios y disponibilidad; motor de búsqueda con filtros por categoría, ubicación y fechas; geolocalización y mapas interactivos mediante Google Maps API o Mapbox; sistema de reservas con calendario y disponibilidad en tiempo real; integración de pasarelas de pago mediante APIs como Stripe, Mercado Pago o Wompi; notificaciones automáticas por correo electrónico y push (Firebase Cloud Messaging); sistema de valoraciones y reseñas, favoritos y paneles de administración para gestionar usuarios, experiencias y reservas. Se requiere una interfaz UX/UI intuitiva, visualmente atractiva y optimizada para dispositivos móviles, con infraestructura cloud, almacenamiento seguro de datos, integración de servicios externos y una arquitectura modular que permita incorporar nuevas funcionalidades progresivamente. Buscamos profesionales con experiencia en plataformas tipo marketplace, sistemas de reservas, integraciones API y desarrollo de aplicaciones escalables. Se requiere el desarrollo de un módulo de experiencias digitales inmersivas e interactivas, integrado a la plataforma principal, con capacidad de reproducción y sincronización de contenido multimedia (audio, imágenes, animaciones y recursos interactivos). El sistema deberá contar con infraestructura de almacenamiento en la nube (AWS S3, Google Cloud Storage o Firebase Storage), distribución de contenido mediante CDN y tecnologías de streaming para optimizar la carga y reproducción de archivos. Se contempla la implementación de motores de interacción basados en eventos, secuencias dinámicas y mecánicas de gamificación mediante tecnologías como HTML5, WebGL, Three.js o motores compatibles con entornos web. Adicionalmente, se requiere integración con APIs de respuesta háptica (Vibration API o funcionalidades nativas según compatibilidad del dispositivo), Web Audio API para procesamiento y sincronización de sonido, y sistemas de seguimiento del progreso e interacción del usuario. La arquitectura deberá permitir la administración de contenidos desde un CMS, la ejecución de experiencias interactivas sin instalaciones adicionales y la incorporación progresiva de nuevos módulos, garantizando compatibilidad multidispositivo, rendimiento, escalabilidad y una experiencia fluida.\nPresupuesto: 100000.0-None USD\nSkills: Mobile App Development, iPhone, Android, PhoneGap, UX / User Experience, Web Development",
-"url": "https://www.freelancer.com/projects/web-development/Plataforma-Turismo-Experiencias",
-"author": "",
-"extra": {
-"bids": 64,
-"bid_avg": 101629.1875,
-"budget": "Presupuesto: 100000.0-None USD",
-"budget_min": 100000.0,
-"budget_max": null,
-"currency": "USD",
-"price_type": "fixed",
-"hourly_commitment": null,
-"escrow": false,
-"country": null,
-"lang": "es"
-},
-"language": "es",
-"score": 90,
-"summary": "Una empresa busca un desarrollador o equipo para crear una plataforma web responsive de turismo estilo Airbnb Experiences con pasarela de pagos y mapas.",
-"opener": "Hola, vi su proyecto para la plataforma de turismo tipo Airbnb Experiences y me interesa mucho. Tengo experiencia en marketplaces, mapas y pasarelas de pago. ¿Podemos conversar?",
-"location": null
-},
-"created": 1793231675,
-"attempts": 4
-},
 {
 "id": "freelancer:40792220",
 "payload": {
@@ -1553,7 +1558,7 @@
 "location": null
 },
 "created": 1793246216,
-"attempts": 0
+"attempts": 1
 },
 {
 "id": "freelancer:40792212",

@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow"><title>Build Zapier Textable SMS Automation</title>
+<style>
+:root{--c:#1e88e5;}
+*{box-sizing:border-box}body{margin:0;background:#0f141b;color:#e6edf3;font:15px/1.55 -apple-system,Segoe UI,Roboto,Inter,sans-serif}
+.wrap{max-width:720px;margin:0 auto;padding:18px 16px 60px}
+.src{display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--c);border:1px solid var(--c);border-radius:999px;padding:4px 10px}
+h1{color:var(--c);font-size:22px;line-height:1.25;margin:12px 0 6px}
+.meta{color:#94a3b8;font-size:13px;margin-bottom:14px}
+.card{background:#161d27;border:1px solid #243041;border-radius:14px;padding:16px;margin:12px 0}
+.card h2{margin:0 0 10px;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:#94a3b8}
+.kpis{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.kpi{background:#0f141b;border:1px solid #243041;border-radius:12px;padding:12px;text-align:center}
+.kpi b{display:block;font-size:24px;color:var(--c)}.kpi span{font-size:12px;color:#94a3b8}
+.content{font-weight:700;white-space:pre-wrap;word-wrap:break-word}
+.proposal{white-space:pre-wrap;word-wrap:break-word;font-weight:600}
+.muted{color:#94a3b8;font-size:13px}
+.btn{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;padding:14px;border-radius:12px;border:0;font-weight:700;font-size:16px;cursor:pointer;background:var(--c);color:#fff;margin-top:10px}
+.btn.alt{background:#243041;color:#e6edf3}
+.btn:active{transform:scale(.99)}
+.toast{position:fixed;left:50%;bottom:22px;transform:translateX(-50%);background:#22c55e;color:#06130a;font-weight:700;padding:10px 16px;border-radius:999px;opacity:0;transition:opacity .2s}
+.toast.show{opacity:1}
+a{color:var(--c)}
+</style></head><body><div class="wrap">
+<span class="src">🔵 Freelancer &middot; Lead 95/100</span>
+<h1>Build Zapier Textable SMS Automation</h1>
+<div class="meta">Un cliente busca un freelancer experto en Zapier y APIs para automatizar una campaña de SMS con Textable y Google Drive.</div>
+<div class="card"><h2>Mensaje sugerido para abrir</h2><div class="proposal">Hi! I have extensive experience building Zapier workflows and API integrations like the one you need with Textable and Google Drive. Let&#x27;s get this running smoothly.</div><button class="btn" onclick="copyOpener()">📋 Copiar mensaje</button></div>
+<div class="card"><h2>Publicación original</h2><div class="content">Build Zapier Textable SMS Automation
+Project Overview
+
+I&#x27;m looking for an experienced Zapier/API freelancer to build and test an automated SMS drip campaign workflow connecting Google Drive, Zapier, and Textable.
+
+I will manually upload a CSV file containing approximately 500 new, opted-in phone numbers to a designated Google Drive folder each day.
+
+Your job is to build the automation once. After setup, the workflow must run automatically whenever I upload a new CSV, without any further manual intervention.
+
+Required Automation
+
+1. Zapier detects a new CSV uploaded to the designated Google Drive folder.
+2. Zapier reads the CSV and extracts the phone numbers.
+3. Zapier creates or identifies the corresponding contacts in Textable using its API.
+4. Zapier enrolls those contacts into one existing, reusable Textable drip campaign.
+5. Textable sends the two predefined SMS messages:
+   - Message 1: Immediately upon enrollment.
+   - Message 2: Exactly 14 days (336 hours) after Message 1.
+
+Both messages use the same fixed text for every contact. No personalization or daily message changes are required.
+
+The automation must reuse the same Textable drip campaign for every CSV. It must not create a new campaign for each upload.
+
+The workflow must prevent accidental duplicate enrollments or messages, handle failed API requests appropriately, and support approximately 500 contacts per uploaded CSV.
+
+Textable API
+
+API documentation:
+
+https://textbetter-txb.textable.app/docs/html
+
+The documentation includes endpoints for creating contacts, retrieving existing drip campaigns, and enrolling contacts into a campaign.
+
+The freelancer is responsible for the complete technical setup, including API authentication, required identifiers, contact mapping, Zapier configuration, and testing. I do not want to perform any technical setup myself.
+
+Zapier is required. Please do not propose replacing it with another automation platform.
+
+Payment Milestones
+
+Milestone 1 — Complete Technical Feasibility Verification (25%)
+
+Before building the full automation, verify through actual testing that:
+
+- Zapier can authenticate with Textable and access the necessary API functions.
+- A Google Drive CSV can be detected and its phone numbers extracted.
+- Contacts can be created or identified and enrolled in the same reusable Textable drip campaign.
+- The first SMS can be sent immediately and the second scheduled for exactly 14 days later.
+- The proposed workflow can handle approximately 500 contacts per CSV, including overlapping campaigns, within applicable API and Zapier limits.
+- Required subscription plans, permissions, and estimated recurring costs are identified.
+
+Deliverable: A working test-contact proof of concept and a brief written feasibility assessment identifying any technical blockers.
+
+The first milestone is payable for a completed, documented feasibility assessment even if testing establishes that the project is technically impossible. If the integration is infeasible, the p</div>
+<a class="btn alt" href="https://www.freelancer.com/projects/zapier/Build-Zapier-Textable-SMS-Automation" target="_blank" rel="noopener">Abrir publicación en Freelancer</a></div>
+<div class="muted">Generado 2026-10-30 21:47 &middot; Dev Lead Hunter</div>
+<div class="toast" id="toast">Copiado</div>
+<textarea id="clip" style="position:fixed;left:-9999px;top:0"></textarea>
+<script>
+const DATA={"proposal": "", "opener": "Hi! I have extensive experience building Zapier workflows and API integrations like the one you need with Textable and Google Drive. Let's get this running smoothly.", "question": ""};
+function toast(t){const e=document.getElementById('toast');e.textContent=t;e.classList.add('show');setTimeout(()=>e.classList.remove('show'),1600);}
+async function copyText(t,label){try{await navigator.clipboard.writeText(t);toast(label||'Copiado');}catch(e){const ta=document.getElementById('clip');ta.value=t;ta.select();document.execCommand('copy');toast(label||'Copiado');}}
+function copyProposal(){copyText(DATA.proposal,'Propuesta copiada');}
+function copyOpener(){copyText(DATA.opener,'Mensaje copiado');}
+function copyAll(){copyText(DATA.proposal+"\n\n"+(DATA.question?('Pregunta: '+DATA.question):''),'Todo copiado');}
+</script></div></body></html>

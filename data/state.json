@@ -1,5 +1,46 @@
 {
 "seen": [
+"freelancer:40796354",
+"freelancer:40796374",
+"freelancer:40796377",
+"freelancer:40796385",
+"freelancer:40796409",
+"freelancer:40796420",
+"freelancer:40796429",
+"freelancer:40796426",
+"freelancer:40796441",
+"freelancer:40796446",
+"freelancer:40796450",
+"freelancer:40796452",
+"freelancer:40796457",
+"freelancer:40796470",
+"freelancer:40796475",
+"freelancer:40796476",
+"freelancer:40796477",
+"freelancer:40796479",
+"freelancer:40796436",
+"freelancer:40796482",
+"freelancer:40793603",
+"freelancer:40796485",
+"freelancer:40796490",
+"freelancer:40796481",
+"freelancer:40796491",
+"freelancer:40796493",
+"freelancer:40796492",
+"freelancer:40789742",
+"facebook:1773796200339785",
+"facebook:1853316939028785",
+"facebook:1669473558253347",
+"facebook:1853313275695818",
+"facebook:1669470071587029",
+"facebook:1669469094920460",
+"facebook:1853308589029620",
+"facebook:1669468271587209",
+"facebook:1773770847008987",
+"facebook:1773670997018972",
+"facebook:1665534275153992",
+"facebook:1773641153688623",
+"facebook:4215624028568384",
 "freelancer:40796044",
 "freelancer:40796066",
 "freelancer:40796081",
@@ -1586,25 +1627,25 @@
 "facebook": 1793013059,
 "linkedin": 1792900970,
 "twitter": 1793438211,
-"freelancer": 1793460694,
-"reddit": 1793460694,
-"fbgroups": 1793460583,
+"freelancer": 1793475210,
+"reddit": 1793475211,
+"fbgroups": 1793475090,
 "fbsearch": 1793438206
 },
 "counters": {
 "gemini:2026-10-25": 260.0,
 "gemini:2026-10-26": 180.0,
-"brightdata:records:2026-10": 252.0,
+"brightdata:records:2026-10": 266.0,
 "gemini:2026-10-27": 163.0,
 "gemini:2026-10-28": 138.0,
 "gemini:2026-10-29": 123.0,
 "gemini:2026-10-30": 146.0,
-"gemini:2026-10-31": 59.0
+"gemini:2026-10-31": 86.0
 },
 "leads": [],
 "stats": {
-"leads_total": 6,
-"seen_total": 1581,
+"leads_total": 7,
+"seen_total": 1622,
 "pending_proposals": 4
 },
 "pending_proposals": [
@@ -1637,7 +1678,7 @@
 "location": "Lima, Peru"
 },
 "created": 1793310711,
-"attempts": 1
+"attempts": 2
 },
 {
 "id": "freelancer:40794332",
@@ -1733,8 +1774,5 @@
 "attempts": 0
 }
 ],
-"meta": {
-"brightdata:snapshot": "sd_mvwjvgbn1z9t6znase",
-"brightdata:snapshot_ts": "1793460160"
-}
+"meta": {}
 }

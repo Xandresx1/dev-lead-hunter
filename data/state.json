@@ -1,5 +1,56 @@
 {
 "seen": [
+"freelancer:40796313",
+"freelancer:40796496",
+"freelancer:40796502",
+"freelancer:40796505",
+"freelancer:40796528",
+"freelancer:40796529",
+"freelancer:40796532",
+"freelancer:40796545",
+"freelancer:40796550",
+"freelancer:40796562",
+"freelancer:40796566",
+"freelancer:40796575",
+"freelancer:40796567",
+"freelancer:40796580",
+"freelancer:40796585",
+"freelancer:40796586",
+"freelancer:40796587",
+"freelancer:40796588",
+"freelancer:40790970",
+"freelancer:40796596",
+"freelancer:40796597",
+"freelancer:40796598",
+"freelancer:40796603",
+"freelancer:40796606",
+"freelancer:40796607",
+"freelancer:40796608",
+"facebook:34016998061248905",
+"facebook:2512535296158776",
+"facebook:10164500904378046",
+"facebook:2414243176051952",
+"facebook:10242596005788692",
+"facebook:3594009937417417",
+"facebook:1668617324621162",
+"facebook:3329654937218748",
+"facebook:29568752032748967",
+"facebook:29466411922951315",
+"facebook:2132656734017237",
+"facebook:2512376106174695",
+"facebook:4621092908122777",
+"facebook:1968301807463340",
+"facebook:3691315087682483",
+"facebook:1872110840612968",
+"facebook:3592736760878068",
+"facebook:1998986654100934",
+"facebook:2042576176461574",
+"facebook:1576914840027923",
+"facebook:122117012961500683",
+"facebook:29167530636265276",
+"facebook:122130697275469352",
+"facebook:2512537882825184",
+"facebook:2205945470342724",
 "freelancer:40796354",
 "freelancer:40796374",
 "freelancer:40796377",
@@ -1627,10 +1678,10 @@
 "facebook": 1793013059,
 "linkedin": 1792900970,
 "twitter": 1793438211,
-"freelancer": 1793475210,
-"reddit": 1793475211,
+"freelancer": 1793487074,
+"reddit": 1793487074,
 "fbgroups": 1793475090,
-"fbsearch": 1793438206
+"fbsearch": 1793486941
 },
 "counters": {
 "gemini:2026-10-25": 260.0,
@@ -1640,46 +1691,15 @@
 "gemini:2026-10-28": 138.0,
 "gemini:2026-10-29": 123.0,
 "gemini:2026-10-30": 146.0,
-"gemini:2026-10-31": 86.0
+"gemini:2026-10-31": 114.0
 },
 "leads": [],
 "stats": {
-"leads_total": 7,
-"seen_total": 1622,
-"pending_proposals": 4
+"leads_total": 3,
+"seen_total": 1673,
+"pending_proposals": 3
 },
 "pending_proposals": [
-{
-"id": "freelancer:40793503",
-"payload": {
-"id": "freelancer:40793503",
-"source": "freelancer",
-"title": "Landing Page y Google Ads Lima",
-"text": "Título del proyecto: Creación de Landing Page + Campaña de Google Ads para empresa de construcción en Lima - Peru\n\nDescripción:\nHola. Estoy iniciando una empresa en Lima dedicada a los servicios de construcción, alquiler de andamios, eliminación de desmonte y venta de materiales. Mi público objetivo son maestros de obra y particulares, por lo que las ventas se cerrarán directamente por WhatsApp.\nNo cuento con página web, así que necesito cotizar el siguiente trabajo:\n1. Desarrollo de una Landing Page (Web de una sola página): Rápida, muy bien optimizada para celulares, que muestre fotos de los servicios que ofrezco con botones directos y flotantes hacia mi WhatsApp.\n2. Configuración de Campaña en Google Ads: Investigación de las palabras clave que usan los maestros de obra en Lima y armado de los anuncios de búsqueda para captar clientes desde el primer día.\n\nPor favor, enviar cotización detallada (indicar si el costo incluye ambas cosas o solo una), tiempo de entrega y ejemplos de páginas sencillas o catálogos que hayan realizado antes.\n\n¡Muchas gracias!\nPresupuesto: 30.0-250.0 USD\nSkills: PHP, Website Design, Graphic Design, HTML, Digital Marketing, Web Development",
-"url": "https://www.freelancer.com/projects/google-ads/Landing-Page-Google-Ads-Lima",
-"author": "",
-"extra": {
-"bids": 130,
-"bid_avg": 121.6,
-"budget": "Presupuesto: 30.0-250.0 USD",
-"budget_min": 30.0,
-"budget_max": 250.0,
-"currency": "USD",
-"price_type": "fixed",
-"hourly_commitment": null,
-"escrow": false,
-"country": null,
-"lang": "es"
-},
-"language": "es",
-"score": 90,
-"summary": "Empresario en Lima necesita desarrollo de landing page optimizada para móviles y configuración de Google Ads para empresa de construcción.",
-"opener": "Hola, ¿qué tal? Vi tu proyecto para la empresa de construcción en Lima y me interesa ayudarte con la landing page y la campaña de Google Ads.",
-"location": "Lima, Peru"
-},
-"created": 1793310711,
-"attempts": 2
-},
 {
 "id": "freelancer:40794332",
 "payload": {
@@ -1709,7 +1729,7 @@
 "location": null
 },
 "created": 1793346357,
-"attempts": 0
+"attempts": 1
 },
 {
 "id": "freelancer:40795133",

@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow"><title>Reusable n8n CSV to MySQL</title>
+<style>
+:root{--c:#1e88e5;}
+*{box-sizing:border-box}body{margin:0;background:#0f141b;color:#e6edf3;font:15px/1.55 -apple-system,Segoe UI,Roboto,Inter,sans-serif}
+.wrap{max-width:720px;margin:0 auto;padding:18px 16px 60px}
+.src{display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--c);border:1px solid var(--c);border-radius:999px;padding:4px 10px}
+h1{color:var(--c);font-size:22px;line-height:1.25;margin:12px 0 6px}
+.meta{color:#94a3b8;font-size:13px;margin-bottom:14px}
+.card{background:#161d27;border:1px solid #243041;border-radius:14px;padding:16px;margin:12px 0}
+.card h2{margin:0 0 10px;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:#94a3b8}
+.kpis{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.kpi{background:#0f141b;border:1px solid #243041;border-radius:12px;padding:12px;text-align:center}
+.kpi b{display:block;font-size:24px;color:var(--c)}.kpi span{font-size:12px;color:#94a3b8}
+.content{font-weight:700;white-space:pre-wrap;word-wrap:break-word}
+.proposal{white-space:pre-wrap;word-wrap:break-word;font-weight:600}
+.muted{color:#94a3b8;font-size:13px}
+.btn{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;padding:14px;border-radius:12px;border:0;font-weight:700;font-size:16px;cursor:pointer;background:var(--c);color:#fff;margin-top:10px}
+.btn.alt{background:#243041;color:#e6edf3}
+.btn:active{transform:scale(.99)}
+.toast{position:fixed;left:50%;bottom:22px;transform:translateX(-50%);background:#22c55e;color:#06130a;font-weight:700;padding:10px 16px;border-radius:999px;opacity:0;transition:opacity .2s}
+.toast.show{opacity:1}
+a{color:var(--c)}
+</style></head><body><div class="wrap">
+<span class="src">🔵 Freelancer &middot; Lead 90/100</span>
+<h1>Reusable n8n CSV to MySQL</h1>
+<div class="meta">Una persona necesita un flujo automatizado en n8n para importar CSV a MySQL con mapeo dinámico y manejo de errores.</div>
+<div class="card"><h2>Mensaje sugerido para abrir</h2><div class="proposal">Hi! I have extensive experience building custom n8n automation workflows, including CSV parsing and MySQL integrations. I can deliver this reusable workflow for you quickly.</div><button class="btn" onclick="copyOpener()">📋 Copiar mensaje</button></div>
+<div class="card"><h2>Publicación original</h2><div class="content">Reusable n8n CSV to MySQL
+I’m building an automated import flow in n8n and need a reusable workflow that starts from a simple web form where I can upload a CSV. After the file is received, the workflow should parse every row, let me pick which CSV columns map to which MySQL fields through an easy-to-reach settings step (no code edits), and then push the data into the target table.
+
+Key behaviour I expect:  
+• If a row is missing required data or contains an invalid value, the workflow should quietly skip that row, continue processing the rest, and keep a clear error log I can download at the end.  
+• All other valid rows go straight into MySQL in a single run.  
+
+The finished workflow must be easy to clone to new n8n instances and quick to adjust whenever the underlying table or the incoming CSV format changes. Please include brief setup notes so I can drop in my database credentials, point the web-form node to my site, and get rolling without touching the internal logic.
+Presupuesto: 100000.0-None USD
+Skills: PHP, JavaScript, Data Processing, Software Architecture, MySQL, HTML</div>
+<a class="btn alt" href="https://www.freelancer.com/projects/n8n/Reusable-CSV-MySQL" target="_blank" rel="noopener">Abrir publicación en Freelancer</a></div>
+<div class="muted">Generado 2026-10-31 10:30 &middot; Dev Lead Hunter</div>
+<div class="toast" id="toast">Copiado</div>
+<textarea id="clip" style="position:fixed;left:-9999px;top:0"></textarea>
+<script>
+const DATA={"proposal": "", "opener": "Hi! I have extensive experience building custom n8n automation workflows, including CSV parsing and MySQL integrations. I can deliver this reusable workflow for you quickly.", "question": ""};
+function toast(t){const e=document.getElementById('toast');e.textContent=t;e.classList.add('show');setTimeout(()=>e.classList.remove('show'),1600);}
+async function copyText(t,label){try{await navigator.clipboard.writeText(t);toast(label||'Copiado');}catch(e){const ta=document.getElementById('clip');ta.value=t;ta.select();document.execCommand('copy');toast(label||'Copiado');}}
+function copyProposal(){copyText(DATA.proposal,'Propuesta copiada');}
+function copyOpener(){copyText(DATA.opener,'Mensaje copiado');}
+function copyAll(){copyText(DATA.proposal+"\n\n"+(DATA.question?('Pregunta: '+DATA.question):''),'Todo copiado');}
+</script></div></body></html>

@@ -1,5 +1,34 @@
 {
 "seen": [
+"freelancer:40793646",
+"freelancer:40797541",
+"freelancer:40797607",
+"freelancer:40797611",
+"freelancer:40797609",
+"freelancer:40797629",
+"freelancer:40797644",
+"freelancer:40797648",
+"freelancer:40797660",
+"freelancer:40797669",
+"freelancer:40797666",
+"freelancer:40797673",
+"freelancer:40797671",
+"freelancer:40791816",
+"freelancer:40797684",
+"freelancer:40797688",
+"freelancer:40797689",
+"freelancer:40797696",
+"freelancer:40797693",
+"freelancer:40797695",
+"freelancer:40797709",
+"freelancer:40797710",
+"freelancer:40797713",
+"freelancer:40797716",
+"freelancer:40797718",
+"freelancer:40797712",
+"freelancer:40797721",
+"freelancer:40797722",
+"freelancer:40797723",
 "freelancer:40796993",
 "freelancer:40797131",
 "freelancer:40797182",
@@ -1793,9 +1822,9 @@
 "runs": {
 "facebook": 1793013059,
 "linkedin": 1792900970,
-"twitter": 1793497701,
-"freelancer": 1793547282,
-"reddit": 1793547282,
+"twitter": 1793562801,
+"freelancer": 1793562919,
+"reddit": 1793562919,
 "fbgroups": 1793547118,
 "fbsearch": 1793547143
 },
@@ -1809,77 +1838,14 @@
 "gemini:2026-10-30": 146.0,
 "gemini:2026-10-31": 114.0,
 "brightdata:records:2026-11": 37.0,
-"gemini:2026-11-01": 75.0
+"gemini:2026-11-01": 101.0
 },
 "leads": [],
 "stats": {
 "leads_total": 5,
-"seen_total": 1789,
-"pending_proposals": 2
+"seen_total": 1818,
+"pending_proposals": 0
 },
-"pending_proposals": [
-{
-"id": "freelancer:40795133",
-"payload": {
-"id": "freelancer:40795133",
-"source": "freelancer",
-"title": "Construcción Tienda Online Moda",
-"text": "Quiero lanzar una tienda online para vender ropa de mujer de estilo casual y cómoda para el día a día. Necesito a alguien que se encargue de todo el proceso de creación de la tienda, desde la elección y configuración de la plataforma (Shopify, WooCommerce o similar) hasta que el sitio esté listo para recibir pedidos.\n\nAlcance esperado  \n• Diseño de una identidad visual coherente con la propuesta “casual-confort”.  \n• Maquetación responsive con una navegación sencilla y fotografías atractivas.  \n• Carga inicial de productos (yo proporcionaré las imágenes y descripciones básicas).  \n• Configuración de pasarelas de pago seguras y métodos de envío estándar.  \n• Integración con redes sociales para facilitar la difusión de lanzamientos y promociones.  \n• Ajustes básicos de SEO on-page y conexión con Google Analytics para seguimiento.\n\nEntregables  \n1. Sitio web funcional publicado en mi dominio.  \n2. Manual breve (o video) donde pueda ver cómo añadir nuevos productos y gestionar pedidos.  \n3. Una revisión posterior al lanzamiento para afinar detalles de usabilidad o contenido.\n\nBusco a un profesional que tenga experiencia previa montando e-commerce de moda y sepa equilibrar buen diseño con rapidez de carga. Si dominas herramientas de optimización de imágenes, plugins de marketing y prácticas de usabilidad, menciónalo en tu propuesta.\nPresupuesto: 250.0-750.0 EUR\nSkills: PHP, Website Design, SEO, HTML, Shopify, WooCommerce",
-"url": "https://www.freelancer.com/projects/shopify-site/Construcci-Tienda-Online-Moda",
-"author": "",
-"extra": {
-"bids": 114,
-"bid_avg": 401.9298245614035,
-"budget": "Presupuesto: 250.0-750.0 EUR",
-"budget_min": 250.0,
-"budget_max": 750.0,
-"currency": "EUR",
-"price_type": "fixed",
-"hourly_commitment": null,
-"escrow": false,
-"country": null,
-"lang": "es"
-},
-"language": "es",
-"score": 90,
-"summary": "Emprendedora busca desarrollador para crear una tienda online completa de ropa de mujer con Shopify o WooCommerce.",
-"opener": "Hola, he visto tu proyecto para la tienda online de ropa casual y tengo experiencia montando e-commerce optimizados. ¿Podemos hablar de los detalles?",
-"location": null
-},
-"created": 1793389910,
-"attempts": 2
-},
-{
-"id": "freelancer:40795085",
-"payload": {
-"id": "freelancer:40795085",
-"source": "freelancer",
-"title": "Chatbot WhatsApp Respuestas Automáticas",
-"text": "Necesito implementar un asistente virtual que atienda a mis clientes en WhatsApp las 24 h. Su función principal será responder de forma automática todas las preguntas frecuentes que ya tengo recopiladas en un documento de preguntas y respuestas.\n\nCuando el cliente quiera hacer un pedido o una reserva, el bot debe solicitar estos tres datos de forma clara y ordenada:\n• producto o servicio deseado  \n• cantidad  \n• dirección de entrega  \n\nUna vez recibida la información, confirmará el pedido y lo enviará a nuestro sistema interno para que un agente humano continúe el proceso.\n\nAlcance del proyecto  \n– Integración completa con mi número de WhatsApp Business (puedes trabajar con la API oficial, Twilio, WATI u otra plataforma fiable).  \n– Carga y mantenimiento sencillo del documento de FAQ para que yo mismo pueda actualizar respuestas.  \n– Flujo conversacional en español con detección de intenciones, repreguntas y gestión de respuestas no previstas.  \n– Registro automático de cada conversación en una hoja de cálculo (Google Sheets, Airtable o similar).  \n– Manual breve para que mi equipo pueda administrar, pausar o modificar el bot una vez en producción.\n\nEntrego el documento de FAQ, el acceso al número de prueba y cualquier otro recurso que necesites. Considero el trabajo finalizado cuando el asistente esté activo, probado y documentado.\n\nIndica en tu propuesta qué tecnología emplearás, plazo estimado y ejemplos de chatbots similares que hayas desarrollado. ¡Gracias!\nPresupuesto: 25.0-50.0 USD\nSkills: PHP, Python, Software Architecture, Spanish Translator, API Integration, AI Chatbot",
-"url": "https://www.freelancer.com/projects/ai-chatbot/Chatbot-WhatsApp-Respuestas-Autom-ticas",
-"author": "",
-"extra": {
-"bids": 166,
-"bid_avg": 32.48795180722892,
-"budget": "Presupuesto: 25.0-50.0 USD",
-"budget_min": 25.0,
-"budget_max": 50.0,
-"currency": "USD",
-"price_type": "hourly",
-"hourly_commitment": "40 h/week",
-"escrow": false,
-"country": null,
-"lang": "es"
-},
-"language": "es",
-"score": 95,
-"summary": "Negocio necesita implementar un chatbot de WhatsApp automatizado para FAQs y toma de pedidos con integración a Google Sheets.",
-"opener": "Hola, vi tu proyecto para implementar el chatbot en WhatsApp y tengo experiencia integrando la API y flujos conversacionales. ¿Podemos conversar?",
-"location": null
-},
-"created": 1793389929,
-"attempts": 0
-}
-],
+"pending_proposals": [],
 "meta": {}
 }

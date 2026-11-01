@@ -1,5 +1,41 @@
 {
 "seen": [
+"freelancer:40796698",
+"freelancer:40796713",
+"freelancer:40796733",
+"freelancer:40796770",
+"freelancer:40796808",
+"freelancer:40796853",
+"freelancer:40796786",
+"freelancer:40796824",
+"freelancer:40796875",
+"freelancer:40796888",
+"freelancer:40796833",
+"freelancer:40796861",
+"freelancer:40796830",
+"freelancer:40796863",
+"freelancer:40796254",
+"freelancer:40796958",
+"freelancer:40794890",
+"freelancer:40796952",
+"freelancer:40796972",
+"freelancer:40796970",
+"freelancer:40796991",
+"freelancer:40796994",
+"freelancer:40796998",
+"freelancer:40797015",
+"freelancer:40797013",
+"facebook:1854007758959703",
+"facebook:1774428236943248",
+"facebook:1774395240279881",
+"facebook:1774379616948110",
+"facebook:1853935198966959",
+"facebook:1853907128969766",
+"facebook:1670042881529748",
+"facebook:1670039641530072",
+"facebook:1670008794866490",
+"facebook:1669992461534790",
+"facebook:1774239220295483",
 "freelancer:40796055",
 "freelancer:40796060",
 "freelancer:40796612",
@@ -1711,9 +1747,9 @@
 "facebook": 1793013059,
 "linkedin": 1792900970,
 "twitter": 1793497701,
-"freelancer": 1793497794,
-"reddit": 1793497794,
-"fbgroups": 1793497693,
+"freelancer": 1793522195,
+"reddit": 1793522195,
+"fbgroups": 1793522093,
 "fbsearch": 1793486941
 },
 "counters": {
@@ -1725,47 +1761,16 @@
 "gemini:2026-10-29": 123.0,
 "gemini:2026-10-30": 146.0,
 "gemini:2026-10-31": 114.0,
-"brightdata:records:2026-11": 13.0,
-"gemini:2026-11-01": 21.0
+"brightdata:records:2026-11": 25.0,
+"gemini:2026-11-01": 44.0
 },
 "leads": [],
 "stats": {
-"leads_total": 2,
-"seen_total": 1706,
-"pending_proposals": 3
+"leads_total": 0,
+"seen_total": 1742,
+"pending_proposals": 2
 },
 "pending_proposals": [
-{
-"id": "freelancer:40794332",
-"payload": {
-"id": "freelancer:40794332",
-"source": "freelancer",
-"title": "App Radio y Video Streaming",
-"text": "Quiero contar con una aplicación móvil que permita a mis oyentes conectarse a la señal de mi estación de radio online y, al mismo tiempo, disfrutar de nuestras transmisiones de video en vivo. Lo esencial es que, desde una misma pantalla, el usuario pueda:  \n• reproducir la señal de radio en vivo sin cortes,  \n• cambiar a la transmisión de video cuando estemos al aire con cámaras, y  \n• tocar un botón que abra directamente WhatsApp con nuestro número para enviar saludos, solicitudes musicales o comentarios.\n\nLa app debe estar disponible tanto en Android como en iPhone; no necesito versión de escritorio por ahora. Yo proveeré la URL del streaming de audio, el enlace/servidor para el video (HLS o RTMP) y el número de WhatsApp de la cabina.\n\nEntrego los logos, colores y assets; tú te encargas del desarrollo, pruebas y entrega de los instaladores listos para publicar (APK/AAB para Google Play y archivo listo para App Store). Aprecio si usas una solución cross-platform como Flutter o React Native para optimizar tiempos, pero acepto propuestas nativas si lo justificas.\n\nPara dar por terminado el proyecto necesito:  \n• código fuente completo,  \n• apps firmadas en modo release,  \n• breve manual en PDF sobre cómo reemplazar las URL de streaming si cambian en el futuro.\n\nSi tienes experiencia previa con streaming en vivo y enlaces directos a WhatsApp, será un plus. Espero tu propuesta y tiempos estimados de entrega.\nPresupuesto: 250.0-750.0 USD\nSkills: Mobile App Development, Video Services, iPhone, Android, React Native, Flutter",
-"url": "https://www.freelancer.com/projects/ios/App-Radio-Video-Streaming",
-"author": "",
-"extra": {
-"bids": 97,
-"bid_avg": 402.30927835051546,
-"budget": "Presupuesto: 250.0-750.0 USD",
-"budget_min": 250.0,
-"budget_max": 750.0,
-"currency": "USD",
-"price_type": "fixed",
-"hourly_commitment": null,
-"escrow": false,
-"country": null,
-"lang": "es"
-},
-"language": "es",
-"score": 95,
-"summary": "Dueño de estación de radio online busca desarrollador móvil para crear app en Android e iOS con streaming de audio/video y botón de WhatsApp.",
-"opener": "Hola, vi tu requerimiento para la app de radio y video streaming. Tengo experiencia previa con Flutter y multimedia, y puedo entregarte los binarios listos para las tiendas.",
-"location": null
-},
-"created": 1793346357,
-"attempts": 2
-},
 {
 "id": "freelancer:40795133",
 "payload": {
@@ -1795,7 +1800,7 @@
 "location": null
 },
 "created": 1793389910,
-"attempts": 0
+"attempts": 1
 },
 {
 "id": "freelancer:40795085",

@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow"><title>A full-fledged aimbot (cheat) for the game UE5 First-Person.</title>
+<style>
+:root{--c:#1e88e5;}
+*{box-sizing:border-box}body{margin:0;background:#0f141b;color:#e6edf3;font:15px/1.55 -apple-system,Segoe UI,Roboto,Inter,sans-serif}
+.wrap{max-width:720px;margin:0 auto;padding:18px 16px 60px}
+.src{display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--c);border:1px solid var(--c);border-radius:999px;padding:4px 10px}
+h1{color:var(--c);font-size:22px;line-height:1.25;margin:12px 0 6px}
+.meta{color:#94a3b8;font-size:13px;margin-bottom:14px}
+.card{background:#161d27;border:1px solid #243041;border-radius:14px;padding:16px;margin:12px 0}
+.card h2{margin:0 0 10px;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:#94a3b8}
+.kpis{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.kpi{background:#0f141b;border:1px solid #243041;border-radius:12px;padding:12px;text-align:center}
+.kpi b{display:block;font-size:24px;color:var(--c)}.kpi span{font-size:12px;color:#94a3b8}
+.content{font-weight:700;white-space:pre-wrap;word-wrap:break-word}
+.proposal{white-space:pre-wrap;word-wrap:break-word;font-weight:600}
+.muted{color:#94a3b8;font-size:13px}
+.btn{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;padding:14px;border-radius:12px;border:0;font-weight:700;font-size:16px;cursor:pointer;background:var(--c);color:#fff;margin-top:10px}
+.btn.alt{background:#243041;color:#e6edf3}
+.btn:active{transform:scale(.99)}
+.toast{position:fixed;left:50%;bottom:22px;transform:translateX(-50%);background:#22c55e;color:#06130a;font-weight:700;padding:10px 16px;border-radius:999px;opacity:0;transition:opacity .2s}
+.toast.show{opacity:1}
+a{color:var(--c)}
+</style></head><body><div class="wrap">
+<span class="src">🔵 Freelancer &middot; Lead 90/100</span>
+<h1>A full-fledged aimbot (cheat) for the game UE5 First-Person.</h1>
+<div class="meta">Desarrollador de videojuegos en UE5 necesita un sistema de asistencia de apuntado (aim-assist/magnetism) para modo PvE.</div>
+<div class="card"><h2>Mensaje sugerido para abrir</h2><div class="proposal">Hi! I have experience developing gameplay mechanics and custom systems in Unreal Engine 5 (including Blueprints and C++). I&#x27;d love to help you build this smooth aim-assist feature.</div><button class="btn" onclick="copyOpener()">📋 Copiar mensaje</button></div>
+<div class="card"><h2>Publicación original</h2><div class="content">A full-fledged aimbot (cheat) for the game UE5 First-Person.
+I’m finishing up a first-person shooter in Unreal Engine 5 and I need a smooth, reliable aim-assist system that players can toggle on or off from the in-game settings screen. It will be used strictly in PvE modes, never in competitive PvP, so the behaviour can focus on making target acquisition feel natural rather than perfectly balanced.
+
+Core behaviour  
+• When the crosshair drifts close to a valid enemy, the assist should apply gentle, configurable magnetism (not a hard snap) that feels subtle with mouse and controller alike.  
+• Assist strength, radius and fall-off need to be exposed as variables I can tweak in Blueprints.  
+• The system must respect the player’s preference flag: if the option isn’t enabled, no additional aim logic should run.
+
+Technical expectations  
+• Unreal Engine 5 (currently on 5.3) – Blueprint implementation is fine, but clean C++ nodes for performance are welcome.  
+• Works with the standard Character and Enhanced Input setups; replication-friendly so I can expand into online co-op later.  
+• Clear comments, a short integration guide, and a test map that demonstrates the feature against simple AI pawns.
+
+Deliverables  
+1. UE5 project files or plugin containing the aim-assist logic  
+2. Integration steps (text or short video)  
+3. One revision pass after initial hand-off for polish
+
+If you’ve built similar magnetism or lock-on systems before, I’d love to see a clip or playable demo. I’m ready to move as soon as I find the right fit.
+https://drive.google.com/file/d/14m77MpqWrfiPwmSxKfphD79y34-Uonge/view?usp=sharing
+Presupuesto: 250.0-750.0 USD
+Skills: C Programming, Game Design, C++ Programming, Unity 3D, OpenGL, Game Development</div>
+<a class="btn alt" href="https://www.freelancer.com/projects/unreal-engine/First-Person-Aim-Assist" target="_blank" rel="noopener">Abrir publicación en Freelancer</a></div>
+<div class="muted">Generado 2026-11-03 17:12 &middot; Dev Lead Hunter</div>
+<div class="toast" id="toast">Copiado</div>
+<textarea id="clip" style="position:fixed;left:-9999px;top:0"></textarea>
+<script>
+const DATA={"proposal": "", "opener": "Hi! I have experience developing gameplay mechanics and custom systems in Unreal Engine 5 (including Blueprints and C++). I'd love to help you build this smooth aim-assist feature.", "question": ""};
+function toast(t){const e=document.getElementById('toast');e.textContent=t;e.classList.add('show');setTimeout(()=>e.classList.remove('show'),1600);}
+async function copyText(t,label){try{await navigator.clipboard.writeText(t);toast(label||'Copiado');}catch(e){const ta=document.getElementById('clip');ta.value=t;ta.select();document.execCommand('copy');toast(label||'Copiado');}}
+function copyProposal(){copyText(DATA.proposal,'Propuesta copiada');}
+function copyOpener(){copyText(DATA.opener,'Mensaje copiado');}
+function copyAll(){copyText(DATA.proposal+"\n\n"+(DATA.question?('Pregunta: '+DATA.question):''),'Todo copiado');}
+</script></div></body></html>

@@ -1,5 +1,47 @@
 {
 "seen": [
+"freelancer:40801474",
+"freelancer:40801896",
+"freelancer:40801902",
+"freelancer:40802036",
+"freelancer:40802042",
+"freelancer:40802055",
+"freelancer:40802095",
+"freelancer:40802125",
+"freelancer:40802151",
+"freelancer:40802246",
+"freelancer:40802298",
+"freelancer:40802311",
+"freelancer:40802315",
+"freelancer:40802301",
+"freelancer:40802313",
+"freelancer:40800305",
+"freelancer:40802328",
+"freelancer:40798425",
+"freelancer:40802334",
+"freelancer:40802335",
+"freelancer:40802339",
+"freelancer:40802340",
+"freelancer:40802342",
+"freelancer:40802343",
+"freelancer:40802347",
+"freelancer:40802348",
+"facebook:1488672779783944",
+"facebook:2236836170262097",
+"facebook:2380013949466861",
+"facebook:2627834764396901",
+"facebook:4534956343430321",
+"facebook:1673269451207091",
+"facebook:1777296606656411",
+"facebook:1857073698653109",
+"facebook:1673202491213787",
+"facebook:1857033958657083",
+"facebook:1777216946664377",
+"facebook:1777206373332101",
+"facebook:1856952991998513",
+"facebook:1856950638665415",
+"facebook:1777147466671325",
+"facebook:4220868641377256",
 "freelancer:40800712",
 "freelancer:40800718",
 "freelancer:40800726",
@@ -2241,11 +2283,11 @@
 "runs": {
 "facebook": 1793013059,
 "linkedin": 1792900970,
-"twitter": 1793724972,
-"freelancer": 1793759497,
-"reddit": 1793759497,
-"fbgroups": 1793759117,
-"fbsearch": 1793724965
+"twitter": 1793785917,
+"freelancer": 1793786032,
+"reddit": 1793786033,
+"fbgroups": 1793785892,
+"fbsearch": 1793785908
 },
 "counters": {
 "gemini:2026-10-25": 260.0,
@@ -2256,16 +2298,16 @@
 "gemini:2026-10-29": 123.0,
 "gemini:2026-10-30": 146.0,
 "gemini:2026-10-31": 114.0,
-"brightdata:records:2026-11": 139.0,
+"brightdata:records:2026-11": 152.0,
 "gemini:2026-11-01": 135.0,
 "gemini:2026-11-02": 105.0,
 "gemini:2026-11-03": 134.0,
-"gemini:2026-11-04": 32.0
+"gemini:2026-11-04": 59.0
 },
 "leads": [],
 "stats": {
-"leads_total": 3,
-"seen_total": 2237,
+"leads_total": 4,
+"seen_total": 2279,
 "pending_proposals": 1
 },
 "pending_proposals": [
@@ -2298,7 +2340,7 @@
 "location": null
 },
 "created": 1793696707,
-"attempts": 3
+"attempts": 4
 }
 ],
 "meta": {}

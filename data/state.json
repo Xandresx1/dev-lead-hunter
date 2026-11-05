@@ -1,5 +1,58 @@
 {
 "seen": [
+"freelancer:40804873",
+"freelancer:40804515",
+"freelancer:40804869",
+"freelancer:40804867",
+"freelancer:40804862",
+"freelancer:40804861",
+"freelancer:40804831",
+"freelancer:40804842",
+"freelancer:40804836",
+"freelancer:40804833",
+"freelancer:40804829",
+"freelancer:40804824",
+"freelancer:40804823",
+"freelancer:40804808",
+"freelancer:40804790",
+"freelancer:40804791",
+"freelancer:40804765",
+"freelancer:40804758",
+"freelancer:40804757",
+"freelancer:40804746",
+"freelancer:40804721",
+"freelancer:40804684",
+"freelancer:40804658",
+"freelancer:40804579",
+"freelancer:40804543",
+"freelancer:40804466",
+"freelancer:40804444",
+"freelancer:40804443",
+"freelancer:40804417",
+"freelancer:40803900",
+"freelancer:40804876",
+"freelancer:40804874",
+"freelancer:40804884",
+"freelancer:40804887",
+"freelancer:40804889",
+"freelancer:40804868",
+"freelancer:40804892",
+"freelancer:40804600",
+"freelancer:40804893",
+"freelancer:40804895",
+"freelancer:40804896",
+"facebook:1858621381831674",
+"facebook:1858621195165026",
+"facebook:1674801124387257",
+"facebook:1858619025165243",
+"facebook:1674797294387640",
+"facebook:2918720768495861",
+"facebook:1778634863189252",
+"facebook:2918703918497546",
+"facebook:1778620596524012",
+"facebook:4223604714436982",
+"facebook:2918590181842253",
+"facebook:2918444351856836",
 "freelancer:40804279",
 "freelancer:40804304",
 "freelancer:40804299",
@@ -2505,9 +2558,9 @@
 "facebook": 1793013059,
 "linkedin": 1792900970,
 "twitter": 1793849642,
-"freelancer": 1793878308,
-"reddit": 1793878308,
-"fbgroups": 1793878263,
+"freelancer": 1793905343,
+"reddit": 1793905343,
+"fbgroups": 1793905274,
 "fbsearch": 1793878283
 },
 "counters": {
@@ -2519,18 +2572,18 @@
 "gemini:2026-10-29": 123.0,
 "gemini:2026-10-30": 146.0,
 "gemini:2026-10-31": 114.0,
-"brightdata:records:2026-11": 212.0,
+"brightdata:records:2026-11": 230.0,
 "gemini:2026-11-01": 135.0,
 "gemini:2026-11-02": 105.0,
 "gemini:2026-11-03": 134.0,
 "gemini:2026-11-04": 150.0,
-"gemini:2026-11-05": 34.0
+"gemini:2026-11-05": 43.0
 },
 "leads": [],
 "stats": {
-"leads_total": 11,
-"seen_total": 2500,
-"pending_proposals": 5
+"leads_total": 14,
+"seen_total": 2553,
+"pending_proposals": 8
 },
 "pending_proposals": [
 {
@@ -2562,7 +2615,7 @@
 "location": "Panamá"
 },
 "created": 1793814563,
-"attempts": 1
+"attempts": 2
 },
 {
 "id": "freelancer:40802794",
@@ -2686,6 +2739,99 @@
 "location": null
 },
 "created": 1793849947,
+"attempts": 0
+},
+{
+"id": "freelancer:40804791",
+"payload": {
+"id": "freelancer:40804791",
+"source": "freelancer",
+"title": "CDMX y Zona Metropolitana - Evaluación telefónica de atención y servicio -- 98520",
+"text": "La actividad consiste en llamar telefónicamente a ocho empresas asignadas por nosotros para solicitar información y cotizar un servicio.\n\nPara realizar satisfactoriamente la actividad se requiere de lo siguiente:\n1. Estudiar guía de llamada, comprender lo que se requiere mencionar y lo que se requiere cotizar, tener comunicación con nosotros antes de iniciar la actividad para aclarar el objetivo y resolver cualquier duda. (Tiempo aproximado 1 hora: 30 minutos de estudio de guía y 30 minutos para comunicación previa y resolver dudas).\n2. Realizar las ocho llamadas para solicitar información y cotizar el servicio, cada llamada dura en promedio 15 minutos. (Tiempo aproximado 2 horas).\n3. En caso de que alguno de los negocios a los que se llamó no haya respondido es necesario volver a marcar más tarde para lograr la conversación con los vendedores y obtener la cotización. (Tiempo aproximado 2 horas; es posible que todos los negocios respondan al primer intento, pero en caso contrario es necesario tener en mente que la actividad se completa hasta que se logra contacto con el negocio y se pide la información y la cotización, no por el simple hecho de llamar aunque no respondan, por eso añadimos 2 horas extra en la proyección para que por favor las tengas en consideración).\n4. Responder un pequeño formulario de cinco preguntas por cada llamada y enviarnos las cotizaciones recibidas mediante el mismo formulario (Tiempo aproximado 1 hora).\n\nLAS LLAMADAS DEBEN REALIZARSE ÚNICAMENTE EN EL DÍA AGENDADO PREVIO ACUERDO CON NOSOTROS, NO ES POSIBLE REALIZAR LAS LLAMADAS EN DISTINTOS DÍAS.\n\nEn total se requieren de 6 a 8 horas para completar la actividad, el pago es fijo y es de $50 USD una vez que la actividad fue completada satisfactoriamente.\n\nRequerimientos del Freelancer:\nA. Conocer la Ciudad de México.\nB. Vivir en la Ciudad de México, Estado de México, Querétaro, Puebla, Tlaxcala o Morelos y contar con un número de teléfono fijo o celular para hacer las llamadas que inicie con lada de dichas ciudades. NO SERÁN CONSIDERADOS FREELANCERS QUE NO VIVAN EN LAS CIUDADES MENCIONADAS O QUE NO CUENTEN CON NÚMERO LADA DE ESTAS CIUDADES.\nC. Edad mínima 25 años.\nD. Tener la app de Freelancer instalada en su teléfono móvil con las notificaciones activadas. (Una de las principales causas de que los proyectos no se logren satisfactoriamente es debido a que los Freelancers no están al pendiente de sus mensajes o no reciben las notificaciones causando una comunicación tardía, por este motivo te pedimos instalar la app y estar al tanto de la misma para beneficio de todos).\n\nSi te interesa participar en esta actividad y no has hecho la misma en los tres meses previos a esta publicación realiza tu bid por la cantidad fija $50 USD y escribiendo en el mensaje el municipio Alcaldía o Delegación en la que vives para confirmar que no eres un bot. Bids por cantidades mayores a $50 USD no serán considerados.\n\nSe seleccionarán varios Freelancers para esta actividad.\n\nGracias.\nPresupuesto: 30.0-250.0 USD\nSkills: Customer Support, Marketing, Virtual Assistant, Audit, Market Research, Customer Service",
+"url": "https://www.freelancer.com/projects/local-job/CDMX-Zona-Metropolitana-Evaluaci-telef-40804791",
+"author": "",
+"extra": {
+"bids": 1,
+"bid_avg": 50.0,
+"budget": "Presupuesto: 30.0-250.0 USD",
+"budget_min": 30.0,
+"budget_max": 250.0,
+"currency": "USD",
+"price_type": "fixed",
+"hourly_commitment": null,
+"escrow": false,
+"country": null,
+"lang": "es"
+},
+"language": "?",
+"score": 100,
+"summary": "(Sin IA) Coincidencia por palabras clave: \\b(me )?cotiz(an|ar|acion)\\b.*\\b(sistema",
+"opener": "",
+"location": null
+},
+"created": 1793905343,
+"attempts": 0
+},
+{
+"id": "freelancer:40804758",
+"payload": {
+"id": "freelancer:40804758",
+"source": "freelancer",
+"title": "Gestión Integral Redes y Anuncios",
+"text": "Mi objetivo es conseguir más clientes potenciales o ventas para mi tienda online de productos físicos.  \nPara lograrlo, el trabajo se centra en tres frentes complementarios:\n\n• Gestión de redes sociales y creación de publicaciones: calendario mensual, copies atractivos, diseño de piezas estáticas y reels que mantengan coherencia visual con la marca y fomenten la interacción.  \n• Campañas de anuncios en Meta y optimización del píxel: configuración en Ads Manager, segmentación basada en audiencias look-alike e intereses, pruebas A/B, mantenimiento del Meta Pixel y reportes de rendimiento semanales.  \n• Mejoras en la página web para convertir más visitas en clientes: revisión de la estructura, recomendación de ajustes de UX, optimización de velocidad, instalación de pop-ups o formularios que capturen leads e integración con el píxel para un seguimiento preciso.\n\nEntregaré acceso a Business Suite, la cuenta publicitaria y el CMS de la web; espero un plan de acción inicial, indicadores clave (ROAS, CPL, tasa de conversión) y ajustes continuos a partir de los datos. La comunicación será directa y clara para iterar rápidamente sobre lo que funcione.\nPresupuesto: 250.0-750.0 USD\nSkills: PHP, Website Design, Graphic Design, HTML, Digital Marketing, Social Media Management",
+"url": "https://www.freelancer.com/projects/social-media-management/Gesti-Integral-Redes-Anuncios",
+"author": "",
+"extra": {
+"bids": 90,
+"bid_avg": 363.111,
+"budget": "Presupuesto: 250.0-750.0 USD",
+"budget_min": 250.0,
+"budget_max": 750.0,
+"currency": "USD",
+"price_type": "fixed",
+"hourly_commitment": null,
+"escrow": false,
+"country": null,
+"lang": "es"
+},
+"language": "?",
+"score": 100,
+"summary": "(Sin IA) Coincidencia por palabras clave: \\bpresupuesto\\b.*\\b(sistema|app|aplicaci, \\bpara (mi|nuestro|nuestra|la) (negocio|",
+"opener": "",
+"location": null
+},
+"created": 1793905343,
+"attempts": 0
+},
+{
+"id": "freelancer:40804658",
+"payload": {
+"id": "freelancer:40804658",
+"source": "freelancer",
+"title": "Bot WhatsApp Respuestas Automáticas",
+"text": "Quiero poner en marcha un asistente que conteste de forma automática las preguntas frecuentes que recibo por WhatsApp.  \n\nAlcance del trabajo  \n• Configurar un número nuevo de WhatsApp Business – no usaré el que ya tengo.  \n• Crear el bot para que responda únicamente a partir de la lista de preguntas y respuestas que proporcionaré. No hay que buscar información en la web ni en documentos adicionales.  \n• Asegurar que cada mensaje del cliente se analice y se envíe la respuesta adecuada de inmediato, manteniendo el formato y tono que yo indicaré.  \n• Entregarme un panel básico o un método claro para actualizar las respuestas cuando cambien.  \n\nEntregables  \n1. Nº de WhatsApp Business operativo con el asistente activo.  \n2. Archivo o consola donde pueda modificar las Q&A fácilmente.  \n3. Breve guía paso a paso para que el equipo sepa pausar, reanudar o escalar una conversación a un agente humano cuando sea necesario.  \n\nAprecio soluciones que utilicen plataformas conocidas (p.ej. Twilio, Dialogflow, ManyChat) siempre que el coste mensual sea razonable y la propiedad de los datos quede de mi lado. Quedo atento a tus propuestas técnicas y al plazo estimado para dejar el bot funcionando.\nPresupuesto: 15.0-25.0 USD\nSkills: PHP, JavaScript, Software Architecture, HTML, API, Automation",
+"url": "https://www.freelancer.com/projects/chatbot/Bot-WhatsApp-Respuestas-Autom-ticas",
+"author": "",
+"extra": {
+"bids": 141,
+"bid_avg": 19.19858156028369,
+"budget": "Presupuesto: 15.0-25.0 USD",
+"budget_min": 15.0,
+"budget_max": 25.0,
+"currency": "USD",
+"price_type": "hourly",
+"hourly_commitment": "40 h/week",
+"escrow": false,
+"country": null,
+"lang": "es"
+},
+"language": "?",
+"score": 100,
+"summary": "(Sin IA) Coincidencia por palabras clave: \\bpresupuesto\\b.*\\b(sistema|app|aplicaci",
+"opener": "",
+"location": null
+},
+"created": 1793905343,
 "attempts": 0
 }
 ],

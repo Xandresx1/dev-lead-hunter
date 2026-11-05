@@ -1,5 +1,43 @@
 {
 "seen": [
+"freelancer:40804329",
+"freelancer:40804323",
+"freelancer:40804123",
+"freelancer:40804819",
+"freelancer:40804898",
+"freelancer:40804942",
+"freelancer:40804949",
+"freelancer:40804961",
+"freelancer:40805020",
+"freelancer:40805037",
+"freelancer:40805062",
+"freelancer:40805074",
+"freelancer:40805080",
+"freelancer:40805103",
+"freelancer:40805104",
+"freelancer:40805120",
+"freelancer:40805133",
+"freelancer:40805138",
+"freelancer:40805140",
+"freelancer:40805141",
+"freelancer:40805146",
+"freelancer:40805033",
+"freelancer:40805153",
+"freelancer:40805156",
+"freelancer:40805155",
+"freelancer:40805161",
+"freelancer:40805148",
+"freelancer:40805169",
+"freelancer:40805168",
+"freelancer:40805170",
+"freelancer:40805171",
+"freelancer:40805173",
+"freelancer:40805174",
+"freelancer:40805175",
+"freelancer:40805178",
+"freelancer:40805179",
+"freelancer:40805181",
+"freelancer:40805183",
 "freelancer:40804873",
 "freelancer:40804515",
 "freelancer:40804869",
@@ -2557,11 +2595,11 @@
 "runs": {
 "facebook": 1793013059,
 "linkedin": 1792900970,
-"twitter": 1793849642,
-"freelancer": 1793905343,
-"reddit": 1793905343,
+"twitter": 1793922982,
+"freelancer": 1793923162,
+"reddit": 1793923162,
 "fbgroups": 1793905274,
-"fbsearch": 1793878283
+"fbsearch": 1793922973
 },
 "counters": {
 "gemini:2026-10-25": 260.0,
@@ -2577,13 +2615,13 @@
 "gemini:2026-11-02": 105.0,
 "gemini:2026-11-03": 134.0,
 "gemini:2026-11-04": 150.0,
-"gemini:2026-11-05": 43.0
+"gemini:2026-11-05": 78.0
 },
 "leads": [],
 "stats": {
-"leads_total": 14,
-"seen_total": 2553,
-"pending_proposals": 8
+"leads_total": 6,
+"seen_total": 2591,
+"pending_proposals": 10
 },
 "pending_proposals": [
 {
@@ -2615,7 +2653,7 @@
 "location": "Panamá"
 },
 "created": 1793814563,
-"attempts": 2
+"attempts": 3
 },
 {
 "id": "freelancer:40802794",
@@ -2832,6 +2870,68 @@
 "location": null
 },
 "created": 1793905343,
+"attempts": 0
+},
+{
+"id": "freelancer:40805103",
+"payload": {
+"id": "freelancer:40805103",
+"source": "freelancer",
+"title": "Finalizar App de Auditorías",
+"text": "Estoy desarrollando una aplicación de auditorías en Microsoft Power Apps con listas de SharePoint ya creadas y necesito ayuda remota para terminarla.  \n\nMi prioridad inmediata es el diseño de pantallas y la navegación: quiero pantallas claras donde el usuario pueda crear y completar una nueva auditoría, avanzando por una lista de preguntas con opciones de respuesta predeterminadas.  \n\nAdemás, requiero:  \n• Configurar el registro automático de fecha y hora en cada auditoría.  \n• Ajustar la lógica de guardado y validación de datos en SharePoint.  \n• Dejar preparada la conexión para que los resultados se visualicen más adelante en Power BI.  \n\nEn tu propuesta indícame:  \n• Experiencia concreta con Power Apps y SharePoint (menciona ejemplos similares).  \n• Disponibilidad horaria para sesiones remotas.  \n• Tarifa por hora y estimación aproximada para finalizar el proyecto.  \n\nBusco a alguien que conozca bien colecciones, formularios, galerías, Power Automate y que pueda explicarme brevemente las decisiones de diseño para que el mantenimiento futuro sea sencillo. Si tienes dashboards en Power BI conectados a Power Apps, comparte enlaces o capturas.  \n\nEspero tu mensaje y ejemplos para empezar cuanto antes.\nPresupuesto: 10.0-50.0 USD\nSkills: Mobile App Development, Sharepoint, Software Development, Microsoft Office, Data Integration, Power BI",
+"url": "https://www.freelancer.com/projects/power-bi/Finalizar-App-Auditor",
+"author": "",
+"extra": {
+"bids": 17,
+"bid_avg": 46.1764705882353,
+"budget": "Presupuesto: 10.0-50.0 USD",
+"budget_min": 10.0,
+"budget_max": 50.0,
+"currency": "USD",
+"price_type": "fixed",
+"hourly_commitment": null,
+"escrow": false,
+"country": null,
+"lang": "es"
+},
+"language": "es",
+"score": 90,
+"summary": "Un emprendedor/cliente busca un desarrollador freelance con urgencia para finalizar una app de auditorías en Microsoft Power Apps y SharePoint.",
+"opener": "Hola, vi tu proyecto para finalizar la app de auditorías en Power Apps y tengo experiencia sólida en Power Apps, SharePoint y Power BI.",
+"location": null
+},
+"created": 1793923101,
+"attempts": 0
+},
+{
+"id": "freelancer:40804898",
+"payload": {
+"id": "freelancer:40804898",
+"source": "freelancer",
+"title": "Diseño Sitio utilizando ODOO",
+"text": "Se requiere replicar esta misma página web, www.fongrupo.com, la cual, está diseñada en wordpress.\n\nwww.fongrupo.com\n\nSe requiere:\n1) Que tenga las mismas secciones y/o páginas internas\n2) Actualizar los contenidos\n3) Actualizar los archivos descargables, PDF\n4) Las animaciones pueden ser similares y/o mejoradas\n5) formulario de contacto,\n6 INDISPENSABLE: Debe ser realizad con ODOO. \n\nNota: Es utilizar todo el potencial de \"Odoo\" y ver hasta donde esta herramienta a nivel grafico y de animaciones es viable con lo que esta entidad quiere tener en su sitio web, por lo tanto, debe tener experiencia real verificable de diseños web realizados con odoo.com\nPresupuesto: 250.0-750.0 USD\nSkills: PHP, Python, Animation, HTML, Odoo, Web Design",
+"url": "https://www.freelancer.com/projects/odoo/Dise-Sitio-utilizando-ODOO",
+"author": "",
+"extra": {
+"bids": 141,
+"bid_avg": 391.97865248226947,
+"budget": "Presupuesto: 250.0-750.0 USD",
+"budget_min": 250.0,
+"budget_max": 750.0,
+"currency": "USD",
+"price_type": "fixed",
+"hourly_commitment": null,
+"escrow": false,
+"country": null,
+"lang": "es"
+},
+"language": "es",
+"score": 90,
+"summary": "Un cliente busca un desarrollador con experiencia en Odoo para replicar y actualizar una web corporativa.",
+"opener": "Hola, vi tu proyecto para replicar la web en Odoo y tengo experiencia comprobada en diseño web con esta plataforma. ¿Podemos conversar?",
+"location": null
+},
+"created": 1793923154,
 "attempts": 0
 }
 ],

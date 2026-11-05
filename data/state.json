@@ -1,5 +1,55 @@
 {
 "seen": [
+"freelancer:40804279",
+"freelancer:40804304",
+"freelancer:40804299",
+"freelancer:40804294",
+"freelancer:40804285",
+"freelancer:40804283",
+"freelancer:40804272",
+"freelancer:40804275",
+"freelancer:40804268",
+"freelancer:40804263",
+"freelancer:40804262",
+"freelancer:40804244",
+"freelancer:40804138",
+"freelancer:40804208",
+"freelancer:40804234",
+"freelancer:40804224",
+"freelancer:40804202",
+"freelancer:40804192",
+"freelancer:40804191",
+"freelancer:40804190",
+"freelancer:40804189",
+"freelancer:40804188",
+"freelancer:40804186",
+"freelancer:40804170",
+"freelancer:40804160",
+"freelancer:40804150",
+"freelancer:40804133",
+"freelancer:40804110",
+"freelancer:40804107",
+"freelancer:40803740",
+"freelancer:40798940",
+"freelancer:40804305",
+"facebook:1709374650802457",
+"facebook:2476905366420362",
+"facebook:2884705255262379",
+"facebook:1157944250022560",
+"facebook:1433822775507018",
+"facebook:1670146418026111",
+"facebook:2917701408597797",
+"facebook:1858247811869031",
+"facebook:1674414364425933",
+"facebook:1858243261869486",
+"facebook:1858243171869495",
+"facebook:1674410171093019",
+"facebook:1674400944427275",
+"facebook:1674400244427345",
+"facebook:1670306704676749",
+"facebook:1778196849899720",
+"facebook:1778121949907210",
+"facebook:1778099899909415",
 "freelancer:40803350",
 "freelancer:40803463",
 "freelancer:40803467",
@@ -2455,10 +2505,10 @@
 "facebook": 1793013059,
 "linkedin": 1792900970,
 "twitter": 1793849642,
-"freelancer": 1793849948,
-"reddit": 1793849948,
-"fbgroups": 1793849621,
-"fbsearch": 1793833417
+"freelancer": 1793878308,
+"reddit": 1793878308,
+"fbgroups": 1793878263,
+"fbsearch": 1793878283
 },
 "counters": {
 "gemini:2026-10-25": 260.0,
@@ -2469,51 +2519,20 @@
 "gemini:2026-10-29": 123.0,
 "gemini:2026-10-30": 146.0,
 "gemini:2026-10-31": 114.0,
-"brightdata:records:2026-11": 196.0,
+"brightdata:records:2026-11": 212.0,
 "gemini:2026-11-01": 135.0,
 "gemini:2026-11-02": 105.0,
 "gemini:2026-11-03": 134.0,
 "gemini:2026-11-04": 150.0,
-"gemini:2026-11-05": 33.0
+"gemini:2026-11-05": 34.0
 },
 "leads": [],
 "stats": {
-"leads_total": 7,
-"seen_total": 2450,
-"pending_proposals": 6
+"leads_total": 11,
+"seen_total": 2500,
+"pending_proposals": 5
 },
 "pending_proposals": [
-{
-"id": "freelancer:40799919",
-"payload": {
-"id": "freelancer:40799919",
-"source": "freelancer",
-"title": "Configurar Asistente WhatsApp Inteligente",
-"text": "Quiero implementar un asistente virtual en WhatsApp que atienda principalmente las preguntas frecuentes sobre nuestros productos y servicios. Parto de cero: aún no existe un repositorio de respuestas, así que necesito que me ayudes a identificar las consultas típicas, redactar las réplicas claras y convertirlas en un flujo automatizado.\n\nRequisitos clave\n• Detectar y responder de forma automática las dudas recurrentes.  \n• Cuando el bot no encuentre una respuesta adecuada, debe avisar inmediatamente a la persona del equipo que yo designe.  \n• El tono de respuesta debe ser cordial, directo y consistente con la voz de mi marca.\n\nLo que espero recibir\n1. Inventario de preguntas frecuentes basado en la información que te entregue (web, redes, folletos, etc.).  \n2. Redacción de respuestas concisas y en español neutro.  \n3. Diseño del flujo conversacional en la plataforma que recomiendes (WhatsApp Business API, Twilio, ManyChat, Chatfuel u otra similar).  \n4. Configuración técnica y prueba piloto en mi número de WhatsApp Business.  \n5. Guía breve para que mi equipo pueda actualizar el contenido o asumir la conversación cuando el bot lo indique.\n\nValoro experiencia previa creando chatbots, uso de IA (Dialogflow, GPT, Rasa, etc.) y capacidad para explicar los pasos con claridad. Si tienes ejemplos de asistentes que hayas configurado, compártelos en tu propuesta.\nPresupuesto: 3000.0-5000.0 USD\nSkills: Sales, Customer Support",
-"url": "https://www.freelancer.com/projects/customer-support/Configurar-Asistente-WhatsApp",
-"author": "",
-"extra": {
-"bids": 4,
-"bid_avg": 3625.0,
-"budget": "Presupuesto: 3000.0-5000.0 USD",
-"budget_min": 3000.0,
-"budget_max": 5000.0,
-"currency": "USD",
-"price_type": "fixed",
-"hourly_commitment": null,
-"escrow": false,
-"country": null,
-"lang": "es"
-},
-"language": "es",
-"score": 95,
-"summary": "Una empresa busca configurar un asistente virtual inteligente en WhatsApp para responder preguntas frecuentes y derivar con asesores.",
-"opener": "Hola, vi tu proyecto para configurar el asistente de WhatsApp. Tengo experiencia implementando chatbots con IA y flujos automatizados. ¿Conversamos?",
-"location": null
-},
-"created": 1793696707,
-"attempts": 7
-},
 {
 "id": "freelancer:40802846",
 "payload": {
@@ -2543,7 +2562,7 @@
 "location": "Panamá"
 },
 "created": 1793814563,
-"attempts": 0
+"attempts": 1
 },
 {
 "id": "freelancer:40802794",

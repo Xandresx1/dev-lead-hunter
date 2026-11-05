@@ -1,5 +1,61 @@
 {
 "seen": [
+"freelancer:40803350",
+"freelancer:40803463",
+"freelancer:40803467",
+"freelancer:40803475",
+"freelancer:40803481",
+"freelancer:40803484",
+"freelancer:40803489",
+"freelancer:40803500",
+"freelancer:40803509",
+"freelancer:40803504",
+"freelancer:40803526",
+"freelancer:40803542",
+"freelancer:40803551",
+"freelancer:40803554",
+"freelancer:40803569",
+"freelancer:40803577",
+"freelancer:40803583",
+"freelancer:40803587",
+"freelancer:40803592",
+"freelancer:40803594",
+"freelancer:40803604",
+"freelancer:40803600",
+"freelancer:40803602",
+"freelancer:40803603",
+"freelancer:40803609",
+"freelancer:40803608",
+"freelancer:40803611",
+"freelancer:40803618",
+"freelancer:40803619",
+"freelancer:40803623",
+"freelancer:40803625",
+"freelancer:40803626",
+"freelancer:40803581",
+"freelancer:40803632",
+"freelancer:40803637",
+"facebook:1857914191902393",
+"facebook:1857913461902466",
+"facebook:1674090174458352",
+"facebook:1674083367792366",
+"facebook:1857909398569539",
+"facebook:1857908025236343",
+"facebook:1778027943249944",
+"facebook:1674078537792849",
+"facebook:1670120924695327",
+"facebook:1670108418029911",
+"facebook:1670101471363939",
+"facebook:4222689414528512",
+"facebook:1670073058033447",
+"facebook:4222676934529760",
+"facebook:2917899901911281",
+"facebook:1777938909925514",
+"facebook:1777938169925588",
+"facebook:1777914233261315",
+"facebook:2917817895252815",
+"facebook:2917721615262443",
+"facebook:4222349944562459",
 "freelancer:40802909",
 "freelancer:40802918",
 "freelancer:40802994",
@@ -2398,10 +2454,10 @@
 "runs": {
 "facebook": 1793013059,
 "linkedin": 1792900970,
-"twitter": 1793785917,
-"freelancer": 1793833647,
-"reddit": 1793833647,
-"fbgroups": 1793814221,
+"twitter": 1793849642,
+"freelancer": 1793849948,
+"reddit": 1793849948,
+"fbgroups": 1793849621,
 "fbsearch": 1793833417
 },
 "counters": {
@@ -2413,17 +2469,18 @@
 "gemini:2026-10-29": 123.0,
 "gemini:2026-10-30": 146.0,
 "gemini:2026-10-31": 114.0,
-"brightdata:records:2026-11": 172.0,
+"brightdata:records:2026-11": 196.0,
 "gemini:2026-11-01": 135.0,
 "gemini:2026-11-02": 105.0,
 "gemini:2026-11-03": 134.0,
-"gemini:2026-11-04": 150.0
+"gemini:2026-11-04": 150.0,
+"gemini:2026-11-05": 33.0
 },
 "leads": [],
 "stats": {
-"leads_total": 3,
-"seen_total": 2394,
-"pending_proposals": 5
+"leads_total": 7,
+"seen_total": 2450,
+"pending_proposals": 6
 },
 "pending_proposals": [
 {
@@ -2455,7 +2512,7 @@
 "location": null
 },
 "created": 1793696707,
-"attempts": 6
+"attempts": 7
 },
 {
 "id": "freelancer:40802846",
@@ -2579,6 +2636,37 @@
 "location": null
 },
 "created": 1793833625,
+"attempts": 0
+},
+{
+"id": "freelancer:40803350",
+"payload": {
+"id": "freelancer:40803350",
+"source": "freelancer",
+"title": "Sistema Citófono IP + GSM Integrado",
+"text": "Quiero implementar en mi edificio un citófono de conserjería que combine, en un único sistema, las llamadas IP internas con la opción de salir por GSM hacia teléfonos móviles. La solución debe cubrir las entradas principales, la conserjería y todos los departamentos, de modo que cualquier visitante o residente pueda comunicarse fluidamente sin importar si el conserje está o no en su puesto.\n\nEl flujo básico que busco es sencillo: cuando alguien llama desde la placa exterior, la llamada se rutea por IP hacia la conserjería y, si es necesario, también hacia el departamento correspondiente. Cuando el conserje o el residente no responden, necesito una alternativa que aún no he definido; por eso valoro tus propuestas sobre si conviene un desvío automático por GSM, un buzón de voz o alguna otra opción que garantice que la llamada no se pierda.\n\nEspero tu ayuda en:\n\n• Diseño de la arquitectura IP / SIP (Asterisk, FreePBX u otra plataforma que recomiendes).  \n• Integración con gateway GSM para el desvío a móviles.  \n• Selección de hardware de placa exterior, monitores internos y conmutadores PoE aptos para nuestro entorno.  \n• Configuración, puesta en marcha y pruebas finales a distancia o in-situ, según convengamos.  \n\nAcepto sugerencias sobre marcas, firmware y buenas prácticas para asegurar calidad de audio, seguridad de red y mantenimiento sencillo. Si ya tienes experiencia desplegando intercomunicadores IP con respaldo GSM, cuéntame qué necesitas para comenzar y un cronograma estimado; así cerramos pronto el alcance y los hitos del proyecto.\nPresupuesto: 30.0-250.0 USD\nSkills: Project Management, Technical Support, VoIP, PCB Layout, Telecommunications Engineering, Documentation",
+"url": "https://www.freelancer.com/projects/voip/Sistema-Cit-fono-GSM-Integrado",
+"author": "",
+"extra": {
+"bids": 18,
+"bid_avg": 130.55555555555554,
+"budget": "Presupuesto: 30.0-250.0 USD",
+"budget_min": 30.0,
+"budget_max": 250.0,
+"currency": "USD",
+"price_type": "fixed",
+"hourly_commitment": null,
+"escrow": false,
+"country": null,
+"lang": "es"
+},
+"language": "es",
+"score": 90,
+"summary": "Administrador de edificio necesita diseñar e implementar un sistema de citofonía IP integrado con GSM para llamadas a móviles.",
+"opener": "Hola, vi tu proyecto de citofonía IP con GSM. Tengo experiencia configurando Asterisk, FreePBX y pasarelas GSM. ¿Podemos conversar sobre los requerimientos del edificio?",
+"location": null
+},
+"created": 1793849947,
 "attempts": 0
 }
 ],

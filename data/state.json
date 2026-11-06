@@ -1,5 +1,38 @@
 {
 "seen": [
+"freelancer:40806507",
+"freelancer:40806533",
+"freelancer:40806538",
+"freelancer:40806552",
+"freelancer:40806553",
+"freelancer:40806572",
+"freelancer:40806581",
+"freelancer:40806587",
+"freelancer:40806589",
+"freelancer:40806609",
+"freelancer:40806625",
+"freelancer:40806628",
+"freelancer:40806634",
+"freelancer:40806637",
+"freelancer:40806603",
+"freelancer:40806641",
+"freelancer:40806647",
+"freelancer:40806649",
+"freelancer:40806651",
+"freelancer:40806631",
+"freelancer:40806644",
+"freelancer:40806653",
+"freelancer:40806654",
+"freelancer:40806657",
+"freelancer:40806659",
+"freelancer:40806663",
+"freelancer:40806662",
+"freelancer:40806668",
+"freelancer:40806669",
+"freelancer:40806670",
+"freelancer:40806679",
+"freelancer:40806686",
+"freelancer:40806683",
 "freelancer:40806022",
 "freelancer:40806327",
 "freelancer:40806332",
@@ -2735,8 +2768,8 @@
 "facebook": 1793013059,
 "linkedin": 1792900970,
 "twitter": 1793994347,
-"freelancer": 1793994440,
-"reddit": 1793994441,
+"freelancer": 1794009399,
+"reddit": 1794009399,
 "fbgroups": 1793994317,
 "fbsearch": 1793969030
 },
@@ -2755,46 +2788,15 @@
 "gemini:2026-11-03": 134.0,
 "gemini:2026-11-04": 150.0,
 "gemini:2026-11-05": 78.0,
-"gemini:2026-11-06": 80.0
+"gemini:2026-11-06": 112.0
 },
 "leads": [],
 "stats": {
-"leads_total": 3,
-"seen_total": 2730,
-"pending_proposals": 7
+"leads_total": 6,
+"seen_total": 2763,
+"pending_proposals": 6
 },
 "pending_proposals": [
-{
-"id": "freelancer:40803022",
-"payload": {
-"id": "freelancer:40803022",
-"source": "freelancer",
-"title": "Asistente WhatsApp Inteligente Autorespuestas",
-"text": "Necesito poner en marcha un asistente de WhatsApp que responda automáticamente las preguntas de mis clientes. El objetivo principal es que la experiencia de atención sea inmediata y consistente sin intervención humana.\n\nLo que espero del proyecto\n• Configuración completa del flujo de conversación sobre WhatsApp Business (API oficial, Twilio, Dialogflow, ManyChat u otra solución que recomiendes).  \n• Entrenamiento del bot para contestar consultas acerca de nuestros productos y servicios utilizando la información que ya existe en mi página web o catálogo.  \n• Implementación de respuestas claras y en español que cubran fichas de producto, beneficios, disponibilidad, garantías y datos similares.  \n• Panel o método sencillo para que más adelante pueda actualizar contenidos sin depender de código.  \n• Pruebas de funcionalidad y entrega de guía rápida de uso.\n\nCómo trabajaremos\nCompartiré la URL de la web y el acceso a los recursos necesarios. Espero que extraigas la información, la estructures como base de conocimiento y dejes el asistente listo para operar. Valoro sugerencias de mejoras en la experiencia de usuario y métricas básicas de desempeño (por ejemplo, tasa de respuesta o tiempos medios).\n\nEntrego acceso y material en cuanto iniciemos; tu entregable final es el asistente funcionando y documentado.\nPresupuesto: 3000.0-5000.0 USD\nSkills: PHP, Graphic Design, Software Architecture, HTML, API, Twilio",
-"url": "https://www.freelancer.com/projects/ai-chatbot-development/Asistente-WhatsApp-Inteligente",
-"author": "",
-"extra": {
-"bids": 130,
-"bid_avg": 3504.776923076923,
-"budget": "Presupuesto: 3000.0-5000.0 USD",
-"budget_min": 3000.0,
-"budget_max": 5000.0,
-"currency": "USD",
-"price_type": "fixed",
-"hourly_commitment": null,
-"escrow": false,
-"country": null,
-"lang": "es"
-},
-"language": "es",
-"score": 90,
-"summary": "Emprendedor necesita configurar un asistente inteligente de WhatsApp con respuestas automáticas conectadas a su web y catálogo.",
-"opener": "Hola, vi tu proyecto para el asistente de WhatsApp. Tengo experiencia implementando bots con IA y APIs oficiales. ¿Podemos conversar sobre los detalles?",
-"location": null
-},
-"created": 1793833625,
-"attempts": 1
-},
 {
 "id": "freelancer:40803350",
 "payload": {
@@ -2824,7 +2826,7 @@
 "location": null
 },
 "created": 1793849947,
-"attempts": 0
+"attempts": 1
 },
 {
 "id": "freelancer:40804791",

@@ -1,5 +1,41 @@
 {
 "seen": [
+"freelancer:40806022",
+"freelancer:40806327",
+"freelancer:40806332",
+"freelancer:40806364",
+"freelancer:40806358",
+"freelancer:40806374",
+"freelancer:40806372",
+"freelancer:40806395",
+"freelancer:40806416",
+"freelancer:40806444",
+"freelancer:40806445",
+"freelancer:40806447",
+"freelancer:40806408",
+"freelancer:40806412",
+"freelancer:40806420",
+"freelancer:40806461",
+"freelancer:40806467",
+"freelancer:40806446",
+"freelancer:40806470",
+"freelancer:40806471",
+"freelancer:40806473",
+"freelancer:40806479",
+"freelancer:40806480",
+"facebook:1859703011723511",
+"facebook:1859698855057260",
+"facebook:1859698238390655",
+"facebook:1779690493083689",
+"facebook:1675907124276657",
+"facebook:1671854407855312",
+"facebook:1779667423085996",
+"facebook:1779662973086441",
+"facebook:4225262150937905",
+"facebook:4225180510946069",
+"facebook:4225166217614165",
+"facebook:2919695891731682",
+"facebook:4224982394299214",
 "freelancer:40805645",
 "freelancer:40805680",
 "freelancer:40805691",
@@ -2698,10 +2734,10 @@
 "runs": {
 "facebook": 1793013059,
 "linkedin": 1792900970,
-"twitter": 1793922982,
-"freelancer": 1793969152,
-"reddit": 1793969152,
-"fbgroups": 1793969013,
+"twitter": 1793994347,
+"freelancer": 1793994440,
+"reddit": 1793994441,
+"fbgroups": 1793994317,
 "fbsearch": 1793969030
 },
 "counters": {
@@ -2713,114 +2749,21 @@
 "gemini:2026-10-29": 123.0,
 "gemini:2026-10-30": 146.0,
 "gemini:2026-10-31": 114.0,
-"brightdata:records:2026-11": 273.0,
+"brightdata:records:2026-11": 292.0,
 "gemini:2026-11-01": 135.0,
 "gemini:2026-11-02": 105.0,
 "gemini:2026-11-03": 134.0,
 "gemini:2026-11-04": 150.0,
 "gemini:2026-11-05": 78.0,
-"gemini:2026-11-06": 59.0
+"gemini:2026-11-06": 80.0
 },
 "leads": [],
 "stats": {
-"leads_total": 4,
-"seen_total": 2694,
-"pending_proposals": 10
+"leads_total": 3,
+"seen_total": 2730,
+"pending_proposals": 7
 },
 "pending_proposals": [
-{
-"id": "freelancer:40802846",
-"payload": {
-"id": "freelancer:40802846",
-"source": "freelancer",
-"title": "Soporte ocasional WordPress en Panamá -- 2",
-"text": "Cuento con un sitio web comercial ya montado en WordPress y, de vez en cuando, necesito a alguien ubicado en Panamá que pueda entrar, realizar ajustes puntuales y dejar todo funcionando sin complicaciones. Los cambios más habituales son sustituir o añadir textos, imágenes y enlaces, así como actualizar páginas, menús y formularios. No estoy interesado en rediseños completos ni en planes mensuales; la idea es contactarte solo cuando surja una tarea concreta.\n\nDispongo de acceso de administrador a WordPress y también al hosting, por lo que podré facilitarte credenciales completas cada vez que intervengas. Además, el sitio está en español e inglés, así que agradeceré que manejes ambos idiomas para que todo quede coherente en las dos versiones.\n\nLo que necesito de ti es una tarifa clara —ya sea por hora o por tarea— y la flexibilidad para trabajar bajo demanda. Si tu forma de trabajo encaja con este esquema, cuéntame tu precio, tu tiempo de respuesta habitual y cualquier detalle que consideres relevante para empezar a colaborar.\nPresupuesto: 30.0-250.0 USD\nSkills: PHP, CSS, HTML, Web Development, Website Optimization, Web Design",
-"url": "https://www.freelancer.com/projects/php/Soporte-ocasional-WordPress-Panam",
-"author": "",
-"extra": {
-"bids": 180,
-"bid_avg": 108.29266666666666,
-"budget": "Presupuesto: 30.0-250.0 USD",
-"budget_min": 30.0,
-"budget_max": 250.0,
-"currency": "USD",
-"price_type": "fixed",
-"hourly_commitment": null,
-"escrow": false,
-"country": null,
-"lang": "es"
-},
-"language": "es",
-"score": 90,
-"summary": "Empresa en Panamá necesita desarrollador WordPress freelance para soporte ocasional y ajustes puntuales bajo demanda.",
-"opener": "Hola, vi tu requerimiento de soporte en WordPress para Panamá. Tengo experiencia en PHP, HTML y CSS, y puedo ayudarte con los ajustes bajo demanda de forma rápida.",
-"location": "Panamá"
-},
-"created": 1793814563,
-"attempts": 5
-},
-{
-"id": "freelancer:40802794",
-"payload": {
-"id": "freelancer:40802794",
-"source": "freelancer",
-"title": "Renovar certificado SSL Carbonio CE",
-"text": "Necesito renovar el certificado SSL/TLS que protege el acceso web a mi instalación de Carbonio CE 26.6.2. Los usuarios entran vía correo.midominio.com y quiero sustituir el certificado actual por uno propio (no autofirmado).  \n\nAdemás, no tengo claro dónde se aloja el certificado que usan los servicios SMTP/IMAP, así que requiero una revisión rápida de la configuración para confirmar su ubicación y, si es posible, alinear ambos certificados.  \n\nEntregables principales:  \n• Emisión o importación del nuevo certificado SSL/TLS válido para correo.midominio.com.  \n• Instalación y activación en los servicios web de Carbonio CE sin interrumpir el correo.  \n• Verificación de la cadena completa y pruebas de acceso seguro (HTTPS).  \n• Revisión de la configuración SMTP/IMAP para identificar el certificado en uso y recomendaciones si difiere del renovado.  \n\nTrabajo íntegramente sobre Carbonio CE en un único servidor. Puedo facilitar acceso SSH y a la consola de administración. Prefiero uso de herramientas estándar (por ejemplo, certbot/Let’s Encrypt) o una guía clara si se necesita un proveedor distinto. Se valora documentación breve de los pasos realizados para futuras renovaciones.\nPresupuesto: 30.0-250.0 USD\nSkills: Web Security, Web Hosting, Documentation, Network Security, IMAP, SMTP",
-"url": "https://www.freelancer.com/projects/ssl/Renovar-certificado-SSL-Carbonio",
-"author": "",
-"extra": {
-"bids": 61,
-"bid_avg": 125.21508196721311,
-"budget": "Presupuesto: 30.0-250.0 USD",
-"budget_min": 30.0,
-"budget_max": 250.0,
-"currency": "USD",
-"price_type": "fixed",
-"hourly_commitment": null,
-"escrow": false,
-"country": null,
-"lang": "es"
-},
-"language": "es",
-"score": 95,
-"summary": "Administrador de servidor necesita configurar y renovar certificado SSL para Carbonio CE y revisar SMTP/IMAP.",
-"opener": "Hola, vi tu proyecto para renovar el certificado SSL en Carbonio CE y revisar SMTP/IMAP. Tengo experiencia en servidores y seguridad web, puedo ayudarte a dejarlo operativo rápidamente.",
-"location": null
-},
-"created": 1793814607,
-"attempts": 0
-},
-{
-"id": "freelancer:40802625",
-"payload": {
-"id": "freelancer:40802625",
-"source": "freelancer",
-"title": "Rediseño WordPress y Migración SEO",
-"text": "**Título del proyecto**  \nRediseño de sitio WordPress y cambio de dominio con SEO técnico\n\n**Descripción del proyecto**\n\nSoy Jorge Cabezas, hipnoterapeuta y psicoanalista. Busco un profesional con experiencia en WordPress y SEO técnico para renovar mi sitio actual, **pnlcoaching.cl**, y preparar su publicación en **neurohipnosisintegrativa.cl**, dominio que ya tengo registrado.\n\nQuiero que la nueva web presente con claridad mi método **NeuroHipnósis Integrativa**, conserve los artículos y páginas útiles del sitio actual y facilite que las personas soliciten una evaluación por WhatsApp o mediante la página de agenda. Mi público principal son mujeres profesionales que buscan apoyo por ansiedad, estrés y sobrecarga emocional. Atiendo en Providencia, Santiago, y online.\n\n**Alcance del trabajo**\n\n1. **Renovar el sitio sobre una copia privada de WordPress.** Actualizar la portada, la navegación y las páginas principales: método, sobre mí, servicios, blog y contacto. Priorizar la experiencia en celular y dejar el sitio fácil de editar para que yo pueda actualizar textos y publicar artículos.\n2. **Conservar el contenido y revisar el SEO técnico.** Mantener las direcciones de las páginas y artículos cuando sea posible. Revisar los títulos HTML duplicados en `/landing-hipnosis/` y `/hipnosis-online-landing/`, la URL repetida en el sitemap de artículos y las dos etiquetas similares de NeuroHipnósis Integrativa. Revisar también enlaces internos y redirecciones.\n3. **Preparar y verificar el cambio de dominio.** Entregar un listado de las URLs que cambien y su destino para coordinar las redirecciones 301 con el hosting. Verificar después de publicar que funcionen las páginas principales, el blog, los botones de WhatsApp, la agenda y el sitemap. Indicar qué revisión de Google Search Console incluye la propuesta y qué acceso se requiere.\n\n**Coordinación con el hosting**\n\ncPanelHost ofreció preparar el respaldo, crear la copia privada, instalar el certificado SSL y configurar las redirecciones 301. Estoy esperando que confirme cómo se accederá a la copia de trabajo. Agradeceré que indiquen qué necesitan del hosting para empezar y que coticen por separado cualquier tarea de migración que puedan asumir si hace falta.\n\nEl trabajo se realizará primero en una **versión privada para mi revisión**. La publicación y el cambio de dominio se coordinarán después de que apruebe esa versión.\n\n**Qué incluir en la propuesta**\n\n- Dos ejemplos de sitios WordPress que hayan rediseñado o migrado, indicando qué trabajo realizaron.\n- Precio fijo desglosado por etapa y plazo estimado.\n- Si incluyen ajustes de textos o si trabajan con los textos que yo entregue.\n- Qué pruebas y soporte ofrecen después de publicar.\n- Cualquier costo adicional de licencias, temas o plugins.\nPresupuesto: 30.0-250.0 USD\nSkills: Website Design, Internet Marketing, SEO, Link Building, WordPress, CSS",
-"url": "https://www.freelancer.com/projects/cpanel/Redise-WordPress-Migraci-SEO",
-"author": "",
-"extra": {
-"bids": 100,
-"bid_avg": 145.02,
-"budget": "Presupuesto: 30.0-250.0 USD",
-"budget_min": 30.0,
-"budget_max": 250.0,
-"currency": "USD",
-"price_type": "fixed",
-"hourly_commitment": null,
-"escrow": false,
-"country": null,
-"lang": "es"
-},
-"language": "es",
-"score": 90,
-"summary": "Jorge Cabezas necesita rediseñar su sitio en WordPress y realizar una migración SEO al nuevo dominio neurohipnosisintegrativa.cl.",
-"opener": "Hola Jorge, vi tu proyecto para el rediseño de tu web en WordPress y la migración SEO. Tengo experiencia en ambos temas, ¿conversamos sobre los detalles?",
-"location": "Santiago, Chile"
-},
-"created": 1793814780,
-"attempts": 0
-},
 {
 "id": "freelancer:40803022",
 "payload": {
@@ -2850,7 +2793,7 @@
 "location": null
 },
 "created": 1793833625,
-"attempts": 0
+"attempts": 1
 },
 {
 "id": "freelancer:40803350",

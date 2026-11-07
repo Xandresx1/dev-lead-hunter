@@ -1,5 +1,51 @@
 {
 "seen": [
+"freelancer:40806847",
+"freelancer:40806842",
+"freelancer:40807249",
+"freelancer:40807287",
+"freelancer:40807300",
+"freelancer:40807326",
+"freelancer:40807424",
+"freelancer:40807386",
+"freelancer:40807434",
+"freelancer:40807444",
+"freelancer:40807449",
+"freelancer:40807452",
+"freelancer:40807473",
+"freelancer:40807491",
+"freelancer:40802910",
+"freelancer:40807471",
+"freelancer:40807508",
+"freelancer:40807504",
+"freelancer:40807528",
+"freelancer:40807542",
+"freelancer:40807544",
+"freelancer:40807549",
+"freelancer:40807548",
+"freelancer:40807551",
+"freelancer:40807550",
+"freelancer:40807558",
+"freelancer:40807559",
+"freelancer:40807561",
+"freelancer:40807510",
+"freelancer:40807586",
+"freelancer:40807589",
+"freelancer:40807588",
+"freelancer:40807596",
+"freelancer:40807598",
+"freelancer:40807600",
+"freelancer:40807603",
+"freelancer:40807604",
+"freelancer:40807605",
+"freelancer:40807613",
+"freelancer:40807607",
+"freelancer:40807606",
+"facebook:1568831761947290",
+"facebook:2271148823479604",
+"facebook:1198856342584582",
+"facebook:1749541946895619",
+"facebook:28127514573591855",
 "freelancer:40807037",
 "freelancer:40807035",
 "freelancer:40807077",
@@ -2849,11 +2895,11 @@
 "runs": {
 "facebook": 1793013059,
 "linkedin": 1792900970,
-"twitter": 1793994347,
-"freelancer": 1794049453,
-"reddit": 1794049453,
+"twitter": 1794069795,
+"freelancer": 1794069974,
+"reddit": 1794069974,
 "fbgroups": 1794049315,
-"fbsearch": 1794024045
+"fbsearch": 1794069785
 },
 "counters": {
 "gemini:2026-10-25": 260.0,
@@ -2871,12 +2917,12 @@
 "gemini:2026-11-04": 150.0,
 "gemini:2026-11-05": 78.0,
 "gemini:2026-11-06": 112.0,
-"gemini:2026-11-07": 45.0
+"gemini:2026-11-07": 83.0
 },
 "leads": [],
 "stats": {
-"leads_total": 3,
-"seen_total": 2845,
+"leads_total": 5,
+"seen_total": 2891,
 "pending_proposals": 6
 },
 "pending_proposals": [
@@ -2909,7 +2955,7 @@
 "location": null
 },
 "created": 1793905343,
-"attempts": 2
+"attempts": 3
 },
 {
 "id": "freelancer:40804758",

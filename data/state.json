@@ -1,5 +1,57 @@
 {
 "seen": [
+"freelancer:40806224",
+"freelancer:40806616",
+"freelancer:40806687",
+"freelancer:40806689",
+"freelancer:40806690",
+"freelancer:40806697",
+"freelancer:40806698",
+"freelancer:40806699",
+"freelancer:40806708",
+"freelancer:40806727",
+"freelancer:40806768",
+"freelancer:40806778",
+"freelancer:40806779",
+"freelancer:40806790",
+"freelancer:40806792",
+"freelancer:40806793",
+"freelancer:40806795",
+"freelancer:40806796",
+"freelancer:40806808",
+"freelancer:40806806",
+"freelancer:40806812",
+"freelancer:40806820",
+"freelancer:40806821",
+"freelancer:40806829",
+"freelancer:40806814",
+"freelancer:40806833",
+"freelancer:40806834",
+"freelancer:40806830",
+"freelancer:40806797",
+"facebook:1860025841691228",
+"facebook:1676249730909063",
+"facebook:1860023288358150",
+"facebook:1676242047576498",
+"facebook:1676239247576778",
+"facebook:1676238970910139",
+"facebook:1779982096387862",
+"facebook:1860003211693491",
+"facebook:1860002508360228",
+"facebook:1779904516395620",
+"facebook:1779901416395930",
+"facebook:1779898723062866",
+"facebook:4225811010883019",
+"facebook:4225756657555121",
+"facebook:2920234468344491",
+"facebook:2920199595014645",
+"facebook:2920191171682154",
+"facebook:2920185378349400",
+"facebook:1671964671177619",
+"facebook:1671929497847803",
+"facebook:1671920574515362",
+"facebook:4225496604247793",
+"facebook:4225479234249530",
 "freelancer:40806507",
 "freelancer:40806533",
 "freelancer:40806538",
@@ -2768,10 +2820,10 @@
 "facebook": 1793013059,
 "linkedin": 1792900970,
 "twitter": 1793994347,
-"freelancer": 1794009399,
-"reddit": 1794009399,
-"fbgroups": 1793994317,
-"fbsearch": 1793969030
+"freelancer": 1794024167,
+"reddit": 1794024167,
+"fbgroups": 1794024015,
+"fbsearch": 1794024045
 },
 "counters": {
 "gemini:2026-10-25": 260.0,
@@ -2782,52 +2834,22 @@
 "gemini:2026-10-29": 123.0,
 "gemini:2026-10-30": 146.0,
 "gemini:2026-10-31": 114.0,
-"brightdata:records:2026-11": 292.0,
+"brightdata:records:2026-11": 315.0,
 "gemini:2026-11-01": 135.0,
 "gemini:2026-11-02": 105.0,
 "gemini:2026-11-03": 134.0,
 "gemini:2026-11-04": 150.0,
 "gemini:2026-11-05": 78.0,
-"gemini:2026-11-06": 112.0
+"gemini:2026-11-06": 112.0,
+"gemini:2026-11-07": 26.0
 },
 "leads": [],
 "stats": {
 "leads_total": 6,
-"seen_total": 2763,
+"seen_total": 2815,
 "pending_proposals": 6
 },
 "pending_proposals": [
-{
-"id": "freelancer:40803350",
-"payload": {
-"id": "freelancer:40803350",
-"source": "freelancer",
-"title": "Sistema Citófono IP + GSM Integrado",
-"text": "Quiero implementar en mi edificio un citófono de conserjería que combine, en un único sistema, las llamadas IP internas con la opción de salir por GSM hacia teléfonos móviles. La solución debe cubrir las entradas principales, la conserjería y todos los departamentos, de modo que cualquier visitante o residente pueda comunicarse fluidamente sin importar si el conserje está o no en su puesto.\n\nEl flujo básico que busco es sencillo: cuando alguien llama desde la placa exterior, la llamada se rutea por IP hacia la conserjería y, si es necesario, también hacia el departamento correspondiente. Cuando el conserje o el residente no responden, necesito una alternativa que aún no he definido; por eso valoro tus propuestas sobre si conviene un desvío automático por GSM, un buzón de voz o alguna otra opción que garantice que la llamada no se pierda.\n\nEspero tu ayuda en:\n\n• Diseño de la arquitectura IP / SIP (Asterisk, FreePBX u otra plataforma que recomiendes).  \n• Integración con gateway GSM para el desvío a móviles.  \n• Selección de hardware de placa exterior, monitores internos y conmutadores PoE aptos para nuestro entorno.  \n• Configuración, puesta en marcha y pruebas finales a distancia o in-situ, según convengamos.  \n\nAcepto sugerencias sobre marcas, firmware y buenas prácticas para asegurar calidad de audio, seguridad de red y mantenimiento sencillo. Si ya tienes experiencia desplegando intercomunicadores IP con respaldo GSM, cuéntame qué necesitas para comenzar y un cronograma estimado; así cerramos pronto el alcance y los hitos del proyecto.\nPresupuesto: 30.0-250.0 USD\nSkills: Project Management, Technical Support, VoIP, PCB Layout, Telecommunications Engineering, Documentation",
-"url": "https://www.freelancer.com/projects/voip/Sistema-Cit-fono-GSM-Integrado",
-"author": "",
-"extra": {
-"bids": 18,
-"bid_avg": 130.55555555555554,
-"budget": "Presupuesto: 30.0-250.0 USD",
-"budget_min": 30.0,
-"budget_max": 250.0,
-"currency": "USD",
-"price_type": "fixed",
-"hourly_commitment": null,
-"escrow": false,
-"country": null,
-"lang": "es"
-},
-"language": "es",
-"score": 90,
-"summary": "Administrador de edificio necesita diseñar e implementar un sistema de citofonía IP integrado con GSM para llamadas a móviles.",
-"opener": "Hola, vi tu proyecto de citofonía IP con GSM. Tengo experiencia configurando Asterisk, FreePBX y pasarelas GSM. ¿Podemos conversar sobre los requerimientos del edificio?",
-"location": null
-},
-"created": 1793849947,
-"attempts": 1
-},
 {
 "id": "freelancer:40804791",
 "payload": {
@@ -2857,7 +2879,7 @@
 "location": null
 },
 "created": 1793905343,
-"attempts": 0
+"attempts": 1
 },
 {
 "id": "freelancer:40804758",
@@ -2981,6 +3003,37 @@
 "location": null
 },
 "created": 1793923154,
+"attempts": 0
+},
+{
+"id": "freelancer:40806806",
+"payload": {
+"id": "freelancer:40806806",
+"source": "freelancer",
+"title": "Diseño Web y Branding Completo",
+"text": "Necesito crear un sitio web que presente mi marca y sus servicios de forma clara y profesional. El proyecto incluye:\n\n• Diseño UI/UX: una interfaz limpia y moderna que refuerce la identidad de marca.  \n• Desarrollo frontend responsive y backend funcional.  \n• Calendario de reservas integrado para que los clientes elijan horario y, además, opción de contacto directo por WhatsApp o formulario.  \n• Copywriting persuasivo: textos para todas las páginas, llamados a la acción y metadescripciones.  \n• Estrategia SEO on-page básica que deje la web indexada, con palabras clave iniciales y estructura optimizada.  \n• Branding y logotipo: ya tengo el nombre; requiero un logo tipográfico sencillo y una mini guía de estilo (colores y tipografías principales).\n\nEntregaré la estructura deseada de secciones y ejemplos de referencia; espero la entrega lista para publicar en hosting propio, con instrucciones rápidas de mantenimiento.\nPresupuesto: 250.0-750.0 USD\nSkills: Website Design, Graphic Design, Logo Design, SEO, Branding, HTML",
+"url": "https://www.freelancer.com/projects/web-design/Dise-Web-Branding-Completo",
+"author": "",
+"extra": {
+"bids": 108,
+"bid_avg": 362.64814814814815,
+"budget": "Presupuesto: 250.0-750.0 USD",
+"budget_min": 250.0,
+"budget_max": 750.0,
+"currency": "USD",
+"price_type": "fixed",
+"hourly_commitment": null,
+"escrow": false,
+"country": null,
+"lang": "es"
+},
+"language": "es",
+"score": 90,
+"summary": "Cliente busca desarrollo web completo con UI/UX, backend, reservas y SEO.",
+"opener": "Hola, vi tu proyecto de diseño web y branding. Me interesa ayudarte a construir la plataforma con reservas y optimización SEO.",
+"location": null
+},
+"created": 1794024094,
 "attempts": 0
 }
 ],

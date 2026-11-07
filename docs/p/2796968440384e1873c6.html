@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow"><title>Kids Coding Game Platform</title>
+<style>
+:root{--c:#1e88e5;}
+*{box-sizing:border-box}body{margin:0;background:#0f141b;color:#e6edf3;font:15px/1.55 -apple-system,Segoe UI,Roboto,Inter,sans-serif}
+.wrap{max-width:720px;margin:0 auto;padding:18px 16px 60px}
+.src{display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--c);border:1px solid var(--c);border-radius:999px;padding:4px 10px}
+h1{color:var(--c);font-size:22px;line-height:1.25;margin:12px 0 6px}
+.meta{color:#94a3b8;font-size:13px;margin-bottom:14px}
+.card{background:#161d27;border:1px solid #243041;border-radius:14px;padding:16px;margin:12px 0}
+.card h2{margin:0 0 10px;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:#94a3b8}
+.kpis{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.kpi{background:#0f141b;border:1px solid #243041;border-radius:12px;padding:12px;text-align:center}
+.kpi b{display:block;font-size:24px;color:var(--c)}.kpi span{font-size:12px;color:#94a3b8}
+.content{font-weight:700;white-space:pre-wrap;word-wrap:break-word}
+.proposal{white-space:pre-wrap;word-wrap:break-word;font-weight:600}
+.muted{color:#94a3b8;font-size:13px}
+.btn{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;padding:14px;border-radius:12px;border:0;font-weight:700;font-size:16px;cursor:pointer;background:var(--c);color:#fff;margin-top:10px}
+.btn.alt{background:#243041;color:#e6edf3}
+.btn:active{transform:scale(.99)}
+.toast{position:fixed;left:50%;bottom:22px;transform:translateX(-50%);background:#22c55e;color:#06130a;font-weight:700;padding:10px 16px;border-radius:999px;opacity:0;transition:opacity .2s}
+.toast.show{opacity:1}
+a{color:var(--c)}
+</style></head><body><div class="wrap">
+<span class="src">🔵 Freelancer &middot; Lead 90/100</span>
+<h1>Kids Coding Game Platform</h1>
+<div class="meta">Un emprendedor busca un desarrollador full stack para construir una plataforma web de juegos de programacion para ninos con editor y validador de codigo.</div>
+<div class="card"><h2>Mensaje sugerido para abrir</h2><div class="proposal">Hi! I saw your post about the kids coding game platform. I&#x27;m a full-stack developer with experience in web apps and interactive canvas, and I&#x27;d love to help you build this.</div><button class="btn" onclick="copyOpener()">📋 Copiar mensaje</button></div>
+<div class="card"><h2>Publicación original</h2><div class="content">Kids Coding Game Platform
+I’m building a browser-based playground where children and teens who have never written a line of code can guide a bright, on-screen world with real JavaScript commands. The goal is to replace dry tutorials with hands-on puzzles that feel like a game—students type code in one pane and watch the results play out instantly in the other, learning logic and syntax almost by accident.
+
+To get there I need someone who understands both web development and game mechanics. You will architect the full stack, wire an in-browser code editor to a lightweight game engine, and create a system that automatically checks each solution so beginners receive immediate feedback. Everything must run smoothly on desktop and tablet, remain lightweight for classroom bandwidth, and be simple for me to expand with new levels later.
+
+Deliverables  
+• Responsive web app with split-screen editor and live game canvas  
+• Game layer where learner-written JavaScript controls movement, animation, and events (Phaser, PixiJS, ThreeJS, or a tool you prefer)  
+• Sandbox validator that runs the learner’s code safely and returns clear pass/fail messages  
+• Level management interface so new challenges can be added without redeploying the core app  
+• Starter module of at least five beginner-friendly challenges, each unlockable on success, with celebratory feedback  
+
+Acceptance criteria: a 10- to 14-year-old with no prior experience can complete the first module unaided, advancing through every challenge solely by editing code.
+
+If you’ve built educational games, interactive coding sites, or browser-based game engines before, please share links or demos. Let’s make learning to program irresistible for the next generation.
+Presupuesto: 200.0-80000.0 USD
+Skills: JavaScript, CSS, HTML5, HTML, Game Development, Web Development</div>
+<a class="btn alt" href="https://www.freelancer.com/projects/web-development/Kids-Coding-Game-Platform" target="_blank" rel="noopener">Abrir publicación en Freelancer</a></div>
+<div class="muted">Generado 2026-11-07 15:45 &middot; Dev Lead Hunter</div>
+<div class="toast" id="toast">Copiado</div>
+<textarea id="clip" style="position:fixed;left:-9999px;top:0"></textarea>
+<script>
+const DATA={"proposal": "", "opener": "Hi! I saw your post about the kids coding game platform. I'm a full-stack developer with experience in web apps and interactive canvas, and I'd love to help you build this.", "question": ""};
+function toast(t){const e=document.getElementById('toast');e.textContent=t;e.classList.add('show');setTimeout(()=>e.classList.remove('show'),1600);}
+async function copyText(t,label){try{await navigator.clipboard.writeText(t);toast(label||'Copiado');}catch(e){const ta=document.getElementById('clip');ta.value=t;ta.select();document.execCommand('copy');toast(label||'Copiado');}}
+function copyProposal(){copyText(DATA.proposal,'Propuesta copiada');}
+function copyOpener(){copyText(DATA.opener,'Mensaje copiado');}
+function copyAll(){copyText(DATA.proposal+"\n\n"+(DATA.question?('Pregunta: '+DATA.question):''),'Todo copiado');}
+</script></div></body></html>

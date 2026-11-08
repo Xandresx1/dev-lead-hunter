@@ -1,5 +1,41 @@
 {
 "seen": [
+"freelancer:40807905",
+"freelancer:40808147",
+"freelancer:40808268",
+"freelancer:40808290",
+"freelancer:40808334",
+"freelancer:40808350",
+"freelancer:40808343",
+"freelancer:40808356",
+"freelancer:40808376",
+"freelancer:40808392",
+"freelancer:40808394",
+"freelancer:40808402",
+"freelancer:40808405",
+"freelancer:40808390",
+"freelancer:40808416",
+"freelancer:40808423",
+"freelancer:40808424",
+"freelancer:40808427",
+"freelancer:40808430",
+"freelancer:40808439",
+"freelancer:40808442",
+"freelancer:40808443",
+"freelancer:40808444",
+"freelancer:40808447",
+"freelancer:40808446",
+"freelancer:40808454",
+"freelancer:40808463",
+"freelancer:40808459",
+"facebook:1861387561555056",
+"facebook:1861387301555082",
+"facebook:1861372684889877",
+"facebook:4227952867335500",
+"facebook:1677641777436525",
+"facebook:1861369831556829",
+"facebook:2921907798177158",
+"facebook:1781118096274262",
 "freelancer:40807889",
 "freelancer:40807947",
 "freelancer:40807958",
@@ -3015,11 +3051,11 @@
 "runs": {
 "facebook": 1793013059,
 "linkedin": 1792900970,
-"twitter": 1794069795,
-"freelancer": 1794111457,
-"reddit": 1794111457,
-"fbgroups": 1794111328,
-"fbsearch": 1794069785
+"twitter": 1794136984,
+"freelancer": 1794137128,
+"reddit": 1794137128,
+"fbgroups": 1794136948,
+"fbsearch": 1794136965
 },
 "counters": {
 "gemini:2026-10-25": 260.0,
@@ -3030,7 +3066,7 @@
 "gemini:2026-10-29": 123.0,
 "gemini:2026-10-30": 146.0,
 "gemini:2026-10-31": 114.0,
-"brightdata:records:2026-11": 366.0,
+"brightdata:records:2026-11": 379.0,
 "gemini:2026-11-01": 135.0,
 "gemini:2026-11-02": 105.0,
 "gemini:2026-11-03": 134.0,
@@ -3038,12 +3074,12 @@
 "gemini:2026-11-05": 78.0,
 "gemini:2026-11-06": 112.0,
 "gemini:2026-11-07": 144.0,
-"gemini:2026-11-08": 26.0
+"gemini:2026-11-08": 51.0
 },
 "leads": [],
 "stats": {
-"leads_total": 6,
-"seen_total": 3011,
+"leads_total": 4,
+"seen_total": 3047,
 "pending_proposals": 3
 },
 "pending_proposals": [
@@ -3076,7 +3112,7 @@
 "location": null
 },
 "created": 1794024094,
-"attempts": 1
+"attempts": 2
 },
 {
 "id": "freelancer:40807838",

@@ -1,5 +1,44 @@
 {
 "seen": [
+"freelancer:40807889",
+"freelancer:40807947",
+"freelancer:40807958",
+"freelancer:40807965",
+"freelancer:40807974",
+"freelancer:40807985",
+"freelancer:40807986",
+"freelancer:40808006",
+"freelancer:40808005",
+"freelancer:40808012",
+"freelancer:40808019",
+"freelancer:40808015",
+"freelancer:40808029",
+"freelancer:40808045",
+"freelancer:40808039",
+"freelancer:40808047",
+"freelancer:40808050",
+"freelancer:40808054",
+"freelancer:40808058",
+"freelancer:40808061",
+"freelancer:40808065",
+"freelancer:40808080",
+"freelancer:40808081",
+"freelancer:40808086",
+"freelancer:40803651",
+"facebook:1780942666291805",
+"facebook:1673137821060304",
+"facebook:1780961002956638",
+"facebook:1780958669623538",
+"facebook:1861085631585249",
+"facebook:1861081278252351",
+"facebook:1677329447467758",
+"facebook:1861072601586552",
+"facebook:1677313827469320",
+"facebook:1861059414921204",
+"facebook:1673184404388979",
+"facebook:2921569158211022",
+"facebook:4227464577384329",
+"facebook:2921564558211482",
 "freelancer:40807616",
 "freelancer:40807689",
 "freelancer:40807696",
@@ -2977,9 +3016,9 @@
 "facebook": 1793013059,
 "linkedin": 1792900970,
 "twitter": 1794069795,
-"freelancer": 1794095890,
-"reddit": 1794095891,
-"fbgroups": 1794084262,
+"freelancer": 1794111457,
+"reddit": 1794111457,
+"fbgroups": 1794111328,
 "fbsearch": 1794069785
 },
 "counters": {
@@ -2991,84 +3030,23 @@
 "gemini:2026-10-29": 123.0,
 "gemini:2026-10-30": 146.0,
 "gemini:2026-10-31": 114.0,
-"brightdata:records:2026-11": 347.0,
+"brightdata:records:2026-11": 366.0,
 "gemini:2026-11-01": 135.0,
 "gemini:2026-11-02": 105.0,
 "gemini:2026-11-03": 134.0,
 "gemini:2026-11-04": 150.0,
 "gemini:2026-11-05": 78.0,
 "gemini:2026-11-06": 112.0,
-"gemini:2026-11-07": 144.0
+"gemini:2026-11-07": 144.0,
+"gemini:2026-11-08": 26.0
 },
 "leads": [],
 "stats": {
 "leads_total": 6,
-"seen_total": 2972,
-"pending_proposals": 5
+"seen_total": 3011,
+"pending_proposals": 3
 },
 "pending_proposals": [
-{
-"id": "freelancer:40805103",
-"payload": {
-"id": "freelancer:40805103",
-"source": "freelancer",
-"title": "Finalizar App de Auditorías",
-"text": "Estoy desarrollando una aplicación de auditorías en Microsoft Power Apps con listas de SharePoint ya creadas y necesito ayuda remota para terminarla.  \n\nMi prioridad inmediata es el diseño de pantallas y la navegación: quiero pantallas claras donde el usuario pueda crear y completar una nueva auditoría, avanzando por una lista de preguntas con opciones de respuesta predeterminadas.  \n\nAdemás, requiero:  \n• Configurar el registro automático de fecha y hora en cada auditoría.  \n• Ajustar la lógica de guardado y validación de datos en SharePoint.  \n• Dejar preparada la conexión para que los resultados se visualicen más adelante en Power BI.  \n\nEn tu propuesta indícame:  \n• Experiencia concreta con Power Apps y SharePoint (menciona ejemplos similares).  \n• Disponibilidad horaria para sesiones remotas.  \n• Tarifa por hora y estimación aproximada para finalizar el proyecto.  \n\nBusco a alguien que conozca bien colecciones, formularios, galerías, Power Automate y que pueda explicarme brevemente las decisiones de diseño para que el mantenimiento futuro sea sencillo. Si tienes dashboards en Power BI conectados a Power Apps, comparte enlaces o capturas.  \n\nEspero tu mensaje y ejemplos para empezar cuanto antes.\nPresupuesto: 10.0-50.0 USD\nSkills: Mobile App Development, Sharepoint, Software Development, Microsoft Office, Data Integration, Power BI",
-"url": "https://www.freelancer.com/projects/power-bi/Finalizar-App-Auditor",
-"author": "",
-"extra": {
-"bids": 17,
-"bid_avg": 46.1764705882353,
-"budget": "Presupuesto: 10.0-50.0 USD",
-"budget_min": 10.0,
-"budget_max": 50.0,
-"currency": "USD",
-"price_type": "fixed",
-"hourly_commitment": null,
-"escrow": false,
-"country": null,
-"lang": "es"
-},
-"language": "es",
-"score": 90,
-"summary": "Un emprendedor/cliente busca un desarrollador freelance con urgencia para finalizar una app de auditorías en Microsoft Power Apps y SharePoint.",
-"opener": "Hola, vi tu proyecto para finalizar la app de auditorías en Power Apps y tengo experiencia sólida en Power Apps, SharePoint y Power BI.",
-"location": null
-},
-"created": 1793923101,
-"attempts": 2
-},
-{
-"id": "freelancer:40804898",
-"payload": {
-"id": "freelancer:40804898",
-"source": "freelancer",
-"title": "Diseño Sitio utilizando ODOO",
-"text": "Se requiere replicar esta misma página web, www.fongrupo.com, la cual, está diseñada en wordpress.\n\nwww.fongrupo.com\n\nSe requiere:\n1) Que tenga las mismas secciones y/o páginas internas\n2) Actualizar los contenidos\n3) Actualizar los archivos descargables, PDF\n4) Las animaciones pueden ser similares y/o mejoradas\n5) formulario de contacto,\n6 INDISPENSABLE: Debe ser realizad con ODOO. \n\nNota: Es utilizar todo el potencial de \"Odoo\" y ver hasta donde esta herramienta a nivel grafico y de animaciones es viable con lo que esta entidad quiere tener en su sitio web, por lo tanto, debe tener experiencia real verificable de diseños web realizados con odoo.com\nPresupuesto: 250.0-750.0 USD\nSkills: PHP, Python, Animation, HTML, Odoo, Web Design",
-"url": "https://www.freelancer.com/projects/odoo/Dise-Sitio-utilizando-ODOO",
-"author": "",
-"extra": {
-"bids": 141,
-"bid_avg": 391.97865248226947,
-"budget": "Presupuesto: 250.0-750.0 USD",
-"budget_min": 250.0,
-"budget_max": 750.0,
-"currency": "USD",
-"price_type": "fixed",
-"hourly_commitment": null,
-"escrow": false,
-"country": null,
-"lang": "es"
-},
-"language": "es",
-"score": 90,
-"summary": "Un cliente busca un desarrollador con experiencia en Odoo para replicar y actualizar una web corporativa.",
-"opener": "Hola, vi tu proyecto para replicar la web en Odoo y tengo experiencia comprobada en diseño web con esta plataforma. ¿Podemos conversar?",
-"location": null
-},
-"created": 1793923154,
-"attempts": 0
-},
 {
 "id": "freelancer:40806806",
 "payload": {
@@ -3098,7 +3076,7 @@
 "location": null
 },
 "created": 1794024094,
-"attempts": 0
+"attempts": 1
 },
 {
 "id": "freelancer:40807838",

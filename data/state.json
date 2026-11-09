@@ -1,5 +1,66 @@
 {
 "seen": [
+"freelancer:40806706",
+"freelancer:40808529",
+"freelancer:40808826",
+"freelancer:40808849",
+"freelancer:40808999",
+"freelancer:40809005",
+"freelancer:40809009",
+"freelancer:40809014",
+"freelancer:40809019",
+"freelancer:40809024",
+"freelancer:40809029",
+"freelancer:40809026",
+"freelancer:40809048",
+"freelancer:40809054",
+"freelancer:40809058",
+"freelancer:40809066",
+"freelancer:40809067",
+"freelancer:40809069",
+"freelancer:40809083",
+"freelancer:40805208",
+"freelancer:40809088",
+"freelancer:40809099",
+"freelancer:40809112",
+"freelancer:40809107",
+"freelancer:40809113",
+"freelancer:40809116",
+"freelancer:40809123",
+"freelancer:40809124",
+"freelancer:40809134",
+"freelancer:40809139",
+"freelancer:40809148",
+"freelancer:40809153",
+"freelancer:40809152",
+"freelancer:40809149",
+"freelancer:40809140",
+"freelancer:40809155",
+"freelancer:40809151",
+"facebook:1449921559978296",
+"facebook:4794399134170221",
+"facebook:2097120007665991",
+"facebook:2841996389517661",
+"facebook:1455498563357606",
+"facebook:1678172880716748",
+"facebook:1678172564050113",
+"facebook:1861888401504972",
+"facebook:1861887981505014",
+"facebook:4228708777259909",
+"facebook:1678169587383744",
+"facebook:1678167727383930",
+"facebook:1861881838172295",
+"facebook:1861878234839322",
+"facebook:4228692320594888",
+"facebook:1781826702870068",
+"facebook:4228686277262159",
+"facebook:4228679940596126",
+"facebook:1781817436204328",
+"facebook:1781816326204439",
+"facebook:2922468838121054",
+"facebook:2922435614791043",
+"facebook:2922357441465527",
+"facebook:2922306298137308",
 "freelancer:40808809",
 "freelancer:40808837",
 "freelancer:40808867",
@@ -3122,10 +3183,10 @@
 "facebook": 1793013059,
 "linkedin": 1792900970,
 "twitter": 1794136984,
-"freelancer": 1794173021,
-"reddit": 1794173021,
-"fbgroups": 1794172822,
-"fbsearch": 1794136965
+"freelancer": 1794186011,
+"reddit": 1794186011,
+"fbgroups": 1794185829,
+"fbsearch": 1794185846
 },
 "counters": {
 "gemini:2026-10-25": 260.0,
@@ -3136,7 +3197,7 @@
 "gemini:2026-10-29": 123.0,
 "gemini:2026-10-30": 146.0,
 "gemini:2026-10-31": 114.0,
-"brightdata:records:2026-11": 379.0,
+"brightdata:records:2026-11": 399.0,
 "gemini:2026-11-01": 135.0,
 "gemini:2026-11-02": 105.0,
 "gemini:2026-11-03": 134.0,
@@ -3144,13 +3205,14 @@
 "gemini:2026-11-05": 78.0,
 "gemini:2026-11-06": 112.0,
 "gemini:2026-11-07": 144.0,
-"gemini:2026-11-08": 119.0
+"gemini:2026-11-08": 119.0,
+"gemini:2026-11-09": 32.0
 },
 "leads": [],
 "stats": {
-"leads_total": 8,
-"seen_total": 3117,
-"pending_proposals": 5
+"leads_total": 4,
+"seen_total": 3178,
+"pending_proposals": 6
 },
 "pending_proposals": [
 {
@@ -3182,7 +3244,7 @@
 "location": null
 },
 "created": 1794024094,
-"attempts": 4
+"attempts": 5
 },
 {
 "id": "freelancer:40807838",
@@ -3307,10 +3369,38 @@
 },
 "created": 1794173017,
 "attempts": 0
+},
+{
+"id": "freelancer:40809069",
+"payload": {
+"id": "freelancer:40809069",
+"source": "freelancer",
+"title": "Desarrollo App Servicios Domicilio Multiplataforma",
+"text": "Quiero lanzar el MVP de una plataforma tipo Uber/Airbnb enfocada en servicios a domicilio (limpieza, reparaciones, etc.) y necesito a alguien que se encargue del desarrollo completo en iOS, Android y Web.\n\nFlujo clave  \n1. El usuario abre la app, describe el trabajo y escoge fecha y hora.  \n2. La solicitud se envía a varios profesionales cercanos; cada uno responde con su propuesta.  \n3. El cliente compara perfiles, precios y valoraciones en tiempo real y selecciona al proveedor.  \n4. Una vez finalizado el trabajo, el pago se realiza dentro de la app y ambas partes se califican.\n\nAlcance técnico  \n• Aplicaciones nativas o híbridas (estoy abierto a Swift/Kotlin o frameworks como Flutter / React Native, siempre que mantengas rendimiento y código limpio).  \n• Sitio web responsivo que replique las funciones principales.  \n• Backend con API REST o GraphQL, panel de administración, base de datos segura y sistema de notificaciones push.  \n• Integraciones imprescindibles: geolocalización en tiempo real, pasarela de pago, autenticación social/correo y chat interno.  \n• Código documentado, pruebas básicas y asistencia para la publicación en App Store y Google Play.\n\nEntregables mínimos  \n- APK/IPA listas para testflight o release  \n- Web app desplegada  \n- Código fuente completo y documentación de instalación  \n- Manual breve para el panel admin\n\nSi ya has construido marketplaces de servicios bajo demanda y puedes demostrarlo, me gustaría revisar tus ejemplos. Indica también tu propuesta de stack y plazos estimados para cada fase.\nPresupuesto: 750.0-1500.0 USD\nSkills: Mobile App Development, iPhone, Android, PhoneGap, Web Development, Flutter",
+"url": "https://www.freelancer.com/projects/web-development/Desarrollo-App-Servicios-Domicilio",
+"author": "",
+"extra": {
+"bids": 103,
+"bid_avg": 984.757281553398,
+"budget": "Presupuesto: 750.0-1500.0 USD",
+"budget_min": 750.0,
+"budget_max": 1500.0,
+"currency": "USD",
+"price_type": "fixed",
+"hourly_commitment": null,
+"escrow": false,
+"country": null,
+"lang": "es"
+},
+"language": "es",
+"score": 90,
+"summary": "Emprendedor busca desarrollador full-stack para crear el MVP de una app y web de servicios a domicilio tipo Uber.",
+"opener": "Hola, vi tu proyecto para el MVP de servicios a domicilio y tengo experiencia construyendo plataformas bajo demanda tipo marketplace con geolocalización.",
+"location": null
+},
+"created": 1794185928,
+"attempts": 0
 }
 ],
-"meta": {
-"brightdata:snapshot": "sd_mw8bx8me132t42t30z",
-"brightdata:snapshot_ts": "1794172400"
-}
+"meta": {}
 }

@@ -1,5 +1,66 @@
 {
 "seen": [
+"freelancer:40809615",
+"freelancer:40809671",
+"freelancer:40809737",
+"freelancer:40809829",
+"freelancer:40809865",
+"freelancer:40809913",
+"freelancer:40810116",
+"freelancer:40810119",
+"freelancer:40810127",
+"freelancer:40810138",
+"freelancer:40810140",
+"freelancer:40810145",
+"freelancer:40810149",
+"freelancer:40810195",
+"freelancer:40810197",
+"freelancer:40810227",
+"freelancer:40810236",
+"freelancer:40810252",
+"freelancer:40810266",
+"freelancer:40810279",
+"freelancer:40810281",
+"freelancer:40810282",
+"freelancer:40810284",
+"freelancer:40810287",
+"freelancer:40810291",
+"freelancer:40810290",
+"freelancer:40810289",
+"freelancer:40810293",
+"freelancer:40810296",
+"freelancer:40810300",
+"freelancer:40810301",
+"freelancer:40810303",
+"freelancer:40810304",
+"freelancer:40810305",
+"freelancer:40810311",
+"freelancer:40810307",
+"freelancer:40810315",
+"freelancer:40810316",
+"freelancer:40810313",
+"freelancer:40810319",
+"freelancer:40810318",
+"facebook:1679070520626984",
+"facebook:1862759804751165",
+"facebook:1679066743960695",
+"facebook:1679065173960852",
+"facebook:1862756304751515",
+"facebook:1862755314751614",
+"facebook:1782698196116252",
+"facebook:2923506754683929",
+"facebook:2923494981351773",
+"facebook:1782646096121462",
+"facebook:1782634249455980",
+"facebook:1782627942789944",
+"facebook:2923431454691459",
+"facebook:4229840103813443",
+"facebook:4229804933816960",
+"facebook:2923315924703012",
+"facebook:4229673607163426",
+"facebook:4229599300504190",
+"facebook:1674529630921123",
+"facebook:1674433644264055",
 "freelancer:40809393",
 "freelancer:40809403",
 "freelancer:40809423",
@@ -3221,10 +3282,10 @@
 "facebook": 1793013059,
 "linkedin": 1792900970,
 "twitter": 1794210197,
-"freelancer": 1794210333,
-"reddit": 1794210333,
-"fbgroups": 1794210187,
-"fbsearch": 1794185846
+"freelancer": 1794246928,
+"reddit": 1794246928,
+"fbgroups": 1794246749,
+"fbsearch": 1794246759
 },
 "counters": {
 "gemini:2026-10-25": 260.0,
@@ -3235,7 +3296,7 @@
 "gemini:2026-10-29": 123.0,
 "gemini:2026-10-30": 146.0,
 "gemini:2026-10-31": 114.0,
-"brightdata:records:2026-11": 421.0,
+"brightdata:records:2026-11": 445.0,
 "gemini:2026-11-01": 135.0,
 "gemini:2026-11-02": 105.0,
 "gemini:2026-11-03": 134.0,
@@ -3244,13 +3305,13 @@
 "gemini:2026-11-06": 112.0,
 "gemini:2026-11-07": 144.0,
 "gemini:2026-11-08": 119.0,
-"gemini:2026-11-09": 56.0
+"gemini:2026-11-09": 94.0
 },
 "leads": [],
 "stats": {
-"leads_total": 5,
-"seen_total": 3216,
-"pending_proposals": 5
+"leads_total": 3,
+"seen_total": 3277,
+"pending_proposals": 6
 },
 "pending_proposals": [
 {
@@ -3282,7 +3343,7 @@
 "location": null
 },
 "created": 1794084265,
-"attempts": 1
+"attempts": 2
 },
 {
 "id": "freelancer:40807718",
@@ -3406,6 +3467,37 @@
 "location": null
 },
 "created": 1794185928,
+"attempts": 0
+},
+{
+"id": "freelancer:40809829",
+"payload": {
+"id": "freelancer:40809829",
+"source": "freelancer",
+"title": "Pruebas Integrales de Ciberseguridad",
+"text": "Quiero poner a prueba tanto la página web pública como nuestro CRM interno. Necesito que se ejecute una batería completa de pruebas de seguridad sobre todas sus funciones: lógica de negocio, control de acceso, inyección de código, gestión de sesiones, cifrado de datos y cualquier otra superficie de ataque relevante.\n\nPara las pruebas facilitaré acceso de usuario normal a ambos entornos. Con esas credenciales deberás identificar cualquier vulnerabilidad que un atacante pudiera aprovechar sin privilegios elevados.\n\nEntregables esperados:\n• Informe técnico con cada hallazgo, gravedad, riesgo real y demostración paso a paso.  \n• Recomendaciones claras de mitigación o corrección.  \n• Sesión online con nuestro equipo de soporte para revisar los fallos y guiarlos en la implementación de las soluciones.\n\nValoro experiencia en OWASP, pruebas de penetración web, análisis de aplicaciones CRM y generación de informes ejecutivos y técnicos.\nPresupuesto: 250.0-750.0 EUR\nSkills: Web Security, Compliance, Penetration Testing, Network Security, Risk Assessment, Incident Response",
+"url": "https://www.freelancer.com/projects/penetration-testing/Pruebas-Integrales-Ciberseguridad",
+"author": "",
+"extra": {
+"bids": 28,
+"bid_avg": 403.5357142857143,
+"budget": "Presupuesto: 250.0-750.0 EUR",
+"budget_min": 250.0,
+"budget_max": 750.0,
+"currency": "EUR",
+"price_type": "fixed",
+"hourly_commitment": null,
+"escrow": false,
+"country": null,
+"lang": "es"
+},
+"language": "es",
+"score": 90,
+"summary": "Empresa necesita pruebas integrales de ciberseguridad y pentesting para su página web y CRM interno con presupuesto definido.",
+"opener": "Hola, vi tu proyecto de pruebas de ciberseguridad para la web y el CRM. Tengo experiencia en pentesting OWASP y puedo ayudarte con el análisis y el informe técnico.",
+"location": null
+},
+"created": 1794246915,
 "attempts": 0
 }
 ],

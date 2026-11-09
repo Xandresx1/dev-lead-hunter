@@ -1,5 +1,43 @@
 {
 "seen": [
+"freelancer:40809393",
+"freelancer:40809403",
+"freelancer:40809423",
+"freelancer:40809438",
+"freelancer:40809434",
+"freelancer:40809457",
+"freelancer:40809485",
+"freelancer:40809487",
+"freelancer:40809488",
+"freelancer:40809496",
+"freelancer:40809500",
+"freelancer:40809505",
+"freelancer:40809548",
+"freelancer:40809549",
+"freelancer:40809553",
+"freelancer:40809557",
+"freelancer:40809558",
+"freelancer:40809569",
+"freelancer:40809578",
+"freelancer:40809570",
+"freelancer:40809580",
+"freelancer:40809585",
+"freelancer:40809589",
+"freelancer:40809597",
+"facebook:2922956091405662",
+"facebook:1862208028139676",
+"facebook:1782163406169731",
+"facebook:1678476524019717",
+"facebook:1678463357354367",
+"facebook:2922892978078640",
+"facebook:4229144130549707",
+"facebook:1674280487612704",
+"facebook:4229139040550216",
+"facebook:1862248844802261",
+"facebook:1862246954802450",
+"facebook:1782218579497547",
+"facebook:1782211512831587",
+"facebook:1782211199498285",
 "freelancer:40806706",
 "freelancer:40808529",
 "freelancer:40808826",
@@ -3182,10 +3220,10 @@
 "runs": {
 "facebook": 1793013059,
 "linkedin": 1792900970,
-"twitter": 1794136984,
-"freelancer": 1794186011,
-"reddit": 1794186011,
-"fbgroups": 1794185829,
+"twitter": 1794210197,
+"freelancer": 1794210333,
+"reddit": 1794210333,
+"fbgroups": 1794210187,
 "fbsearch": 1794185846
 },
 "counters": {
@@ -3197,7 +3235,7 @@
 "gemini:2026-10-29": 123.0,
 "gemini:2026-10-30": 146.0,
 "gemini:2026-10-31": 114.0,
-"brightdata:records:2026-11": 399.0,
+"brightdata:records:2026-11": 421.0,
 "gemini:2026-11-01": 135.0,
 "gemini:2026-11-02": 105.0,
 "gemini:2026-11-03": 134.0,
@@ -3206,46 +3244,15 @@
 "gemini:2026-11-06": 112.0,
 "gemini:2026-11-07": 144.0,
 "gemini:2026-11-08": 119.0,
-"gemini:2026-11-09": 32.0
+"gemini:2026-11-09": 56.0
 },
 "leads": [],
 "stats": {
-"leads_total": 4,
-"seen_total": 3178,
-"pending_proposals": 6
+"leads_total": 5,
+"seen_total": 3216,
+"pending_proposals": 5
 },
 "pending_proposals": [
-{
-"id": "freelancer:40806806",
-"payload": {
-"id": "freelancer:40806806",
-"source": "freelancer",
-"title": "Diseño Web y Branding Completo",
-"text": "Necesito crear un sitio web que presente mi marca y sus servicios de forma clara y profesional. El proyecto incluye:\n\n• Diseño UI/UX: una interfaz limpia y moderna que refuerce la identidad de marca.  \n• Desarrollo frontend responsive y backend funcional.  \n• Calendario de reservas integrado para que los clientes elijan horario y, además, opción de contacto directo por WhatsApp o formulario.  \n• Copywriting persuasivo: textos para todas las páginas, llamados a la acción y metadescripciones.  \n• Estrategia SEO on-page básica que deje la web indexada, con palabras clave iniciales y estructura optimizada.  \n• Branding y logotipo: ya tengo el nombre; requiero un logo tipográfico sencillo y una mini guía de estilo (colores y tipografías principales).\n\nEntregaré la estructura deseada de secciones y ejemplos de referencia; espero la entrega lista para publicar en hosting propio, con instrucciones rápidas de mantenimiento.\nPresupuesto: 250.0-750.0 USD\nSkills: Website Design, Graphic Design, Logo Design, SEO, Branding, HTML",
-"url": "https://www.freelancer.com/projects/web-design/Dise-Web-Branding-Completo",
-"author": "",
-"extra": {
-"bids": 108,
-"bid_avg": 362.64814814814815,
-"budget": "Presupuesto: 250.0-750.0 USD",
-"budget_min": 250.0,
-"budget_max": 750.0,
-"currency": "USD",
-"price_type": "fixed",
-"hourly_commitment": null,
-"escrow": false,
-"country": null,
-"lang": "es"
-},
-"language": "es",
-"score": 90,
-"summary": "Cliente busca desarrollo web completo con UI/UX, backend, reservas y SEO.",
-"opener": "Hola, vi tu proyecto de diseño web y branding. Me interesa ayudarte a construir la plataforma con reservas y optimización SEO.",
-"location": null
-},
-"created": 1794024094,
-"attempts": 5
-},
 {
 "id": "freelancer:40807838",
 "payload": {
@@ -3275,7 +3282,7 @@
 "location": null
 },
 "created": 1794084265,
-"attempts": 0
+"attempts": 1
 },
 {
 "id": "freelancer:40807718",

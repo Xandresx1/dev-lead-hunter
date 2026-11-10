@@ -1,5 +1,55 @@
 {
 "seen": [
+"freelancer:40810740",
+"freelancer:40810482",
+"freelancer:40810468",
+"freelancer:40811054",
+"freelancer:40811026",
+"freelancer:40810969",
+"freelancer:40810897",
+"freelancer:40810869",
+"freelancer:40810856",
+"freelancer:40810852",
+"freelancer:40810814",
+"freelancer:40810767",
+"freelancer:40811057",
+"freelancer:40811065",
+"freelancer:40811086",
+"freelancer:40811136",
+"freelancer:40811180",
+"freelancer:40811189",
+"freelancer:40811192",
+"freelancer:40811208",
+"freelancer:40811214",
+"freelancer:40811222",
+"freelancer:40809599",
+"freelancer:40811229",
+"freelancer:40811235",
+"freelancer:40811243",
+"freelancer:40808799",
+"freelancer:40811110",
+"facebook:2523417655070540",
+"facebook:1549991520570822",
+"facebook:2094401317875772",
+"facebook:4310124035894894",
+"facebook:2523361151742857",
+"facebook:1679693380564698",
+"facebook:1863318938028585",
+"facebook:1863316608028818",
+"facebook:1863312984695847",
+"facebook:1679638213903548",
+"facebook:1679617427238960",
+"facebook:1679610143906355",
+"facebook:1783177259401679",
+"facebook:1863238998036579",
+"facebook:1783148226071249",
+"facebook:1783132292739509",
+"facebook:1783127236073348",
+"facebook:4230737083723745",
+"facebook:4230736423723811",
+"facebook:2923998654634739",
+"facebook:4230689750395145",
+"facebook:2923911141310157",
 "freelancer:40810338",
 "freelancer:40810442",
 "freelancer:40810447",
@@ -3342,10 +3392,10 @@
 "facebook": 1793013059,
 "linkedin": 1792900970,
 "twitter": 1794272873,
-"freelancer": 1794273047,
-"reddit": 1794273048,
-"fbgroups": 1794272852,
-"fbsearch": 1794246759
+"freelancer": 1794299627,
+"reddit": 1794299627,
+"fbgroups": 1794299531,
+"fbsearch": 1794299544
 },
 "counters": {
 "gemini:2026-10-25": 260.0,
@@ -3356,7 +3406,7 @@
 "gemini:2026-10-29": 123.0,
 "gemini:2026-10-30": 146.0,
 "gemini:2026-10-31": 114.0,
-"brightdata:records:2026-11": 463.0,
+"brightdata:records:2026-11": 481.0,
 "gemini:2026-11-01": 135.0,
 "gemini:2026-11-02": 105.0,
 "gemini:2026-11-03": 134.0,
@@ -3366,13 +3416,13 @@
 "gemini:2026-11-07": 144.0,
 "gemini:2026-11-08": 119.0,
 "gemini:2026-11-09": 94.0,
-"gemini:2026-11-10": 40.0
+"gemini:2026-11-10": 54.0
 },
 "leads": [],
 "stats": {
-"leads_total": 6,
-"seen_total": 3337,
-"pending_proposals": 6
+"leads_total": 8,
+"seen_total": 3387,
+"pending_proposals": 10
 },
 "pending_proposals": [
 {
@@ -3404,7 +3454,7 @@
 "location": null
 },
 "created": 1794173008,
-"attempts": 1
+"attempts": 2
 },
 {
 "id": "freelancer:40808837",
@@ -3559,6 +3609,130 @@
 "location": null
 },
 "created": 1794273022,
+"attempts": 0
+},
+{
+"id": "freelancer:40810856",
+"payload": {
+"id": "freelancer:40810856",
+"source": "freelancer",
+"title": "Importación AliExpress-Shopify Masiva",
+"text": "Necesito optimizar mi tienda Shopify para añadir rápidamente una gran cantidad de artículos de AliExpress que yo misma iré seleccionando. Busco una solución — sea configuración de una app existente (DSers, AliExpress Dropshipping, Zendrop, etc.) o un desarrollo a medida — que me permita:\n\n• Importar solo los productos que elija, pero de forma masiva, y que al traerlos se copie absolutamente toda la información disponible: imágenes, títulos, descripciones, variantes, modelos, precios, stock y opciones de envío.\n\n• Una vez que entren pedidos en Shopify, estos deben crearse de forma automática en AliExpress con todos los datos del cliente listos para pagar, sin que yo tenga que intervenir manualmente.\n\nEntrego acceso a la tienda y a la cuenta de AliExpress. El trabajo se considera completo cuando pueda:\n\n1. Seleccionar varios enlaces de AliExpress y verlos publicados en Shopify con la información íntegra y bien formateada.  \n2. Recibir un pedido de prueba en Shopify y confirmarlo levantado automáticamente en AliExpress listo para el pago.\n\nIncluye breve guía en video o PDF mostrando cómo repetir el proceso y resolver posibles errores.\nPresupuesto: 50.0-300.0 USD\nSkills: Shopify, Web Development, Data Integration, Dropshipping, Automation, App Development",
+"url": "https://www.freelancer.com/projects/shopify-site/Importaci-AliExpress-Shopify-Masiva",
+"author": "",
+"extra": {
+"bids": 115,
+"bid_avg": 148.386,
+"budget": "Presupuesto: 50.0-300.0 USD",
+"budget_min": 50.0,
+"budget_max": 300.0,
+"currency": "USD",
+"price_type": "fixed",
+"hourly_commitment": null,
+"escrow": false,
+"country": null,
+"lang": "es"
+},
+"language": "?",
+"score": 100,
+"summary": "(Sin IA) Coincidencia por palabras clave: \\bpresupuesto\\b.*\\b(sistema|app|aplicaci",
+"opener": "",
+"location": null
+},
+"created": 1794299626,
+"attempts": 0
+},
+{
+"id": "freelancer:40810852",
+"payload": {
+"id": "freelancer:40810852",
+"source": "freelancer",
+"title": "WhatsApp-Shopify Automation Setup",
+"text": "Quiero que todo el flujo de atención al cliente por WhatsApp quede completamente automatizado y conectado con mi tienda de Shopify. El bot debe:\n\n• Responder de inmediato las preguntas frecuentes sobre productos, variantes y existencias tomando la información actual de mi catálogo en Shopify.  \n• Enviar cotizaciones con los precios fijos que ya manejo en la tienda, darles seguimiento y reactivar al cliente si no responde.  \n• Cuando el cliente confirme la compra, generar el pedido directamente en Shopify y devolver por WhatsApp el enlace de pago correspondiente.\n\nMe sirve cualquier enfoque que combine la API de WhatsApp Business con Shopify (por ejemplo, Twilio, Meta Cloud API, o un desarrollo propio en Node.js/Python) siempre que sea estable y fácil de mantener. \n\nEntrego acceso a mi cuenta de WhatsApp Business y a la API de Shopify; espero de tu parte el flujo configurado, documentación breve sobre cómo modificar mensajes o reglas, y una prueba en vivo que demuestre:\n\n1. Consulta de stock respondida en tiempo real.  \n2. Cotización emitida con precio exacto desde Shopify.  \n3. Pedido creado y enlace de pago enviado automáticamente.\n\nSi ya has hecho algo similar, mencióname qué stack usaste y cuánto tardarías en implementarlo.\nPresupuesto: 50.0-200.0 USD\nSkills: PHP, JavaScript, Python, Software Architecture, Node.js, API",
+"url": "https://www.freelancer.com/projects/api/WhatsApp-Shopify-Automation-Setup",
+"author": "",
+"extra": {
+"bids": 144,
+"bid_avg": 119.72569444444444,
+"budget": "Presupuesto: 50.0-200.0 USD",
+"budget_min": 50.0,
+"budget_max": 200.0,
+"currency": "USD",
+"price_type": "fixed",
+"hourly_commitment": null,
+"escrow": false,
+"country": null,
+"lang": "es"
+},
+"language": "?",
+"score": 100,
+"summary": "(Sin IA) Coincidencia por palabras clave: \\b(me )?cotiz(an|ar|acion)\\b.*\\b(sistema, \\bpresupuesto\\b.*\\b(sistema|app|aplicaci",
+"opener": "",
+"location": null
+},
+"created": 1794299626,
+"attempts": 0
+},
+{
+"id": "freelancer:40810814",
+"payload": {
+"id": "freelancer:40810814",
+"source": "freelancer",
+"title": "Difusión Shopify en Redes Sociales",
+"text": "Necesito automatizar y ejecutar la publicación masiva de todo mi catálogo de Shopify — organizado por categorías — en TikTok, Instagram y Facebook. El objetivo es que cada producto se muestre en los tres formatos que más convierten para mi tienda:\n\n• Imágenes publicitarias con su precio y la oferta vigente.  \n• Videos cortos que muestren el producto en uso, listos para TikTok/Reels.  \n• Publicaciones con fotos y descripciones completas extraídas del catálogo.\n\nEntrego acceso a Shopify y a los perfiles sociales; tú te encargas de seleccionar la mejor herramienta o flujo (puede ser nativo de Shopify, apps de programación o tu propio sistema) para que el proceso quede lo más automatizado posible. Espero artes finales optimizados en tamaño y proporción para cada red, copys persuasivos en español e inglés si fuera necesario y programación del contenido en un calendario inicial de prueba.\n\nAcepto propuestas que incluyan:\n\n1. Plan de trabajo con hitos claros para cada red.  \n2. Ejemplos de piezas visuales antes de publicarlas.  \n3. Métricas mínimas que medirás para confirmar que el contenido se publica correctamente (impresiones, clicks, etc.).\n\nCuando terminemos la fase de publicación, el objetivo es que el flujo quede documentado para yo poder continuar programando contenido futuro por mi cuenta o repetir la estrategia en nuevas colecciones.\nPresupuesto: 250.0-750.0 USD\nSkills: Graphic Design, Shopify, Social Media Marketing, Digital Marketing, Social Media Management, Content Strategy",
+"url": "https://www.freelancer.com/projects/shopify-site/Difusi-Shopify-Redes-Sociales",
+"author": "",
+"extra": {
+"bids": 76,
+"bid_avg": 386.85236842105263,
+"budget": "Presupuesto: 250.0-750.0 USD",
+"budget_min": 250.0,
+"budget_max": 750.0,
+"currency": "USD",
+"price_type": "fixed",
+"hourly_commitment": null,
+"escrow": false,
+"country": null,
+"lang": "es"
+},
+"language": "?",
+"score": 100,
+"summary": "(Sin IA) Coincidencia por palabras clave: \\bpara (mi|nuestro|nuestra|la) (negocio|",
+"opener": "",
+"location": null
+},
+"created": 1794299626,
+"attempts": 0
+},
+{
+"id": "freelancer:40810767",
+"payload": {
+"id": "freelancer:40810767",
+"source": "freelancer",
+"title": "Busco freelancer para implementar un sistema automatizado de SEO y GEO con IA",
+"text": "**Busco freelance para implementar un sistema automatizado de SEO y GEO**\n\nBusco freelance con experiencia en SEO, GEO y automatización para implementar en mi VPS un sistema orientado a posicionar mi web en Google y ChatGPT.\n\nQuiero aprovechar **repositorios de GitHub y herramientas ya desarrolladas, probadas y funcionales**, evitando empezar desde cero y pagar cuotas mensuales.\n\nEstoy abierto a propuestas con ChatGPT , Claude, n8n u otras tecnologías que permitan automatizar tareas de SEO y GEO, analizar competidores y backlinks y reducir al mínimo el trabajo manual.\n\nBusco una implementación puntual, no un servicio mensual de SEO.\n\n**Presupuesto fijo: $800 MXN.**\nPresupuesto: 10.0-30.0 USD\nSkills: Internet Marketing, SEO, Link Building, Marketing, Data Analysis, Automation",
+"url": "https://www.freelancer.com/projects/automation/Busco-freelancer-para-implementar",
+"author": "",
+"extra": {
+"bids": 42,
+"bid_avg": 36.26190476190476,
+"budget": "Presupuesto: 10.0-30.0 USD",
+"budget_min": 10.0,
+"budget_max": 30.0,
+"currency": "USD",
+"price_type": "fixed",
+"hourly_commitment": null,
+"escrow": false,
+"country": null,
+"lang": "es"
+},
+"language": "?",
+"score": 100,
+"summary": "(Sin IA) Coincidencia por palabras clave: \\bbusco (un |una |a )?(programador|desar",
+"opener": "",
+"location": null
+},
+"created": 1794299626,
 "attempts": 0
 }
 ],

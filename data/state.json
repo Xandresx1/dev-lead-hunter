@@ -1,5 +1,49 @@
 {
 "seen": [
+"freelancer:40812598",
+"freelancer:40812673",
+"freelancer:40812687",
+"freelancer:40812696",
+"freelancer:40812737",
+"freelancer:40812760",
+"freelancer:40812784",
+"freelancer:40812808",
+"freelancer:40812845",
+"freelancer:40812884",
+"freelancer:40812887",
+"freelancer:40812910",
+"freelancer:40812950",
+"freelancer:40812953",
+"freelancer:40812965",
+"freelancer:40812983",
+"freelancer:40812985",
+"freelancer:40812993",
+"freelancer:40812997",
+"freelancer:40812999",
+"freelancer:40813006",
+"freelancer:40813007",
+"freelancer:40813008",
+"freelancer:40813011",
+"freelancer:40813012",
+"facebook:1864528987907580",
+"facebook:1680770297123673",
+"facebook:1784257502626988",
+"facebook:1680757403791629",
+"facebook:1680753697125333",
+"facebook:1680753337125369",
+"facebook:1784235779295827",
+"facebook:1864415041252308",
+"facebook:1864414471252365",
+"facebook:1864406951253117",
+"facebook:2925284084506196",
+"facebook:1784182582634480",
+"facebook:4232418860222234",
+"facebook:4232030436927743",
+"facebook:4232015203595933",
+"facebook:1676093600764726",
+"facebook:4231966643600789",
+"facebook:2924909141210357",
+"facebook:2924902907877647",
 "freelancer:40812097",
 "freelancer:40812347",
 "freelancer:40812023",
@@ -3519,9 +3563,9 @@
 "facebook": 1793013059,
 "linkedin": 1792900970,
 "twitter": 1794347795,
-"freelancer": 1794361397,
-"reddit": 1794361398,
-"fbgroups": 1794347761,
+"freelancer": 1794385617,
+"reddit": 1794385617,
+"fbgroups": 1794385503,
 "fbsearch": 1794347774
 },
 "counters": {
@@ -3533,7 +3577,7 @@
 "gemini:2026-10-29": 123.0,
 "gemini:2026-10-30": 146.0,
 "gemini:2026-10-31": 114.0,
-"brightdata:records:2026-11": 502.0,
+"brightdata:records:2026-11": 524.0,
 "gemini:2026-11-01": 135.0,
 "gemini:2026-11-02": 105.0,
 "gemini:2026-11-03": 134.0,
@@ -3544,13 +3588,13 @@
 "gemini:2026-11-08": 119.0,
 "gemini:2026-11-09": 94.0,
 "gemini:2026-11-10": 126.0,
-"gemini:2026-11-11": 30.0
+"gemini:2026-11-11": 55.0
 },
 "leads": [],
 "stats": {
-"leads_total": 5,
-"seen_total": 3514,
-"pending_proposals": 9
+"leads_total": 4,
+"seen_total": 3558,
+"pending_proposals": 11
 },
 "pending_proposals": [
 {
@@ -3582,7 +3626,7 @@
 "location": null
 },
 "created": 1794246915,
-"attempts": 1
+"attempts": 2
 },
 {
 "id": "freelancer:40810674",
@@ -3830,6 +3874,68 @@
 "location": "Brasil"
 },
 "created": 1794361393,
+"attempts": 0
+},
+{
+"id": "freelancer:40812687",
+"payload": {
+"id": "freelancer:40812687",
+"source": "freelancer",
+"title": "Experto en agentes de IA locales (Ollama/Linux) para diagnosticar y mejorar mi sistema",
+"text": "Tengo 16 agentes de IA locales en una PC con Pop!_OS (Linux), Ryzen 7 9700X y RTX 5050 de 8 GB, usando Ollama (Qwen, Gemma, Llama, Phi, DeepSeek, gpt-oss, entre otros). Los agentes aprenden habilidades con 25 exámenes automáticos (leer PDF/Excel/Word, buscar en internet, extraer datos, memoria, etc.), pero se estancan: repiten errores y no avanzan de forma autónoma. Busco un experto en agentes de IA con modelos locales para: 1) diagnóstico por videollamada (1-2 horas) de mi sistema actual; 2) recomendación concreta: qué framework usar (smolagents, Letta u otro) y cómo hacer que mejoren con el hardware que ya tengo; 3) si conviene, implementar la mejora y dejar un agente haciendo una tarea real de mi negocio (leer cotizaciones y pasarlas a tabla) de forma autónoma. Requisito: experiencia comprobable con Ollama y modelos locales en Linux. Prueba técnica corta en mi propia PC antes de contratar el proyecto completo. Pago por hora para el diagnóstico. Además, tengo MedGemma (modelo médico de Google) corriendo local y quiero que funcione bien dentro del mismo sistema, junto con mis otros proyectos de IA local (ESMFold para predicción de estructura de proteínas). El experto debe poder revisar y mejorar también esa parte.\nPresupuesto: 15.0-25.0 USD\nSkills: Python, Linux, Machine Learning (ML), AI Agents, Ollama",
+"url": "https://www.freelancer.com/projects/ai-agents/Experto-agentes-locales-Ollama-Linux",
+"author": "",
+"extra": {
+"bids": 67,
+"bid_avg": 21.761194029850746,
+"budget": "Presupuesto: 15.0-25.0 USD",
+"budget_min": 15.0,
+"budget_max": 25.0,
+"currency": "USD",
+"price_type": "hourly",
+"hourly_commitment": "40 h/week",
+"escrow": false,
+"country": null,
+"lang": "es"
+},
+"language": "es",
+"score": 90,
+"summary": "Emprendedor busca experto en agentes de IA locales con Ollama en Linux para diagnosticar, optimizar frameworks y automatizar lectura de cotizaciones.",
+"opener": "Hola, vi tu proyecto con agentes locales en Ollama y Linux. Tengo experiencia optimizando pipelines de IA y frameworks de agentes. ¿Cuándo podríamos agendar la videollamada?",
+"location": null
+},
+"created": 1794385609,
+"attempts": 0
+},
+{
+"id": "freelancer:40812673",
+"payload": {
+"id": "freelancer:40812673",
+"source": "freelancer",
+"title": "MVP funcional de Web App B2B con IA y motor de reglas TEMP",
+"text": "Buscamos un desarrollador senior o un equipo pequeño para construir y lanzar el MVP de una Web App B2B enfocada en Supply Chain Planning.\n\nEl objetivo no es construir desde el comienzo una plataforma empresarial terminada. Queremos poner en producción, en el menor tiempo razonable, una versión funcional para clientes reales, aprender con cada engagement y evolucionarla mediante ciclos continuos de mejora.\n\nEsperamos mantener una relación de largo plazo con el desarrollador seleccionado. Después del lanzamiento serán necesarios ajustes en preguntas, reglas, cálculos, experiencia, análisis de IA y reportes según la evidencia obtenida con clientes.\n\nEl MVP debe funcionar de extremo a extremo, pero puede conservar intervención manual del consultor cuando automatizar una actividad no sea necesario para validar el producto.\n\nCONTEXTO DEL PRODUCTO\n\nLa Web App apoyará un servicio para evaluar y priorizar oportunidades de mejora en decisiones de Supply Chain Planning. Combinará:\n\n• Información de usuarios y stakeholders.\n• Preguntas y rúbricas de madurez.\n• Librería estándar de proyectos o casos de uso.\n• Reglas y cálculos determinísticos.\n• Análisis de respuestas abiertas con IA.\n• Validación del consultor.\n• Priorización de proyectos y reportes ejecutivos.\n\nNo buscamos un chatbot genérico. La IA tendrá funciones delimitadas y utilizará reglas, fuentes y límites definidos. La Interacción con Web App Paso 2 será inicialmente asistida por un consultor y no completamente self-service.\n\nFLUJO FUNCIONAL DEL MVP\n\nPredefiniciones internas\n\nEl equipo administrador debe poder mantener y actualizar:\n\n• Preguntas y respuestas generales.\n• Preguntas y respuestas de madurez.\n• Rúbrica de clasificación en el journey de madurez.\n• Librería de casos de uso, incluyendo rango de valor, tiempo de ejecución y KPI objetivo.\n• Preguntas abiertas.\n• Reglas, insights y límites para el análisis de IA.\n• Variables y rúbrica de 1 a 5 para calificar cada caso.\n\nEstos contenidos deben poder administrarse en español e inglés. La interfaz administrativa puede ser sencilla. Lo importante es que los elementos no queden completamente hard-coded y puedan modificarse sin reconstruir la aplicación.\n\nInteracción con Web App Paso 1\n\nEl usuario elige español o inglés y completa una experiencia pública en el idioma seleccionado.\n\nInputs:\n\n• Datos generales obligatorios: industria, revenue, plantas, centros de distribución y alcance geográfico.\n• Datos financieros opcionales: COGS, producción, distribución e inventario.\n• KPIs opcionales.\n• Veintiuna preguntas obligatorias de madurez.\n\nProceso:\n\n• Clasificación inicial de madurez.\n• Algoritmo para calcular rangos de beneficio.\n• Reglas para seleccionar casos de uso iniciales.\n\nOutputs:\n\n• Reporte visual del journey de madurez.\n• Dos oportunidades visibles solamente por título.\n• Indicación de proyectos adicionales para explorar.\n• Rangos de beneficio potencial.\n• Enlace externo para reservar un Discovery.\n\nEl usuario debe poder visualizar, recibir o descargar su resultado en el idioma elegido. Para agendar puede utilizarse una integración sencilla con una herramienta externa.\n\nDiscovery\n\nEl Discovery se realiza mediante reunión virtual por fuera de la plataforma. Su función es explicar la Interacción con Web App Paso 2, definir los stakeholders participantes, máximo seis, y concretar la contratación.\n\nNo se requieren inicialmente videoconferencias, pagos ni contratación dentro de la Web App.\n\nInteracción con Web App Paso 2\n\nEl consultor crea el engagement y registra la información obtenida durante las sesiones.\n\nInputs:\n\n• Tres respuestas obligatorias del stakeholder principal: estrategia corporativa, estrategia de Supply Chain y principales challenges.\n• Cinco respuestas abiertas por stakeholder sobre retos, riesgos, oportunidades, visión de largo plazo y una dimensión adicional por definir.\n• Participación de hasta seis stakeholders por compañía.\n\nProceso de IA y reglas:\n\n• La IA analiza las respuestas bajo reglas y límites definidos.\n• Relaciona el lenguaje del cliente con casos de uso de la librería.\n• Propone descripciones conectadas con el contexto de la empresa.\n• La Web App calcula rangos de beneficio mediante las fórmulas definidas.\n• La Web App aplica un factor relacionado con el nivel de madurez.\n\nLa IA no debe inventar cifras ni sustituir fórmulas. Los cálculos y el scoring deben permanecer separados del análisis generativo.\n\nOutput parcial:\n\n• Análisis detallado de madurez.\n• Lista de casos de uso potenciales.\n• Descripción de cada caso en lenguaje conectado con la empresa.\n\nCada stakeholder revisará este contenido por fuera de la plataforma o mediante un enlace o reporte sencillo. No se requiere inicialmente un portal avanzado para usuarios del cliente.\n\nCalificación y priorización\n\nDurante una reunión virtual, stakeholders y consultor califican las variables de cada caso. El consultor registra las respuestas en una matriz proyecto frente a variable.\n\nLa aplicación debe:\n\n• Computar la calificación consolidada.\n• Crear una matriz de cuadrantes de valor potencial relativo frente a complejidad relativa.\n• Generar un ranking sugerido.\n• Registrar la validación externa del ranking.\n• Permitir un ajuste manual final solamente al consultor.\n• Conservar el resultado calculado y el ajuste realizado.\n\nEntrega final\n\nLa aplicación debe preparar, en español o inglés según la elección del cliente, una vista ejecutiva y un reporte descargable, idealmente PDF, con:\n\n• Journey y análisis de madurez.\n• Matriz de valor frente a complejidad.\n• Ranking de proyectos.\n• Plan de trabajo tipo Gantt.\n• Business case con ROI o impacto según los datos disponibles.\n• Madurez actual frente a madurez futura esperada.\n• Detalle de los casos de uso.\n• Siguientes pasos.\n\nALCANCE TÉCNICO\n\nEstamos abiertos a recomendaciones sobre lenguaje, framework, base de datos, hosting y proveedor de IA. Se aceptan propuestas tradicionales, no-code, low-code o híbridas.\n\nLa arquitectura debe priorizar:\n\n• Rapidez de lanzamiento.\n• Facilidad para administrar y modificar el producto.\n• Seguridad de la información.\n• Costos mensuales razonables.\n• Propiedad y portabilidad.\n• Capacidad para integrar APIs de IA.\n• Separación entre reglas, cálculos y contenido generado.\n• Disponibilidad de talento para continuar evolucionándola.\n\nEl MVP tendrá inicialmente pocos engagements y será operado por el Equipo VECTOR. No necesita diseñarse para miles de usuarios concurrentes.\n\nREQUISITOS MÍNIMOS\n\n• Base de datos de empresas, engagements, configuraciones, casos de uso, inputs y resultados.\n• Autenticación para administradores y consultores.\n• Creación y administración de perfiles para hasta seis stakeholders por compañía.\n• Separación de información por empresa y engagement.\n• Panel administrativo básico.\n• Integración segura con una API de IA.\n• Credenciales y procesos sensibles protegidos en el backend.\n• Registro básico de errores y consumo de IA.\n• Web App responsive: todos los flujos del MVP deben funcionar en navegadores actuales de laptop y dispositivos móviles, en español o inglés según la elección del cliente.\n• Ambientes de pruebas y producción.\n• Código y configuración documentados.\n• Repositorios e infraestructura bajo control del cliente.\n\nFUERA DEL MVP INICIAL\n\n• Aplicaciones nativas independientes para iOS o Android y publicación en App Store o Google Play. La Web App responsive para móvil sí forma parte del MVP.\n• Portal avanzado para cada cliente.\n• Colaboración simultánea en tiempo real.\n• Integración completa con CRM.\n• Pagos dentro de la aplicación.\n• Videollamadas o grabación.\n• Entrenamiento de un modelo propio.\n• OCR o procesamiento documental avanzado.\n• Gestión de proyectos de implementación.\n• Arquitectura de consumo masivo.\n\nFORMA DE TRABAJO\n\nEsperamos una propuesta dividida en:\n\nDiscovery técnico breve y backlog del MVP.\nArquitectura, modelo de datos y experiencia esencial.\nConstrucción de la Interacción con Web App Paso 1.\nConstrucción de la Interacción con Web App Paso 2 y del panel interno.\nIntegración de IA, cálculos y reportes.\nPruebas con casos suministrados.\nDespliegue.\nSoporte y mejoras continuas.\n\nValoramos entregas frecuentes y demostrables. No queremos esperar hasta el final para ver el producto funcionando.\n\nENTREGABLES\n\n• MVP desplegado y utilizable con clientes reales.\n• Código, base de datos, configuración e infraestructura.\n• Documentación técnica y administrativa.\n• Pruebas funcionales.\n• Transferencia de conocimiento.\n• Garantía inicial para corrección de errores.\n• Propuesta de disponibilidad y tarifas para evolución continua.\n\nCONTENIDO REQUERIDO EN LA OFERTA\n\nIncluir:\n\nStack recomendado y justificación.\nAlcance exacto de la primera versión.\nTiempo hasta una versión utilizable con el primer cliente.\nPlan y precio por hitos.\nTarifa o modalidad para mejoras posteriores.\nCostos mensuales estimados.\nProyectos comparables y experiencia integrando IA.\nEquipo participante.\nSupuestos, riesgos y exclusiones.\n\nResponder también:\n\n• ¿Cómo permitiría actualizar preguntas, rúbricas y casos sin modificar código?\n• ¿Cómo separaría cálculos determinísticos y análisis de IA?\n\nCONFIDENCIALIDAD Y PROPIEDAD\n\nLa metodología, preguntas, fórmulas, reglas y templates detallados se compartirán con candidatos preseleccionados bajo confidencialidad.\n\nEl código, configuración, diseños, datos y componentes específicos serán propiedad del cliente. El trabajo deberá realizarse en cuentas controladas por el cliente o transferirse antes del cierre.\n\nBuscamos una persona o equipo que entienda que el primer objetivo es aprender con clientes reales. La mejor propuesta no será la que prometa más funcionalidades, sino la que presente el camino más claro para lanzar un MVP útil, administrable y preparado para evolucionar.\nPresupuesto: 3000.0-5000.0 USD\nSkills: Website Design, Software Architecture, UX / User Experience, Web Development, API, Full Stack Development",
+"url": "https://www.freelancer.com/projects/ai-integration/MVP-funcional-Web-App-con",
+"author": "",
+"extra": {
+"bids": 83,
+"bid_avg": 3476.6506024096384,
+"budget": "Presupuesto: 3000.0-5000.0 USD",
+"budget_min": 3000.0,
+"budget_max": 5000.0,
+"currency": "USD",
+"price_type": "fixed",
+"hourly_commitment": null,
+"escrow": false,
+"country": null,
+"lang": "es"
+},
+"language": "es",
+"score": 90,
+"summary": "Una empresa busca un desarrollador senior o equipo pequeño para construir el MVP de una Web App B2B con IA y Supply Chain Planning.",
+"opener": "Hola, leí sobre su búsqueda de un desarrollador senior o equipo para el MVP de Supply Chain Planning. Tenemos experiencia construyendo MVPs B2B con IA, ¿conversamos?",
+"location": null
+},
+"created": 1794385613,
 "attempts": 0
 }
 ],

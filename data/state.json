@@ -1,5 +1,37 @@
 {
 "seen": [
+"freelancer:40812097",
+"freelancer:40812347",
+"freelancer:40812023",
+"freelancer:40812364",
+"freelancer:40812379",
+"freelancer:40812414",
+"freelancer:40812396",
+"freelancer:40812418",
+"freelancer:40812431",
+"freelancer:40812432",
+"freelancer:40812433",
+"freelancer:40812440",
+"freelancer:40812443",
+"freelancer:40812448",
+"freelancer:40812447",
+"freelancer:40812470",
+"freelancer:40812468",
+"freelancer:40812467",
+"freelancer:40812472",
+"freelancer:40812478",
+"freelancer:40812474",
+"freelancer:40812486",
+"freelancer:40812492",
+"freelancer:40812493",
+"freelancer:40812498",
+"freelancer:40812504",
+"freelancer:40812409",
+"freelancer:40812507",
+"freelancer:40812506",
+"freelancer:40812514",
+"freelancer:40812519",
+"freelancer:40812525",
 "freelancer:40811356",
 "freelancer:40811874",
 "freelancer:40812033",
@@ -3487,8 +3519,8 @@
 "facebook": 1793013059,
 "linkedin": 1792900970,
 "twitter": 1794347795,
-"freelancer": 1794348001,
-"reddit": 1794348001,
+"freelancer": 1794361397,
+"reddit": 1794361398,
 "fbgroups": 1794347761,
 "fbsearch": 1794347774
 },
@@ -3511,46 +3543,16 @@
 "gemini:2026-11-07": 144.0,
 "gemini:2026-11-08": 119.0,
 "gemini:2026-11-09": 94.0,
-"gemini:2026-11-10": 126.0
+"gemini:2026-11-10": 126.0,
+"gemini:2026-11-11": 30.0
 },
 "leads": [],
 "stats": {
-"leads_total": 7,
-"seen_total": 3482,
-"pending_proposals": 8
+"leads_total": 5,
+"seen_total": 3514,
+"pending_proposals": 9
 },
 "pending_proposals": [
-{
-"id": "freelancer:40809069",
-"payload": {
-"id": "freelancer:40809069",
-"source": "freelancer",
-"title": "Desarrollo App Servicios Domicilio Multiplataforma",
-"text": "Quiero lanzar el MVP de una plataforma tipo Uber/Airbnb enfocada en servicios a domicilio (limpieza, reparaciones, etc.) y necesito a alguien que se encargue del desarrollo completo en iOS, Android y Web.\n\nFlujo clave  \n1. El usuario abre la app, describe el trabajo y escoge fecha y hora.  \n2. La solicitud se envía a varios profesionales cercanos; cada uno responde con su propuesta.  \n3. El cliente compara perfiles, precios y valoraciones en tiempo real y selecciona al proveedor.  \n4. Una vez finalizado el trabajo, el pago se realiza dentro de la app y ambas partes se califican.\n\nAlcance técnico  \n• Aplicaciones nativas o híbridas (estoy abierto a Swift/Kotlin o frameworks como Flutter / React Native, siempre que mantengas rendimiento y código limpio).  \n• Sitio web responsivo que replique las funciones principales.  \n• Backend con API REST o GraphQL, panel de administración, base de datos segura y sistema de notificaciones push.  \n• Integraciones imprescindibles: geolocalización en tiempo real, pasarela de pago, autenticación social/correo y chat interno.  \n• Código documentado, pruebas básicas y asistencia para la publicación en App Store y Google Play.\n\nEntregables mínimos  \n- APK/IPA listas para testflight o release  \n- Web app desplegada  \n- Código fuente completo y documentación de instalación  \n- Manual breve para el panel admin\n\nSi ya has construido marketplaces de servicios bajo demanda y puedes demostrarlo, me gustaría revisar tus ejemplos. Indica también tu propuesta de stack y plazos estimados para cada fase.\nPresupuesto: 750.0-1500.0 USD\nSkills: Mobile App Development, iPhone, Android, PhoneGap, Web Development, Flutter",
-"url": "https://www.freelancer.com/projects/web-development/Desarrollo-App-Servicios-Domicilio",
-"author": "",
-"extra": {
-"bids": 103,
-"bid_avg": 984.757281553398,
-"budget": "Presupuesto: 750.0-1500.0 USD",
-"budget_min": 750.0,
-"budget_max": 1500.0,
-"currency": "USD",
-"price_type": "fixed",
-"hourly_commitment": null,
-"escrow": false,
-"country": null,
-"lang": "es"
-},
-"language": "es",
-"score": 90,
-"summary": "Emprendedor busca desarrollador full-stack para crear el MVP de una app y web de servicios a domicilio tipo Uber.",
-"opener": "Hola, vi tu proyecto para el MVP de servicios a domicilio y tengo experiencia construyendo plataformas bajo demanda tipo marketplace con geolocalización.",
-"location": null
-},
-"created": 1794185928,
-"attempts": 1
-},
 {
 "id": "freelancer:40809829",
 "payload": {
@@ -3580,7 +3582,7 @@
 "location": null
 },
 "created": 1794246915,
-"attempts": 0
+"attempts": 1
 },
 {
 "id": "freelancer:40810674",
@@ -3766,6 +3768,68 @@
 "location": null
 },
 "created": 1794299626,
+"attempts": 0
+},
+{
+"id": "freelancer:40812364",
+"payload": {
+"id": "freelancer:40812364",
+"source": "freelancer",
+"title": "Reparar error 500 en OVH",
+"text": "Llevo ya 24 horas con la web caída y cada visita devuelve un error 500/502. No aparece contenido, solo ese mensaje de servidor. El sitio está alojado en un VPS de OVH y, que yo sepa, no hicimos ninguna actualización, cambio de DNS ni instalación de plugins justo antes del fallo.\n\nBusco a alguien que:\n• Revise rápidamente el servidor en OVH, archivos y registros para identificar la causa del error.  \n• Restaure el acceso a la web lo antes posible.  \n• Me entregue un breve informe con la causa raíz y recomendaciones básicas para evitar que vuelva a ocurrir (copias de seguridad, parches o ajustes de configuración).\n\nDispongo de acceso root/panel para facilitarte credenciales en cuanto aceptemos. Necesito resultados ágiles, comunicación clara y, sobre todo, que el sitio vuelva a funcionar sin perder datos.\nPresupuesto: 30.0-250.0 EUR\nSkills: PHP, System Admin, Linux, Web Security, Technical Support, VPS",
+"url": "https://www.freelancer.com/projects/server/Reparar-error-OVH",
+"author": "",
+"extra": {
+"bids": 106,
+"bid_avg": 102.73207547169811,
+"budget": "Presupuesto: 30.0-250.0 EUR",
+"budget_min": 30.0,
+"budget_max": 250.0,
+"currency": "EUR",
+"price_type": "fixed",
+"hourly_commitment": null,
+"escrow": false,
+"country": null,
+"lang": "es"
+},
+"language": "es",
+"score": 95,
+"summary": "Emprendedor necesita arreglar error 500 y 502 en servidor VPS de OVH para restaurar su sitio web caído.",
+"opener": "Hola, vi tu problema con el error 500 en OVH y tengo experiencia en administración de servidores Linux y PHP. ¿Te puedo ayudar a revisarlo ahora mismo?",
+"location": null
+},
+"created": 1794361390,
+"attempts": 0
+},
+{
+"id": "freelancer:40812023",
+"payload": {
+"id": "freelancer:40812023",
+"source": "freelancer",
+"title": "Sim, está em espanhol. Pode copiar:  Finalizar la aplicación AVCB Fácil con inteligencia artificial",
+"text": "Buscamos un desarrollador Full Stack con experiencia en inteligencia artificial y aplicaciones multiplataforma para finalizar AVCB Fácil, una aplicación destinada a servicios de prevención de incendios en Brasil.\n\nLa aplicación ya está parcialmente desarrollada y deberá funcionar en iPhone, Android y ordenador, con una interfaz sencilla y un icono propio en la pantalla del móvil, como WhatsApp.\n\nQueremos inteligencia artificial integrada en todas las etapas: atención al cliente, orientación, cumplimentación de datos, análisis de documentos, identificación de información pendiente y seguimiento de los servicios. Las actividades que requieran responsabilidad técnica tendrán validación profesional.\n\nEl trabajo incluye:\n\n• Integración con WhatsApp Business para atención mediante IA.\n• Integración bancaria y sistema de pagos.\n• Configuración de los agentes de inteligencia artificial.\n• Base de datos para registros y documentos.\n• Panel de seguimiento con estados y avisos.\n• Revisión de la aplicación existente y finalización de las funciones pendientes.\n• Pruebas y puesta en funcionamiento en iPhone, Android y ordenador.\n\nEl profesional deberá hablar portugués o español y tener experiencia en desarrollo Full Stack, integración de API, seguridad de datos e inteligencia artificial.\n\nSolicitamos una evaluación del proyecto y un presupuesto con precio, plazo de entrega y tareas incluidas.\nPresupuesto: 2.0-6.0 EUR\nSkills: Mobile App Development, iPhone, Android, HTML5, Web Development, Payment Gateway Integration",
+"url": "https://www.freelancer.com/projects/full-stack-development/Sim-est-espanhol-Pode-copiar",
+"author": "",
+"extra": {
+"bids": 51,
+"bid_avg": 10.058823529411764,
+"budget": "Presupuesto: 2.0-6.0 EUR",
+"budget_min": 2.0,
+"budget_max": 6.0,
+"currency": "EUR",
+"price_type": "hourly",
+"hourly_commitment": "40 h/week",
+"escrow": false,
+"country": null,
+"lang": "es"
+},
+"language": "es",
+"score": 90,
+"summary": "Empresa busca un desarrollador Full Stack para finalizar la aplicación AVCB Fácil con integración de inteligencia artificial y pasarela de pagos.",
+"opener": "Hola, vi que buscan un desarrollador Full Stack para finalizar la aplicación AVCB Fácil con IA. Tengo experiencia en integraciones complejas y me gustaría conversar.",
+"location": "Brasil"
+},
+"created": 1794361393,
 "attempts": 0
 }
 ],

@@ -1,5 +1,57 @@
 {
 "seen": [
+"freelancer:40813209",
+"freelancer:40813211",
+"freelancer:40813218",
+"freelancer:40813216",
+"freelancer:40813753",
+"freelancer:40813823",
+"freelancer:40813832",
+"freelancer:40813842",
+"freelancer:40813862",
+"freelancer:40813876",
+"freelancer:40813945",
+"freelancer:40813956",
+"freelancer:40813966",
+"freelancer:40813972",
+"freelancer:40814004",
+"freelancer:40814006",
+"freelancer:40814009",
+"freelancer:40814002",
+"freelancer:40814012",
+"freelancer:40813954",
+"freelancer:40814018",
+"freelancer:40814024",
+"freelancer:40814032",
+"freelancer:40814010",
+"freelancer:40814049",
+"freelancer:40814040",
+"freelancer:40814056",
+"freelancer:40814061",
+"freelancer:40814062",
+"freelancer:40814063",
+"freelancer:40814064",
+"freelancer:40814065",
+"freelancer:40814048",
+"freelancer:40814067",
+"freelancer:40814069",
+"freelancer:40814073",
+"freelancer:40814074",
+"facebook:1681555487045154",
+"facebook:1681554937045209",
+"facebook:1785060002546738",
+"facebook:1681552377045465",
+"facebook:1865210601172752",
+"facebook:1865210401172772",
+"facebook:1865210007839478",
+"facebook:1785043875881684",
+"facebook:1785038569215548",
+"facebook:2926123797755558",
+"facebook:2926108727757065",
+"facebook:2926084521092819",
+"facebook:4233530316777755",
+"facebook:2925945564440048",
+"facebook:1676999280674158",
 "freelancer:40813333",
 "freelancer:40813487",
 "freelancer:40813488",
@@ -3617,9 +3669,9 @@
 "facebook": 1793013059,
 "linkedin": 1792900970,
 "twitter": 1794414899,
-"freelancer": 1794415047,
-"reddit": 1794415048,
-"fbgroups": 1794414873,
+"freelancer": 1794438532,
+"reddit": 1794438533,
+"fbgroups": 1794438309,
 "fbsearch": 1794414892
 },
 "counters": {
@@ -3631,7 +3683,7 @@
 "gemini:2026-10-29": 123.0,
 "gemini:2026-10-30": 146.0,
 "gemini:2026-10-31": 114.0,
-"brightdata:records:2026-11": 543.0,
+"brightdata:records:2026-11": 561.0,
 "gemini:2026-11-01": 135.0,
 "gemini:2026-11-02": 105.0,
 "gemini:2026-11-03": 134.0,
@@ -3642,46 +3694,15 @@
 "gemini:2026-11-08": 119.0,
 "gemini:2026-11-09": 94.0,
 "gemini:2026-11-10": 126.0,
-"gemini:2026-11-11": 86.0
+"gemini:2026-11-11": 121.0
 },
 "leads": [],
 "stats": {
 "leads_total": 7,
-"seen_total": 3612,
-"pending_proposals": 12
+"seen_total": 3664,
+"pending_proposals": 11
 },
 "pending_proposals": [
-{
-"id": "freelancer:40809829",
-"payload": {
-"id": "freelancer:40809829",
-"source": "freelancer",
-"title": "Pruebas Integrales de Ciberseguridad",
-"text": "Quiero poner a prueba tanto la página web pública como nuestro CRM interno. Necesito que se ejecute una batería completa de pruebas de seguridad sobre todas sus funciones: lógica de negocio, control de acceso, inyección de código, gestión de sesiones, cifrado de datos y cualquier otra superficie de ataque relevante.\n\nPara las pruebas facilitaré acceso de usuario normal a ambos entornos. Con esas credenciales deberás identificar cualquier vulnerabilidad que un atacante pudiera aprovechar sin privilegios elevados.\n\nEntregables esperados:\n• Informe técnico con cada hallazgo, gravedad, riesgo real y demostración paso a paso.  \n• Recomendaciones claras de mitigación o corrección.  \n• Sesión online con nuestro equipo de soporte para revisar los fallos y guiarlos en la implementación de las soluciones.\n\nValoro experiencia en OWASP, pruebas de penetración web, análisis de aplicaciones CRM y generación de informes ejecutivos y técnicos.\nPresupuesto: 250.0-750.0 EUR\nSkills: Web Security, Compliance, Penetration Testing, Network Security, Risk Assessment, Incident Response",
-"url": "https://www.freelancer.com/projects/penetration-testing/Pruebas-Integrales-Ciberseguridad",
-"author": "",
-"extra": {
-"bids": 28,
-"bid_avg": 403.5357142857143,
-"budget": "Presupuesto: 250.0-750.0 EUR",
-"budget_min": 250.0,
-"budget_max": 750.0,
-"currency": "EUR",
-"price_type": "fixed",
-"hourly_commitment": null,
-"escrow": false,
-"country": null,
-"lang": "es"
-},
-"language": "es",
-"score": 90,
-"summary": "Empresa necesita pruebas integrales de ciberseguridad y pentesting para su página web y CRM interno con presupuesto definido.",
-"opener": "Hola, vi tu proyecto de pruebas de ciberseguridad para la web y el CRM. Tengo experiencia en pentesting OWASP y puedo ayudarte con el análisis y el informe técnico.",
-"location": null
-},
-"created": 1794246915,
-"attempts": 3
-},
 {
 "id": "freelancer:40810674",
 "payload": {
@@ -3711,7 +3732,7 @@
 "location": null
 },
 "created": 1794272950,
-"attempts": 0
+"attempts": 1
 },
 {
 "id": "freelancer:40810497",

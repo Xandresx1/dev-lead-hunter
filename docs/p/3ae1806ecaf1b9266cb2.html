@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow"><title>Custom MFS Gateway and Android App</title>
+<style>
+:root{--c:#1e88e5;}
+*{box-sizing:border-box}body{margin:0;background:#0f141b;color:#e6edf3;font:15px/1.55 -apple-system,Segoe UI,Roboto,Inter,sans-serif}
+.wrap{max-width:720px;margin:0 auto;padding:18px 16px 60px}
+.src{display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--c);border:1px solid var(--c);border-radius:999px;padding:4px 10px}
+h1{color:var(--c);font-size:22px;line-height:1.25;margin:12px 0 6px}
+.meta{color:#94a3b8;font-size:13px;margin-bottom:14px}
+.card{background:#161d27;border:1px solid #243041;border-radius:14px;padding:16px;margin:12px 0}
+.card h2{margin:0 0 10px;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:#94a3b8}
+.kpis{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.kpi{background:#0f141b;border:1px solid #243041;border-radius:12px;padding:12px;text-align:center}
+.kpi b{display:block;font-size:24px;color:var(--c)}.kpi span{font-size:12px;color:#94a3b8}
+.content{font-weight:700;white-space:pre-wrap;word-wrap:break-word}
+.proposal{white-space:pre-wrap;word-wrap:break-word;font-weight:600}
+.muted{color:#94a3b8;font-size:13px}
+.btn{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;padding:14px;border-radius:12px;border:0;font-weight:700;font-size:16px;cursor:pointer;background:var(--c);color:#fff;margin-top:10px}
+.btn.alt{background:#243041;color:#e6edf3}
+.btn:active{transform:scale(.99)}
+.toast{position:fixed;left:50%;bottom:22px;transform:translateX(-50%);background:#22c55e;color:#06130a;font-weight:700;padding:10px 16px;border-radius:999px;opacity:0;transition:opacity .2s}
+.toast.show{opacity:1}
+a{color:var(--c)}
+</style></head><body><div class="wrap">
+<span class="src">🔵 Freelancer &middot; Lead 90/100</span>
+<h1>Custom MFS Gateway and Android App</h1>
+<div class="meta">Una empresa busca un desarrollador full-stack o agencia para construir un sistema de pasarela de pagos MFS y app Android en Bangladesh.</div>
+<div class="card"><h2>Mensaje sugerido para abrir</h2><div class="proposal">Hi there! I saw your post looking for a Full-Stack Developer to build the custom MFS Gateway and Android app. I have solid experience in REST APIs, Android development, and payment systems. Let&#x27;s discuss your requirements.</div><button class="btn" onclick="copyOpener()">📋 Copiar mensaje</button></div>
+<div class="card"><h2>Publicación original</h2><div class="content">Custom MFS Gateway and Android App
+We are looking for an experienced Full-Stack Developer (or Agency) to build a custom, automated Mobile Financial Services (MFS) Payment Gateway system (similar to UddoktaPay / PayStation) supporting Bangladeshi payment methods: bKash, Nagad, Rocket, and Upay (both Personal and Agent numbers).
+The system must include a customizable checkout page, three distinct web dashboards (Merchant, E-Wallet Agent, and Admin), REST APIs with Sandbox/Live modes, and a background Android SMS Listener App for automated payment verification.
+Core System Components &amp; Features:
+1. Customizable Checkout &amp; Payment Page
+Clean, fast, and mobile-responsive payment UI (customizable branding/logo per merchant).
+Displays dynamic MFS numbers (Personal/Agent) based on routing rules with copy-to-clipboard functionality.
+Input fields for Customer Sender Number and Transaction ID (TrxID) with instant verification feedback.
+2. Merchant / User Panel
+Auth &amp; KYC: Registration, Login, Forgot Password, and Email/Phone OTP verification.
+Dashboard: Real-time analytics (Today&#x27;s collection, total volume, success rate, available balance).
+Developer Tools: API Key &amp; Secret Key generation, Sandbox (Test) &amp; Live mode toggle, Webhook URL configuration, and clear API integration documentation.
+Transactions &amp; Payouts: Detailed transaction logs with filters (TrxID, status, date) and withdrawal/payout request module.
+3. E-Wallet Agent Panel (Number Providers)
+Auth: Agent registration, login, and phone/NID verification.
+Number Management: Agents can add their own bKash, Nagad, Rocket, or Upay (Personal/Agent) numbers, set daily transaction limits per number, and toggle active/inactive status.
+Device Pairing: Option to pair their Android phone (via QR code or API token) with the SMS Reader App.
+Earnings &amp; Commission: Dedicated dashboard showing commission rates, how earnings work, per-transaction commission logs, and payout requests.
+4. Super Admin Panel
+Master Analytics: Total platform volume, net profit (commission spread), active merchants, and active agents.
+Smart Number Routing: Algorithm to dynamically route checkout payments to active agent numbers based on daily limits, round-robin, or priority.
+Management: Approve/reject merchants, agents, and submitted MFS numbers; manage global commission rates (Merchant fee vs. Agent commission); manual TrxID approval/dispute resolution; payout approvals.
+5. Android SMS Listener / Reader App
+Lightweight background Android app (Kotlin or Flutter) with foreground service to prevent OS battery killing.
+Reads incoming official MFS SMS notifications (bKash, Nagad, Rocket, Upay), parses the Amount, Sender Number, and TrxID, and securely sends a POST request to our backend server via API to auto-approve matching pending transactions.
+Preferred Tech Stack:
+Backend: Laravel (PHP) or Node.js (NestJS/Express) with MySQL/PostgreSQL (Must handle database row-level locking/concurrency properly to prevent double-spending or duplicate </div>
+<a class="btn alt" href="https://www.freelancer.com/projects/full-stack-development/Custom-MFS-Gateway-Android-App" target="_blank" rel="noopener">Abrir publicación en Freelancer</a></div>
+<div class="muted">Generado 2026-11-12 07:05 &middot; Dev Lead Hunter</div>
+<div class="toast" id="toast">Copiado</div>
+<textarea id="clip" style="position:fixed;left:-9999px;top:0"></textarea>
+<script>
+const DATA={"proposal": "", "opener": "Hi there! I saw your post looking for a Full-Stack Developer to build the custom MFS Gateway and Android app. I have solid experience in REST APIs, Android development, and payment systems. Let's discuss your requirements.", "question": ""};
+function toast(t){const e=document.getElementById('toast');e.textContent=t;e.classList.add('show');setTimeout(()=>e.classList.remove('show'),1600);}
+async function copyText(t,label){try{await navigator.clipboard.writeText(t);toast(label||'Copiado');}catch(e){const ta=document.getElementById('clip');ta.value=t;ta.select();document.execCommand('copy');toast(label||'Copiado');}}
+function copyProposal(){copyText(DATA.proposal,'Propuesta copiada');}
+function copyOpener(){copyText(DATA.opener,'Mensaje copiado');}
+function copyAll(){copyText(DATA.proposal+"\n\n"+(DATA.question?('Pregunta: '+DATA.question):''),'Todo copiado');}
+</script></div></body></html>

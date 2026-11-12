@@ -1,5 +1,34 @@
 {
 "seen": [
+"freelancer:40814116",
+"freelancer:40814124",
+"freelancer:40814128",
+"freelancer:40814134",
+"freelancer:40814144",
+"freelancer:40814153",
+"freelancer:40814161",
+"freelancer:40814160",
+"freelancer:40814177",
+"freelancer:40814195",
+"freelancer:40814199",
+"freelancer:40814203",
+"freelancer:40814206",
+"freelancer:40814226",
+"freelancer:40814251",
+"freelancer:40814257",
+"freelancer:40814287",
+"freelancer:40814286",
+"freelancer:40814291",
+"freelancer:40814290",
+"freelancer:40814306",
+"freelancer:40814312",
+"freelancer:40814313",
+"freelancer:40814314",
+"freelancer:40814318",
+"freelancer:40814319",
+"freelancer:40814311",
+"freelancer:40814324",
+"freelancer:40814326",
 "freelancer:40813209",
 "freelancer:40813211",
 "freelancer:40813218",
@@ -3669,8 +3698,8 @@
 "facebook": 1793013059,
 "linkedin": 1792900970,
 "twitter": 1794414899,
-"freelancer": 1794438532,
-"reddit": 1794438533,
+"freelancer": 1794455095,
+"reddit": 1794455095,
 "fbgroups": 1794438309,
 "fbsearch": 1794414892
 },
@@ -3694,77 +3723,16 @@
 "gemini:2026-11-08": 119.0,
 "gemini:2026-11-09": 94.0,
 "gemini:2026-11-10": 126.0,
-"gemini:2026-11-11": 121.0
+"gemini:2026-11-11": 121.0,
+"gemini:2026-11-12": 28.0
 },
 "leads": [],
 "stats": {
-"leads_total": 7,
-"seen_total": 3664,
-"pending_proposals": 11
+"leads_total": 4,
+"seen_total": 3693,
+"pending_proposals": 9
 },
 "pending_proposals": [
-{
-"id": "freelancer:40810674",
-"payload": {
-"id": "freelancer:40810674",
-"source": "freelancer",
-"title": "Desarrollar TMS en Microsoft Power Platform",
-"text": "Quiero crear un sistema de gestión de transporte (T-BAJ) nativo de Microsoft: Dataverse como base de datos, Azure para servicios backend y la Power Platform (Power Apps, Power Automate y, opcionalmente, Power BI) para la experiencia de usuario y los flujos de negocio.  \n\nPrioridad clave  \nMi objetivo inmediato es que cada cliente pueda ver en tiempo real el estado y la ubicación de sus pedidos y entregas desde un portal web seguro. Para lograrlo necesito:  \n• Integración en vivo con los GPS Teltonika FMC650 para mostrar ubicación actual, rutas históricas y alertas de velocidad, detenciones o desvíos.  \n• Dashboards y tarjetas dentro del portal que reflejen esos datos sin demoras perceptibles.  \n• Notificaciones automáticas (correo, push o Teams) ante retrasos o incidencias.  \n• Descarga de comprobantes de entrega (POD) y otros documentos asociados al viaje.\n\nAlcance inicial de módulos  \n1. Pedidos & Despacho  \n2. Tracking GPS FMC650  \n3. Prueba de Entrega (POD)  \n4. Estadías y tiempos de espera  \n5. Administración de Flota y Operadores  \n6. Control de combustible diésel (Escort)  \n7. Gestión de Incidencias  \n8. Portal de Cliente con las funciones arriba mencionadas\n\nLineamientos técnicos  \n• Dataverse: modelo de datos unificado; relaciones entre órdenes, viajes, vehículos y operadores.  \n• Azure Functions / Logic Apps: pasarela con los dispositivos FMC650 y sensores Escort.  \n• Power Apps (Canvas o Model-Driven): interfaces internas para planificación, despacho y control operativo.  \n• Power Automate: flujos de negocio, generación de alertas y distribución de documentos.  \n• Seguridad: autenticación Azure AD B2C para clientes, roles granulares para personal interno.  \n• Escalabilidad: arquitectura lista para añadir BI avanzado y optimización de rutas en futuras fases.\n\nEntregables esperados  \n- MVP funcional con los módulos listados, enfocado en visibilidad cliente y tracking.  \n- Código fuente, soluciones gestionadas y documentación de despliegue.  \n- Manual rápido para operadores y guía de acceso para clientes.  \n- Sesión de traspaso y soporte inicial para puesta en producción.\n\nBusco a alguien con experiencia comprobable en Power Platform, integración IoT/GPS y logística. Si ya has conectado dispositivos Teltonika o trabajado con portales de clientes, menciona ejemplos: acelerarás la decisión.\nPresupuesto: 250.0-750.0 USD\nSkills: Mobile App Development, Logistics, Azure, Web Development, Data Visualization, Power BI",
-"url": "https://www.freelancer.com/projects/azure/Desarrollar-TMS-Microsoft-Power-Platform",
-"author": "",
-"extra": {
-"bids": 89,
-"bid_avg": 413.55056179775283,
-"budget": "Presupuesto: 250.0-750.0 USD",
-"budget_min": 250.0,
-"budget_max": 750.0,
-"currency": "USD",
-"price_type": "fixed",
-"hourly_commitment": null,
-"escrow": false,
-"country": null,
-"lang": "es"
-},
-"language": "es",
-"score": 90,
-"summary": "Una empresa necesita desarrollar un sistema TMS en Microsoft Power Platform con integración GPS en tiempo real y portal web.",
-"opener": "Hola, he leído los requerimientos para tu TMS en Power Platform y la integración con dispositivos Teltonika. Me especializo en este ecosistema y Azure, ¿podemos agendar una llamada para revisar detalles?",
-"location": null
-},
-"created": 1794272950,
-"attempts": 1
-},
-{
-"id": "freelancer:40810497",
-"payload": {
-"id": "freelancer:40810497",
-"source": "freelancer",
-"title": "App móvil para ventas digitales",
-"text": "Busco desarrollar una aplicación móvil nativa para Android y iPhone cuyo objetivo central sea vender productos digitales—cursos, archivos descargables y membresías. Necesito que la app ofrezca:\n\n• Catálogo organizado de contenidos digitales (videos, PDFs, audio, etc.).  \n• Pasarela de pago segura que acepte tarjetas y, de ser posible, billeteras móviles populares.  \n• Entrega automática de los archivos o el acceso al curso inmediatamente después de la compra.  \n• Área de usuario con historial de compras y posibilidad de reproducir/descargar el material adquirido.  \n• Notificaciones push para lanzamientos, actualizaciones de contenido y promociones.  \n• Panel administrativo sencillo donde yo pueda subir nuevos cursos, fijar precios, gestionar cupones y revisar reportes de ventas.\n\nValoro un diseño limpio y responsivo, autenticación con e-mail y redes sociales, así como buenas prácticas de seguridad para proteger tanto los pagos como los contenidos. Agradeceré que propongas la arquitectura recomendada, tecnologías (por ejemplo, Flutter, React Native o nativo) y un breve plan de hitos desde prototipo hasta publicación en App Store y Google Play.\nPresupuesto: 1500.0-3000.0 USD\nSkills: Graphic Design, Mobile App Development, iPhone, Android, App Design, Payment Gateway Integration",
-"url": "https://www.freelancer.com/projects/ios/App-vil-para-ventas-digitales",
-"author": "",
-"extra": {
-"bids": 151,
-"bid_avg": 1987.1986754966888,
-"budget": "Presupuesto: 1500.0-3000.0 USD",
-"budget_min": 1500.0,
-"budget_max": 3000.0,
-"currency": "USD",
-"price_type": "fixed",
-"hourly_commitment": null,
-"escrow": false,
-"country": null,
-"lang": "es"
-},
-"language": "es",
-"score": 95,
-"summary": "Emprendedor busca desarrollar una app móvil para Android y iOS enfocada en la venta de productos digitales con pasarela de pagos.",
-"opener": "Hola, vi tu proyecto para la app móvil de venta de productos digitales. Tengo experiencia con Flutter y pasarelas de pago, ¿lo platicamos?",
-"location": null
-},
-"created": 1794273022,
-"attempts": 0
-},
 {
 "id": "freelancer:40810856",
 "payload": {
@@ -3794,7 +3762,7 @@
 "location": null
 },
 "created": 1794299626,
-"attempts": 0
+"attempts": 1
 },
 {
 "id": "freelancer:40810852",

@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow"><title>QR-Activated Smart Plug Payments</title>
+<style>
+:root{--c:#1e88e5;}
+*{box-sizing:border-box}body{margin:0;background:#0f141b;color:#e6edf3;font:15px/1.55 -apple-system,Segoe UI,Roboto,Inter,sans-serif}
+.wrap{max-width:720px;margin:0 auto;padding:18px 16px 60px}
+.src{display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--c);border:1px solid var(--c);border-radius:999px;padding:4px 10px}
+h1{color:var(--c);font-size:22px;line-height:1.25;margin:12px 0 6px}
+.meta{color:#94a3b8;font-size:13px;margin-bottom:14px}
+.card{background:#161d27;border:1px solid #243041;border-radius:14px;padding:16px;margin:12px 0}
+.card h2{margin:0 0 10px;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:#94a3b8}
+.kpis{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.kpi{background:#0f141b;border:1px solid #243041;border-radius:12px;padding:12px;text-align:center}
+.kpi b{display:block;font-size:24px;color:var(--c)}.kpi span{font-size:12px;color:#94a3b8}
+.content{font-weight:700;white-space:pre-wrap;word-wrap:break-word}
+.proposal{white-space:pre-wrap;word-wrap:break-word;font-weight:600}
+.muted{color:#94a3b8;font-size:13px}
+.btn{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;padding:14px;border-radius:12px;border:0;font-weight:700;font-size:16px;cursor:pointer;background:var(--c);color:#fff;margin-top:10px}
+.btn.alt{background:#243041;color:#e6edf3}
+.btn:active{transform:scale(.99)}
+.toast{position:fixed;left:50%;bottom:22px;transform:translateX(-50%);background:#22c55e;color:#06130a;font-weight:700;padding:10px 16px;border-radius:999px;opacity:0;transition:opacity .2s}
+.toast.show{opacity:1}
+a{color:var(--c)}
+</style></head><body><div class="wrap">
+<span class="src">🔵 Freelancer &middot; Lead 95/100</span>
+<h1>QR-Activated Smart Plug Payments</h1>
+<div class="meta">Un cliente necesita un sistema web para activar enchufes inteligentes Tapo mediante pagos con tarjeta o Apple Pay y codigo QR.</div>
+<div class="card"><h2>Mensaje sugerido para abrir</h2><div class="proposal">Hi, I can build this web-based system integrating Stripe and the Tapo API with a clean architecture. I&#x27;d love to help you set this up.</div><button class="btn" onclick="copyOpener()">📋 Copiar mensaje</button></div>
+<div class="card"><h2>Publicación original</h2><div class="content">QR-Activated Smart Plug Payments
+I need a small web-based system that links a QR code to an Apple Pay / credit-card checkout page and, once the payment clears, switches a Tapo smart plug on for a fixed period (five minutes for now). After scanning, the customer should see a simple screen that lists all nearby devices, choose the one they want, pay a single flat fee, and immediately receive power for the preset time.  
+
+The flow I picture is:
+
+• A unique QR code takes the user to a mobile-friendly page.  
+• The page shows the available plugs (pulled from the Tapo cloud or local API), the flat price, and a Pay Now button.  
+• When payment succeeds, your code calls the Tapo API, turns the selected plug on, waits exactly the fixed minutes, then turns it off automatically.  
+• A confirmation screen or countdown timer lets the customer know how much time they have left.  
+
+Essential requirements  
+• Support both Apple Pay and major credit cards (Stripe or another gateway—open to suggestions).  
+• Clean, brand-neutral front end that I can style later.  
+• Modular architecture so I can add more plugs and generate more QR codes for other locations without rewriting code.  
+• Secure handling of payments and device control; no exposed credentials.  
+
+Deliverables  
+1. Source code (frontend + backend) with clear setup instructions.  
+2. Tested integration with at least one Tapo smart plug I will provide remote access to.  
+3. A short guide on adding new plugs and printing new QR codes.  
+
+If you have experience with Stripe, Apple Pay on the Web, Tapo’s API, or IoT payment kiosks, please highlight it. I’m ready to start as soon as I find the right fit.
+Presupuesto: 250.0-750.0 CAD
+Skills: PHP, JavaScript, Mobile App Development, HTML, Stripe, Web Development</div>
+<a class="btn alt" href="https://www.freelancer.com/projects/api-integration/Activated-Smart-Plug-Payments" target="_blank" rel="noopener">Abrir publicación en Freelancer</a></div>
+<div class="muted">Generado 2026-11-12 19:58 &middot; Dev Lead Hunter</div>
+<div class="toast" id="toast">Copiado</div>
+<textarea id="clip" style="position:fixed;left:-9999px;top:0"></textarea>
+<script>
+const DATA={"proposal": "", "opener": "Hi, I can build this web-based system integrating Stripe and the Tapo API with a clean architecture. I'd love to help you set this up.", "question": ""};
+function toast(t){const e=document.getElementById('toast');e.textContent=t;e.classList.add('show');setTimeout(()=>e.classList.remove('show'),1600);}
+async function copyText(t,label){try{await navigator.clipboard.writeText(t);toast(label||'Copiado');}catch(e){const ta=document.getElementById('clip');ta.value=t;ta.select();document.execCommand('copy');toast(label||'Copiado');}}
+function copyProposal(){copyText(DATA.proposal,'Propuesta copiada');}
+function copyOpener(){copyText(DATA.opener,'Mensaje copiado');}
+function copyAll(){copyText(DATA.proposal+"\n\n"+(DATA.question?('Pregunta: '+DATA.question):''),'Todo copiado');}
+</script></div></body></html>

@@ -1,5 +1,42 @@
 {
 "seen": [
+"freelancer:40815447",
+"freelancer:40815452",
+"freelancer:40815572",
+"freelancer:40815577",
+"freelancer:40815594",
+"freelancer:40815600",
+"freelancer:40815591",
+"freelancer:40815632",
+"freelancer:40815653",
+"freelancer:40815659",
+"freelancer:40815639",
+"freelancer:40815686",
+"freelancer:40815689",
+"freelancer:40815703",
+"freelancer:40815710",
+"freelancer:40815728",
+"freelancer:40815730",
+"freelancer:40815732",
+"freelancer:40815752",
+"freelancer:40815750",
+"freelancer:40815753",
+"freelancer:40815760",
+"freelancer:40815756",
+"freelancer:40800357",
+"freelancer:40815763",
+"freelancer:40815788",
+"freelancer:40815790",
+"freelancer:40815791",
+"freelancer:40815803",
+"freelancer:40815809",
+"freelancer:40815810",
+"freelancer:40815786",
+"facebook:1478833294160270",
+"facebook:3147680275570602",
+"facebook:1176204548134338",
+"facebook:2708654966233430",
+"facebook:2644371609368100",
 "freelancer:40815260",
 "freelancer:40815207",
 "freelancer:40815203",
@@ -3810,10 +3847,10 @@
 "facebook": 1793013059,
 "linkedin": 1792900970,
 "twitter": 1794485127,
-"freelancer": 1794513937,
-"reddit": 1794513937,
+"freelancer": 1794531547,
+"reddit": 1794531547,
 "fbgroups": 1794513853,
-"fbsearch": 1794485116
+"fbsearch": 1794531413
 },
 "counters": {
 "gemini:2026-10-25": 260.0,
@@ -3836,13 +3873,14 @@
 "gemini:2026-11-09": 94.0,
 "gemini:2026-11-10": 126.0,
 "gemini:2026-11-11": 121.0,
-"gemini:2026-11-12": 78.0
+"gemini:2026-11-12": 78.0,
+"gemini:2026-11-13": 30.0
 },
 "leads": [],
 "stats": {
-"leads_total": 14,
-"seen_total": 3805,
-"pending_proposals": 5
+"leads_total": 6,
+"seen_total": 3842,
+"pending_proposals": 6
 },
 "pending_proposals": [
 {
@@ -3874,7 +3912,7 @@
 "location": null
 },
 "created": 1794361390,
-"attempts": 2
+"attempts": 3
 },
 {
 "id": "freelancer:40812023",
@@ -3998,6 +4036,37 @@
 "location": null
 },
 "created": 1794415047,
+"attempts": 0
+},
+{
+"id": "freelancer:40815732",
+"payload": {
+"id": "freelancer:40815732",
+"source": "freelancer",
+"title": "App de Streaming en React Native para Amazon Vega OS (Kepler SDK / Fire TV)",
+"text": "Necesito desarrollar una aplicación completa en React Native para Amazon Vega OS (usando Kepler SDK) orientada a Fire TV. La app transmitirá tanto canales de TV en vivo como contenido bajo demanda (VOD) conectándose a nuestra plataforma actual, respetando las guías de diseño de Fire TV y la navegación fluida mediante control remoto (D-pad).\n\nEl servicio ya está activo y en producción en Roku y Android TV, por lo que entregaré capturas/videos de referencia de nuestra interfaz actual y la documentación de nuestra API para agilizar el desarrollo.\nExperiencia principal y funcionalidades\n\n    Acceso y gestión de cuentas: Vinculación del televisor mediante código en pantalla, soporte para múltiples perfiles con bloqueo por PIN, favoritos y sincronización de progreso (Continuar viendo).\n\n    Secciones de contenido: Inicio (Home), TV en vivo con guía EPG, Películas, Series, Sección Infantil, Eventos de Pago por Evento (PPV), Buscador y Perfil.\n\n    Reproducción multimedia: Reproducción por URL directa en HLS, MP4 y MKV (no DRM). El reproductor debe soportar cambio de pistas de audio (varios archivos MKV incluyen 2 o 3 pistas de audio), subtítulos, reproducción automática del siguiente episodio, reanudar desde el punto exacto donde se dejó y reporte de errores de reproducción.\n\nAlcance del trabajo y arquitectura\n\n    Configurar el proyecto desde cero en React Native con Kepler SDK e integrar sus componentes nativos de reproducción multimedia (W3C Media / GStreamer), optimizando el rendimiento y uso de memoria RAM (1 GB RAM en dispositivos como Fire TV Stick 4K Select).\n\n    Conectar la app a nuestra API REST ya en producción (PHP 8.3 + MariaDB) que entrega respuestas JSON por HTTPS y gestiona cuentas, vinculación, perfiles, favoritos y progreso.\n\n    Los flujos de TV en vivo y VOD provienen de servidores de streaming externos independientes. La app de Vega OS debe integrarse a nuestra API y servidores actuales tal como están, sin modificar el backend.\n\n    Una vez iniciado el proyecto, entregaré todos los recursos gráficos (artwork), credenciales de prueba, flujos de ejemplo y documentación de la API.\n\nEntregables\n\n    Código fuente completo en React Native alojado en un repositorio Git.\n\n    Compilación lista para producción e instalación de prueba en Fire TV Vega OS (paquete .vpkg).\n\n    Instrucciones claras de compilación y despliegue (build & deployment).\n\n    Guía técnica breve explicando la estructura del proyecto y cómo realizar futuros ajustes o añadir categorías.\n\n    Soporte/acompañamiento durante el proceso de revisión y publicación en la Amazon Appstore.\n\nCriterios de aceptación\n\n    La app se instala, abre y navega sin bloqueos en hardware físico con Vega OS (Fire TV Stick 4K Select).\n\n    La vinculación del televisor mediante código y el acceso a perfiles protegidos con PIN funcionan correctamente contra nuestra API.\n\n    Las transmisiones en vivo y títulos VOD (HLS, MP4 y MKV multipista con subtítulos) se reproducen de forma estable durante al menos 15 minutos sin cortes ni cierres por memoria.\n\n    El buscador devuelve resultados relevantes de películas, series y canales en vivo en menos de 2 segundos.\n\n    Los favoritos y el historial de Continuar viendo persisten tras cerrar la app y reanudan en el segundo exacto.\n\n    La lista de episodios avanza automáticamente al siguiente capítulo en menos de 5 segundos al finalizar el anterior.\n\nRequisitos para postular (Importante)\n\n    No postular si solo desarrollas APKs de Android o apps para Fire OS antiguo. Vega OS está basado en Linux y requiere exclusivamente React Native + Kepler SDK.\n\n    Por favor, incluye en tu propuesta: tiempo estimado por fases, costo cerrado (o por hora con tope máximo), confirmación de si cuentas con un dispositivo físico Fire TV con Vega OS para pruebas y empieza tu mensaje con la palabra \"VEGA-OK\" para confirmar que leíste los requisitos técnicos.\nPresupuesto: 250.0-750.0 EUR\nSkills: PHP, Python, Mobile App Development, Android, MariaDB, React Native",
+"url": "https://www.freelancer.com/projects/react-native/App-Streaming-React-Native-para",
+"author": "",
+"extra": {
+"bids": 117,
+"bid_avg": 403.1623931623932,
+"budget": "Presupuesto: 250.0-750.0 EUR",
+"budget_min": 250.0,
+"budget_max": 750.0,
+"currency": "EUR",
+"price_type": "fixed",
+"hourly_commitment": null,
+"escrow": false,
+"country": null,
+"lang": "es"
+},
+"language": "es",
+"score": 90,
+"summary": "Empresa necesita desarrollar una app de streaming en React Native para Amazon Vega OS (Fire TV).",
+"opener": "Hola, vi tu proyecto para Amazon Vega OS en React Native. Tengo experiencia con integración de APIs y streaming, ¿podemos conversar?",
+"location": null
+},
+"created": 1794531471,
 "attempts": 0
 }
 ],

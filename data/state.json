@@ -1,5 +1,58 @@
 {
 "seen": [
+"freelancer:40816891",
+"freelancer:40816997",
+"freelancer:40817027",
+"freelancer:40817032",
+"freelancer:40817034",
+"freelancer:40817036",
+"freelancer:40817054",
+"freelancer:40817061",
+"freelancer:40817041",
+"freelancer:40817069",
+"freelancer:40817071",
+"freelancer:40817076",
+"freelancer:40817080",
+"freelancer:40817086",
+"freelancer:40817094",
+"freelancer:40817111",
+"freelancer:40817113",
+"freelancer:40817120",
+"freelancer:40817121",
+"freelancer:40817125",
+"freelancer:40817126",
+"freelancer:40817129",
+"freelancer:40817138",
+"freelancer:40817148",
+"freelancer:40817152",
+"freelancer:40817156",
+"freelancer:40817154",
+"freelancer:40817153",
+"freelancer:40817157",
+"freelancer:40817161",
+"freelancer:40817162",
+"freelancer:40817166",
+"freelancer:40817165",
+"freelancer:40817170",
+"freelancer:40817172",
+"freelancer:40817171",
+"facebook:1867036727656806",
+"facebook:1867036504323495",
+"facebook:1867033427657136",
+"facebook:1683409113526458",
+"facebook:1683406080193428",
+"facebook:1683403846860318",
+"facebook:2928214590879812",
+"facebook:2928212210880050",
+"facebook:1679099653797454",
+"facebook:2928202790880992",
+"facebook:1786964732356265",
+"facebook:1786964239022981",
+"facebook:2928197734214831",
+"facebook:1786956935690378",
+"facebook:4236294746501312",
+"facebook:4236294713167982",
+"facebook:1678712467169506",
 "freelancer:40816317",
 "freelancer:40816485",
 "freelancer:40771905",
@@ -3923,9 +3976,9 @@
 "facebook": 1793013059,
 "linkedin": 1792900970,
 "twitter": 1794555429,
-"freelancer": 1794585007,
-"reddit": 1794585007,
-"fbgroups": 1794584847,
+"freelancer": 1794606472,
+"reddit": 1794606472,
+"fbgroups": 1794606310,
 "fbsearch": 1794584859
 },
 "counters": {
@@ -3937,7 +3990,7 @@
 "gemini:2026-10-29": 123.0,
 "gemini:2026-10-30": 146.0,
 "gemini:2026-10-31": 114.0,
-"brightdata:records:2026-11": 624.0,
+"brightdata:records:2026-11": 644.0,
 "gemini:2026-11-01": 135.0,
 "gemini:2026-11-02": 105.0,
 "gemini:2026-11-03": 134.0,
@@ -3950,46 +4003,15 @@
 "gemini:2026-11-10": 126.0,
 "gemini:2026-11-11": 121.0,
 "gemini:2026-11-12": 78.0,
-"gemini:2026-11-13": 85.0
+"gemini:2026-11-13": 119.0
 },
 "leads": [],
 "stats": {
-"leads_total": 7,
-"seen_total": 3918,
-"pending_proposals": 2
+"leads_total": 5,
+"seen_total": 3971,
+"pending_proposals": 1
 },
 "pending_proposals": [
-{
-"id": "freelancer:40813333",
-"payload": {
-"id": "freelancer:40813333",
-"source": "freelancer",
-"title": "Bot WhatsApp para clínica odontológica",
-"text": "Quiero implementar un sistema automatizado en WhatsApp que atienda a mis pacientes de forma fluida y profesional. El flujo principal debe:\n\n• Responder a mensajes entrantes y ofrecer tres opciones claras: «Citas para consultas y tratamientos», «Seguimiento de revisiones y recordatorios» y «Recuperación de pacientes que no han vuelto».  \n• Preguntar únicamente el nombre, teléfono, fecha de nacimiento y servicio que necesita antes de intentar agendar.  \n• Analizar el calendario y agendar la cita en la disponibilidad más próxima, en caso de superar la semana, enviar la solicitud de cita a un miembro del equipo que mantendrá el contacto con el cliente para que confirme el horario; una vez aprobada, devolver la confirmación al paciente junto con la ubicación y políticas básicas.  \n• Registrar la cita en nuestro calendario (Google Calendar o similar) y programar recordatorios automáticos antes de la visita y en los controles posteriores.  \n• Detectar pacientes que lleven tiempo inactivos, activar una campaña de re-enganche y ofrecer servicios relevantes según su historial.  \n\nRegistrar fecha de nacimiento para ofrecer al cliente una oferta especial por su cumpleaños.\n\n\nBusco una solución llave en mano: diseño del flujo conversacional, configuración del bot con la API oficial de WhatsApp o una plataforma como Twilio o Zenvia, integración con nuestro calendario y un pequeño panel donde pueda hacer ajustes básicos sin depender del desarrollador. Entrego acceso a mi número empresarial y al calendario; necesito documentación breve y una sesión de traspaso para el equipo.\nPresupuesto: 250.0-750.0 EUR\nSkills: PHP, Internet Marketing, Software Architecture, HTML, Automation, Chatbot",
-"url": "https://www.freelancer.com/projects/chatbot/Bot-WhatsApp-para-nica-odontol",
-"author": "",
-"extra": {
-"bids": 158,
-"bid_avg": 402.25949367088606,
-"budget": "Presupuesto: 250.0-750.0 EUR",
-"budget_min": 250.0,
-"budget_max": 750.0,
-"currency": "EUR",
-"price_type": "fixed",
-"hourly_commitment": null,
-"escrow": false,
-"country": null,
-"lang": "es"
-},
-"language": "es",
-"score": 95,
-"summary": "Clínica odontológica necesita un bot de WhatsApp automatizado para agendamiento, recordatorios, re-enganche y panel de control.",
-"opener": "Hola, vi tu requerimiento para el bot de WhatsApp de la clínica odontológica. Tengo experiencia integrando la API de WhatsApp con calendarios y sistemas de agendamiento. ¿Conversamos?",
-"location": null
-},
-"created": 1794415047,
-"attempts": 1
-},
 {
 "id": "freelancer:40815732",
 "payload": {
@@ -4019,11 +4041,8 @@
 "location": null
 },
 "created": 1794531471,
-"attempts": 0
+"attempts": 1
 }
 ],
-"meta": {
-"brightdata:snapshot": "sd_mwf589g927sscqtpiv",
-"brightdata:snapshot_ts": "1794584421"
-}
+"meta": {}
 }

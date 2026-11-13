@@ -1,5 +1,50 @@
 {
 "seen": [
+"freelancer:40815828",
+"freelancer:40815865",
+"freelancer:40815918",
+"freelancer:40815922",
+"freelancer:40816029",
+"freelancer:40816043",
+"freelancer:40816069",
+"freelancer:40816088",
+"freelancer:40816117",
+"freelancer:40816109",
+"freelancer:40816138",
+"freelancer:40816148",
+"freelancer:40815799",
+"freelancer:40816157",
+"freelancer:40816153",
+"freelancer:40816160",
+"freelancer:40816197",
+"freelancer:40816208",
+"freelancer:40816218",
+"freelancer:40816223",
+"freelancer:40816228",
+"freelancer:40816230",
+"freelancer:40816231",
+"freelancer:40816233",
+"freelancer:40816158",
+"freelancer:40816234",
+"facebook:1866616444365501",
+"facebook:1866613381032474",
+"facebook:1786576999061705",
+"facebook:1786546232398115",
+"facebook:1866569867703492",
+"facebook:2927718934262711",
+"facebook:1786491282403610",
+"facebook:1682908150243221",
+"facebook:1682906373576732",
+"facebook:1786463919073013",
+"facebook:1678540827186670",
+"facebook:2927511234283481",
+"facebook:2927510484283556",
+"facebook:4235221176608669",
+"facebook:1660768362297250",
+"facebook:1661725465534873",
+"facebook:1662697248771028",
+"facebook:4235167646614022",
+"facebook:2927263997641538",
 "freelancer:40815447",
 "freelancer:40815452",
 "freelancer:40815572",
@@ -3846,10 +3891,10 @@
 "runs": {
 "facebook": 1793013059,
 "linkedin": 1792900970,
-"twitter": 1794485127,
-"freelancer": 1794531547,
-"reddit": 1794531547,
-"fbgroups": 1794513853,
+"twitter": 1794555429,
+"freelancer": 1794555644,
+"reddit": 1794555644,
+"fbgroups": 1794555405,
 "fbsearch": 1794531413
 },
 "counters": {
@@ -3861,7 +3906,7 @@
 "gemini:2026-10-29": 123.0,
 "gemini:2026-10-30": 146.0,
 "gemini:2026-10-31": 114.0,
-"brightdata:records:2026-11": 602.0,
+"brightdata:records:2026-11": 624.0,
 "gemini:2026-11-01": 135.0,
 "gemini:2026-11-02": 105.0,
 "gemini:2026-11-03": 134.0,
@@ -3874,77 +3919,15 @@
 "gemini:2026-11-10": 126.0,
 "gemini:2026-11-11": 121.0,
 "gemini:2026-11-12": 78.0,
-"gemini:2026-11-13": 30.0
+"gemini:2026-11-13": 55.0
 },
 "leads": [],
 "stats": {
-"leads_total": 6,
-"seen_total": 3842,
-"pending_proposals": 6
+"leads_total": 5,
+"seen_total": 3887,
+"pending_proposals": 4
 },
 "pending_proposals": [
-{
-"id": "freelancer:40812364",
-"payload": {
-"id": "freelancer:40812364",
-"source": "freelancer",
-"title": "Reparar error 500 en OVH",
-"text": "Llevo ya 24 horas con la web caída y cada visita devuelve un error 500/502. No aparece contenido, solo ese mensaje de servidor. El sitio está alojado en un VPS de OVH y, que yo sepa, no hicimos ninguna actualización, cambio de DNS ni instalación de plugins justo antes del fallo.\n\nBusco a alguien que:\n• Revise rápidamente el servidor en OVH, archivos y registros para identificar la causa del error.  \n• Restaure el acceso a la web lo antes posible.  \n• Me entregue un breve informe con la causa raíz y recomendaciones básicas para evitar que vuelva a ocurrir (copias de seguridad, parches o ajustes de configuración).\n\nDispongo de acceso root/panel para facilitarte credenciales en cuanto aceptemos. Necesito resultados ágiles, comunicación clara y, sobre todo, que el sitio vuelva a funcionar sin perder datos.\nPresupuesto: 30.0-250.0 EUR\nSkills: PHP, System Admin, Linux, Web Security, Technical Support, VPS",
-"url": "https://www.freelancer.com/projects/server/Reparar-error-OVH",
-"author": "",
-"extra": {
-"bids": 106,
-"bid_avg": 102.73207547169811,
-"budget": "Presupuesto: 30.0-250.0 EUR",
-"budget_min": 30.0,
-"budget_max": 250.0,
-"currency": "EUR",
-"price_type": "fixed",
-"hourly_commitment": null,
-"escrow": false,
-"country": null,
-"lang": "es"
-},
-"language": "es",
-"score": 95,
-"summary": "Emprendedor necesita arreglar error 500 y 502 en servidor VPS de OVH para restaurar su sitio web caído.",
-"opener": "Hola, vi tu problema con el error 500 en OVH y tengo experiencia en administración de servidores Linux y PHP. ¿Te puedo ayudar a revisarlo ahora mismo?",
-"location": null
-},
-"created": 1794361390,
-"attempts": 3
-},
-{
-"id": "freelancer:40812023",
-"payload": {
-"id": "freelancer:40812023",
-"source": "freelancer",
-"title": "Sim, está em espanhol. Pode copiar:  Finalizar la aplicación AVCB Fácil con inteligencia artificial",
-"text": "Buscamos un desarrollador Full Stack con experiencia en inteligencia artificial y aplicaciones multiplataforma para finalizar AVCB Fácil, una aplicación destinada a servicios de prevención de incendios en Brasil.\n\nLa aplicación ya está parcialmente desarrollada y deberá funcionar en iPhone, Android y ordenador, con una interfaz sencilla y un icono propio en la pantalla del móvil, como WhatsApp.\n\nQueremos inteligencia artificial integrada en todas las etapas: atención al cliente, orientación, cumplimentación de datos, análisis de documentos, identificación de información pendiente y seguimiento de los servicios. Las actividades que requieran responsabilidad técnica tendrán validación profesional.\n\nEl trabajo incluye:\n\n• Integración con WhatsApp Business para atención mediante IA.\n• Integración bancaria y sistema de pagos.\n• Configuración de los agentes de inteligencia artificial.\n• Base de datos para registros y documentos.\n• Panel de seguimiento con estados y avisos.\n• Revisión de la aplicación existente y finalización de las funciones pendientes.\n• Pruebas y puesta en funcionamiento en iPhone, Android y ordenador.\n\nEl profesional deberá hablar portugués o español y tener experiencia en desarrollo Full Stack, integración de API, seguridad de datos e inteligencia artificial.\n\nSolicitamos una evaluación del proyecto y un presupuesto con precio, plazo de entrega y tareas incluidas.\nPresupuesto: 2.0-6.0 EUR\nSkills: Mobile App Development, iPhone, Android, HTML5, Web Development, Payment Gateway Integration",
-"url": "https://www.freelancer.com/projects/full-stack-development/Sim-est-espanhol-Pode-copiar",
-"author": "",
-"extra": {
-"bids": 51,
-"bid_avg": 10.058823529411764,
-"budget": "Presupuesto: 2.0-6.0 EUR",
-"budget_min": 2.0,
-"budget_max": 6.0,
-"currency": "EUR",
-"price_type": "hourly",
-"hourly_commitment": "40 h/week",
-"escrow": false,
-"country": null,
-"lang": "es"
-},
-"language": "es",
-"score": 90,
-"summary": "Empresa busca un desarrollador Full Stack para finalizar la aplicación AVCB Fácil con integración de inteligencia artificial y pasarela de pagos.",
-"opener": "Hola, vi que buscan un desarrollador Full Stack para finalizar la aplicación AVCB Fácil con IA. Tengo experiencia en integraciones complejas y me gustaría conversar.",
-"location": "Brasil"
-},
-"created": 1794361393,
-"attempts": 0
-},
 {
 "id": "freelancer:40812687",
 "payload": {
@@ -3974,7 +3957,7 @@
 "location": null
 },
 "created": 1794385609,
-"attempts": 0
+"attempts": 1
 },
 {
 "id": "freelancer:40812673",

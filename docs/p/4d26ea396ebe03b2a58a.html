@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow"><title>Spa Email Automation Setup</title>
+<style>
+:root{--c:#1e88e5;}
+*{box-sizing:border-box}body{margin:0;background:#0f141b;color:#e6edf3;font:15px/1.55 -apple-system,Segoe UI,Roboto,Inter,sans-serif}
+.wrap{max-width:720px;margin:0 auto;padding:18px 16px 60px}
+.src{display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--c);border:1px solid var(--c);border-radius:999px;padding:4px 10px}
+h1{color:var(--c);font-size:22px;line-height:1.25;margin:12px 0 6px}
+.meta{color:#94a3b8;font-size:13px;margin-bottom:14px}
+.card{background:#161d27;border:1px solid #243041;border-radius:14px;padding:16px;margin:12px 0}
+.card h2{margin:0 0 10px;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:#94a3b8}
+.kpis{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.kpi{background:#0f141b;border:1px solid #243041;border-radius:12px;padding:12px;text-align:center}
+.kpi b{display:block;font-size:24px;color:var(--c)}.kpi span{font-size:12px;color:#94a3b8}
+.content{font-weight:700;white-space:pre-wrap;word-wrap:break-word}
+.proposal{white-space:pre-wrap;word-wrap:break-word;font-weight:600}
+.muted{color:#94a3b8;font-size:13px}
+.btn{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;padding:14px;border-radius:12px;border:0;font-weight:700;font-size:16px;cursor:pointer;background:var(--c);color:#fff;margin-top:10px}
+.btn.alt{background:#243041;color:#e6edf3}
+.btn:active{transform:scale(.99)}
+.toast{position:fixed;left:50%;bottom:22px;transform:translateX(-50%);background:#22c55e;color:#06130a;font-weight:700;padding:10px 16px;border-radius:999px;opacity:0;transition:opacity .2s}
+.toast.show{opacity:1}
+a{color:var(--c)}
+</style></head><body><div class="wrap">
+<span class="src">🔵 Freelancer &middot; Lead 90/100</span>
+<h1>Spa Email Automation Setup</h1>
+<div class="meta">Dueño de spa en Austin, TX necesita configurar automatización de correos en WordPress y WooCommerce. &middot; 📍 Austin, TX, USA</div>
+<div class="card"><h2>Mensaje sugerido para abrir</h2><div class="proposal">Hi! I saw your post about setting up email automation for your spa website. I have extensive experience with WordPress, WooCommerce, and Mailchimp integration. Let&#x27;s talk!</div><button class="btn" onclick="copyOpener()">📋 Copiar mensaje</button></div>
+<div class="card"><h2>Publicación original</h2><div class="content">Spa Email Automation Setup
+Email marketing setup for a spa &amp; aromatherapy business (WordPress + WooCommerce)
+
+I run a spa and aromatherapy business in Austin, TX. My website is built on WordPress and has a WooCommerce shop and online booking. I need an email marketing system that brings clients back.
+
+What needs to be done:
+
+Newsletter signup
+Add a signup form to the site: a popup or slide-in plus a form in the footer, mobile-friendly
+Offer a discount on the first visit as the incentive, with a unique or single-use coupon code
+Use Mailchimp or MailPoet, depending on what you recommend for my setup
+Make the form GDPR/CAN-SPAM compliant, with double opt-in if recommended
+Automated emails
+Welcome email with the first-visit discount code
+Appointment reminder 24 hours before the booking
+Review request after the visit, linking to my Google Business Profile
+Rebooking reminder about 30 days after the visit, suggesting the client book the treatment again
+Optional: abandoned cart email for WooCommerce product orders
+Integration
+Connect WooCommerce and the booking plugin to the email platform so clients and their visits sync automatically
+Tag or segment contacts, e.g. “booked a massage”, “bought products”, “newsletter only”
+Design
+Simple, clean email templates in my brand style (calm, natural, spa feel)
+Templates I can easily edit myself later
+
+Deliverables:
+
+A working signup form on the site
+4–5 automated emails, set up and tested
+A short video or written guide on how to edit the emails and see subscribers
+
+Requirements:
+
+Experience with WordPress, WooCommerce and Mailchimp or MailPoet automations
+Examples of similar work, ideally for spas, salons or other local service businesses
+Good English communication
+
+Mandatory requirement: local development only
+
+For privacy and security, all work must be done on a local copy of my website using Local WP or XAMPP. I will provide a backup of the site. No access to the live site will be given until the work is complete and approved.
+
+Before the work starts, you must send me a screenshot of my website running in Local WP or XAMPP. The screenshot must show the program window and the local address (e.g. mysite.local or localhost/...).
+The project starts only after I confirm that the site is running correctly in one of these programs.
+I may ask for more screenshots or a short screen recording during the work to confirm it is still being done locally.
+When the work is done, you will hand over the finished files or a migration package, and we will move the changes to the live site together.
+
+Bids that do not accept this condition will not be considered.
+Presupuesto: 750.0-1500.0 USD
+Skills: PHP, WordPress, HTML, Email Marketing, Mailchimp, WooCommerce</div>
+<a class="btn alt" href="https://www.freelancer.com/projects/woocommerce/Spa-Email-Automation-Setup" target="_blank" rel="noopener">Abrir publicación en Freelancer</a></div>
+<div class="muted">Generado 2026-11-13 10:49 &middot; Dev Lead Hunter</div>
+<div class="toast" id="toast">Copiado</div>
+<textarea id="clip" style="position:fixed;left:-9999px;top:0"></textarea>
+<script>
+const DATA={"proposal": "", "opener": "Hi! I saw your post about setting up email automation for your spa website. I have extensive experience with WordPress, WooCommerce, and Mailchimp integration. Let's talk!", "question": ""};
+function toast(t){const e=document.getElementById('toast');e.textContent=t;e.classList.add('show');setTimeout(()=>e.classList.remove('show'),1600);}
+async function copyText(t,label){try{await navigator.clipboard.writeText(t);toast(label||'Copiado');}catch(e){const ta=document.getElementById('clip');ta.value=t;ta.select();document.execCommand('copy');toast(label||'Copiado');}}
+function copyProposal(){copyText(DATA.proposal,'Propuesta copiada');}
+function copyOpener(){copyText(DATA.opener,'Mensaje copiado');}
+function copyAll(){copyText(DATA.proposal+"\n\n"+(DATA.question?('Pregunta: '+DATA.question):''),'Todo copiado');}
+</script></div></body></html>

@@ -1,5 +1,54 @@
 {
 "seen": [
+"freelancer:40817351",
+"freelancer:40817417",
+"freelancer:40817449",
+"freelancer:40817450",
+"freelancer:40817454",
+"freelancer:40817490",
+"freelancer:40817507",
+"freelancer:40817506",
+"freelancer:40817508",
+"freelancer:40817517",
+"freelancer:40817541",
+"freelancer:40817544",
+"freelancer:40817533",
+"freelancer:40817592",
+"freelancer:40817630",
+"freelancer:40817623",
+"freelancer:40817637",
+"freelancer:40817638",
+"freelancer:40817643",
+"freelancer:40817642",
+"freelancer:40817260",
+"freelancer:40817654",
+"freelancer:40817660",
+"facebook:2739436459782490",
+"facebook:122185775846956233",
+"facebook:3611504272334650",
+"facebook:2199853000598153",
+"facebook:1867773947583084",
+"facebook:1867765330917279",
+"facebook:1679799260394160",
+"facebook:1684092230124813",
+"facebook:1867707140923098",
+"facebook:1684080606792642",
+"facebook:1867690440924768",
+"facebook:1787611182291620",
+"facebook:1684052143462155",
+"facebook:1787565648962840",
+"facebook:1787560902296648",
+"facebook:1787557995630272",
+"facebook:2928891020812169",
+"facebook:1679589063748513",
+"facebook:4237122689751851",
+"facebook:4237061896424597",
+"facebook:2928733894161215",
+"facebook:2928626320838639",
+"facebook:2928506247517313",
+"facebook:1679308203776599",
+"facebook:4236676369796483",
+"facebook:4236499203147533",
 "freelancer:40816602",
 "freelancer:40816609",
 "freelancer:40816614",
@@ -4013,10 +4062,10 @@
 "facebook": 1793013059,
 "linkedin": 1792900970,
 "twitter": 1794621336,
-"freelancer": 1794621496,
-"reddit": 1794621497,
-"fbgroups": 1794606310,
-"fbsearch": 1794584859
+"freelancer": 1794645206,
+"reddit": 1794645206,
+"fbgroups": 1794645076,
+"fbsearch": 1794645107
 },
 "counters": {
 "gemini:2026-10-25": 260.0,
@@ -4027,7 +4076,7 @@
 "gemini:2026-10-29": 123.0,
 "gemini:2026-10-30": 146.0,
 "gemini:2026-10-31": 114.0,
-"brightdata:records:2026-11": 644.0,
+"brightdata:records:2026-11": 668.0,
 "gemini:2026-11-01": 135.0,
 "gemini:2026-11-02": 105.0,
 "gemini:2026-11-03": 134.0,
@@ -4041,13 +4090,13 @@
 "gemini:2026-11-11": 121.0,
 "gemini:2026-11-12": 78.0,
 "gemini:2026-11-13": 119.0,
-"gemini:2026-11-14": 36.0
+"gemini:2026-11-14": 61.0
 },
 "leads": [],
 "stats": {
 "leads_total": 5,
-"seen_total": 4008,
-"pending_proposals": 1
+"seen_total": 4057,
+"pending_proposals": 2
 },
 "pending_proposals": [
 {
@@ -4079,7 +4128,38 @@
 "location": null
 },
 "created": 1794531471,
-"attempts": 2
+"attempts": 3
+},
+{
+"id": "freelancer:40817417",
+"payload": {
+"id": "freelancer:40817417",
+"source": "freelancer",
+"title": "App Gestión Documental Integral -- 2",
+"text": "Necesito desarrollar una aplicación empresarial que centralice toda la gestión documental y los procesos de atención al cliente de una distribuidora eléctrica. El primer hito debe ser un módulo de Atención al Cliente y Call Center totalmente operativo. \n\nPrioridad inicial  \n• Registrar solicitudes, quejas y reclamos en tiempo real.  \n• Consultar de inmediato el historial del cliente con sus contratos y pagos.  \n• Asignar cada caso a un agente y hacerle seguimiento hasta su cierre, con alertas de estatus.\n\nAl completarse ese módulo, la misma plataforma deberá abarcar:  \n– Gestión y archivo digital de contratos, expedientes y documentos legales.  \n– Organización de facturas, recibos y comprobantes de pago.  \n– Control de informes técnicos, órdenes de trabajo y planos.  \n– Cobros en cajas, conciliación de pagos y reportes.  \n– Paneles internos de reportes y métricas operativas.\n\nRequiero código fuente bien documentado, base de datos estructurada para búsqueda ágil y una interfaz web responsive (framework a tu elección mientras garantice escalabilidad y buenas prácticas). Valoro integraciones estándar (REST, OAuth) y un flujo de despliegue que permita pruebas continuas.\n\nIndica tu experiencia en proyectos similares y la metodología que aplicarías para entregarme primero el módulo de atención y luego el resto de la solución.\nPresupuesto: 250.0-750.0 USD\nSkills: Project Management, Customer Support, User Interface / IA, Agile Development, Web Development, Database Management",
+"url": "https://www.freelancer.com/projects/app-development/App-Gesti-Documental-Integral",
+"author": "",
+"extra": {
+"bids": 93,
+"bid_avg": 406.31182795698925,
+"budget": "Presupuesto: 250.0-750.0 USD",
+"budget_min": 250.0,
+"budget_max": 750.0,
+"currency": "USD",
+"price_type": "fixed",
+"hourly_commitment": null,
+"escrow": false,
+"country": null,
+"lang": "es"
+},
+"language": "es",
+"score": 90,
+"summary": "Distribuidora eléctrica necesita desarrollar una aplicación web de gestión documental y atención al cliente con múltiples módulos.",
+"opener": "Hola, vi tu requerimiento para la aplicación de gestión documental y atención al cliente. Tengo experiencia desarrollando plataformas web escalables y sistemas a medida.",
+"location": null
+},
+"created": 1794645201,
+"attempts": 0
 }
 ],
 "meta": {}

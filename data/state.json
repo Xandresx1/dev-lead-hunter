@@ -1,5 +1,58 @@
 {
 "seen": [
+"freelancer:40818185",
+"freelancer:40818346",
+"freelancer:40818362",
+"freelancer:40818357",
+"freelancer:40818394",
+"freelancer:40818395",
+"freelancer:40818401",
+"freelancer:40818416",
+"freelancer:40818431",
+"freelancer:40818434",
+"freelancer:40818436",
+"freelancer:40818435",
+"freelancer:40818446",
+"freelancer:40818447",
+"freelancer:40818449",
+"freelancer:40818467",
+"freelancer:40818474",
+"freelancer:40818485",
+"freelancer:40818486",
+"freelancer:40818494",
+"freelancer:40818493",
+"freelancer:40818498",
+"freelancer:40818503",
+"freelancer:40818505",
+"freelancer:40818504",
+"freelancer:40818507",
+"freelancer:40818510",
+"freelancer:40818511",
+"freelancer:40818488",
+"freelancer:40818513",
+"freelancer:40818514",
+"freelancer:40818516",
+"freelancer:40818517",
+"freelancer:40818518",
+"facebook:1684809710053065",
+"facebook:1868488520844960",
+"facebook:1684806273386742",
+"facebook:1684805690053467",
+"facebook:1684805486720154",
+"facebook:1868484290845383",
+"facebook:1868483977512081",
+"facebook:1788304612222277",
+"facebook:1788304208888984",
+"facebook:1868481450845667",
+"facebook:1680522643655155",
+"facebook:1788300432222695",
+"facebook:1788294725556599",
+"facebook:1680483946992358",
+"facebook:4238463512951102",
+"facebook:4238387406292046",
+"facebook:4238383886292398",
+"facebook:4238249679639152",
+"facebook:1680314717009281",
 "freelancer:40818066",
 "freelancer:40818069",
 "freelancer:40818074",
@@ -4138,10 +4191,10 @@
 "facebook": 1793013059,
 "linkedin": 1792900970,
 "twitter": 1794686311,
-"freelancer": 1794686449,
-"reddit": 1794686450,
-"fbgroups": 1794669766,
-"fbsearch": 1794645107
+"freelancer": 1794699945,
+"reddit": 1794699945,
+"fbgroups": 1794699781,
+"fbsearch": 1794699794
 },
 "counters": {
 "gemini:2026-10-25": 260.0,
@@ -4152,7 +4205,7 @@
 "gemini:2026-10-29": 123.0,
 "gemini:2026-10-30": 146.0,
 "gemini:2026-10-31": 114.0,
-"brightdata:records:2026-11": 684.0,
+"brightdata:records:2026-11": 704.0,
 "gemini:2026-11-01": 135.0,
 "gemini:2026-11-02": 105.0,
 "gemini:2026-11-03": 134.0,
@@ -4166,13 +4219,13 @@
 "gemini:2026-11-11": 121.0,
 "gemini:2026-11-12": 78.0,
 "gemini:2026-11-13": 119.0,
-"gemini:2026-11-14": 119.0
+"gemini:2026-11-14": 153.0
 },
 "leads": [],
 "stats": {
-"leads_total": 6,
-"seen_total": 4133,
-"pending_proposals": 2
+"leads_total": 7,
+"seen_total": 4186,
+"pending_proposals": 3
 },
 "pending_proposals": [
 {
@@ -4204,7 +4257,7 @@
 "location": null
 },
 "created": 1794531471,
-"attempts": 5
+"attempts": 6
 },
 {
 "id": "freelancer:40817417",
@@ -4235,6 +4288,37 @@
 "location": null
 },
 "created": 1794645201,
+"attempts": 0
+},
+{
+"id": "freelancer:40818486",
+"payload": {
+"id": "freelancer:40818486",
+"source": "freelancer",
+"title": "App móvil venta productos",
+"text": "Quiero lanzar una aplicación móvil que me permita vender productos físicos de forma sencilla y segura. La idea es que el usuario pueda explorar un catálogo, añadir artículos al carrito, pagar dentro de la app y luego hacer seguimiento de su pedido. Me muevo con rapidez y disfruto de la tecnología, por lo que busco un desarrollo limpio, escalable y bien documentado.\n\nFuncionalidades clave\n• Catálogo con fotos, descripciones y stock en tiempo real  \n• Carrito de compras y proceso de checkout optimizado  \n• Pasarela de pago segura (tarjeta y, si es posible, billeteras digitales)  \n• Notificaciones push para confirmar pedidos y actualizaciones de envío  \n• Panel de administración para gestionar inventario, precios y promociones  \n• Módulo de seguimiento de pedidos con número de guía  \n• Estadísticas básicas de ventas y clientes\n\nAlcance técnico\nPrefiero una solución multiplataforma (Flutter o React Native) para publicar tanto en iOS como en Android, pero acepto propuestas nativas si justifican ventajas claras. El código debe quedar en un repositorio Git, acompañado de instrucciones de despliegue y un breve manual de usuario interno.\n\nEntregables\n1. Código fuente completo y documentado  \n2. Build firmada lista para App Store y Google Play  \n3. Panel de administración funcional (puede ser web)  \n4. Archivo de configuración y guía de instalación  \n\nValoro la comunicación ágil, los commits frecuentes y la posibilidad de añadir funciones extra más adelante (por ejemplo, cupones o programa de fidelidad). Si tienes experiencia en e-commerce móvil y pasarelas de pago, será un plus importante.\nPresupuesto: 250.0-750.0 EUR\nSkills: Mobile App Development, iPhone, Android, iPad, App Design, React Native",
+"url": "https://www.freelancer.com/projects/flutter/App-vil-venta-productos",
+"author": "",
+"extra": {
+"bids": 112,
+"bid_avg": 417.375,
+"budget": "Presupuesto: 250.0-750.0 EUR",
+"budget_min": 250.0,
+"budget_max": 750.0,
+"currency": "EUR",
+"price_type": "fixed",
+"hourly_commitment": null,
+"escrow": false,
+"country": null,
+"lang": "es"
+},
+"language": "es",
+"score": 95,
+"summary": "Emprendedor busca desarrollador para crear app movil multiplataforma de venta de productos con pasarela de pagos, carrito y panel de administracion.",
+"opener": "Hola, vi tu proyecto para la app de venta de productos. Trabajo con Flutter y React Native, y me interesa ayudarte a construir una solucion limpia y escalable.",
+"location": null
+},
+"created": 1794699864,
 "attempts": 0
 }
 ],

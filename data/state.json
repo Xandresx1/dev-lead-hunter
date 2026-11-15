@@ -1,5 +1,50 @@
 {
 "seen": [
+"freelancer:40818717",
+"freelancer:40817488",
+"freelancer:40818850",
+"freelancer:40818920",
+"freelancer:40818960",
+"freelancer:40818973",
+"freelancer:40819011",
+"freelancer:40819054",
+"freelancer:40819059",
+"freelancer:40819075",
+"freelancer:40819082",
+"freelancer:40819089",
+"freelancer:40819088",
+"freelancer:40819091",
+"freelancer:40817733",
+"freelancer:40819096",
+"freelancer:40819099",
+"freelancer:40819095",
+"freelancer:40819105",
+"freelancer:40819045",
+"freelancer:40819111",
+"freelancer:40819110",
+"twitter:2080127408980496422",
+"twitter:2080399632467915111",
+"facebook:2211737626444203",
+"facebook:1000482833110572",
+"facebook:1909877670372919",
+"facebook:1080773504979374",
+"facebook:1436691062004806",
+"facebook:1869074287453050",
+"facebook:1869073307453148",
+"facebook:1869073000786512",
+"facebook:1869072760786536",
+"facebook:1685282136672489",
+"facebook:1685281286672574",
+"facebook:1788772195508852",
+"facebook:1685277713339598",
+"facebook:1685272280006808",
+"facebook:1788595458859859",
+"facebook:1788535895532482",
+"facebook:1788506848868720",
+"facebook:4238697832927670",
+"facebook:1680559696984783",
+"facebook:4238588496271937",
+"facebook:1680558240318262",
 "freelancer:40818526",
 "freelancer:40818540",
 "freelancer:40818543",
@@ -4216,11 +4261,11 @@
 "runs": {
 "facebook": 1793013059,
 "linkedin": 1792900970,
-"twitter": 1794686311,
-"freelancer": 1794715866,
-"reddit": 1794715866,
-"fbgroups": 1794699781,
-"fbsearch": 1794699794
+"twitter": 1794744292,
+"freelancer": 1794744382,
+"reddit": 1794744382,
+"fbgroups": 1794744224,
+"fbsearch": 1794744239
 },
 "counters": {
 "gemini:2026-10-25": 260.0,
@@ -4231,7 +4276,7 @@
 "gemini:2026-10-29": 123.0,
 "gemini:2026-10-30": 146.0,
 "gemini:2026-10-31": 114.0,
-"brightdata:records:2026-11": 704.0,
+"brightdata:records:2026-11": 720.0,
 "gemini:2026-11-01": 135.0,
 "gemini:2026-11-02": 105.0,
 "gemini:2026-11-03": 134.0,
@@ -4246,12 +4291,12 @@
 "gemini:2026-11-12": 78.0,
 "gemini:2026-11-13": 119.0,
 "gemini:2026-11-14": 153.0,
-"gemini:2026-11-15": 25.0
+"gemini:2026-11-15": 45.0
 },
 "leads": [],
 "stats": {
-"leads_total": 6,
-"seen_total": 4212,
+"leads_total": 2,
+"seen_total": 4257,
 "pending_proposals": 4
 },
 "pending_proposals": [
@@ -4284,7 +4329,7 @@
 "location": null
 },
 "created": 1794645201,
-"attempts": 1
+"attempts": 2
 },
 {
 "id": "freelancer:40818486",

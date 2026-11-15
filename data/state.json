@@ -1,5 +1,40 @@
 {
 "seen": [
+"freelancer:40819512",
+"freelancer:40819530",
+"freelancer:40819555",
+"freelancer:40819558",
+"freelancer:40819522",
+"freelancer:40819576",
+"freelancer:40819589",
+"freelancer:40819597",
+"freelancer:40819599",
+"freelancer:40819605",
+"freelancer:40819608",
+"freelancer:40819618",
+"freelancer:40819621",
+"freelancer:40819647",
+"freelancer:40819651",
+"freelancer:40819655",
+"freelancer:40819658",
+"freelancer:40819660",
+"freelancer:40819665",
+"freelancer:40819674",
+"freelancer:40819679",
+"freelancer:40819685",
+"freelancer:40819687",
+"freelancer:40819689",
+"freelancer:40819700",
+"freelancer:40819711",
+"freelancer:40819716",
+"freelancer:40819722",
+"freelancer:40819666",
+"freelancer:40819715",
+"freelancer:40819727",
+"freelancer:40819730",
+"freelancer:40819733",
+"freelancer:40819735",
+"freelancer:40819736",
 "freelancer:40819376",
 "freelancer:40819374",
 "freelancer:40819396",
@@ -4306,8 +4341,8 @@
 "facebook": 1793013059,
 "linkedin": 1792900970,
 "twitter": 1794744292,
-"freelancer": 1794768219,
-"reddit": 1794768219,
+"freelancer": 1794784352,
+"reddit": 1794784352,
 "fbgroups": 1794768110,
 "fbsearch": 1794744239
 },
@@ -4335,12 +4370,12 @@
 "gemini:2026-11-12": 78.0,
 "gemini:2026-11-13": 119.0,
 "gemini:2026-11-14": 153.0,
-"gemini:2026-11-15": 69.0
+"gemini:2026-11-15": 104.0
 },
 "leads": [],
 "stats": {
-"leads_total": 5,
-"seen_total": 4301,
+"leads_total": 4,
+"seen_total": 4336,
 "pending_proposals": 4
 },
 "pending_proposals": [
@@ -4373,7 +4408,7 @@
 "location": null
 },
 "created": 1794645201,
-"attempts": 3
+"attempts": 4
 },
 {
 "id": "freelancer:40818486",

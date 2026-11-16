@@ -1,5 +1,58 @@
 {
 "seen": [
+"freelancer:40819527",
+"freelancer:40819534",
+"freelancer:40819604",
+"freelancer:40819741",
+"freelancer:40819770",
+"freelancer:40819774",
+"freelancer:40819778",
+"freelancer:40819781",
+"freelancer:40819788",
+"freelancer:40819793",
+"freelancer:40819809",
+"freelancer:40819819",
+"freelancer:40819825",
+"freelancer:40819831",
+"freelancer:40819837",
+"freelancer:40819852",
+"freelancer:40819859",
+"freelancer:40819840",
+"freelancer:40819861",
+"freelancer:40819863",
+"freelancer:40819912",
+"freelancer:40819926",
+"freelancer:40819923",
+"freelancer:40819928",
+"freelancer:40819932",
+"freelancer:40819935",
+"freelancer:40819936",
+"freelancer:40819942",
+"freelancer:40819944",
+"freelancer:40819946",
+"freelancer:40819948",
+"freelancer:40819940",
+"facebook:1685912153276154",
+"facebook:1869730590720753",
+"facebook:2931403633894241",
+"facebook:1685908196609883",
+"facebook:1869726477387831",
+"facebook:1685907613276608",
+"facebook:1685907429943293",
+"facebook:2931401593894445",
+"facebook:1869724794054666",
+"facebook:1869723367388142",
+"facebook:1789334242119314",
+"facebook:1789322855453786",
+"facebook:1789322748787130",
+"facebook:1789308798788525",
+"facebook:4240257309438389",
+"facebook:4240177162779737",
+"facebook:2931199400581331",
+"facebook:1681485393558880",
+"facebook:2931081820593089",
+"facebook:4239979009466219",
+"facebook:1681457583561661",
 "freelancer:40819512",
 "freelancer:40819530",
 "freelancer:40819555",
@@ -4341,10 +4394,10 @@
 "facebook": 1793013059,
 "linkedin": 1792900970,
 "twitter": 1794744292,
-"freelancer": 1794784352,
-"reddit": 1794784352,
-"fbgroups": 1794768110,
-"fbsearch": 1794744239
+"freelancer": 1794797555,
+"reddit": 1794797556,
+"fbgroups": 1794797406,
+"fbsearch": 1794797417
 },
 "counters": {
 "gemini:2026-10-25": 260.0,
@@ -4355,7 +4408,7 @@
 "gemini:2026-10-29": 123.0,
 "gemini:2026-10-30": 146.0,
 "gemini:2026-10-31": 114.0,
-"brightdata:records:2026-11": 739.0,
+"brightdata:records:2026-11": 762.0,
 "gemini:2026-11-01": 135.0,
 "gemini:2026-11-02": 105.0,
 "gemini:2026-11-03": 134.0,
@@ -4370,13 +4423,14 @@
 "gemini:2026-11-12": 78.0,
 "gemini:2026-11-13": 119.0,
 "gemini:2026-11-14": 153.0,
-"gemini:2026-11-15": 104.0
+"gemini:2026-11-15": 104.0,
+"gemini:2026-11-16": 31.0
 },
 "leads": [],
 "stats": {
-"leads_total": 4,
-"seen_total": 4336,
-"pending_proposals": 4
+"leads_total": 7,
+"seen_total": 4389,
+"pending_proposals": 5
 },
 "pending_proposals": [
 {
@@ -4408,7 +4462,7 @@
 "location": null
 },
 "created": 1794645201,
-"attempts": 4
+"attempts": 5
 },
 {
 "id": "freelancer:40818486",
@@ -4501,6 +4555,37 @@
 "location": null
 },
 "created": 1794715844,
+"attempts": 0
+},
+{
+"id": "freelancer:40819788",
+"payload": {
+"id": "freelancer:40819788",
+"source": "freelancer",
+"title": "Portal Escorts con Perfiles Privados",
+"text": "Quiero lanzar un portal web para escorts donde cada perfil muestre fotos, descripción y datos de contacto, pero estos últimos solo se revelen a los visitantes que se registren. El registro debe ser muy sencillo: correo electrónico y contraseña, con confirmación por e-mail.\n\nAlcance principal\n• Listado de perfiles de escorts con galería fotográfica y sección de contacto.  \n• Sistema de registro e inicio de sesión que valide el correo y oculte/ revele la información de contacto según el estado del usuario.  \n• Panel de administración para que yo pueda crear, editar, activar o desactivar perfiles.  \n• Diseño responsivo y amigable para móviles y escritorio.  \n• Código bien organizado y documentado para facilitar futuras ampliaciones (por ejemplo, filtros de búsqueda o autogestión de perfiles).\n\nEntregables\n- Sitio funcional instalado en mi servidor de pruebas.  \n- Base de datos configurada y archivo de respaldo.  \n- Manual rápido de despliegue y uso del panel.  \n- Acceso a repositorio o paquete completo del código fuente.\n\nPreferiría una solución en WordPress, Laravel u otro framework PHP que garantice rendimiento y seguridad, pero estoy abierto a recomendaciones siempre que el resultado cumpla con los puntos anteriores.\nPresupuesto: 250.0-750.0 EUR\nSkills: PHP, Website Design, Graphic Design, Web Security, WordPress, MySQL",
+"url": "https://www.freelancer.com/projects/wordpress/Portal-Escorts-con-Perfiles-Privados",
+"author": "",
+"extra": {
+"bids": 131,
+"bid_avg": 396.206106870229,
+"budget": "Presupuesto: 250.0-750.0 EUR",
+"budget_min": 250.0,
+"budget_max": 750.0,
+"currency": "EUR",
+"price_type": "fixed",
+"hourly_commitment": null,
+"escrow": false,
+"country": null,
+"lang": "es"
+},
+"language": "es",
+"score": 90,
+"summary": "Cliente busca desarrollador para crear un portal web de perfiles con sistema de registro y panel de administración.",
+"opener": "Hola, vi tu proyecto para el portal web con perfiles privados y panel de administración. Tengo experiencia en PHP, Laravel y WordPress. ¿Podemos conversar sobre los detalles?",
+"location": null
+},
+"created": 1794797520,
 "attempts": 0
 }
 ],

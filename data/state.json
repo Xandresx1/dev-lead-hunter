@@ -1,5 +1,64 @@
 {
 "seen": [
+"freelancer:40820383",
+"freelancer:40820706",
+"freelancer:40820945",
+"freelancer:40820949",
+"freelancer:40820943",
+"freelancer:40821058",
+"freelancer:40821088",
+"freelancer:40821113",
+"freelancer:40821156",
+"freelancer:40821198",
+"freelancer:40821214",
+"freelancer:40821220",
+"freelancer:40821192",
+"freelancer:40821223",
+"freelancer:40821232",
+"freelancer:40821209",
+"freelancer:40821274",
+"freelancer:40821279",
+"freelancer:40821285",
+"freelancer:40821292",
+"freelancer:40821313",
+"freelancer:40821338",
+"freelancer:40821383",
+"freelancer:40821385",
+"freelancer:40821393",
+"freelancer:40821397",
+"freelancer:40821399",
+"freelancer:40821402",
+"freelancer:40821406",
+"freelancer:40820946",
+"freelancer:40821414",
+"freelancer:40821416",
+"freelancer:40821415",
+"freelancer:40821420",
+"freelancer:40821422",
+"freelancer:40821425",
+"freelancer:40821436",
+"freelancer:40821437",
+"freelancer:40821444",
+"facebook:3538617922956619",
+"facebook:3398288356989577",
+"facebook:1870501680643644",
+"facebook:1790123932040345",
+"facebook:1686686259865410",
+"facebook:1870500013977144",
+"facebook:1790121452040593",
+"facebook:4241567389307381",
+"facebook:4241563532641100",
+"facebook:4241562192641234",
+"facebook:4241556345975152",
+"facebook:1682263936814359",
+"facebook:1682210423486377",
+"facebook:1682114103496009",
+"facebook:1682092086831544",
+"facebook:1686691736531529",
+"facebook:1870504837309995",
+"facebook:1870504107310068",
+"facebook:1790126795373392",
+"facebook:1686686959865340",
 "freelancer:40819984",
 "freelancer:40820016",
 "freelancer:40820194",
@@ -4441,10 +4500,10 @@
 "facebook": 1793013059,
 "linkedin": 1792900970,
 "twitter": 1794825053,
-"freelancer": 1794825182,
-"reddit": 1794825182,
-"fbgroups": 1794825042,
-"fbsearch": 1794797417
+"freelancer": 1794862053,
+"reddit": 1794862053,
+"fbgroups": 1794861797,
+"fbsearch": 1794861815
 },
 "counters": {
 "gemini:2026-10-25": 260.0,
@@ -4455,7 +4514,7 @@
 "gemini:2026-10-29": 123.0,
 "gemini:2026-10-30": 146.0,
 "gemini:2026-10-31": 114.0,
-"brightdata:records:2026-11": 778.0,
+"brightdata:records:2026-11": 798.0,
 "gemini:2026-11-01": 135.0,
 "gemini:2026-11-02": 105.0,
 "gemini:2026-11-03": 134.0,
@@ -4471,13 +4530,13 @@
 "gemini:2026-11-13": 119.0,
 "gemini:2026-11-14": 153.0,
 "gemini:2026-11-15": 104.0,
-"gemini:2026-11-16": 61.0
+"gemini:2026-11-16": 100.0
 },
 "leads": [],
 "stats": {
-"leads_total": 0,
-"seen_total": 4436,
-"pending_proposals": 4
+"leads_total": 5,
+"seen_total": 4495,
+"pending_proposals": 5
 },
 "pending_proposals": [
 {
@@ -4509,7 +4568,7 @@
 "location": null
 },
 "created": 1794699864,
-"attempts": 1
+"attempts": 2
 },
 {
 "id": "freelancer:40818650",
@@ -4602,6 +4661,37 @@
 "location": null
 },
 "created": 1794797520,
+"attempts": 0
+},
+{
+"id": "freelancer:40820943",
+"payload": {
+"id": "freelancer:40820943",
+"source": "freelancer",
+"title": "Auditar y cerrar app de gestión existente en Base44 (cultivo y trazabilidad)",
+"text": "Empezá tu propuesta con la palabra FLORA4 (así sé que leíste todo).\n\nTengo una app de gestión interna ya armada y en uso diario, hecha en Base44: pantallas, 57 tablas, 6 roles de usuario y datos cargados, con unas 13 personas usándola desde el celular. NO hay que hacerla de cero ni rediseñarla. Busco un desarrollador con experiencia que la revise, le dé estructura y la deje cerrada y confiable.\n\nRUBRO\nDispensario solidario de cannabis medicinal de Buenos Aires, que opera a través de una asociación civil dentro del marco regulatorio argentino. La app sigue la planta desde el esqueje hasta el gramo dispensado.\n\nALCANCE Y PRIORIDADES\nPrioridad 1 - Registro y seguimiento de cultivo: genéticas, madres, lotes de esquejes, plantas por sala y posición, movimientos entre salas, cosecha, secado, manicura y control de pesos. Tiene que quedar trazable de punta a punta, de la genética a la cosecha.\nPrioridad 2 - Stock de flores: depósito, tránsito, recepción confirmada en el local, dispensa y retorno, sin que el stock pueda quedar descuadrado.\nFuera de alcance en esta etapa: caja diaria, cierres, gastos y finanzas. Eso queda como está.\n\nQUÉ HAY QUE HACER\n1. Auditoría corta de la parte de cultivo y stock (modelo de datos, permisos por rol y lógica) con un informe de 1 o 2 páginas: qué está bien, qué está flojo y qué conviene ordenar.\n2. Cerrar la trazabilidad de cultivo: que cada planta se pueda seguir desde su origen hasta la cosecha, sin plantas duplicadas, perdidas o en la sala equivocada.\n3. Cerrar el circuito de flores (sin egresos sin stock, sin duplicados, y sin recepción confirmada no se dispensa).\n4. Corregir las fallas ya relevadas de cultivo y stock (te paso el listado priorizado).\n5. Revisar la seguridad: que cada rol vea y modifique solo lo suyo a nivel de datos, no solo de pantallas.\n6. Dejar el respaldo automático verificado y una guía breve de cómo está armada la app.\n\nLO QUE YA ESTÁ\nPantallas, tablas, roles, datos, listado de fallas y un brief funcional completo con las reglas de negocio. Es trabajo de ordenar y cerrar, no de construir.\n\nCONDICIONES\n- Experiencia comprobable en Base44, o en plataformas parecidas (React con backend como servicio).\n- Se trabaja sobre mi cuenta. El código y los datos son míos.\n- Acuerdo de confidencialidad antes de dar acceso.\n- Precio fijo en dos hitos: (1) auditoría e informe, (2) correcciones y cierre.\n- Trabajo y comunicación en español.\n\nTU PROPUESTA TIENE QUE INCLUIR\n1. La palabra de control al inicio.\n2. Uno o dos trabajos tuyos en Base44 o similares, con enlace o capturas.\n3. Precio y plazo de cada hito.\n4. Dudas que te deje esta descripción.\n5. Aparte y sin compromiso: cuánto costaría, más adelante, mudar la app a un servidor propio.\nPresupuesto: 500.0-1000.0 USD\nSkills: Website Design, Mobile App Development, Software Testing, Software Development, Web Development, Relational Databases",
+"url": "https://www.freelancer.com/projects/web-development/Auditar-cerrar-app-gesti-existente",
+"author": "",
+"extra": {
+"bids": 126,
+"bid_avg": 678.1031746031746,
+"budget": "Presupuesto: 500.0-1000.0 USD",
+"budget_min": 500.0,
+"budget_max": 1000.0,
+"currency": "USD",
+"price_type": "fixed",
+"hourly_commitment": null,
+"escrow": false,
+"country": null,
+"lang": "es"
+},
+"language": "es",
+"score": 90,
+"summary": "Asociación civil en Buenos Aires busca desarrollador para auditar y cerrar la trazabilidad de app de cultivo y stock en Base44.",
+"opener": "FLORA4 - Hola, leí tu proyecto sobre la app en Base44 y tengo experiencia auditando sistemas y cerrando flujos de trazabilidad. ¿Podemos conversar?",
+"location": "Buenos Aires, Argentina"
+},
+"created": 1794862024,
 "attempts": 0
 }
 ],

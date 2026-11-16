@@ -1,5 +1,52 @@
 {
 "seen": [
+"freelancer:40819984",
+"freelancer:40820016",
+"freelancer:40820194",
+"freelancer:40820295",
+"freelancer:40820321",
+"freelancer:40820355",
+"freelancer:40820377",
+"freelancer:40820467",
+"freelancer:40814533",
+"freelancer:40814527",
+"freelancer:40814539",
+"freelancer:40820519",
+"freelancer:40820529",
+"freelancer:40820534",
+"freelancer:40820537",
+"freelancer:40820541",
+"freelancer:40820563",
+"freelancer:40820546",
+"freelancer:40820566",
+"freelancer:40820568",
+"freelancer:40820569",
+"freelancer:40820570",
+"freelancer:40820578",
+"freelancer:40820564",
+"freelancer:40820581",
+"freelancer:40820587",
+"freelancer:40820589",
+"freelancer:40820591",
+"freelancer:40820595",
+"freelancer:40820596",
+"twitter:2121353985789407625",
+"twitter:2121623283887919507",
+"twitter:2121991843659321725",
+"facebook:1686208626579840",
+"facebook:1686205299913506",
+"facebook:1870033470690465",
+"facebook:1870029264024219",
+"facebook:1870025730691239",
+"facebook:1789603342092404",
+"facebook:1789594998759905",
+"facebook:1869940394033106",
+"facebook:1681883500185736",
+"facebook:1686085726592130",
+"facebook:1789515952101143",
+"facebook:1686035746597128",
+"facebook:1681804133527006",
+"facebook:1789470782105660",
 "freelancer:40819527",
 "freelancer:40819534",
 "freelancer:40819604",
@@ -4393,10 +4440,10 @@
 "runs": {
 "facebook": 1793013059,
 "linkedin": 1792900970,
-"twitter": 1794744292,
-"freelancer": 1794797555,
-"reddit": 1794797556,
-"fbgroups": 1794797406,
+"twitter": 1794825053,
+"freelancer": 1794825182,
+"reddit": 1794825182,
+"fbgroups": 1794825042,
 "fbsearch": 1794797417
 },
 "counters": {
@@ -4408,7 +4455,7 @@
 "gemini:2026-10-29": 123.0,
 "gemini:2026-10-30": 146.0,
 "gemini:2026-10-31": 114.0,
-"brightdata:records:2026-11": 762.0,
+"brightdata:records:2026-11": 778.0,
 "gemini:2026-11-01": 135.0,
 "gemini:2026-11-02": 105.0,
 "gemini:2026-11-03": 134.0,
@@ -4424,46 +4471,15 @@
 "gemini:2026-11-13": 119.0,
 "gemini:2026-11-14": 153.0,
 "gemini:2026-11-15": 104.0,
-"gemini:2026-11-16": 31.0
+"gemini:2026-11-16": 61.0
 },
 "leads": [],
 "stats": {
-"leads_total": 7,
-"seen_total": 4389,
-"pending_proposals": 5
+"leads_total": 0,
+"seen_total": 4436,
+"pending_proposals": 4
 },
 "pending_proposals": [
-{
-"id": "freelancer:40817417",
-"payload": {
-"id": "freelancer:40817417",
-"source": "freelancer",
-"title": "App Gestión Documental Integral -- 2",
-"text": "Necesito desarrollar una aplicación empresarial que centralice toda la gestión documental y los procesos de atención al cliente de una distribuidora eléctrica. El primer hito debe ser un módulo de Atención al Cliente y Call Center totalmente operativo. \n\nPrioridad inicial  \n• Registrar solicitudes, quejas y reclamos en tiempo real.  \n• Consultar de inmediato el historial del cliente con sus contratos y pagos.  \n• Asignar cada caso a un agente y hacerle seguimiento hasta su cierre, con alertas de estatus.\n\nAl completarse ese módulo, la misma plataforma deberá abarcar:  \n– Gestión y archivo digital de contratos, expedientes y documentos legales.  \n– Organización de facturas, recibos y comprobantes de pago.  \n– Control de informes técnicos, órdenes de trabajo y planos.  \n– Cobros en cajas, conciliación de pagos y reportes.  \n– Paneles internos de reportes y métricas operativas.\n\nRequiero código fuente bien documentado, base de datos estructurada para búsqueda ágil y una interfaz web responsive (framework a tu elección mientras garantice escalabilidad y buenas prácticas). Valoro integraciones estándar (REST, OAuth) y un flujo de despliegue que permita pruebas continuas.\n\nIndica tu experiencia en proyectos similares y la metodología que aplicarías para entregarme primero el módulo de atención y luego el resto de la solución.\nPresupuesto: 250.0-750.0 USD\nSkills: Project Management, Customer Support, User Interface / IA, Agile Development, Web Development, Database Management",
-"url": "https://www.freelancer.com/projects/app-development/App-Gesti-Documental-Integral",
-"author": "",
-"extra": {
-"bids": 93,
-"bid_avg": 406.31182795698925,
-"budget": "Presupuesto: 250.0-750.0 USD",
-"budget_min": 250.0,
-"budget_max": 750.0,
-"currency": "USD",
-"price_type": "fixed",
-"hourly_commitment": null,
-"escrow": false,
-"country": null,
-"lang": "es"
-},
-"language": "es",
-"score": 90,
-"summary": "Distribuidora eléctrica necesita desarrollar una aplicación web de gestión documental y atención al cliente con múltiples módulos.",
-"opener": "Hola, vi tu requerimiento para la aplicación de gestión documental y atención al cliente. Tengo experiencia desarrollando plataformas web escalables y sistemas a medida.",
-"location": null
-},
-"created": 1794645201,
-"attempts": 5
-},
 {
 "id": "freelancer:40818486",
 "payload": {
@@ -4493,7 +4509,7 @@
 "location": null
 },
 "created": 1794699864,
-"attempts": 0
+"attempts": 1
 },
 {
 "id": "freelancer:40818650",

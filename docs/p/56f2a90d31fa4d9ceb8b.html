@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow"><title>Website Pencatatan Bisnis Online</title>
+<style>
+:root{--c:#1e88e5;}
+*{box-sizing:border-box}body{margin:0;background:#0f141b;color:#e6edf3;font:15px/1.55 -apple-system,Segoe UI,Roboto,Inter,sans-serif}
+.wrap{max-width:720px;margin:0 auto;padding:18px 16px 60px}
+.src{display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--c);border:1px solid var(--c);border-radius:999px;padding:4px 10px}
+h1{color:var(--c);font-size:22px;line-height:1.25;margin:12px 0 6px}
+.meta{color:#94a3b8;font-size:13px;margin-bottom:14px}
+.card{background:#161d27;border:1px solid #243041;border-radius:14px;padding:16px;margin:12px 0}
+.card h2{margin:0 0 10px;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:#94a3b8}
+.kpis{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.kpi{background:#0f141b;border:1px solid #243041;border-radius:12px;padding:12px;text-align:center}
+.kpi b{display:block;font-size:24px;color:var(--c)}.kpi span{font-size:12px;color:#94a3b8}
+.content{font-weight:700;white-space:pre-wrap;word-wrap:break-word}
+.proposal{white-space:pre-wrap;word-wrap:break-word;font-weight:600}
+.muted{color:#94a3b8;font-size:13px}
+.btn{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;padding:14px;border-radius:12px;border:0;font-weight:700;font-size:16px;cursor:pointer;background:var(--c);color:#fff;margin-top:10px}
+.btn.alt{background:#243041;color:#e6edf3}
+.btn:active{transform:scale(.99)}
+.toast{position:fixed;left:50%;bottom:22px;transform:translateX(-50%);background:#22c55e;color:#06130a;font-weight:700;padding:10px 16px;border-radius:999px;opacity:0;transition:opacity .2s}
+.toast.show{opacity:1}
+a{color:var(--c)}
+</style></head><body><div class="wrap">
+<span class="src">🔵 Freelancer &middot; Lead 90/100</span>
+<h1>Website Pencatatan Bisnis Online</h1>
+<div class="meta">Emprendedor necesita un sitio web responsivo para el registro y control de ventas, clientes y pagos de su negocio online.</div>
+<div class="card"><h2>Mensaje sugerido para abrir</h2><div class="proposal">Hola, vi tu proyecto para el sistema de registro de negocios online y tengo experiencia creando dashboards y paneles administrativos eficientes. ¿Conversamos?</div><button class="btn" onclick="copyOpener()">📋 Copiar mensaje</button></div>
+<div class="card"><h2>Publicación original</h2><div class="content">Website Pencatatan Bisnis Online
+Saya membutuhkan sebuah website responsif yang dapat diakses di semua perangkat untuk keperluan pencatatan bisnis. Fokus utamanya adalah mencatat dan menampilkan data penjualan, pelanggan, serta pembayaran dalam satu sistem terpadu.
+
+Ruang lingkup pekerjaan:
+• Rancang antarmuka bersih dan mudah digunakan, baik di desktop maupun seluler.  
+• Buat modul input data penjualan yang terhubung langsung dengan database.  
+• Sertakan menu khusus pelanggan untuk menambah, mengedit, dan mengarsipkan informasi mereka.  
+• Bangun fitur pencatatan pembayaran berikut status pelunasan agar saya dapat memantau arus kas dengan cepat.  
+• Tampilkan ringkasan data dalam dashboard—grafik sederhana atau tabel dinamis—agar tren penjualan mudah dipahami.  
+• Pastikan ada opsi ekspor (CSV atau Excel) untuk laporan penjualan dan pembayaran.
+
+Persyaratan teknis:
+• Teknologi web modern (contoh: React, Vue, atau plain PHP + MySQL) dipersilakan; silakan pilih stack yang paling efisien bagi Anda.  
+• Situs harus responsif tanpa memerlukan aplikasi terpisah, sehingga kompatibel di Android, iOS, dan desktop.  
+• Sertakan dokumentasi singkat tentang cara menginstal dan memelihara sistem.
+
+Hasil akhir yang saya harapkan adalah website siap pakai lengkap dengan database terpasang, akun admin pertama, dan panduan singkat pengguna.
+Presupuesto: 250.0-750.0 USD
+Skills: PHP, JavaScript, Website Design, Graphic Design, CSS, HTML</div>
+<a class="btn alt" href="https://www.freelancer.com/projects/css/Website-Pencatatan-Bisnis-Online" target="_blank" rel="noopener">Abrir publicación en Freelancer</a></div>
+<div class="muted">Generado 2026-11-17 15:30 &middot; Dev Lead Hunter</div>
+<div class="toast" id="toast">Copiado</div>
+<textarea id="clip" style="position:fixed;left:-9999px;top:0"></textarea>
+<script>
+const DATA={"proposal": "", "opener": "Hola, vi tu proyecto para el sistema de registro de negocios online y tengo experiencia creando dashboards y paneles administrativos eficientes. ¿Conversamos?", "question": ""};
+function toast(t){const e=document.getElementById('toast');e.textContent=t;e.classList.add('show');setTimeout(()=>e.classList.remove('show'),1600);}
+async function copyText(t,label){try{await navigator.clipboard.writeText(t);toast(label||'Copiado');}catch(e){const ta=document.getElementById('clip');ta.value=t;ta.select();document.execCommand('copy');toast(label||'Copiado');}}
+function copyProposal(){copyText(DATA.proposal,'Propuesta copiada');}
+function copyOpener(){copyText(DATA.opener,'Mensaje copiado');}
+function copyAll(){copyText(DATA.proposal+"\n\n"+(DATA.question?('Pregunta: '+DATA.question):''),'Todo copiado');}
+</script></div></body></html>

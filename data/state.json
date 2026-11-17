@@ -1,5 +1,37 @@
 {
 "seen": [
+"freelancer:40821201",
+"freelancer:40822087",
+"freelancer:40822100",
+"freelancer:40822121",
+"freelancer:40822171",
+"freelancer:40822239",
+"freelancer:40822271",
+"freelancer:40822372",
+"freelancer:40822392",
+"freelancer:40822420",
+"freelancer:40822447",
+"freelancer:40822455",
+"freelancer:40822461",
+"freelancer:40822460",
+"freelancer:40822472",
+"freelancer:40822487",
+"freelancer:40822499",
+"freelancer:40822500",
+"freelancer:40822514",
+"freelancer:40822520",
+"freelancer:40822523",
+"freelancer:40822528",
+"freelancer:40822537",
+"freelancer:40822534",
+"freelancer:40822543",
+"freelancer:40822547",
+"freelancer:40822549",
+"freelancer:40821548",
+"freelancer:40822557",
+"freelancer:40822559",
+"freelancer:40822561",
+"freelancer:40822565",
 "freelancer:40820919",
 "freelancer:40821583",
 "freelancer:40821603",
@@ -4551,10 +4583,10 @@
 "facebook": 1793013059,
 "linkedin": 1792900970,
 "twitter": 1794885278,
-"freelancer": 1794885486,
-"reddit": 1794885486,
-"fbgroups": 1794885268,
-"fbsearch": 1794861815
+"freelancer": 1794917216,
+"reddit": 1794917216,
+"fbgroups": 1794917051,
+"fbsearch": 1794917061
 },
 "counters": {
 "gemini:2026-10-25": 260.0,
@@ -4582,77 +4614,15 @@
 "gemini:2026-11-14": 153.0,
 "gemini:2026-11-15": 104.0,
 "gemini:2026-11-16": 100.0,
-"gemini:2026-11-17": 33.0
+"gemini:2026-11-17": 65.0
 },
 "leads": [],
 "stats": {
-"leads_total": 5,
-"seen_total": 4546,
-"pending_proposals": 4
+"leads_total": 4,
+"seen_total": 4578,
+"pending_proposals": 2
 },
 "pending_proposals": [
-{
-"id": "freelancer:40818650",
-"payload": {
-"id": "freelancer:40818650",
-"source": "freelancer",
-"title": "Academia Oposiciones WordPress y Moodle",
-"text": "Quiero poner en marcha una academia online para preparar las oposiciones a Policía Nacional y necesito a alguien que se encargue de todo el apartado técnico para que yo pueda centrarme en el contenido. Ya dispongo del temario, los test y el material en vídeo y PDF; lo que falta es la plataforma que lo haga accesible a mis futuros alumnos mediante una suscripción mensual o anual.\n\nLa idea es montar la web pública en WordPress y alojar el área formativa en Moodle totalmente integrado, de forma que el alumno use una sola cuenta para ambas zonas. Además, necesito que la pasarela de pago quede lista para cobrar esas suscripciones de manera automática y segura.\n\nEn la parte de test quiero tres funciones imprescindibles:\n• Test por temas con resultados al finalizar  \n• Tests cronometrados que simulen el examen oficial  \n• Seguimiento del progreso y revisión de respuestas falladas  \n\nAl lanzar la academia el alumno debe encontrar: temario correspondiente a ese periodo, los test configurados y vinculados, vídeos explicativos y material descargable adicional.\n\nEntrego todo el contenido organizado; tu trabajo consistirá en:\n• Diseñar y maquetar la web corporativa en WordPress  \n• Instalar y configurar Moodle, enlazándolo con WordPress  \n• Configurar la pasarela de pago para la suscripción  \n• Volcar algo de temario, vídeos, test y material descargable  y que me enseñes en video tutorial como seguir haciéndolo yo.\n• Contratar dominio y hosting (puedo asumir el coste, solo necesito tu gestión)  \n• Darme una sesión formativa en la que me expliques, paso a paso, cómo mantener la plataforma, subir nuevo contenido y revisar estadísticas  \n\nBusco una solución estable y bien documentada; si ya has trabajado con Moodle y WooCommerce Subscriptions o sistemas similares, menciona ejemplos. Tras la entrega, revisaré que el flujo de alta, acceso a contenidos y realización de test funcione sin errores antes de dar por finalizado el proyecto.\nPresupuesto: 250.0-750.0 EUR\nSkills: PHP, Website Design, WordPress, HTML, Moodle, WooCommerce",
-"url": "https://www.freelancer.com/projects/web-development/Academia-Oposiciones-WordPress-Moodle",
-"author": "",
-"extra": {
-"bids": 122,
-"bid_avg": 413.9672131147541,
-"budget": "Presupuesto: 250.0-750.0 EUR",
-"budget_min": 250.0,
-"budget_max": 750.0,
-"currency": "EUR",
-"price_type": "fixed",
-"hourly_commitment": null,
-"escrow": false,
-"country": null,
-"lang": "es"
-},
-"language": "es",
-"score": 95,
-"summary": "Emprendedor necesita desarrollar academia online en WordPress y Moodle con pasarela de pago y sistema de exámenes para policía nacional.",
-"opener": "Hola, vi tu proyecto para la academia online de oposiciones y tengo experiencia integrando WordPress con Moodle y pasarelas de pago. ¿Conversamos?",
-"location": null
-},
-"created": 1794715792,
-"attempts": 1
-},
-{
-"id": "freelancer:40818568",
-"payload": {
-"id": "freelancer:40818568",
-"source": "freelancer",
-"title": "Asistente WhatsApp Respuestas Automáticas",
-"text": "Quiero implementar un asistente en WhatsApp que responda de forma automática las preguntas frecuentes de mis clientes.  \nEl alcance es simple y muy concreto: solo debe contestar consultas sobre horarios de atención, ubicación y formas de contacto de mi negocio.\n\nCómo trabajaremos  \n• Yo te entregaré toda la información de horarios, dirección, teléfonos y cualquier otro dato necesario para que la cargues en el bot.  \n• El asistente tendrá que reconocer variantes comunes de estas preguntas y devolver la respuesta exacta de inmediato.  \n• Debe funcionar dentro de mi número de WhatsApp Business, preferentemente usando la API oficial o una plataforma confiable como Twilio, Dialogflow, ManyChat u otra que domines.  \n• Necesito un pequeño panel, script o documento claro donde pueda actualizar esos datos sin depender de código cada vez que cambien.  \n• Quiero pruebas en tiempo real para verificar que las respuestas se envían correctamente y con el formato adecuado (texto limpio, sin errores ortográficos).  \n\nEntregables  \n1. Configuración completa del bot en mi cuenta de WhatsApp Business.  \n2. Base de conocimientos cargada con horarios, ubicación y contacto.  \n3. Instrucciones paso a paso (video corto o PDF) para que yo pueda editar la información.  \n4. Soporte breve tras la entrega para ajustes menores si algo no queda claro.\n\nBusco a alguien que ya haya armado asistentes similares y conozca los límites y políticas de WhatsApp. Si tienes ejemplos o cuentas activas donde pueda ver tu trabajo, inclúyelos en tu propuesta.\nPresupuesto: 10.0-30.0 USD\nSkills: PHP, JavaScript, C# Programming, Software Architecture, Twilio, Chatbot",
-"url": "https://www.freelancer.com/projects/chatbot/Asistente-WhatsApp-Respuestas-Autom",
-"author": "",
-"extra": {
-"bids": 58,
-"bid_avg": 25.813793103448276,
-"budget": "Presupuesto: 10.0-30.0 USD",
-"budget_min": 10.0,
-"budget_max": 30.0,
-"currency": "USD",
-"price_type": "fixed",
-"hourly_commitment": null,
-"escrow": false,
-"country": null,
-"lang": "es"
-},
-"language": "es",
-"score": 90,
-"summary": "Dueño de negocio necesita implementar un bot de WhatsApp automatizado para responder preguntas frecuentes sobre horarios y ubicación.",
-"opener": "Hola, vi tu proyecto para automatizar respuestas en WhatsApp Business y tengo experiencia integrando bots con Twilio y Dialogflow. ¿Podemos conversar?",
-"location": null
-},
-"created": 1794715844,
-"attempts": 0
-},
 {
 "id": "freelancer:40819788",
 "payload": {
@@ -4682,7 +4652,7 @@
 "location": null
 },
 "created": 1794797520,
-"attempts": 0
+"attempts": 1
 },
 {
 "id": "freelancer:40820943",
@@ -4716,5 +4686,8 @@
 "attempts": 0
 }
 ],
-"meta": {}
+"meta": {
+"brightdata:snapshot": "sd_mwkn0mjt1j48282se2",
+"brightdata:snapshot_ts": "1794916628"
+}
 }

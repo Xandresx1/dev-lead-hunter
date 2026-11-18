@@ -1,5 +1,54 @@
 {
 "seen": [
+"freelancer:40823332",
+"freelancer:40823841",
+"freelancer:40823894",
+"freelancer:40823928",
+"freelancer:40823961",
+"freelancer:40824024",
+"freelancer:40824034",
+"freelancer:40824052",
+"freelancer:40824056",
+"freelancer:40824065",
+"freelancer:40824092",
+"freelancer:40824123",
+"freelancer:40824142",
+"freelancer:40824147",
+"freelancer:40824149",
+"freelancer:40824170",
+"freelancer:40824182",
+"freelancer:40824185",
+"freelancer:40824112",
+"freelancer:40824189",
+"freelancer:40824195",
+"freelancer:40824196",
+"freelancer:40824204",
+"freelancer:40824207",
+"freelancer:40824210",
+"freelancer:40824211",
+"freelancer:40824221",
+"freelancer:40824213",
+"facebook:2933933396974598",
+"facebook:1683440670030019",
+"facebook:1683377963369623",
+"facebook:4243628112434642",
+"facebook:1687917366408966",
+"facebook:1687906386410064",
+"facebook:1687906289743407",
+"facebook:1871677133859432",
+"facebook:1871676000526212",
+"facebook:1871673933859752",
+"facebook:1871673427193136",
+"facebook:1791248208594584",
+"facebook:1791227895263282",
+"facebook:2934070703627534",
+"facebook:1791220571930681",
+"facebook:1683582980015788",
+"facebook:1683556490018437",
+"facebook:4243798405750946",
+"facebook:2933952550306016",
+"facebook:4243776122419841",
+"facebook:2933935613641043",
 "freelancer:40823220",
 "freelancer:40823277",
 "freelancer:40823341",
@@ -4679,9 +4728,9 @@
 "facebook": 1793013059,
 "linkedin": 1792900970,
 "twitter": 1794947285,
-"freelancer": 1794969835,
-"reddit": 1794969835,
-"fbgroups": 1794969672,
+"freelancer": 1794998487,
+"reddit": 1794998487,
+"fbgroups": 1794998363,
 "fbsearch": 1794969687
 },
 "counters": {
@@ -4693,7 +4742,7 @@
 "gemini:2026-10-29": 123.0,
 "gemini:2026-10-30": 146.0,
 "gemini:2026-10-31": 114.0,
-"brightdata:records:2026-11": 830.0,
+"brightdata:records:2026-11": 854.0,
 "gemini:2026-11-01": 135.0,
 "gemini:2026-11-02": 105.0,
 "gemini:2026-11-03": 134.0,
@@ -4711,46 +4760,15 @@
 "gemini:2026-11-15": 104.0,
 "gemini:2026-11-16": 100.0,
 "gemini:2026-11-17": 105.0,
-"gemini:2026-11-18": 30.0
+"gemini:2026-11-18": 58.0
 },
 "leads": [],
 "stats": {
-"leads_total": 7,
-"seen_total": 4674,
-"pending_proposals": 3
+"leads_total": 4,
+"seen_total": 4723,
+"pending_proposals": 2
 },
 "pending_proposals": [
-{
-"id": "freelancer:40819788",
-"payload": {
-"id": "freelancer:40819788",
-"source": "freelancer",
-"title": "Portal Escorts con Perfiles Privados",
-"text": "Quiero lanzar un portal web para escorts donde cada perfil muestre fotos, descripción y datos de contacto, pero estos últimos solo se revelen a los visitantes que se registren. El registro debe ser muy sencillo: correo electrónico y contraseña, con confirmación por e-mail.\n\nAlcance principal\n• Listado de perfiles de escorts con galería fotográfica y sección de contacto.  \n• Sistema de registro e inicio de sesión que valide el correo y oculte/ revele la información de contacto según el estado del usuario.  \n• Panel de administración para que yo pueda crear, editar, activar o desactivar perfiles.  \n• Diseño responsivo y amigable para móviles y escritorio.  \n• Código bien organizado y documentado para facilitar futuras ampliaciones (por ejemplo, filtros de búsqueda o autogestión de perfiles).\n\nEntregables\n- Sitio funcional instalado en mi servidor de pruebas.  \n- Base de datos configurada y archivo de respaldo.  \n- Manual rápido de despliegue y uso del panel.  \n- Acceso a repositorio o paquete completo del código fuente.\n\nPreferiría una solución en WordPress, Laravel u otro framework PHP que garantice rendimiento y seguridad, pero estoy abierto a recomendaciones siempre que el resultado cumpla con los puntos anteriores.\nPresupuesto: 250.0-750.0 EUR\nSkills: PHP, Website Design, Graphic Design, Web Security, WordPress, MySQL",
-"url": "https://www.freelancer.com/projects/wordpress/Portal-Escorts-con-Perfiles-Privados",
-"author": "",
-"extra": {
-"bids": 131,
-"bid_avg": 396.206106870229,
-"budget": "Presupuesto: 250.0-750.0 EUR",
-"budget_min": 250.0,
-"budget_max": 750.0,
-"currency": "EUR",
-"price_type": "fixed",
-"hourly_commitment": null,
-"escrow": false,
-"country": null,
-"lang": "es"
-},
-"language": "es",
-"score": 90,
-"summary": "Cliente busca desarrollador para crear un portal web de perfiles con sistema de registro y panel de administración.",
-"opener": "Hola, vi tu proyecto para el portal web con perfiles privados y panel de administración. Tengo experiencia en PHP, Laravel y WordPress. ¿Podemos conversar sobre los detalles?",
-"location": null
-},
-"created": 1794797520,
-"attempts": 3
-},
 {
 "id": "freelancer:40820943",
 "payload": {
@@ -4780,7 +4798,7 @@
 "location": "Buenos Aires, Argentina"
 },
 "created": 1794862024,
-"attempts": 0
+"attempts": 1
 },
 {
 "id": "freelancer:40823553",
@@ -4814,8 +4832,5 @@
 "attempts": 0
 }
 ],
-"meta": {
-"brightdata:snapshot": "sd_mwlicfql2avzoe9ici",
-"brightdata:snapshot_ts": "1794969247"
-}
+"meta": {}
 }

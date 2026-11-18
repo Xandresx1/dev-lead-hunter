@@ -1,5 +1,41 @@
 {
 "seen": [
+"freelancer:40823220",
+"freelancer:40823277",
+"freelancer:40823341",
+"freelancer:40823348",
+"freelancer:40823349",
+"freelancer:40823361",
+"freelancer:40823396",
+"freelancer:40823398",
+"freelancer:40823400",
+"freelancer:40823418",
+"freelancer:40823419",
+"freelancer:40823443",
+"freelancer:40823451",
+"freelancer:40823497",
+"freelancer:40823504",
+"freelancer:40823510",
+"freelancer:40823511",
+"freelancer:40823514",
+"freelancer:40823520",
+"freelancer:40823524",
+"freelancer:40823530",
+"freelancer:40823539",
+"freelancer:40823544",
+"freelancer:40823547",
+"freelancer:40823543",
+"freelancer:40823553",
+"freelancer:40814702",
+"freelancer:40823555",
+"freelancer:40823556",
+"freelancer:40823519",
+"freelancer:40823558",
+"facebook:3489146744596545",
+"facebook:2329650554276878",
+"facebook:1132442052998851",
+"facebook:1165447355939081",
+"facebook:1149902081152642",
 "freelancer:40822826",
 "freelancer:40822885",
 "freelancer:40822890",
@@ -4643,10 +4679,10 @@
 "facebook": 1793013059,
 "linkedin": 1792900970,
 "twitter": 1794947285,
-"freelancer": 1794947503,
-"reddit": 1794947503,
-"fbgroups": 1794947279,
-"fbsearch": 1794917061
+"freelancer": 1794969835,
+"reddit": 1794969835,
+"fbgroups": 1794969672,
+"fbsearch": 1794969687
 },
 "counters": {
 "gemini:2026-10-25": 260.0,
@@ -4674,13 +4710,14 @@
 "gemini:2026-11-14": 153.0,
 "gemini:2026-11-15": 104.0,
 "gemini:2026-11-16": 100.0,
-"gemini:2026-11-17": 105.0
+"gemini:2026-11-17": 105.0,
+"gemini:2026-11-18": 30.0
 },
 "leads": [],
 "stats": {
-"leads_total": 10,
-"seen_total": 4638,
-"pending_proposals": 2
+"leads_total": 7,
+"seen_total": 4674,
+"pending_proposals": 3
 },
 "pending_proposals": [
 {
@@ -4712,7 +4749,7 @@
 "location": null
 },
 "created": 1794797520,
-"attempts": 2
+"attempts": 3
 },
 {
 "id": "freelancer:40820943",
@@ -4744,7 +4781,41 @@
 },
 "created": 1794862024,
 "attempts": 0
+},
+{
+"id": "freelancer:40823553",
+"payload": {
+"id": "freelancer:40823553",
+"source": "freelancer",
+"title": "Desarrollar Juego Roblox de Supervivencia",
+"text": "Quiero lanzar en Roblox un juego de supervivencia ambientado en un bosque oscuro y peligroso. La premisa central combina la recolección de recursos, la construcción de refugios, el combate contra criaturas hostiles y la cooperación entre jugadores que formen equipos para mantenerse con vida.\n\nLo que busco que entregues:\n• Un mapa forestal inmersivo con zonas de riesgo, cuevas y puntos estratégicos para construir bases.  \n• Sistema de recolección y crafting: árboles talables, minerales extraíbles y una mesa de trabajo donde fabricar herramientas, armas y estructuras defensivas.  \n• IA básica para monstruos nocturnos que patrullen, persigan y ataquen; balanceada para jugar en solitario o en escuadrón.  \n• Mecánicas de equipo: creación de clanes, intercambio de recursos y chat de proximidad.  \n• Interfaz intuitiva (pantallas de inventario, salud, hambre y construcción) con notificaciones claras.  \n• Guardado de progreso mediante DataStore, de modo que inventario y construcciones persistan entre sesiones.  \n• Documentación breve del código Lua y comentarios clave para futuras expansiones.\n\nTrabajo principalmente con Roblox Studio y Lua, así que valoro prácticas limpias, módulos reutilizables y el uso de RemoteEvents para la comunicación cliente-servidor. Un prototipo funcional con arte provisional me basta en la primera versión; después podremos iterar sobre optimización de rendimiento, efectos visuales y monetización opcional.\n\nIndícame en tu propuesta ejemplos de proyectos similares, tiempo estimado para la primera entrega jugable y cualquier sugerencia técnica que mejore la experiencia de supervivencia multijugador.\nPresupuesto: 30.0-250.0 USD\nSkills: PHP, JavaScript, Graphic Design, Game Design, Software Architecture, Game Development",
+"url": "https://www.freelancer.com/projects/game-development/Desarrollar-Juego-Roblox-Supervivencia",
+"author": "",
+"extra": {
+"bids": 44,
+"bid_avg": 146.29545454545453,
+"budget": "Presupuesto: 30.0-250.0 USD",
+"budget_min": 30.0,
+"budget_max": 250.0,
+"currency": "USD",
+"price_type": "fixed",
+"hourly_commitment": null,
+"escrow": false,
+"country": null,
+"lang": "es"
+},
+"language": "es",
+"score": 90,
+"summary": "Emprendedor busca desarrollador en Roblox Studio y Lua para crear un juego de supervivencia multijugador con sistemas de crafting, IA y guardado.",
+"opener": "Hola, vi tu proyecto para el juego de supervivencia en Roblox. Tengo experiencia en Roblox Studio y Lua, y me gustaría ayudarte a desarrollar el prototipo funcional. ¿Podemos conversar?",
+"location": null
+},
+"created": 1794969717,
+"attempts": 0
 }
 ],
-"meta": {}
+"meta": {
+"brightdata:snapshot": "sd_mwlicfql2avzoe9ici",
+"brightdata:snapshot_ts": "1794969247"
+}
 }

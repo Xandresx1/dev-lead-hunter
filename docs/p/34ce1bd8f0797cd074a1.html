@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow"><title>WordPress Event Registration Integration</title>
+<style>
+:root{--c:#1e88e5;}
+*{box-sizing:border-box}body{margin:0;background:#0f141b;color:#e6edf3;font:15px/1.55 -apple-system,Segoe UI,Roboto,Inter,sans-serif}
+.wrap{max-width:720px;margin:0 auto;padding:18px 16px 60px}
+.src{display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--c);border:1px solid var(--c);border-radius:999px;padding:4px 10px}
+h1{color:var(--c);font-size:22px;line-height:1.25;margin:12px 0 6px}
+.meta{color:#94a3b8;font-size:13px;margin-bottom:14px}
+.card{background:#161d27;border:1px solid #243041;border-radius:14px;padding:16px;margin:12px 0}
+.card h2{margin:0 0 10px;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:#94a3b8}
+.kpis{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.kpi{background:#0f141b;border:1px solid #243041;border-radius:12px;padding:12px;text-align:center}
+.kpi b{display:block;font-size:24px;color:var(--c)}.kpi span{font-size:12px;color:#94a3b8}
+.content{font-weight:700;white-space:pre-wrap;word-wrap:break-word}
+.proposal{white-space:pre-wrap;word-wrap:break-word;font-weight:600}
+.muted{color:#94a3b8;font-size:13px}
+.btn{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;padding:14px;border-radius:12px;border:0;font-weight:700;font-size:16px;cursor:pointer;background:var(--c);color:#fff;margin-top:10px}
+.btn.alt{background:#243041;color:#e6edf3}
+.btn:active{transform:scale(.99)}
+.toast{position:fixed;left:50%;bottom:22px;transform:translateX(-50%);background:#22c55e;color:#06130a;font-weight:700;padding:10px 16px;border-radius:999px;opacity:0;transition:opacity .2s}
+.toast.show{opacity:1}
+a{color:var(--c)}
+</style></head><body><div class="wrap">
+<span class="src">🔵 Freelancer &middot; Lead 90/100</span>
+<h1>WordPress Event Registration Integration</h1>
+<div class="meta">Un cliente busca un freelancer para integrar un sistema de registro de eventos en WordPress con Stripe y Brevo, incluyendo automatizaciones de pago y correos.</div>
+<div class="card"><h2>Mensaje sugerido para abrir</h2><div class="proposal">Hi, I can help you set up this complete WordPress, Stripe, and Brevo event registration and automation flow. Are you ready to get started?</div><button class="btn" onclick="copyOpener()">📋 Copiar mensaje</button></div>
+<div class="card"><h2>Publicación original</h2><div class="content">WordPress Event Registration Integration
+I’m setting up an event on my WordPress site and need the full registration flow put in place.  
+
+Scope of work  
+– Build or configure the WordPress form and map it to Stripe Checkout.  
+
+WordPress, Brevo &amp; Stripe – flow process for events that is repeatable in the future and can be moved to a new website in the near future
+
+1. Project Objective
+Build one complete, working event registration, payment, with email communication system using the existing WordPress website, Brevo account, and Stripe account integration.
+The system must support a repeatable setup to be used for independent events while only changing the event details each time. 
+The client will provide all email content and event-specific information.
+The freelancer is responsible for building the flow with technical configuration, integration, automation logic, basic testing, and written documentation to sign off. The automation is to come from the existing aspects of Registration form, Brevo and Stripe
+Basic Concept of flow
+Brevo Flow =
+Registration form on wordpress event page&gt;submit will add to an event list and main list&gt;sends email of registration to client and admin &gt;takes client to stripe payment link&gt;
+On payment &gt; adds client to secondary list of paid and if they do not pay to an Unpaid relevant to the event name and list
+2 Days prior  to the event email goes to unpaid list as a reminder for payment &gt; if they pay the persons registration gets added to the paid list
+8 hours prior to the event &gt; email with event details gets sent to paid list
+Anyone registering and pays after this window gets added to the main list and the paid list and gets the event details via email
+People can register and pay up to the end of the event
+Email to be sent post event manual timing for the recordings.
+
+– Connect the successful payment webhook to Brevo so the confirmation email fires instantly.  
+– Style the email template inside Brevo to match my existing brand colors and add a calendar-add link
+– Test the entire flow end-to-end in both Stripe test mode and live mode, fixing any field mapping or formatting issues you notice.  
+– Hand over clear instructions (or a short Loom) showing me how to update prices, dates, or email copy in the future.
+
+Acceptance criteria  
+1. A new user can register, pay, and receive the confirmation email without manual intervention.  
+2. All captured data appears in both WordPress form entries and the Brevo contact record.  
+3. No duplicate or missing records after multiple test submissions.  
+4. Visual styling matches the current site on desktop and mobile.
+
+Webpage is ready, the email content will be provided. 
+Please quote based on your expectation of payment from this listing. 
+If something needs to be added can be discussed. 
+Thanks for your attention to this !
+Presupuesto: 30.0-250.0 CAD
+Skills: Website Design, WordPress, Email Marketing, Stripe, Automation, Event Management</div>
+<a class="btn alt" href="https://www.freelancer.com/projects/stripe/WordPress-Event-Registration-Integration" target="_blank" rel="noopener">Abrir publicación en Freelancer</a></div>
+<div class="muted">Generado 2026-11-18 20:23 &middot; Dev Lead Hunter</div>
+<div class="toast" id="toast">Copiado</div>
+<textarea id="clip" style="position:fixed;left:-9999px;top:0"></textarea>
+<script>
+const DATA={"proposal": "", "opener": "Hi, I can help you set up this complete WordPress, Stripe, and Brevo event registration and automation flow. Are you ready to get started?", "question": ""};
+function toast(t){const e=document.getElementById('toast');e.textContent=t;e.classList.add('show');setTimeout(()=>e.classList.remove('show'),1600);}
+async function copyText(t,label){try{await navigator.clipboard.writeText(t);toast(label||'Copiado');}catch(e){const ta=document.getElementById('clip');ta.value=t;ta.select();document.execCommand('copy');toast(label||'Copiado');}}
+function copyProposal(){copyText(DATA.proposal,'Propuesta copiada');}
+function copyOpener(){copyText(DATA.opener,'Mensaje copiado');}
+function copyAll(){copyText(DATA.proposal+"\n\n"+(DATA.question?('Pregunta: '+DATA.question):''),'Todo copiado');}
+</script></div></body></html>

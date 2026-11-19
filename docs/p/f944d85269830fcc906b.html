@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow"><title>Comprehensive Web App Testing</title>
+<style>
+:root{--c:#1e88e5;}
+*{box-sizing:border-box}body{margin:0;background:#0f141b;color:#e6edf3;font:15px/1.55 -apple-system,Segoe UI,Roboto,Inter,sans-serif}
+.wrap{max-width:720px;margin:0 auto;padding:18px 16px 60px}
+.src{display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--c);border:1px solid var(--c);border-radius:999px;padding:4px 10px}
+h1{color:var(--c);font-size:22px;line-height:1.25;margin:12px 0 6px}
+.meta{color:#94a3b8;font-size:13px;margin-bottom:14px}
+.card{background:#161d27;border:1px solid #243041;border-radius:14px;padding:16px;margin:12px 0}
+.card h2{margin:0 0 10px;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:#94a3b8}
+.kpis{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.kpi{background:#0f141b;border:1px solid #243041;border-radius:12px;padding:12px;text-align:center}
+.kpi b{display:block;font-size:24px;color:var(--c)}.kpi span{font-size:12px;color:#94a3b8}
+.content{font-weight:700;white-space:pre-wrap;word-wrap:break-word}
+.proposal{white-space:pre-wrap;word-wrap:break-word;font-weight:600}
+.muted{color:#94a3b8;font-size:13px}
+.btn{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;padding:14px;border-radius:12px;border:0;font-weight:700;font-size:16px;cursor:pointer;background:var(--c);color:#fff;margin-top:10px}
+.btn.alt{background:#243041;color:#e6edf3}
+.btn:active{transform:scale(.99)}
+.toast{position:fixed;left:50%;bottom:22px;transform:translateX(-50%);background:#22c55e;color:#06130a;font-weight:700;padding:10px 16px;border-radius:999px;opacity:0;transition:opacity .2s}
+.toast.show{opacity:1}
+a{color:var(--c)}
+</style></head><body><div class="wrap">
+<span class="src">🔵 Freelancer &middot; Lead 90/100</span>
+<h1>Comprehensive Web App Testing</h1>
+<div class="meta">Propietario de aplicación web busca especialista en QA para pruebas funcionales, de rendimiento y seguridad antes del lanzamiento.</div>
+<div class="card"><h2>Mensaje sugerido para abrir</h2><div class="proposal">Hi! I saw your post regarding the comprehensive QA testing for your web app. I have strong experience in functional, performance, and security testing, and I can start right away.</div><button class="btn" onclick="copyOpener()">📋 Copiar mensaje</button></div>
+<div class="card"><h2>Publicación original</h2><div class="content">Comprehensive Web App Testing
+My site is ready for users, but before I launch I want absolute confidence that every feature works, pages load quickly, and no security holes remain. I’m looking for a tester who can run a full-spectrum quality-assurance pass that covers:  
+
+• Functional verification – pinpointing any broken links, buttons, forms, or workflows.  
+• Performance checks – measuring page-load speed, resource usage, and spotting bottlenecks.  
+• Security probing – identifying common vulnerabilities with OWASP-aligned methods.  
+
+The test must be performed on all common devices: desktops, laptops, tablets, and a range of mobile phones, so responsive behaviour and cross-browser rendering need to be part of the review. You’re free to use industry-standard tools you’re comfortable with (e.g., Selenium, Lighthouse, JMeter, Burp Suite) as long as results are clearly documented.
+
+Deliverables I expect at the end:  
+1. A concise report of every defect, performance issue, or vulnerability found, annotated with steps to reproduce and severity.  
+2. Screenshots or screen recordings where visual problems occur.  
+3. Recommendations for fixes or optimisations, prioritised by impact.  
+
+If you can start soon and give me an estimated timeline for the first pass, let’s talk.
+Presupuesto: 250.0-750.0 USD
+Skills: PHP, JavaScript, Testing / QA, Test Automation, Website Testing, Documentation</div>
+<a class="btn alt" href="https://www.freelancer.com/projects/web-testing/Comprehensive-Web-App-Testing-40825122" target="_blank" rel="noopener">Abrir publicación en Freelancer</a></div>
+<div class="muted">Generado 2026-11-18 20:21 &middot; Dev Lead Hunter</div>
+<div class="toast" id="toast">Copiado</div>
+<textarea id="clip" style="position:fixed;left:-9999px;top:0"></textarea>
+<script>
+const DATA={"proposal": "", "opener": "Hi! I saw your post regarding the comprehensive QA testing for your web app. I have strong experience in functional, performance, and security testing, and I can start right away.", "question": ""};
+function toast(t){const e=document.getElementById('toast');e.textContent=t;e.classList.add('show');setTimeout(()=>e.classList.remove('show'),1600);}
+async function copyText(t,label){try{await navigator.clipboard.writeText(t);toast(label||'Copiado');}catch(e){const ta=document.getElementById('clip');ta.value=t;ta.select();document.execCommand('copy');toast(label||'Copiado');}}
+function copyProposal(){copyText(DATA.proposal,'Propuesta copiada');}
+function copyOpener(){copyText(DATA.opener,'Mensaje copiado');}
+function copyAll(){copyText(DATA.proposal+"\n\n"+(DATA.question?('Pregunta: '+DATA.question):''),'Todo copiado');}
+</script></div></body></html>

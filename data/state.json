@@ -1,5 +1,55 @@
 {
 "seen": [
+"freelancer:40822587",
+"freelancer:40827911",
+"freelancer:40827963",
+"freelancer:40827953",
+"freelancer:40828016",
+"freelancer:40828051",
+"freelancer:40828064",
+"freelancer:40828072",
+"freelancer:40828095",
+"freelancer:40828093",
+"freelancer:40828096",
+"freelancer:40828112",
+"freelancer:40824837",
+"freelancer:40828134",
+"freelancer:40828139",
+"freelancer:40828148",
+"freelancer:40828151",
+"freelancer:40828161",
+"freelancer:40828152",
+"freelancer:40828182",
+"freelancer:40828183",
+"freelancer:40828190",
+"freelancer:40828208",
+"freelancer:40828193",
+"freelancer:40828213",
+"freelancer:40828214",
+"freelancer:40828221",
+"freelancer:40828202",
+"freelancer:40828226",
+"freelancer:40828224",
+"freelancer:40828228",
+"freelancer:40828229",
+"freelancer:40828231",
+"freelancer:40828232",
+"freelancer:40828235",
+"freelancer:40828236",
+"facebook:1686355613071858",
+"facebook:4249364145194372",
+"facebook:1686331379740948",
+"facebook:1690837706116932",
+"facebook:1690833576117345",
+"facebook:1874573043569841",
+"facebook:2938497679851503",
+"facebook:1794019648317440",
+"facebook:1794019044984167",
+"facebook:1794016591651079",
+"facebook:1794012788318126",
+"facebook:2938447196523218",
+"facebook:4249397571857696",
+"facebook:2938313719869899",
 "freelancer:40827395",
 "freelancer:40827330",
 "freelancer:40824589",
@@ -5129,9 +5179,9 @@
 "facebook": 1793013059,
 "linkedin": 1792900970,
 "twitter": 1795191878,
-"freelancer": 1795191963,
-"reddit": 1795191963,
-"fbgroups": 1795191845,
+"freelancer": 1795215098,
+"reddit": 1795215098,
+"fbgroups": 1795214937,
 "fbsearch": 1795191868
 },
 "counters": {
@@ -5143,7 +5193,7 @@
 "gemini:2026-10-29": 123.0,
 "gemini:2026-10-30": 146.0,
 "gemini:2026-10-31": 114.0,
-"brightdata:records:2026-11": 992.0,
+"brightdata:records:2026-11": 1015.0,
 "gemini:2026-11-01": 135.0,
 "gemini:2026-11-02": 105.0,
 "gemini:2026-11-03": 134.0,
@@ -5163,46 +5213,15 @@
 "gemini:2026-11-17": 105.0,
 "gemini:2026-11-18": 100.0,
 "gemini:2026-11-19": 107.0,
-"gemini:2026-11-20": 88.0
+"gemini:2026-11-20": 121.0
 },
 "leads": [],
 "stats": {
-"leads_total": 9,
-"seen_total": 5124,
-"pending_proposals": 7
+"leads_total": 6,
+"seen_total": 5174,
+"pending_proposals": 6
 },
 "pending_proposals": [
-{
-"id": "freelancer:40824814",
-"payload": {
-"id": "freelancer:40824814",
-"source": "freelancer",
-"title": "Automatización IA Calificación de Leads",
-"text": "Quiero poner en marcha cuanto antes un sistema de prospección outbound inteligente que vaya más allá del simple envío de correos. Mi prioridad es que la IA evalúe cada contacto y asigne una puntuación fiable sobre su probabilidad de compra para que mi equipo solo hable con los leads que realmente importan.  \n\nTrabajo principalmente con herramientas de outreach y CRM, así que necesito que la solución que propongas pueda integrarse sin fricciones con las plataformas habituales (HubSpot, Pipedrive, Apollo o similares). Aprecio enfoques basados en modelos propios, servicios como OpenAI o combinaciones con enrichment APIs si aportan un scoring más certero.  \n\nEntrego los flujos actuales y acceso a los sistemas necesarios; tú te encargarías de diseñar, configurar y dejar funcionando el motor de lead scoring, además de darme una breve guía de uso para que podamos iterar después. Busco resultados rápidos, por lo que valoro experiencia demostrable implementando IA SDR o automatizaciones de ventas.  \n\nIncluye en tu propuesta ejemplos concretos de trabajos previos donde hayas conseguido mejorar la tasa de reuniones o cierres mediante técnicas similares. Si podemos arrancar esta misma semana, perfecto: la urgencia es “ASAP”.\nPresupuesto: 250.0-750.0 USD\nSkills: Lead Generation, AI Chatbot, AI Model Development, AI Development, AI Integration, AI Automation",
-"url": "https://www.freelancer.com/projects/ai-model-development/Automatizaci-Calificaci-Leads",
-"author": "",
-"extra": {
-"bids": 79,
-"bid_avg": 408.7721518987342,
-"budget": "Presupuesto: 250.0-750.0 USD",
-"budget_min": 250.0,
-"budget_max": 750.0,
-"currency": "USD",
-"price_type": "fixed",
-"hourly_commitment": null,
-"escrow": false,
-"country": null,
-"lang": "es"
-},
-"language": "es",
-"score": 90,
-"summary": "Una empresa busca un desarrollador freelance para implementar un sistema de automatización y lead scoring con IA integrado a CRM.",
-"opener": "Hola, vi tu requerimiento para implementar un motor de lead scoring con IA y integrarlo a tu CRM. Tengo experiencia con OpenAI y automatización de ventas, ¿podemos conversar?",
-"location": null
-},
-"created": 1795028753,
-"attempts": 2
-},
 {
 "id": "freelancer:40825097",
 "payload": {
@@ -5232,7 +5251,7 @@
 "location": null
 },
 "created": 1795051300,
-"attempts": 0
+"attempts": 1
 },
 {
 "id": "freelancer:40826828",

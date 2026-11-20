@@ -1,5 +1,54 @@
 {
 "seen": [
+"freelancer:40823867",
+"freelancer:40826915",
+"freelancer:40825903",
+"freelancer:40826925",
+"freelancer:40826995",
+"freelancer:40826955",
+"freelancer:40826989",
+"freelancer:40827017",
+"freelancer:40827019",
+"freelancer:40827045",
+"freelancer:40827080",
+"freelancer:40827104",
+"freelancer:40827117",
+"freelancer:40827124",
+"freelancer:40827127",
+"freelancer:40827184",
+"freelancer:40827202",
+"freelancer:40827228",
+"freelancer:40827232",
+"freelancer:40827257",
+"freelancer:40827263",
+"freelancer:40827252",
+"freelancer:40827268",
+"freelancer:40827294",
+"freelancer:40827295",
+"freelancer:40827296",
+"freelancer:40827299",
+"freelancer:40827288",
+"freelancer:40827309",
+"freelancer:40827312",
+"freelancer:40827314",
+"freelancer:40827301",
+"freelancer:40827319",
+"facebook:1793209478398457",
+"facebook:1685623596478393",
+"facebook:4247806692016784",
+"facebook:4247700205360766",
+"facebook:2937007190000552",
+"facebook:1873842590309553",
+"facebook:1690071932860176",
+"facebook:1873821120311700",
+"facebook:1690067152860654",
+"facebook:1873813640312448",
+"facebook:1690056406195062",
+"facebook:1690051722862197",
+"facebook:1873779563649189",
+"facebook:1793245241728214",
+"facebook:1793241575061914",
+"facebook:1793231291729609",
 "freelancer:40826008",
 "freelancer:40826479",
 "freelancer:40826491",
@@ -5023,9 +5072,9 @@
 "facebook": 1793013059,
 "linkedin": 1792900970,
 "twitter": 1795110955,
-"freelancer": 1795133775,
-"reddit": 1795133775,
-"fbgroups": 1795133551,
+"freelancer": 1795159698,
+"reddit": 1795159698,
+"fbgroups": 1795159549,
 "fbsearch": 1795133560
 },
 "counters": {
@@ -5037,7 +5086,7 @@
 "gemini:2026-10-29": 123.0,
 "gemini:2026-10-30": 146.0,
 "gemini:2026-10-31": 114.0,
-"brightdata:records:2026-11": 957.0,
+"brightdata:records:2026-11": 973.0,
 "gemini:2026-11-01": 135.0,
 "gemini:2026-11-02": 105.0,
 "gemini:2026-11-03": 134.0,
@@ -5057,46 +5106,15 @@
 "gemini:2026-11-17": 105.0,
 "gemini:2026-11-18": 100.0,
 "gemini:2026-11-19": 107.0,
-"gemini:2026-11-20": 47.0
+"gemini:2026-11-20": 79.0
 },
 "leads": [],
 "stats": {
-"leads_total": 10,
-"seen_total": 5018,
-"pending_proposals": 8
+"leads_total": 7,
+"seen_total": 5067,
+"pending_proposals": 7
 },
 "pending_proposals": [
-{
-"id": "freelancer:40823553",
-"payload": {
-"id": "freelancer:40823553",
-"source": "freelancer",
-"title": "Desarrollar Juego Roblox de Supervivencia",
-"text": "Quiero lanzar en Roblox un juego de supervivencia ambientado en un bosque oscuro y peligroso. La premisa central combina la recolección de recursos, la construcción de refugios, el combate contra criaturas hostiles y la cooperación entre jugadores que formen equipos para mantenerse con vida.\n\nLo que busco que entregues:\n• Un mapa forestal inmersivo con zonas de riesgo, cuevas y puntos estratégicos para construir bases.  \n• Sistema de recolección y crafting: árboles talables, minerales extraíbles y una mesa de trabajo donde fabricar herramientas, armas y estructuras defensivas.  \n• IA básica para monstruos nocturnos que patrullen, persigan y ataquen; balanceada para jugar en solitario o en escuadrón.  \n• Mecánicas de equipo: creación de clanes, intercambio de recursos y chat de proximidad.  \n• Interfaz intuitiva (pantallas de inventario, salud, hambre y construcción) con notificaciones claras.  \n• Guardado de progreso mediante DataStore, de modo que inventario y construcciones persistan entre sesiones.  \n• Documentación breve del código Lua y comentarios clave para futuras expansiones.\n\nTrabajo principalmente con Roblox Studio y Lua, así que valoro prácticas limpias, módulos reutilizables y el uso de RemoteEvents para la comunicación cliente-servidor. Un prototipo funcional con arte provisional me basta en la primera versión; después podremos iterar sobre optimización de rendimiento, efectos visuales y monetización opcional.\n\nIndícame en tu propuesta ejemplos de proyectos similares, tiempo estimado para la primera entrega jugable y cualquier sugerencia técnica que mejore la experiencia de supervivencia multijugador.\nPresupuesto: 30.0-250.0 USD\nSkills: PHP, JavaScript, Graphic Design, Game Design, Software Architecture, Game Development",
-"url": "https://www.freelancer.com/projects/game-development/Desarrollar-Juego-Roblox-Supervivencia",
-"author": "",
-"extra": {
-"bids": 44,
-"bid_avg": 146.29545454545453,
-"budget": "Presupuesto: 30.0-250.0 USD",
-"budget_min": 30.0,
-"budget_max": 250.0,
-"currency": "USD",
-"price_type": "fixed",
-"hourly_commitment": null,
-"escrow": false,
-"country": null,
-"lang": "es"
-},
-"language": "es",
-"score": 90,
-"summary": "Emprendedor busca desarrollador en Roblox Studio y Lua para crear un juego de supervivencia multijugador con sistemas de crafting, IA y guardado.",
-"opener": "Hola, vi tu proyecto para el juego de supervivencia en Roblox. Tengo experiencia en Roblox Studio y Lua, y me gustaría ayudarte a desarrollar el prototipo funcional. ¿Podemos conversar?",
-"location": null
-},
-"created": 1794969717,
-"attempts": 4
-},
 {
 "id": "freelancer:40824814",
 "payload": {
@@ -5126,7 +5144,7 @@
 "location": null
 },
 "created": 1795028753,
-"attempts": 0
+"attempts": 1
 },
 {
 "id": "freelancer:40825097",

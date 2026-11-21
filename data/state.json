@@ -1,5 +1,35 @@
 {
 "seen": [
+"freelancer:40828258",
+"freelancer:40828262",
+"freelancer:40828270",
+"freelancer:40828223",
+"freelancer:40828303",
+"freelancer:40828307",
+"freelancer:40828302",
+"freelancer:40828308",
+"freelancer:40828313",
+"freelancer:40828317",
+"freelancer:40828321",
+"freelancer:40828323",
+"freelancer:40828327",
+"freelancer:40828343",
+"freelancer:40828347",
+"freelancer:40828349",
+"freelancer:40828350",
+"freelancer:40828353",
+"freelancer:40828362",
+"freelancer:40828363",
+"freelancer:40828364",
+"freelancer:40828383",
+"freelancer:40828384",
+"freelancer:40828381",
+"freelancer:40828389",
+"freelancer:40828396",
+"freelancer:40828402",
+"freelancer:40828398",
+"freelancer:40828404",
+"freelancer:40828407",
 "freelancer:40822587",
 "freelancer:40827911",
 "freelancer:40827963",
@@ -5179,8 +5209,8 @@
 "facebook": 1793013059,
 "linkedin": 1792900970,
 "twitter": 1795191878,
-"freelancer": 1795215098,
-"reddit": 1795215098,
+"freelancer": 1795232617,
+"reddit": 1795232617,
 "fbgroups": 1795214937,
 "fbsearch": 1795191868
 },
@@ -5213,46 +5243,16 @@
 "gemini:2026-11-17": 105.0,
 "gemini:2026-11-18": 100.0,
 "gemini:2026-11-19": 107.0,
-"gemini:2026-11-20": 121.0
+"gemini:2026-11-20": 121.0,
+"gemini:2026-11-21": 29.0
 },
 "leads": [],
 "stats": {
-"leads_total": 6,
-"seen_total": 5174,
-"pending_proposals": 6
+"leads_total": 7,
+"seen_total": 5204,
+"pending_proposals": 5
 },
 "pending_proposals": [
-{
-"id": "freelancer:40825097",
-"payload": {
-"id": "freelancer:40825097",
-"source": "freelancer",
-"title": "Agentes IA para Automatización Interna",
-"text": "Busco desarrollar varios agentes de inteligencia artificial que se encarguen de automatizar procesos internos de forma fiable y segura.\n\nObjetivo principal  \nCrear agentes capaces de:\n• Gestionar correos, documentos y solicitudes entrantes.  \n• Actualizar datos y generar reportes periódicos.  \n• Coordinar tareas, recordatorios y seguimiento entre miembros del equipo.\n\nEntorno y herramientas existentes  \nMi equipo trabaja con Google Workspace (Gmail y Documentos), Microsoft Outlook, Excel y Teams, además de un sistema propio de gestión de clientes. El proyecto debe integrarse con estas plataformas mediante sus API oficiales o conectores ya disponibles, de modo que los usuarios sigan trabajando dentro de los canales habituales.\n\nAlcance esperado  \n1. Análisis de flujos actuales y mapeo de puntos de automatización.  \n2. Diseño y desarrollo de los agentes de IA, incluyendo lógica de conversación, acceso a datos y reglas de negocio.  \n3. Integración con Google Workspace, Microsoft 365 y nuestro sistema interno.  \n4. Pruebas de funcionamiento y ajustes iterativos.  \n5. Documentación clara de instalación, uso y mantenimiento, junto con un breve taller de traspaso de conocimiento.\n\nRequisitos técnicos deseados  \n– Experiencia con herramientas de IA conversacional (por ejemplo, OpenAI, LangChain o DialogueFlow).  \n– Conocimientos de OAuth y autenticación para Google y Microsoft APIs.  \n– Buenas prácticas de seguridad y manejo de datos sensibles.  \n\nEntregables  \n• Código fuente bien documentado.  \n• Agentes desplegados en entorno de prueba totalmente operativos.  \n• Manual de usuario y guía técnica.\n\nSi tienes experiencia creando este tipo de soluciones y puedes demostrar integraciones similares, estaré encantado de revisar tu propuesta y plazos estimados.\nPresupuesto: 250.0-750.0 USD\nSkills: Software Development, Automation, API Integration, Data Management, AI Chatbot Development, AI Model Development",
-"url": "https://www.freelancer.com/projects/ai-chatbot-development/Agentes-para-Automatizaci-Interna",
-"author": "",
-"extra": {
-"bids": 106,
-"bid_avg": 380.02830188679246,
-"budget": "Presupuesto: 250.0-750.0 USD",
-"budget_min": 250.0,
-"budget_max": 750.0,
-"currency": "USD",
-"price_type": "fixed",
-"hourly_commitment": null,
-"escrow": false,
-"country": null,
-"lang": "es"
-},
-"language": "es",
-"score": 90,
-"summary": "Empresa busca desarrollar e integrar agentes de IA para automatizar procesos internos usando Google Workspace, Microsoft y sistemas propios.",
-"opener": "Hola, vi tu proyecto de agentes de IA para automatización interna. Tengo experiencia integrando APIs de Google, Microsoft y OpenAI. ¿Conversamos?",
-"location": null
-},
-"created": 1795051300,
-"attempts": 1
-},
 {
 "id": "freelancer:40826828",
 "payload": {
@@ -5282,7 +5282,7 @@
 "location": null
 },
 "created": 1795133616,
-"attempts": 0
+"attempts": 1
 },
 {
 "id": "freelancer:40826794",

@@ -1,5 +1,42 @@
 {
 "seen": [
+"freelancer:40828424",
+"freelancer:40828433",
+"freelancer:40828594",
+"freelancer:40828667",
+"freelancer:40828689",
+"freelancer:40828707",
+"freelancer:40828726",
+"freelancer:40828763",
+"freelancer:40828791",
+"freelancer:40828794",
+"freelancer:40828824",
+"freelancer:40828829",
+"freelancer:40825943",
+"freelancer:40828839",
+"freelancer:40828844",
+"freelancer:40828848",
+"freelancer:40828851",
+"freelancer:40828841",
+"freelancer:40828850",
+"freelancer:40828857",
+"freelancer:40828858",
+"freelancer:40828867",
+"freelancer:40828868",
+"freelancer:40828856",
+"twitter:2123931907406659940",
+"facebook:1691377132729656",
+"facebook:1691374972729872",
+"facebook:1794566138262791",
+"facebook:1794565784929493",
+"facebook:1691367326063970",
+"facebook:1794562151596523",
+"facebook:1691364702730899",
+"facebook:1686992589674827",
+"facebook:1794351041617634",
+"facebook:4250361751761278",
+"facebook:4250091755121611",
+"facebook:1686522966388456",
 "freelancer:40828258",
 "freelancer:40828262",
 "freelancer:40828270",
@@ -5208,11 +5245,11 @@
 "runs": {
 "facebook": 1793013059,
 "linkedin": 1792900970,
-"twitter": 1795191878,
-"freelancer": 1795232617,
-"reddit": 1795232617,
-"fbgroups": 1795214937,
-"fbsearch": 1795191868
+"twitter": 1795262462,
+"freelancer": 1795262584,
+"reddit": 1795262585,
+"fbgroups": 1795262408,
+"fbsearch": 1795262452
 },
 "counters": {
 "gemini:2026-10-25": 260.0,
@@ -5223,7 +5260,7 @@
 "gemini:2026-10-29": 123.0,
 "gemini:2026-10-30": 146.0,
 "gemini:2026-10-31": 114.0,
-"brightdata:records:2026-11": 1015.0,
+"brightdata:records:2026-11": 1036.0,
 "gemini:2026-11-01": 135.0,
 "gemini:2026-11-02": 105.0,
 "gemini:2026-11-03": 134.0,
@@ -5244,12 +5281,12 @@
 "gemini:2026-11-18": 100.0,
 "gemini:2026-11-19": 107.0,
 "gemini:2026-11-20": 121.0,
-"gemini:2026-11-21": 29.0
+"gemini:2026-11-21": 53.0
 },
 "leads": [],
 "stats": {
-"leads_total": 7,
-"seen_total": 5204,
+"leads_total": 3,
+"seen_total": 5241,
 "pending_proposals": 5
 },
 "pending_proposals": [
@@ -5282,7 +5319,7 @@
 "location": null
 },
 "created": 1795133616,
-"attempts": 1
+"attempts": 2
 },
 {
 "id": "freelancer:40826794",

@@ -1,5 +1,47 @@
 {
 "seen": [
+"freelancer:40830129",
+"freelancer:40830177",
+"freelancer:40830365",
+"freelancer:40830411",
+"freelancer:40830434",
+"freelancer:40830448",
+"freelancer:40830452",
+"freelancer:40830455",
+"freelancer:40830474",
+"freelancer:40830482",
+"freelancer:40830483",
+"freelancer:40830490",
+"freelancer:40830499",
+"freelancer:40830502",
+"freelancer:40830503",
+"freelancer:40830505",
+"freelancer:40830504",
+"freelancer:40830506",
+"freelancer:40830507",
+"freelancer:40830508",
+"freelancer:40830495",
+"freelancer:40830510",
+"freelancer:40830511",
+"freelancer:40830516",
+"freelancer:40830517",
+"freelancer:40830520",
+"freelancer:40830524",
+"freelancer:40830531",
+"freelancer:40830537",
+"facebook:1692795689254467",
+"facebook:1795934114792660",
+"facebook:1692787852588584",
+"facebook:1876595380034274",
+"facebook:1692785959255440",
+"facebook:1692783352589034",
+"facebook:1795924594793612",
+"facebook:1795908051461933",
+"facebook:1795904214795650",
+"facebook:1688385896202163",
+"facebook:4253607541436699",
+"facebook:1688200879553998",
+"facebook:4253467018117418",
 "freelancer:40829867",
 "freelancer:40829875",
 "freelancer:40828526",
@@ -5421,10 +5463,10 @@
 "facebook": 1793013059,
 "linkedin": 1792900970,
 "twitter": 1795348725,
-"freelancer": 1795348815,
-"reddit": 1795348815,
-"fbgroups": 1795348704,
-"fbsearch": 1795318387
+"freelancer": 1795374374,
+"reddit": 1795374374,
+"fbgroups": 1795374192,
+"fbsearch": 1795374203
 },
 "counters": {
 "gemini:2026-10-25": 260.0,
@@ -5435,7 +5477,7 @@
 "gemini:2026-10-29": 123.0,
 "gemini:2026-10-30": 146.0,
 "gemini:2026-10-31": 114.0,
-"brightdata:records:2026-11": 1097.0,
+"brightdata:records:2026-11": 1114.0,
 "gemini:2026-11-01": 135.0,
 "gemini:2026-11-02": 105.0,
 "gemini:2026-11-03": 134.0,
@@ -5457,14 +5499,46 @@
 "gemini:2026-11-19": 107.0,
 "gemini:2026-11-20": 121.0,
 "gemini:2026-11-21": 123.0,
-"gemini:2026-11-22": 42.0
+"gemini:2026-11-22": 70.0
 },
 "leads": [],
 "stats": {
-"leads_total": 1,
-"seen_total": 5416,
-"pending_proposals": 0
+"leads_total": 3,
+"seen_total": 5458,
+"pending_proposals": 1
 },
-"pending_proposals": [],
+"pending_proposals": [
+{
+"id": "freelancer:40830490",
+"payload": {
+"id": "freelancer:40830490",
+"source": "freelancer",
+"title": "Tienda web para renders 3D",
+"text": "Necesito desarrollar una página web que me permita vender mis servicios de visualización 3D de forma completamente automática. El flujo ideal es el siguiente:\n\n1. Catálogo y compra\n   • El cliente elige el tipo de render entre las opciones que yo defina.  \n   • Antes de pagar debe completar un formulario donde indique:\n     – Tipo de espacio y tamaño aproximado.  \n     – Estilo visual y materiales deseados.  \n     – Cantidad de imágenes y vistas que necesita.  \n   • El pago se realiza en un solo paso, pago completo al hacer el pedido, mediante pasarela segura (tarjeta, PayPal u otra que recomiendes).\n\n2. Subida de planos\n   • Tras el pago, el usuario debe poder adjuntar sus planos (PDF, DWG, JPG, etc.) desde su cuenta.  \n   • Los archivos deben almacenarse de forma segura y ser accesibles solo para el administrador.\n\n3. Entrega del render\n   • Cuando finalice el proyecto podré subir los renders finales al pedido.  \n   • El cliente recibirá una notificación y podrá descargar los archivos de alta resolución desde su panel privado.\n\n4. Panel de administración\n   • Dashboard para ver, filtrar y cambiar el estado de los pedidos.  \n   • Área para subir renders finales y generar notificaciones automáticas por correo electrónico.\n\n5. Tecnología y estructura\n   • Estoy abierto a WordPress + WooCommerce, Shopify o una solución custom en React/Laravel; priorizo facilidad de gestión y escalabilidad.  \n   • Diseño responsive, carga rápida y optimizada para SEO básico.  \n   • Idioma principal: español, con la posibilidad de añadir inglés en el futuro.\n\nAcepto sugerencias adicionales siempre que no compliquen el flujo principal; por ejemplo, más adelante podríamos integrar un módulo para crear planos sencillos en línea, pero ahora prefiero concentrarme en la compra, la subida de archivos y la descarga de renders.\n\nEntregar:\n• Sitio web funcional en hosting propio o servidor que sugieras.  \n• Documentación breve para actualizar precios y gestionar pedidos.  \n• Soporte breve post-lanzamiento para resolver ajustes menores.\n\nSi ya has trabajado con ecommerce de servicios creativos o manejas integraciones de subida/descarga de archivos pesados, quiero saber cómo lo implementaste y qué plugins o APIs utilizaste.\nPresupuesto: 250.0-750.0 EUR\nSkills: PHP, Website Design, WordPress, 3D Rendering, 3D Modelling, Laravel",
+"url": "https://www.freelancer.com/projects/web-development/Tienda-web-para-renders",
+"author": "",
+"extra": {
+"bids": 65,
+"bid_avg": 367.0769230769231,
+"budget": "Presupuesto: 250.0-750.0 EUR",
+"budget_min": 250.0,
+"budget_max": 750.0,
+"currency": "EUR",
+"price_type": "fixed",
+"hourly_commitment": null,
+"escrow": false,
+"country": null,
+"lang": "es"
+},
+"language": "es",
+"score": 90,
+"summary": "Un profesional de visualización 3D necesita desarrollar una tienda web automatizada con catálogo, pasarela de pago, subida de archivos y panel de administración.",
+"opener": "Hola, vi que necesitas desarrollar una tienda web automatizada para tus renders 3D. Tengo experiencia creando plataformas de comercio electrónico y paneles a medida. ¿Podemos conversar sobre los detalles?",
+"location": null
+},
+"created": 1795374310,
+"attempts": 0
+}
+],
 "meta": {}
 }

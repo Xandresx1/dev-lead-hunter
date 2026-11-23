@@ -1,5 +1,43 @@
 {
 "seen": [
+"freelancer:40824443",
+"freelancer:40830562",
+"freelancer:40830578",
+"freelancer:40830601",
+"freelancer:40830617",
+"freelancer:40830627",
+"freelancer:40830636",
+"freelancer:40830631",
+"freelancer:40830657",
+"freelancer:40830665",
+"freelancer:40830672",
+"freelancer:40830682",
+"freelancer:40830689",
+"freelancer:40830693",
+"freelancer:40830685",
+"freelancer:40830698",
+"freelancer:40830714",
+"freelancer:40830711",
+"freelancer:40830719",
+"freelancer:40830230",
+"freelancer:40830724",
+"freelancer:40830690",
+"freelancer:40830734",
+"freelancer:40830745",
+"freelancer:40830744",
+"freelancer:40830752",
+"freelancer:40830753",
+"freelancer:40830758",
+"freelancer:40830757",
+"freelancer:40830767",
+"freelancer:40830768",
+"freelancer:40830764",
+"freelancer:40830771",
+"freelancer:40830773",
+"freelancer:40830770",
+"freelancer:40830775",
+"freelancer:40830786",
+"freelancer:40830794",
 "freelancer:40830129",
 "freelancer:40830177",
 "freelancer:40830365",
@@ -5463,8 +5501,8 @@
 "facebook": 1793013059,
 "linkedin": 1792900970,
 "twitter": 1795348725,
-"freelancer": 1795374374,
-"reddit": 1795374374,
+"freelancer": 1795392175,
+"reddit": 1795392175,
 "fbgroups": 1795374192,
 "fbsearch": 1795374203
 },
@@ -5499,13 +5537,14 @@
 "gemini:2026-11-19": 107.0,
 "gemini:2026-11-20": 121.0,
 "gemini:2026-11-21": 123.0,
-"gemini:2026-11-22": 70.0
+"gemini:2026-11-22": 71.0,
+"gemini:2026-11-23": 34.0
 },
 "leads": [],
 "stats": {
-"leads_total": 3,
-"seen_total": 5458,
-"pending_proposals": 1
+"leads_total": 6,
+"seen_total": 5496,
+"pending_proposals": 2
 },
 "pending_proposals": [
 {
@@ -5537,6 +5576,37 @@
 "location": null
 },
 "created": 1795374310,
+"attempts": 1
+},
+{
+"id": "freelancer:40830693",
+"payload": {
+"id": "freelancer:40830693",
+"source": "freelancer",
+"title": "MVP Marketplace y Delivery Yalo",
+"text": "# Desarrollo de aplicación móvil Yalo – Marketplace & Delivery\n\n## 1. Descripción general del proyecto\n\nBuscamos un desarrollador freelance o un pequeño equipo de desarrollo para construir la primera versión funcional (MVP) de **Yalo**, una plataforma tecnológica que conectará a consumidores con comercios y establecimientos de diferentes categorías, permitiéndoles descubrir productos, realizar pedidos y acceder a servicios de entrega.\n\nYalo busca convertirse en un marketplace digital que facilite las compras locales, impulse las ventas de pequeños y medianos comercios y ofrezca a los consumidores una experiencia sencilla, rápida e intuitiva.\n\nEl objetivo inicial es desarrollar una aplicación móvil compatible con Android y iOS, comenzando con funcionalidades esenciales y una arquitectura que permita incorporar nuevos módulos y funcionalidades conforme crezca el negocio.\n\n## 2. Objetivo del desarrollo\n\nConstruir un MVP funcional que permita:\n\n- Registrar usuarios y clientes.\n- Registrar comercios y vendedores.\n- Publicar productos y servicios.\n- Mostrar catálogos de productos con fotografías, precios y descripciones.\n- Permitir búsquedas y filtros por categorías.\n- Facilitar la realización y gestión de pedidos.\n- Conectar compradores con establecimientos.\n- Administrar pedidos desde un panel administrativo.\n- Gestionar información básica de usuarios y comercios.\n\n## 3. Funcionalidades principales\n\n### A. Aplicación para clientes\n\n1. Registro e inicio de sesión.\n2. Creación y edición de perfil.\n3. Selección de ubicación o dirección de entrega.\n4. Visualización de comercios disponibles.\n5. Navegación por categorías.\n6. Catálogo de productos con fotografías, precios y descripciones.\n7. Buscador de productos y establecimientos.\n8. Carrito de compras.\n9. Confirmación de pedidos.\n10. Historial de pedidos.\n11. Estado del pedido.\n12. Contacto con el comercio mediante WhatsApp o un canal de contacto disponible.\n\n### B. Aplicación o módulo para comercios\n\n1. Registro de establecimientos.\n2. Creación y edición del perfil comercial.\n3. Carga de fotografías y descripción del negocio.\n4. Publicación y edición de productos.\n5. Gestión de precios y disponibilidad.\n6. Recepción de pedidos.\n7. Aceptación o rechazo de pedidos.\n8. Actualización del estado de los pedidos.\n9. Visualización del historial de ventas y pedidos.\n\n### C. Panel administrativo de Yalo\n\n1. Administración de clientes.\n2. Administración de comercios.\n3. Aprobación y activación de establecimientos.\n4. Gestión de categorías.\n5. Visualización de productos publicados.\n6. Supervisión de pedidos.\n7. Gestión de usuarios y permisos.\n8. Indicadores básicos de actividad y pedidos.\n\n## 4. Diseño y experiencia de usuario\n\nBuscamos una interfaz moderna, intuitiva, minimalista y atractiva.\n\nLa identidad visual deberá respetar la marca Yalo, sus colores corporativos y su línea gráfica previamente definida.\n\nLa experiencia debe ser sencilla, con navegación fluida, fotografías de productos y una estructura visual similar a las principales aplicaciones de delivery y marketplace del mercado.\n\n## 5. Tecnologías sugeridas\n\nEstamos abiertos a recibir recomendaciones técnicas, priorizando:\n\n- Flutter o React Native para Android y iOS.\n- Supabase o Firebase para base de datos y autenticación.\n- Backend escalable.\n- Panel administrativo web.\n- Integración futura con pasarelas de pago.\n- Arquitectura preparada para incorporar funcionalidades adicionales.\n\n## 6. Alcance de la primera versión (MVP)\n\nPara esta primera etapa buscamos concentrarnos en las funcionalidades esenciales:\n\n- Aplicación móvil multiplataforma.\n- Registro de clientes y comercios.\n- Catálogo de establecimientos y productos.\n- Búsqueda y categorías.\n- Carrito de compras.\n- Generación y recepción de pedidos.\n- Panel administrativo básico.\n- Gestión de pedidos y estados.\n- Pruebas de funcionamiento.\n\nEn esta fase no es indispensable incorporar seguimiento GPS en tiempo real, aplicación independiente para repartidores, algoritmos de asignación de entregas ni sistemas avanzados de pagos.\n\n## 7. Entregables esperados\n\n- Código fuente completo y editable.\n- Aplicación funcional para Android y iOS.\n- Panel administrativo.\n- Base de datos configurada.\n- Diseño de interfaz y archivos de diseño disponibles.\n- Documentación técnica básica.\n- Accesos y credenciales de los servicios utilizados.\n- Pruebas y corrección de errores.\n- Instrucciones para mantenimiento y futuras actualizaciones.\n\nEl código y los derechos patrimoniales del desarrollo deberán quedar cedidos contractualmente al propietario del proyecto, respetando las licencias de terceros.\n\n## 8. Perfil del desarrollador\n\nBuscamos un profesional freelance o un equipo pequeño con experiencia en:\n\n- Desarrollo de aplicaciones móviles.\n- Flutter, React Native o FlutterFlow.\n- Desarrollo de marketplaces y aplicaciones de delivery.\n- Diseño de bases de datos.\n- Integración de APIs.\n- Desarrollo de paneles administrativos.\n- Experiencia trabajando con startups y MVP.\n\nSe valorará especialmente contar con aplicaciones publicadas o demostraciones de proyectos anteriores.\n\n## 9. Presupuesto y modalidad de trabajo\n\nPresupuesto inicial disponible: **USD 500 a USD 1.000**.\n\nBuscamos una propuesta económica y realista, con posibilidad de trabajar mediante entregas parciales y pagos por hitos.\n\nEstamos abiertos a que el desarrollador proponga una alternativa tecnológica y un alcance ajustado al presupuesto disponible.\n\nLa intención es establecer una relación a largo plazo para continuar desarrollando nuevas funcionalidades, ampliar la plataforma y escalar el proyecto a otros mercados de Latinoamérica.\n\n## 10. Información que solicitamos en la propuesta\n\nAgradecemos incluir:\n\n1. Portafolio de aplicaciones desarrolladas.\n2. Experiencia en marketplaces o delivery.\n3. Tecnologías recomendadas.\n4. Presupuesto desglosado por funcionalidades.\n5. Tiempo estimado de desarrollo.\n6. Funcionalidades que pueden desarrollarse dentro del presupuesto.\n7. Costos adicionales de servidores, mantenimiento y publicación.\n8. Modalidad de trabajo y pagos.\n9. Confirmación de entrega del código fuente y cesión de derechos.\n\n**Buscamos un desarrollador que quiera formar parte del crecimiento de Yalo desde su primera versión.**\nPresupuesto: 250.0-750.0 USD\nSkills: Android, UX / User Experience, UI / User Interface, React Native, Flutter, Google Firebase",
+"url": "https://www.freelancer.com/projects/flutter/MVP-Marketplace-Delivery-Yalo",
+"author": "",
+"extra": {
+"bids": 92,
+"bid_avg": 402.2391304347826,
+"budget": "Presupuesto: 250.0-750.0 USD",
+"budget_min": 250.0,
+"budget_max": 750.0,
+"currency": "USD",
+"price_type": "fixed",
+"hourly_commitment": null,
+"escrow": false,
+"country": null,
+"lang": "es"
+},
+"language": "es",
+"score": 90,
+"summary": "Una iniciativa busca desarrollador freelance o equipo para construir el MVP de Yalo, una app móvil de marketplace y delivery para Android e iOS.",
+"opener": "Hola, vi su proyecto para el MVP de Yalo y tengo experiencia construyendo marketplaces móviles con Android e iOS. ¿Podemos conversar sobre los detalles?",
+"location": null
+},
+"created": 1795392114,
 "attempts": 0
 }
 ],

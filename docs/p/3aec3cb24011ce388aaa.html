@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow"><title>Automate Legal Documents on WordPress</title>
+<style>
+:root{--c:#1e88e5;}
+*{box-sizing:border-box}body{margin:0;background:#0f141b;color:#e6edf3;font:15px/1.55 -apple-system,Segoe UI,Roboto,Inter,sans-serif}
+.wrap{max-width:720px;margin:0 auto;padding:18px 16px 60px}
+.src{display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--c);border:1px solid var(--c);border-radius:999px;padding:4px 10px}
+h1{color:var(--c);font-size:22px;line-height:1.25;margin:12px 0 6px}
+.meta{color:#94a3b8;font-size:13px;margin-bottom:14px}
+.card{background:#161d27;border:1px solid #243041;border-radius:14px;padding:16px;margin:12px 0}
+.card h2{margin:0 0 10px;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:#94a3b8}
+.kpis{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.kpi{background:#0f141b;border:1px solid #243041;border-radius:12px;padding:12px;text-align:center}
+.kpi b{display:block;font-size:24px;color:var(--c)}.kpi span{font-size:12px;color:#94a3b8}
+.content{font-weight:700;white-space:pre-wrap;word-wrap:break-word}
+.proposal{white-space:pre-wrap;word-wrap:break-word;font-weight:600}
+.muted{color:#94a3b8;font-size:13px}
+.btn{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;padding:14px;border-radius:12px;border:0;font-weight:700;font-size:16px;cursor:pointer;background:var(--c);color:#fff;margin-top:10px}
+.btn.alt{background:#243041;color:#e6edf3}
+.btn:active{transform:scale(.99)}
+.toast{position:fixed;left:50%;bottom:22px;transform:translateX(-50%);background:#22c55e;color:#06130a;font-weight:700;padding:10px 16px;border-radius:999px;opacity:0;transition:opacity .2s}
+.toast.show{opacity:1}
+a{color:var(--c)}
+</style></head><body><div class="wrap">
+<span class="src">🔵 Freelancer &middot; Lead 100/100</span>
+<h1>Automate Legal Documents on WordPress</h1>
+<div class="meta">(Sin IA) Coincidencia por palabras clave: \blooking for (a |an |someone|somebody|f, \b(budget|quote|estimate)\b.*\b(app|webs</div>
+
+<div class="card"><h2>Publicación original</h2><div class="content">Automate Legal Documents on WordPress
+Project Brief: Automated Legal Document Production System
+Project Overview
+We are looking for an experienced developer to build a simple, cost-effective automated legal document production system for an existing law firm.
+Important: We already have an existing WordPress website. We do NOT need a new website built.
+The project involves adding legal services and fixed-fee document packages to the existing WordPress website, allowing clients to purchase services, complete online questionnaires, upload supporting documents and receive professionally prepared legal documents following solicitor approval.
+We need Stripe integrated into the existing website so clients can select a service, make payment and complete the required onboarding process.
+We have a strict project budget and are looking for someone who can deliver a practical, reliable solution without unnecessary complexity or expensive custom development.
+Required Workflow
+Existing WordPress website: Add legal services and fixed-fee document packages to the existing website, including service descriptions, pricing and inclusions.
+Online purchasing: Integrate Stripe into the existing WordPress website so clients can purchase their selected legal service.
+Questionnaire: Following service selection, clients complete an online questionnaire and upload relevant supporting documents.
+CRM integration and conflict checks: Connect to the firm&#x27;s existing SILQ CRM to identify existing clients, check relevant parties for potential conflicts and flag potential matches for solicitor review. New client details and approved matters must be saved in SILQ. Conflicts must not be automatically cleared by AI.
+Engagement and payment: Client receives the relevant costs agreement, accepts the terms and completes payment through Stripe. Matter acceptance and payment must be verified before document production begins.
+Automation: n8n triggers the workflow following verified payment and the required matter acceptance checks.
+AI processing: OpenAI extracts and structures client information, while Claude prepares documents using approved legal templates and instructions.
+Document generation: Generate professionally formatted, branded and fully editable Microsoft Word (.docx) and PDF documents.
+Solicitor review: Provide a simple, secure interface where solicitors can review documents, download Word/PDF versions, manually edit Word documents and upload revised versions.
+AI amendments: Solicitors can request AI amendments or make their own manual changes. All document versions must be retained.
+Final approval: A solicitor must explicitly approve the final document before it can be released.
+Client delivery: Automatically deliver the approved document securely by email.
+Feedback: Send an automated client feedback or review request.
+Required Technology
+We would prefer to use existing services and avoid unnecessary custom software development.
+WordPress: Existing website. Add services, purc</div>
+<a class="btn alt" href="https://www.freelancer.com/projects/n8n/Automate-Legal-Documents-WordPress" target="_blank" rel="noopener">Abrir publicación en Freelancer</a></div>
+<div class="muted">Generado 2026-11-23 13:58 &middot; Dev Lead Hunter</div>
+<div class="toast" id="toast">Copiado</div>
+<textarea id="clip" style="position:fixed;left:-9999px;top:0"></textarea>
+<script>
+const DATA={"proposal": "", "opener": "", "question": ""};
+function toast(t){const e=document.getElementById('toast');e.textContent=t;e.classList.add('show');setTimeout(()=>e.classList.remove('show'),1600);}
+async function copyText(t,label){try{await navigator.clipboard.writeText(t);toast(label||'Copiado');}catch(e){const ta=document.getElementById('clip');ta.value=t;ta.select();document.execCommand('copy');toast(label||'Copiado');}}
+function copyProposal(){copyText(DATA.proposal,'Propuesta copiada');}
+function copyOpener(){copyText(DATA.opener,'Mensaje copiado');}
+function copyAll(){copyText(DATA.proposal+"\n\n"+(DATA.question?('Pregunta: '+DATA.question):''),'Todo copiado');}
+</script></div></body></html>

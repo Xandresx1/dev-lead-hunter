@@ -1,5 +1,68 @@
 {
 "seen": [
+"freelancer:40831779",
+"freelancer:40831734",
+"freelancer:40831670",
+"freelancer:40831347",
+"freelancer:40832097",
+"freelancer:40832079",
+"freelancer:40832065",
+"freelancer:40832012",
+"freelancer:40832049",
+"freelancer:40832022",
+"freelancer:40832003",
+"freelancer:40832203",
+"freelancer:40832196",
+"freelancer:40832176",
+"freelancer:40832139",
+"freelancer:40832137",
+"freelancer:40832127",
+"freelancer:40832117",
+"freelancer:40832106",
+"freelancer:40832103",
+"freelancer:40832252",
+"freelancer:40832250",
+"freelancer:40832247",
+"freelancer:40832237",
+"freelancer:40832232",
+"freelancer:40832189",
+"freelancer:40832224",
+"freelancer:40832222",
+"freelancer:40832216",
+"freelancer:40832200",
+"freelancer:40832213",
+"freelancer:40832212",
+"freelancer:40832209",
+"freelancer:40832204",
+"freelancer:40832201",
+"freelancer:40832197",
+"freelancer:40832257",
+"freelancer:40832254",
+"freelancer:40832259",
+"freelancer:40832261",
+"freelancer:40832263",
+"facebook:2155919825024261",
+"facebook:3606586829493061",
+"facebook:3575907335894344",
+"facebook:1877738599919952",
+"facebook:1693858985814804",
+"facebook:1877737026586776",
+"facebook:1877736896586789",
+"facebook:1877736116586867",
+"facebook:1693856619148374",
+"facebook:1693853559148680",
+"facebook:1693852689148767",
+"facebook:1796963124689759",
+"facebook:1796952314690840",
+"facebook:1796935154692556",
+"facebook:1796934948025910",
+"facebook:4256319974498789",
+"facebook:1689329622774457",
+"facebook:1689320896108663",
+"facebook:4256155091181944",
+"facebook:4256154854515301",
+"facebook:1689317352775684",
+"facebook:2941569676210970",
 "freelancer:40830862",
 "freelancer:40830971",
 "freelancer:40831015",
@@ -5540,10 +5603,10 @@
 "facebook": 1793013059,
 "linkedin": 1792900970,
 "twitter": 1795417047,
-"freelancer": 1795417169,
-"reddit": 1795417169,
-"fbgroups": 1795417040,
-"fbsearch": 1795374203
+"freelancer": 1795460327,
+"reddit": 1795460328,
+"fbgroups": 1795460252,
+"fbsearch": 1795460284
 },
 "counters": {
 "gemini:2026-10-25": 260.0,
@@ -5554,7 +5617,7 @@
 "gemini:2026-10-29": 123.0,
 "gemini:2026-10-30": 146.0,
 "gemini:2026-10-31": 114.0,
-"brightdata:records:2026-11": 1130.0,
+"brightdata:records:2026-11": 1152.0,
 "gemini:2026-11-01": 135.0,
 "gemini:2026-11-02": 105.0,
 "gemini:2026-11-03": 134.0,
@@ -5577,13 +5640,13 @@
 "gemini:2026-11-20": 121.0,
 "gemini:2026-11-21": 123.0,
 "gemini:2026-11-22": 71.0,
-"gemini:2026-11-23": 59.0
+"gemini:2026-11-23": 62.0
 },
 "leads": [],
 "stats": {
-"leads_total": 5,
-"seen_total": 5535,
-"pending_proposals": 2
+"leads_total": 22,
+"seen_total": 5598,
+"pending_proposals": 3
 },
 "pending_proposals": [
 {
@@ -5615,7 +5678,7 @@
 "location": null
 },
 "created": 1795374310,
-"attempts": 2
+"attempts": 3
 },
 {
 "id": "freelancer:40830693",
@@ -5646,6 +5709,37 @@
 "location": null
 },
 "created": 1795392114,
+"attempts": 0
+},
+{
+"id": "freelancer:40832261",
+"payload": {
+"id": "freelancer:40832261",
+"source": "freelancer",
+"title": "Subir reproductor TV Samsung LG",
+"text": "Tengo listo un reproductor de TV y necesito asistencia experta para publicarlo en las tiendas oficiales de televisores Samsung y LG. Busco a alguien que ya haya pasado por el proceso de registro y aprobación de aplicaciones en estas dos plataformas y que pueda guiarme paso a paso hasta que la app aparezca disponible para los usuarios.\n\nQué espero del trabajo:\n• Revisión rápida del paquete de la aplicación para asegurar cumplimiento con las normas de Samsung y LG.  \n• Creación, configuración o actualización de las cuentas de desarrollador necesarias.  \n• Carga del build, gestión de descripciones, capturas de pantalla y metadatos.  \n• Seguimiento y respuesta a cualquier observación de los revisores hasta lograr la aprobación final.  \n\nPlazo: máximo 1 mes desde el inicio del proyecto.\n\nEn tu propuesta, cuéntame tu experiencia concreta subiendo apps a televisores Samsung y LG; casos reales con fechas de publicación serán muy valorados. Si dominas también otras plataformas OTT o smart-TVs, menciónalo como plus.\nPresupuesto: 30.0-250.0 USD\nSkills: Mobile App Development, Technical Support, App Design, App Store Optimization, Application Performance Monitoring, App Publication",
+"url": "https://www.freelancer.com/projects/app-development/Subir-reproductor-Samsung",
+"author": "",
+"extra": {
+"bids": 23,
+"bid_avg": 143.30434782608697,
+"budget": "Presupuesto: 30.0-250.0 USD",
+"budget_min": 30.0,
+"budget_max": 250.0,
+"currency": "USD",
+"price_type": "fixed",
+"hourly_commitment": null,
+"escrow": false,
+"country": null,
+"lang": "es"
+},
+"language": "es",
+"score": 90,
+"summary": "Un cliente busca un desarrollador con experiencia para publicar y aprobar una app reproductor de TV en las tiendas de Samsung y LG.",
+"opener": "Hola, tengo experiencia publicando aplicaciones en las tiendas de Smart TV de Samsung y LG. Me encantaría ayudarte con el proceso de revisión y aprobación.",
+"location": null
+},
+"created": 1795460295,
 "attempts": 0
 }
 ],

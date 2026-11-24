@@ -1,5 +1,51 @@
 {
 "seen": [
+"freelancer:40833436",
+"freelancer:40833210",
+"freelancer:40833122",
+"freelancer:40833032",
+"freelancer:40826123",
+"freelancer:40833586",
+"freelancer:40833580",
+"freelancer:40833555",
+"freelancer:40833574",
+"freelancer:40833540",
+"freelancer:40833509",
+"freelancer:40833496",
+"freelancer:40833479",
+"freelancer:40833482",
+"freelancer:40833641",
+"freelancer:40833639",
+"freelancer:40833636",
+"freelancer:40833634",
+"freelancer:40833633",
+"freelancer:40833624",
+"freelancer:40833627",
+"freelancer:40833619",
+"freelancer:40833616",
+"freelancer:40833610",
+"freelancer:40833606",
+"freelancer:40833603",
+"freelancer:40833601",
+"freelancer:40833598",
+"freelancer:40833647",
+"freelancer:40833644",
+"freelancer:40833646",
+"freelancer:40833638",
+"facebook:1797792487940156",
+"facebook:1797791057940299",
+"facebook:1797785134607558",
+"facebook:4258339607630159",
+"facebook:4258314337632686",
+"facebook:2942697156098222",
+"facebook:1690219409352145",
+"facebook:1878660319827780",
+"facebook:1878659616494517",
+"facebook:1878659613161184",
+"facebook:1878659053161240",
+"facebook:1694718962395473",
+"facebook:1690372139336872",
+"facebook:1797808417938563",
 "freelancer:40823707",
 "freelancer:40831943",
 "freelancer:40832279",
@@ -5672,10 +5718,10 @@
 "facebook": 1793013059,
 "linkedin": 1792900970,
 "twitter": 1795493572,
-"freelancer": 1795493777,
-"reddit": 1795493777,
-"fbgroups": 1795493541,
-"fbsearch": 1795460284
+"freelancer": 1795532307,
+"reddit": 1795532307,
+"fbgroups": 1795532289,
+"fbsearch": 1795532302
 },
 "counters": {
 "gemini:2026-10-25": 260.0,
@@ -5686,7 +5732,7 @@
 "gemini:2026-10-29": 123.0,
 "gemini:2026-10-30": 146.0,
 "gemini:2026-10-31": 114.0,
-"brightdata:records:2026-11": 1176.0,
+"brightdata:records:2026-11": 1194.0,
 "gemini:2026-11-01": 135.0,
 "gemini:2026-11-02": 105.0,
 "gemini:2026-11-03": 134.0,
@@ -5714,9 +5760,9 @@
 },
 "leads": [],
 "stats": {
-"leads_total": 10,
-"seen_total": 5667,
-"pending_proposals": 6
+"leads_total": 13,
+"seen_total": 5713,
+"pending_proposals": 9
 },
 "pending_proposals": [
 {
@@ -5748,7 +5794,7 @@
 "location": null
 },
 "created": 1795374310,
-"attempts": 4
+"attempts": 5
 },
 {
 "id": "freelancer:40830693",
@@ -5903,6 +5949,99 @@
 "location": null
 },
 "created": 1795493719,
+"attempts": 0
+},
+{
+"id": "freelancer:40833646",
+"payload": {
+"id": "freelancer:40833646",
+"source": "freelancer",
+"title": "Medleys Profesionales para Grupo en Vivo",
+"text": "TÍTULO\nProductor/a musical: 4 medleys con pistas de práctica para grupo en vivo\n\nPRESUPUESTO\n55 USD, precio cerrado por los 4 medleys completos.\n\nDESCRIPCIÓN\nNecesito a alguien con experiencia en medleys y mashups para crear 4 temas continuos a partir de canciones populares. Están pensados para que los toque un grupo musical sobre un escenario. Te envío las canciones originales y las instrucciones de cada medley; tú los montas, los enlazas y los dejas listos para usar.\n\nLOS 4 MEDLEYS\n• Medley A: 6 canciones de rock en español.\n• Medley B: 3 canciones de hard rock clásico.\n• Medley C: 6 canciones de música electrónica y de pista de baile.\n• Medley D: 4 canciones de pop español de los 80, de unos 7 minutos en total.\nTotal: 19 canciones.\n\nTU TRABAJO\n1. Estudiar el tempo, la tonalidad y la estructura de cada canción.\n2. Editar y encadenar las canciones en el orden que te indique, con los recortes, repeticiones, entradas y cierres necesarios.\n3. Crear pasos suaves de una canción a la siguiente, adaptando velocidad y tonalidad si hace falta.\n4. Completar con instrumentos virtuales (MIDI) las secciones que lo requieran, para que el resultado suene lleno y encaje con los músicos.\n5. En uno de los medleys, construir un cierre con mucha energía, tomando como modelo una grabación en vivo que te enviaré.\n\nLO QUE ENTREGAS (de cada medley)\n• Archivo final en WAV estéreo de 24 bits.\n• Versión de práctica con metrónomo (click) y pista de referencia.\n• Pistas por instrumento (stems), siempre que el audio original lo permita.\n• El archivo de sesión de tu programa, para poder modificar cosas después.\n• Hasta 3 rondas de cambios. Te los mandaré todos juntos en un único mensaje.\n\nPROGRAMAS\nUn DAW profesional (Ableton Live, Logic Pro, Cubase, Reaper, Pro Tools o similar), herramientas de calidad para cambiar velocidad y tonalidad (Melodyne, Elastique, Pitch 'n Time o parecidas) y bibliotecas de instrumentos virtuales con licencia propia.\n\nPERFIL QUE BUSCO\n• Portafolio con medleys, mashups o montajes para actuaciones.\n• Buen oído, sentido del ritmo y criterio para encadenar canciones.\n• Discreción total: no puedes compartir, publicar ni reutilizar nada del material que te envíe, y debes eliminarlo al terminar.\n• Respuestas rápidas y claras.\n\nPLAZO Y PAGO\nPrimera entrega en 5 días como máximo desde la adjudicación. Dime en tu oferta el plazo que puedes cumplir. El pago se hace por hitos, a través de la plataforma.\n\nCÓMO OFERTAR\nEn tu propuesta incluye tu plazo y un ejemplo de un trabajo parecido. Sin ejemplo, no se tendrá en cuenta la oferta.\nPresupuesto: 2.0-8.0 USD\nSkills: Sound Design, Audio Production, Audio Editing, Ableton, MIDI, Music Production",
+"url": "https://www.freelancer.com/projects/audio-production/Medleys-Profesionales-para-Grupo-Vivo",
+"author": "",
+"extra": {
+"bids": 0,
+"bid_avg": null,
+"budget": "Presupuesto: 2.0-8.0 USD",
+"budget_min": 2.0,
+"budget_max": 8.0,
+"currency": "USD",
+"price_type": "hourly",
+"hourly_commitment": "40 h/week",
+"escrow": false,
+"country": null,
+"lang": "es"
+},
+"language": "?",
+"score": 100,
+"summary": "(Sin IA) Coincidencia por palabras clave: \\bnecesito (un |una |a )?(programador|de",
+"opener": "",
+"location": null
+},
+"created": 1795532304,
+"attempts": 0
+},
+{
+"id": "freelancer:40833540",
+"payload": {
+"id": "freelancer:40833540",
+"source": "freelancer",
+"title": "Identidad Visual para Marca Literaria",
+"text": "BRIEFING — DESARROLLO DE IDENTIDAD VISUAL\nProyecto: Dagnave y Creciendo entre páginas\nResponsable: Patricia Figueroa — Escritora\nSector: Literatura, cultura y creación de contenido literario.\n\n1. Presentación\nSoy escritora independiente de literatura infantil y adulta, con obras publicadas en español y portugués. Utilizo el nombre Dagnave como mi identidad literaria y actualmente estoy desarrollando una plataforma digital propia para la publicación y difusión de mis historias y libros.\n\nEl objetivo de este proyecto es crear una identidad visual profesional, original y duradera que represente mi trayectoria como escritora y acompañe el crecimiento de mi marca.\n\n2. Arquitectura de marca\nEl proyecto contempla dos identidades visuales relacionadas:\nDagnave — Marca principal\nRepresenta mi identidad como escritora, mi producción literaria, mis libros publicados y mi futura plataforma digital de lectura.\nEslogan oficial:\n«La escritura es un mundo de posibilidades infinitas».\n\nCreciendo entre páginas — Submarca\nProyecto dedicado a la literatura infantil, la creatividad, la imaginación y el fomento de la lectura.\nSu público incluye niños, familias, profesores, educadores y personas interesadas en la literatura infantil.\nAmbas marcas deberán mantener una conexión visual claramente reconocible, conservando al mismo tiempo sus respectivas personalidades.\n\n3. Objetivos de la identidad visual\nConsolidar una imagen profesional y reconocible.\nTransmitir creatividad, autenticidad y libertad literaria.\nCrear una identidad elegante, acogedora y atemporal.\nEstablecer una unidad visual entre la marca principal y la submarca.\nPermitir su aplicación en diferentes formatos, tanto digitales como impresos.\nDiferenciar la marca de otras plataformas y proyectos literarios.\nPreparar la identidad para futuras ampliaciones del proyecto.\n\n4. Dirección creativa\nDagnave\nLa propuesta inicial consiste en trabajar con la letra D, integrada con el símbolo del infinito y elementos que evoquen las páginas de un libro.\nEl infinito representa las posibilidades ilimitadas de la escritura, la imaginación y la creación literaria, en conexión directa con el eslogan de la marca.\nLa identidad deberá transmitir sofisticación, personalidad y sensibilidad artística, sin resultar excesivamente lujosa, corporativa o anticuada.\n\nSe busca una estética editorial elegante, cálida y contemporánea.\n\nPaleta cromática sugerida:\nBorgoña: #7A2638\nDorado: #C49A4A\nPergamino: #F4E6CF\nMarrón tinta: #382820\nCiruela: #5B3A63\n\nCreciendo entre páginas\nLa identidad visual deberá relacionarse directamente con Dagnave, conservando elementos gráficos, proporciones y características estilísticas similares.\nLa propuesta inicial consiste en utilizar la letra C, el símbolo del infinito, un libro abierto y, eventualmente, un pequeño brote de hojas que represente el crecimiento a través de la lectura.\nLa estética deberá ser más luminosa, amable y acogedora, sin recurrir a elementos excesivamente infantiles, puesto que también está dirigida a familias y profesionales de la educación.\n\nPaleta cromática sugerida:\nVerde oliva: #717451\nDorado: #C49A4A\nPergamino: #F4E6CF\nTerracota: #C56B43\nVerde suave: #A5B7AD\n\ndentificación complementaria sugerida:\n«El universo infantil de Dagnave».\n\n5. Tipografía\nSe prefieren tipografías de inspiración editorial, elegantes, legibles y con personalidad literaria.\nReferencias iniciales:\nCormorant Garamond.\nPlayfair Display.\nLora.\nEl profesional podrá proponer otras alternativas que respondan a los objetivos de la marca, teniendo en cuenta la legibilidad y las licencias de uso comercial.\n\n6. Entregables solicitados\nPara ambas marcas se requiere:\nLogotipo principal.\nVersión horizontal y vertical.\nSímbolo o monograma independiente.\nVersión simplificada para dimensiones reducidas.\nVersiones monocromáticas, positivas y negativas.\nVersiones en blanco y negro.\nVersiones con fondo transparente.\nArchivos vectoriales y editables.\nArchivos en formatos SVG, PDF y PNG de alta resolución.\nPaleta cromática oficial en HEX, RGB y CMYK.\nDefinición de las tipografías oficiales.\nIconos para perfiles de redes sociales.\nFavicon para la página web.\nManual de identidad visual\n\nSe solicita también un manual de identidad visual conjunto que incluya:\nConcepto y significado de ambas marcas.\nConstrucción y proporciones de los logotipos.\nÁrea de seguridad.\nTamaños mínimos de reproducción.\nUsos correctos e incorrectos.\nPaletas cromáticas principales y complementarias.\nJerarquías tipográficas.\nAplicaciones sobre fondos claros y oscuros.\nNormas de convivencia entre ambas identidades.\nEjemplos de aplicación en medios digitales e impresos.\n\n7. Aplicaciones previstas\nLa identidad visual se utilizará en:\nPlataforma literaria digital propia.\nRedes sociales.\nPortadas de historias digitales.\nMateriales promocionales.\nMarcapáginas.\nTarjetas de presentación.\nMateriales para eventos y encuentros literarios.\nPresentaciones profesionales.\nFirmas de correo electrónico.\nVideos promocionales.\nMateriales impresos y digitales.\n\n8. Requisitos técnicos y contractuales\n\nLos logotipos deberán funcionar adecuadamente en diferentes dimensiones, incluyendo tamaños reducidos, sin comprometer su legibilidad ni su reconocimiento.\nLa identidad deberá contar con versiones planas que no dependan de sombras, efectos metálicos, texturas o elementos tridimensionales.\nLos diseños deberán ser originales y evitar similitudes que puedan generar confusión con otras marcas existentes.\nEs importante que la propuesta comercial contemple:\nLa entrega de los archivos originales y editables.\nLa cesión contractual de los derechos patrimoniales sobre los elementos originales desarrollados para el proyecto.\nLa autorización de uso comercial de ambas identidades.\nLa identificación de cualquier recurso externo utilizado y sus respectivas licencias.\nLa posibilidad de adaptar y ampliar la identidad visual en el futuro.\nLas referencias visuales adjuntas son conceptuales y deberán servir como punto de partida para el desarrollo de una identidad profesional, sin limitar la creatividad del diseñador.\n\n9. Información solicitada en el presupuesto\nValor total del proyecto.\nEtapas del desarrollo.\nNúmero de propuestas iniciales.\nNúmero de revisiones incluidas.\nPlazo estimado de entrega.\nCondiciones y modalidades de pago.\nRelación completa de los archivos entregados.\nAlcance del manual de identidad visual.\nCondiciones relativas a los derechos de autor.\nCostes de posibles modificaciones adicionales.\nPortafolio de proyectos anteriores.\n\n10. Visión a largo plazo\n\nDagnave aspira a consolidarse como una marca literaria independiente, con una plataforma digital propia, un catálogo de historias y libros, una comunidad de lectores y un espacio especializado en literatura infantil.\n\nEl objetivo no es únicamente obtener dos logotipos atractivos, sino construir un sistema de identidad visual coherente, original, reconocible y preparado para acompañar el crecimiento de ambos proyectos durante los próximos años.\nPresupuesto: 500.0-700.0 USD\nSkills: Graphic Design, Logo Design, Marketing, Branding, Brand Management",
+"url": "https://www.freelancer.com/projects/graphic-design/Identidad-Visual-para-Marca-Literaria",
+"author": "",
+"extra": {
+"bids": 68,
+"bid_avg": 536.5091176470588,
+"budget": "Presupuesto: 500.0-700.0 USD",
+"budget_min": 500.0,
+"budget_max": 700.0,
+"currency": "USD",
+"price_type": "fixed",
+"hourly_commitment": null,
+"escrow": false,
+"country": null,
+"lang": "es"
+},
+"language": "?",
+"score": 100,
+"summary": "(Sin IA) Coincidencia por palabras clave: \\bpresupuesto\\b.*\\b(sistema|app|aplicaci",
+"opener": "",
+"location": null
+},
+"created": 1795532306,
+"attempts": 0
+},
+{
+"id": "freelancer:40833479",
+"payload": {
+"id": "freelancer:40833479",
+"source": "freelancer",
+"title": "Community Manager Instagram Ventas",
+"text": "Location requirement: We are only considering freelancers based in Spain or Spanish-speaking countries in Latin America. Applicants must be fluent in Spanish.\n\nEn Boxymi, una marca tecnológica especializada en organización inteligente y gestión digital de inventarios mediante códigos QR, buscamos un/a Content Creator & Community Manager creativo/a para una colaboración mensual a largo plazo.\n\nServicios requeridos:\n- Creación de un calendario mensual de contenidos.\n- Diseño de posts y carruseles.\n- Creación y edición de Reels y vídeos cortos.\n- Redacción de textos para las publicaciones.\n- Programación y publicación de contenidos.\n- Propuesta de ideas creativas alineadas con nuestra identidad corporativa.\nPerfil que buscamos:\n- Creatividad, iniciativa y autonomía.\n- Experiencia en diseño gráfico y edición de vídeo.\n- Capacidad para crear contenido moderno, original y profesional.\n- Conocimiento de Instagram, TikTok y LinkedIn.\n- Dominio del español. Se valorará el inglés.\nNuestro objetivo es aumentar la visibilidad de Boxymi, dar a conocer nuestros productos y servicios, generar comunidad y atraer nuevos clientes particulares y empresariales (B2C y B2B).\n\nFacilitaremos nuestra guía de marca e identidad corporativa.\n\nPresupuesto: colaboración mensual a precio fijo, con un presupuesto total máximo de 120 € al mes, incluidas las comisiones de la plataforma.\n\nPor favor, incluye en tu propuesta:\n- Portfolio y ejemplos de posts y Reels.\n- Número de posts y Reels que puedes entregar mensualmente.\n- Servicios incluidos en tu propuesta.\n- Presupuesto mensual.\nValoraremos especialmente la calidad, la creatividad y la originalidad del contenido.\n\nWeb: www.boxymi.com\nPresupuesto: 30.0-250.0 EUR\nSkills: Graphic Design, Logo Design, Facebook Marketing, Content Writing, Video Editing, Social Media Management",
+"url": "https://www.freelancer.com/projects/content-creation/Community-Manager-Instagram-Ventas",
+"author": "",
+"extra": {
+"bids": 46,
+"bid_avg": 89.08695652173913,
+"budget": "Presupuesto: 30.0-250.0 EUR",
+"budget_min": 30.0,
+"budget_max": 250.0,
+"currency": "EUR",
+"price_type": "fixed",
+"hourly_commitment": null,
+"escrow": false,
+"country": null,
+"lang": "es"
+},
+"language": "?",
+"score": 100,
+"summary": "(Sin IA) Coincidencia por palabras clave: \\bpresupuesto\\b.*\\b(sistema|app|aplicaci",
+"opener": "",
+"location": null
+},
+"created": 1795532306,
 "attempts": 0
 }
 ],

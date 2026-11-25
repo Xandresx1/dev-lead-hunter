@@ -1,5 +1,59 @@
 {
 "seen": [
+"freelancer:40835141",
+"freelancer:40835019",
+"freelancer:40834868",
+"freelancer:40832037",
+"freelancer:40835296",
+"freelancer:40835289",
+"freelancer:40835233",
+"freelancer:40835332",
+"freelancer:40835393",
+"freelancer:40835506",
+"freelancer:40835536",
+"freelancer:40835538",
+"freelancer:40831457",
+"freelancer:40835576",
+"freelancer:40835611",
+"freelancer:40835614",
+"freelancer:40835618",
+"freelancer:40835603",
+"freelancer:40835649",
+"freelancer:40835639",
+"freelancer:40835651",
+"freelancer:40835652",
+"freelancer:40835653",
+"freelancer:40835655",
+"freelancer:40835661",
+"freelancer:40835660",
+"freelancer:40835667",
+"freelancer:40835664",
+"freelancer:40835670",
+"freelancer:40835673",
+"freelancer:40835671",
+"freelancer:40835675",
+"twitter:2125549154508173412",
+"facebook:1695977188936317",
+"facebook:1695976842269685",
+"facebook:1879908533036292",
+"facebook:1695973745603328",
+"facebook:1798998004486271",
+"facebook:1879897443037401",
+"facebook:1879894843037661",
+"facebook:1879893116371167",
+"facebook:1798990534487018",
+"facebook:1798988984487173",
+"facebook:1798986977820707",
+"facebook:2944250029276268",
+"facebook:2944200855947852",
+"facebook:1691461555894597",
+"facebook:4260946917369428",
+"facebook:1691428219231264",
+"facebook:4260824920714961",
+"facebook:1691356242571795",
+"facebook:2944002699301001",
+"facebook:4260652564065530",
+"facebook:1691304685910284",
 "freelancer:40834241",
 "freelancer:40834288",
 "freelancer:40834289",
@@ -5826,10 +5880,10 @@
 "runs": {
 "facebook": 1793013059,
 "linkedin": 1792900970,
-"twitter": 1795564110,
-"freelancer": 1795588151,
-"reddit": 1795588151,
-"fbgroups": 1795588015,
+"twitter": 1795628239,
+"freelancer": 1795628389,
+"reddit": 1795628389,
+"fbgroups": 1795628231,
 "fbsearch": 1795588031
 },
 "counters": {
@@ -5841,7 +5895,7 @@
 "gemini:2026-10-29": 123.0,
 "gemini:2026-10-30": 146.0,
 "gemini:2026-10-31": 114.0,
-"brightdata:records:2026-11": 1233.0,
+"brightdata:records:2026-11": 1256.0,
 "gemini:2026-11-01": 135.0,
 "gemini:2026-11-02": 105.0,
 "gemini:2026-11-03": 134.0,
@@ -5866,13 +5920,13 @@
 "gemini:2026-11-22": 71.0,
 "gemini:2026-11-23": 62.0,
 "gemini:2026-11-24": 93.0,
-"gemini:2026-11-25": 28.0
+"gemini:2026-11-25": 52.0
 },
 "leads": [],
 "stats": {
-"leads_total": 3,
-"seen_total": 5822,
-"pending_proposals": 9
+"leads_total": 7,
+"seen_total": 5876,
+"pending_proposals": 10
 },
 "pending_proposals": [
 {
@@ -5904,7 +5958,7 @@
 "location": null
 },
 "created": 1795460295,
-"attempts": 1
+"attempts": 2
 },
 {
 "id": "freelancer:40832716",
@@ -6152,6 +6206,37 @@
 "location": null
 },
 "created": 1795588071,
+"attempts": 0
+},
+{
+"id": "freelancer:40835289",
+"payload": {
+"id": "freelancer:40835289",
+"source": "freelancer",
+"title": "Plataforma Repuestos y Talleres Chile",
+"text": "Quiero desarrollar una plataforma web que conecte casas de repuestos automotrices con talleres mecánicos en Chile.\nEl objetivo es que los talleres puedan buscar repuestos, comparar ofertas de distintas casas de repuestos y solicitar pedidos sin tener que desplazarse físicamente.\nLa plataforma debe funcionar desde computadores y teléfonos celulares\nIntegración automática con los inventarios de las tiendas.\nBúsqueda avanzada por VIN.\nCatálogo completo de compatibilidad de vehículos.\nIntegración con Uber, Rappi u otros servicios de reparto.\nPagos en línea.\nGeolocalización \n\n\n\nEs importante que:\n\n- La plataforma sea adaptable a celulares y computadores.\n- La base de datos esté bien organizada.\n- Los datos puedan exportarse.\n- El proyecto quede dentro de una cuenta de Bubble controlada por el propietario del negocio.\n- El propietario tenga acceso de administrador.\n- El desarrollo quede documentado para que otro programador pueda continuarlo.\n- Se utilicen herramientas y plugins cuyo costo recurrente esté claramente informado.\nPresupuesto: 250.0-750.0 CAD\nSkills: PHP, Website Design, Graphic Design, HTML, Web Development, Payment Gateway Integration",
+"url": "https://www.freelancer.com/projects/web-development/Plataforma-Repuestos-Talleres-Chile",
+"author": "",
+"extra": {
+"bids": 200,
+"bid_avg": 375.81,
+"budget": "Presupuesto: 250.0-750.0 CAD",
+"budget_min": 250.0,
+"budget_max": 750.0,
+"currency": "CAD",
+"price_type": "fixed",
+"hourly_commitment": null,
+"escrow": false,
+"country": null,
+"lang": "es"
+},
+"language": "?",
+"score": 100,
+"summary": "(Sin IA) Coincidencia por palabras clave: \\bquiero (hacer|crear|desarrollar|mandar, \\bpresupuesto\\b.*\\b(sistema|app|aplicaci",
+"opener": "",
+"location": null
+},
+"created": 1795628388,
 "attempts": 0
 }
 ],

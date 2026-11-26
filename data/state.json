@@ -1,5 +1,49 @@
 {
 "seen": [
+"freelancer:40835903",
+"freelancer:40836113",
+"freelancer:40836170",
+"freelancer:40836235",
+"freelancer:40836266",
+"freelancer:40836363",
+"freelancer:40836570",
+"freelancer:40836577",
+"freelancer:40835264",
+"freelancer:40836607",
+"freelancer:40836626",
+"freelancer:40836637",
+"freelancer:40836640",
+"freelancer:40836641",
+"freelancer:40836649",
+"freelancer:40836673",
+"freelancer:40836648",
+"freelancer:40836696",
+"freelancer:40836701",
+"freelancer:40836704",
+"freelancer:40836747",
+"freelancer:40836716",
+"freelancer:40836745",
+"freelancer:40836753",
+"freelancer:40836754",
+"freelancer:40836758",
+"freelancer:40836763",
+"freelancer:40836764",
+"freelancer:40836767",
+"facebook:4262333063897480",
+"facebook:1691972055843547",
+"facebook:4262258533904933",
+"facebook:1691925372514882",
+"facebook:1799435301109208",
+"facebook:2944772275890710",
+"facebook:1696626295538073",
+"facebook:1696626042204765",
+"facebook:1799631994422872",
+"facebook:1880529879640824",
+"facebook:1696556482211721",
+"facebook:1880486482978497",
+"facebook:1880472996313179",
+"facebook:1799543017765103",
+"facebook:1799500634436008",
 "freelancer:40835438",
 "freelancer:40835747",
 "freelancer:40835733",
@@ -5946,9 +5990,9 @@
 "facebook": 1793013059,
 "linkedin": 1792900970,
 "twitter": 1795628239,
-"freelancer": 1795655711,
-"reddit": 1795655711,
-"fbgroups": 1795655465,
+"freelancer": 1795686025,
+"reddit": 1795686025,
+"fbgroups": 1795685846,
 "fbsearch": 1795655474
 },
 "counters": {
@@ -5960,7 +6004,7 @@
 "gemini:2026-10-29": 123.0,
 "gemini:2026-10-30": 146.0,
 "gemini:2026-10-31": 114.0,
-"brightdata:records:2026-11": 1275.0,
+"brightdata:records:2026-11": 1294.0,
 "gemini:2026-11-01": 135.0,
 "gemini:2026-11-02": 105.0,
 "gemini:2026-11-03": 134.0,
@@ -5986,108 +6030,15 @@
 "gemini:2026-11-23": 62.0,
 "gemini:2026-11-24": 93.0,
 "gemini:2026-11-25": 52.0,
-"gemini:2026-11-26": 49.0
+"gemini:2026-11-26": 80.0
 },
 "leads": [],
 "stats": {
-"leads_total": 9,
-"seen_total": 5941,
-"pending_proposals": 10
+"leads_total": 4,
+"seen_total": 5985,
+"pending_proposals": 7
 },
 "pending_proposals": [
-{
-"id": "freelancer:40832716",
-"payload": {
-"id": "freelancer:40832716",
-"source": "freelancer",
-"title": "Integración Split Payments Flutter",
-"text": "Tengo una app en Flutter ya operativa y necesito integrar un sistema de cobros con modalidad split. El flujo debe permitir que un usuario pague a otro en el acto y que, en la misma transacción, se desvíe automáticamente nuestra comisión a la cuenta de la app.\n\nAlcance\n• Usuarios pagarán solo en un país (Argentina), así que la pasarela puede estar enfocada en ese mercado. Si puede ser una plataforma que trabaje en países limítrofes mejor.\n• Quiero admitir Tarjetas de crédito débito y billeteras virtuales para maximizar la conversión.\n• La solución debe funcionar con pagos en tiempo real y reflejar las dos transferencias (cliente-destinatario y comisión) sin demoras.\n\nLo que espero recibir\n1. Implementación completa en Flutter (Dart) lista para producción, con manejo de errores y validaciones.\n2. Configuración del proveedor de pagos elegido (por ejemplo, Stripe Connect, Mercado Pago Split o el que mejores condiciones ofrezca para mi caso).\n3. Código bien documentado y guía paso a paso para desplegar en nuestros entornos.\n4. Soporte para pruebas end-to-end hasta que podamos procesar la primera transacción real.\n\nTiempo\nLo necesito lo más pronto posible; indícame un plan claro con hitos y plazos reales.\n\nSi ya has integrado pagos split en Flutter y conoces los requisitos fiscales/locales del país de destino, cuéntame tu experiencia y el stack que propones. Estoy listo para empezar de inmediato.\nPresupuesto: 250.0-750.0 USD\nSkills: Mobile App Development, Dart, Stripe, Payment Gateway Integration, Documentation, Flutter",
-"url": "https://www.freelancer.com/projects/flutter/Integraci-Split-Payments-Flutter",
-"author": "",
-"extra": {
-"bids": 136,
-"bid_avg": 397.7279411764706,
-"budget": "Presupuesto: 250.0-750.0 USD",
-"budget_min": 250.0,
-"budget_max": 750.0,
-"currency": "USD",
-"price_type": "fixed",
-"hourly_commitment": null,
-"escrow": false,
-"country": null,
-"lang": "es"
-},
-"language": "es",
-"score": 95,
-"summary": "Fundador necesita integrar pagos split en app Flutter existente enfocada en Argentina con presupuesto de 250 a 750 USD.",
-"opener": "Hola, vi tu requerimiento para integrar pagos split en Flutter con Mercado Pago o Stripe. Tengo experiencia con pasarelas de pago y puedo ayudarte a implementarlo rápidamente. ¿Conversamos?",
-"location": "Argentina"
-},
-"created": 1795493647,
-"attempts": 1
-},
-{
-"id": "freelancer:40832502",
-"payload": {
-"id": "freelancer:40832502",
-"source": "freelancer",
-"title": "Portal Inmobiliario con Tours Virtuales",
-"text": "Necesito desarrollar un portal web para mi proyecto inmobiliario que combine una experiencia inmersiva con herramientas de venta y gestión de información. Yo proporcionaré los videos y los recorridos virtuales; requiero que el sitio los integre con rapidez de carga y navegación fluida tanto en desktop como en móvil.\n\nPlano interactivo\n– Al hacer clic en cada lote, el visitante debe ver precio, superficie y disponibilidad, fotos, video y la ficha técnica descargable.  \n– También debe mostrarse el contacto directo del asesor asignado a ese terreno.  \n– Quiero actualizar lotes, precios y estatus desde un panel de administración sencillo, sin depender de código.\n\nPerfiles con niveles de acceso\nSolo asesores externos y compradores registrados podrán ver y descargar la información técnica y legal.  \nCada perfil debe permitir:  \n• Descargar fichas técnicas y documentos legales.  \n• Guardar terrenos favoritos y comparar opciones.  \n• Solicitar información adicional o agendar una visita (notificación por correo y en el panel).\n\nGestión y seguridad\n• Registro y autenticación diferenciada para asesores y compradores, con aprobación manual opcional.  \n• Métricas internas sobre descargas y solicitudes.  \n• Capacidad para que yo mismo cargue nuevos videos, tours 360° y documentos en PDF.  \n• Diseño responsivo y tiempos de carga optimizados.\n\nEntregable\nPortal completamente funcional alojado en mi hosting, código fuente, guía rápida para actualizar lotes y usuarios, y soporte inicial para asegurarnos de que todo quede operativo.\nPresupuesto: 30.0-250.0 USD\nSkills: PHP, Website Design, Graphic Design, HTML, Web Development, API Development",
-"url": "https://www.freelancer.com/projects/web-development/Portal-Inmobiliario-con-Tours-Virtuales",
-"author": "",
-"extra": {
-"bids": 148,
-"bid_avg": 135.07432432432432,
-"budget": "Presupuesto: 30.0-250.0 USD",
-"budget_min": 30.0,
-"budget_max": 250.0,
-"currency": "USD",
-"price_type": "fixed",
-"hourly_commitment": null,
-"escrow": false,
-"country": null,
-"lang": "es"
-},
-"language": "es",
-"score": 95,
-"summary": "Emprendedor inmobiliario necesita desarrollar un portal web con plano interactivo, tours virtuales y panel de administración.",
-"opener": "Hola, vi los requerimientos para tu portal inmobiliario y me interesa ayudarte con el desarrollo del plano interactivo y la integración de los tours virtuales.",
-"location": null
-},
-"created": 1795493710,
-"attempts": 0
-},
-{
-"id": "freelancer:40832469",
-"payload": {
-"id": "freelancer:40832469",
-"source": "freelancer",
-"title": "Analysis Col - 23/11/2026 17:26 EST",
-"text": "Hola, quiero crear una herramienta web propia y bien completa llamada Analysis Col para análisis de Deriv. No quiero copiar ninguna página, quiero una idea original y mejor.\n\nMi idea es esta: una plataforma privada de análisis en vivo para Volatility que me diga cuándo comprar y que ya venga con un BOT BUENO incluido para ponerlo a rodar.\n\nLO QUE NECESITO QUE CREES:\n\n1. PÁGINA PRINCIPAL ORIGINAL:\nDiseño moderno en VERDE con BLANCO, limpio y profesional, con mi marca Analysis Col. Que tenga inicio, cómo funciona, beneficios y plan de pago. Que se vea confiable y privada.\n\n2. ACCESO PRIVADO Y PAGO ÚNICO:\nLa herramienta es PRIVADA, no es pública. Para entrar hay que pagar $99 POR VIDA, un solo pago.\nCuando la persona paga, yo como admin le doy el acceso manualmente. Nadie puede entrar sin que yo lo autorice.\n\n3. INICIO DE SESIÓN CON DERIV POR TOKEN:\nDespués de que yo les dé acceso, el usuario entra poniendo su TOKEN de Deriv, o yo les paso un acceso especial.\nQue funcione con cuenta Real y Demo. Que nunca se pida la contraseña de Deriv.\n\n4. PANEL DE ANÁLISIS Y PREDICCIÓN EN VIVO:\nUn panel donde el usuario elija el mercado Volatility 10, 25, 50, 75, 100, etc.\nQue el panel muestre en vivo:\n- Últimos dígitos que van saliendo\n- Mapa de dígitos\n- Porcentaje de pares e impares\n- Porcentaje de Matches / No Matches\n- Porcentaje de Over / Under\n- Porcentaje de Rise / Fall\n- Nivel de confianza de cada señal\n\nY LA PREDICCIÓN:\nQue la herramienta analice en vivo y me diga:\n- CUÁNDO COMPRAR: alerta clara que diga COMPRA AHORA / ESPERA\n- QUÉ NÚMERO PONER: que me tire el número exacto que debo poner, por ejemplo: Pon 7, Pon 3, Pon Par, Pon Impar, Pon Over 5, Pon Under 4, Pon Rise, Pon Fall\n- Que me diga en qué mercado y en qué tipo de operación: Matches, Even/Odd, Over/Under, Rise/Fall\n\n5. BOT BUENO INCLUIDO:\nQue dentro de la misma herramienta ya venga un BOT BUENO incluido, en otras palabras, que no sea un bot simple, que sea un bot de verdad, bueno y completo.\nQue el bot tenga:\n- Botón INICIAR y DETENER\n- Que use la predicción de la herramienta para operar solo\n- Que el usuario ponga su stake inicial, su Take Profit, su Stop Loss y su martingala\n- Que funcione en Real y Demo\n- Que muestre en vivo cuántas operaciones ganó, cuántas perdió y cuánto va ganando\n- Que se pueda poner a rodar y dejarlo trabajando solo\n- Que sea seguro y no haga operaciones locas\n\nQue el usuario solo tenga que poner su token, elegir el mercado, poner su dinero y darle INICIAR al bot.\n\n6. MI PANEL DE ADMINISTRADOR:\nYo quiero ser el admin. Poder crear cuentas, activar y desactivar usuarios, ver quién pagó los $99 y darles acceso. Que yo tenga el control total de quién entra.\n\n7. QUE SEA MÍA AL 100%:\nDiseño propio en verde con blanco, código completo para mí, página en internet que abra bien en celular y computador, y que yo pueda cambiar logo, nombre, precio y colores.\n\n¿Cuánto cobras por crearla completa con el bot incluido y en cuántos días me la entregas? Pago por hitos en Freelancer.\nPresupuesto: 30.0-250.0 USD\nSkills: PHP, JavaScript, CSS, User Interface / IA, MySQL, HTML",
-"url": "https://www.freelancer.com/projects/api-integration/Analysis-Col-EST",
-"author": "",
-"extra": {
-"bids": 86,
-"bid_avg": 128.16267441860464,
-"budget": "Presupuesto: 30.0-250.0 USD",
-"budget_min": 30.0,
-"budget_max": 250.0,
-"currency": "USD",
-"price_type": "fixed",
-"hourly_commitment": null,
-"escrow": false,
-"country": null,
-"lang": "es"
-},
-"language": "es",
-"score": 90,
-"summary": "Un emprendedor busca desarrollar una plataforma web privada de análisis y bot para trading en Deriv con membresía de pago único.",
-"opener": "Hola, vi tu proyecto para Analysis Col y tengo experiencia creando plataformas de análisis financiero y bots con API de Deriv. ¿Podemos conversar?",
-"location": null
-},
-"created": 1795493719,
-"attempts": 0
-},
 {
 "id": "freelancer:40833646",
 "payload": {
@@ -6117,7 +6068,7 @@
 "location": null
 },
 "created": 1795532304,
-"attempts": 0
+"attempts": 1
 },
 {
 "id": "freelancer:40833540",

@@ -1,5 +1,56 @@
 {
 "seen": [
+"freelancer:40837931",
+"freelancer:40837939",
+"freelancer:40837974",
+"freelancer:40837977",
+"freelancer:40838096",
+"freelancer:40838081",
+"freelancer:40838254",
+"freelancer:40838403",
+"freelancer:40838402",
+"freelancer:40838406",
+"freelancer:40838422",
+"freelancer:40838434",
+"freelancer:40838458",
+"freelancer:40829096",
+"freelancer:40838463",
+"freelancer:40838465",
+"freelancer:40838467",
+"freelancer:40838474",
+"freelancer:40838478",
+"freelancer:40835875",
+"freelancer:40838487",
+"freelancer:40838497",
+"freelancer:40838503",
+"freelancer:40838506",
+"freelancer:40838519",
+"freelancer:40838540",
+"freelancer:40838259",
+"freelancer:40838552",
+"freelancer:40838558",
+"freelancer:40838554",
+"freelancer:40838563",
+"freelancer:40838564",
+"freelancer:40838568",
+"freelancer:40838577",
+"freelancer:40838537",
+"freelancer:40838579",
+"freelancer:40838575",
+"freelancer:40838565",
+"freelancer:40838585",
+"facebook:1697812725419430",
+"facebook:1881720892855056",
+"facebook:1881718572855288",
+"facebook:1881718402855305",
+"facebook:1697802152087154",
+"facebook:1697796972087672",
+"facebook:1697792065421496",
+"facebook:4265342240263229",
+"facebook:4265292656934854",
+"facebook:1800573674328704",
+"facebook:1800513761001362",
+"facebook:4265018843628902",
 "freelancer:40837583",
 "freelancer:40837595",
 "freelancer:40837612",
@@ -6115,10 +6166,10 @@
 "facebook": 1793013059,
 "linkedin": 1792900970,
 "twitter": 1795720704,
-"freelancer": 1795746081,
-"reddit": 1795746081,
-"fbgroups": 1795745890,
-"fbsearch": 1795720684
+"freelancer": 1795777418,
+"reddit": 1795777418,
+"fbgroups": 1795777219,
+"fbsearch": 1795777241
 },
 "counters": {
 "gemini:2026-10-25": 260.0,
@@ -6129,7 +6180,7 @@
 "gemini:2026-10-29": 123.0,
 "gemini:2026-10-30": 146.0,
 "gemini:2026-10-31": 114.0,
-"brightdata:records:2026-11": 1338.0,
+"brightdata:records:2026-11": 1355.0,
 "gemini:2026-11-01": 135.0,
 "gemini:2026-11-02": 105.0,
 "gemini:2026-11-03": 134.0,
@@ -6156,46 +6207,15 @@
 "gemini:2026-11-24": 93.0,
 "gemini:2026-11-25": 52.0,
 "gemini:2026-11-26": 120.0,
-"gemini:2026-11-27": 43.0
+"gemini:2026-11-27": 81.0
 },
 "leads": [],
 "stats": {
-"leads_total": 6,
-"seen_total": 6110,
+"leads_total": 7,
+"seen_total": 6161,
 "pending_proposals": 3
 },
 "pending_proposals": [
-{
-"id": "freelancer:40834651",
-"payload": {
-"id": "freelancer:40834651",
-"source": "freelancer",
-"title": "Automatización IA Respuestas Multicanal CRM",
-"text": "Quiero construir un sistema que, a partir de nuestros historiales de conversación con clientes, sugiera respuestas inteligentes para los mensajes que ingresan tanto por correo electrónico como por WhatsApp.  \n\nFlujo deseado  \n• Cuando llega un mensaje, la IA genera una respuesta preliminar usando los chats previos como base de conocimiento.  \n• Esa respuesta se muestra en una página web donde mi equipo puede leerla, editarla si hace falta y aprobarla antes de enviarla.  \n• En horario laboral, la respuesta aprobada se envía automáticamente; fuera de horario no debe responder nada.  \n\nIntegración con WhatsApp  \n• Cada correo entrante debe reenviarse también a nuestro número de WhatsApp para que, si lo preferimos, podamos contestar con un mensaje de voz.  \n• El sistema debe transcribir ese audio y devolverlo al hilo de correo como texto formateado.  \n\nSeguimiento de oportunidades  \nSi un cliente no responde o la venta no se cierra, la plataforma enviará recordatorios automáticos que incluyen un descuento configurable para incentivar la compra.  \n\nRequisitos técnicos clave  \n– Canales obligatorios: correo electrónico y WhatsApp.  \n– Motor de IA entrenado en nuestros chats históricos.  \n– Panel web simple y rápido para aprobar cada mensaje.  \n– Restricción de horario configurable.  \n– Registro estilo CRM: conversación, estado, fecha del último recordatorio y resultado.  \n\nEntregables mínimos  \n1. Código fuente completo y documentación de instalación.  \n2. Panel web funcional para vista previa y aprobación.  \n3. Conectores operativos a Gmail/IMAP y API de WhatsApp Business.  \n4. Lógica de follow-up con descuentos y control de horario.  \n5. Guía rápida para que mi equipo pueda ajustar prompts, descuentos y horarios sin depender de desarrollo.\nPresupuesto: 30.0-250.0 EUR\nSkills: Web Development, API Integration, AI Chatbot Development, AI Model Development, AI Content Creation, AI Automation",
-"url": "https://www.freelancer.com/projects/ai-chatbot-development/Automatizaci-Respuestas-Multicanal-CRM",
-"author": "",
-"extra": {
-"bids": 88,
-"bid_avg": 131.39261363636362,
-"budget": "Presupuesto: 30.0-250.0 EUR",
-"budget_min": 30.0,
-"budget_max": 250.0,
-"currency": "EUR",
-"price_type": "fixed",
-"hourly_commitment": null,
-"escrow": false,
-"country": null,
-"lang": "es"
-},
-"language": "es",
-"score": 90,
-"summary": "Empresa busca construir un sistema de automatización con IA para respuestas multicanal en WhatsApp y correo con panel web y CRM.",
-"opener": "Hola, vi tu proyecto de automatización con IA para WhatsApp y correo. Tengo experiencia integrando APIs de mensajería y modelos de lenguaje, ¿conversamos?",
-"location": null
-},
-"created": 1795588071,
-"attempts": 1
-},
 {
 "id": "freelancer:40835289",
 "payload": {
@@ -6225,7 +6245,7 @@
 "location": null
 },
 "created": 1795628388,
-"attempts": 0
+"attempts": 1
 },
 {
 "id": "freelancer:40835979",
@@ -6256,6 +6276,37 @@
 "location": "Santa Cruz, Bolivia"
 },
 "created": 1795655593,
+"attempts": 0
+},
+{
+"id": "freelancer:40838575",
+"payload": {
+"id": "freelancer:40838575",
+"source": "freelancer",
+"title": "Especialista en Mantenimiento Moodle",
+"text": "Estoy buscando apoyo técnico para actualizar, configurar y mejorar mi plataforma Moodle.  \nMi objetivo es contar con un entorno estable, seguro y optimizado que facilite la gestión de cursos y usuarios a largo plazo.\n\nQué espero que cubras  \n• Revisión del estado actual de Moodle y sus plugins.  \n• Actualización a la versión estable más reciente, con copia de seguridad previa.  \n• Configuración de temas, plugins y ajustes de rendimiento (caché, cron, optimización de base de datos).  \n• Mejora de la seguridad: certificados SSL, roles y permisos, políticas de contraseñas y copias de seguridad automatizadas.  \n• Documentación básica de los cambios realizados para futuras referencias.\n\nCómo presentar tu propuesta  \nNecesito propuestas detalladas de proyecto: explica el plan de trabajo, herramientas que utilizarás, hitos y tiempos estimados. Puedes añadir ejemplos de trabajos similares si los tienes, pero lo esencial es entender claramente tu enfoque.\n\nPlazo  \nNo tengo límite de tiempo estricto; valoro más la calidad y la fiabilidad de la solución que la velocidad.\nPresupuesto: 30.0-250.0 EUR\nSkills: PHP, Technical Support, MySQL, Website Management, Database Administration, Moodle",
+"url": "https://www.freelancer.com/projects/web-development/Especialista-Mantenimiento-Moodle",
+"author": "",
+"extra": {
+"bids": 77,
+"bid_avg": 115.57688311688312,
+"budget": "Presupuesto: 30.0-250.0 EUR",
+"budget_min": 30.0,
+"budget_max": 250.0,
+"currency": "EUR",
+"price_type": "fixed",
+"hourly_commitment": null,
+"escrow": false,
+"country": null,
+"lang": "es"
+},
+"language": "es",
+"score": 90,
+"summary": "Dueño de plataforma educativa busca experto en PHP, MySQL y Moodle para actualizar, configurar y optimizar el sistema.",
+"opener": "Hola, he leído tu requerimiento para el mantenimiento y actualización de Moodle. Tengo experiencia con PHP, MySQL y optimización de plataformas e-learning y me encantaría ayudarte.",
+"location": null
+},
+"created": 1795777256,
 "attempts": 0
 }
 ],

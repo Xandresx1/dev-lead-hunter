@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow"><title>Xubuntu Android AI Control Bridge</title>
+<style>
+:root{--c:#1e88e5;}
+*{box-sizing:border-box}body{margin:0;background:#0f141b;color:#e6edf3;font:15px/1.55 -apple-system,Segoe UI,Roboto,Inter,sans-serif}
+.wrap{max-width:720px;margin:0 auto;padding:18px 16px 60px}
+.src{display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--c);border:1px solid var(--c);border-radius:999px;padding:4px 10px}
+h1{color:var(--c);font-size:22px;line-height:1.25;margin:12px 0 6px}
+.meta{color:#94a3b8;font-size:13px;margin-bottom:14px}
+.card{background:#161d27;border:1px solid #243041;border-radius:14px;padding:16px;margin:12px 0}
+.card h2{margin:0 0 10px;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:#94a3b8}
+.kpis{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.kpi{background:#0f141b;border:1px solid #243041;border-radius:12px;padding:12px;text-align:center}
+.kpi b{display:block;font-size:24px;color:var(--c)}.kpi span{font-size:12px;color:#94a3b8}
+.content{font-weight:700;white-space:pre-wrap;word-wrap:break-word}
+.proposal{white-space:pre-wrap;word-wrap:break-word;font-weight:600}
+.muted{color:#94a3b8;font-size:13px}
+.btn{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;padding:14px;border-radius:12px;border:0;font-weight:700;font-size:16px;cursor:pointer;background:var(--c);color:#fff;margin-top:10px}
+.btn.alt{background:#243041;color:#e6edf3}
+.btn:active{transform:scale(.99)}
+.toast{position:fixed;left:50%;bottom:22px;transform:translateX(-50%);background:#22c55e;color:#06130a;font-weight:700;padding:10px 16px;border-radius:999px;opacity:0;transition:opacity .2s}
+.toast.show{opacity:1}
+a{color:var(--c)}
+</style></head><body><div class="wrap">
+<span class="src">🔵 Freelancer &middot; Lead 90/100</span>
+<h1>Xubuntu Android AI Control Bridge</h1>
+<div class="meta">Un usuario busca un desarrollador experimentado en Android (Kotlin) y Linux (Xubuntu) para construir un puente de control remoto modular con IA.</div>
+<div class="card"><h2>Mensaje sugerido para abrir</h2><div class="proposal">Hi, I saw your project for the Xubuntu Android AI Control Bridge. I have strong experience in Kotlin and Linux backend integration, and I&#x27;d love to help you build this modular system.</div><button class="btn" onclick="copyOpener()">📋 Copiar mensaje</button></div>
+<div class="card"><h2>Publicación original</h2><div class="content">Xubuntu Android AI Control Bridge
+I need an experienced Android (Kotlin) and Linux (Xubuntu) developer to build a lightweight, modular remote-control bridge between my Android phone and my home Xubuntu 24.04 LTS PC.
+​While working outdoors with a delivery/navigation app always open in the foreground, I need a persistent, compact floating action bar (SYSTEM_ALERT_WINDOW) on top of my screen to command, monitor, and receive files/voice feedback from AI agents running on my home PC.
+​Important: I do NOT want a conventional remote desktop app or a rigid, pre-designed dashboard. I want a clean, modular foundation (complete source code required) so I can freely customize the floating bar UI, add/remove buttons, and modify commands myself in Android Studio.
+​Core Requirements
+​1. Home PC Backend (Xubuntu 24.04 LTS / XFCE)
+​Full System Integration: Set up a reliable background service (OpenSSH, tmux, systemd, Python/Go agent) that provides direct internal access—not just screen screenshots—to all open terminal sessions (STDOUT/STDERR), running processes/PIDs, real-time CPU, RAM, and GPU metrics (e.g., via rocm-smi/nvidia-smi/htop), and file management.
+​AI Orchestration:
+​Primary: Claude Computer Use (for desktop GUI interaction, browser research, FFmpeg/video editing scripts, and app control) + Claude Code (for terminal operations).
+​Secondary/Modular: Support OpenAI (GPT) and Google (Gemini) APIs via a modular provider config.
+​Easy Configuration: Provide a simple config.json / .env file on the PC to manage API keys, models, working directories, and custom commands.
+​2. Custom Android App (Kotlin — Full Source Code Required)
+​Build a native Android app (WindowManager + ForegroundService + SSHJ/WebSocket) with a draggable floating bar over other apps. The UI layout and button actions must be cleanly separated into modular components so I can easily add, remove, or edit buttons later in Android Studio.
+​Floating Bar Layout &amp; Button Specifications:
+​Always-Visible Mini Hardware Monitor: A compact, persistent status ticker on the floating bar showing live CPU, RAM, and GPU usage percentages from the Xubuntu PC.
+​1. Screen View Button (2 Display Modes):
+​Mini Overlay Window: A small, resizable floating window to quickly glance at the PC screen over my navigation app.
+​Landscape Fullscreen Mode: One-tap toggle to expand the PC screen stream into full landscape mode for detailed visual inspection.
+​2. Mic Button (Voice Command): Press and speak (SpeechRecognizer) to immediately send voice commands directly to the active Claude agent on the PC.
+​3. Replay Button: Retrieve the latest response text from Claude and read it aloud on the phone using Android&#x27;s native TextToSpeech (TTS).
+​4. Terminal Button: Fetch and display live outputs from all currently open tmux / terminal sessions on Xubuntu (with a switcher to jump between open terminals and send commands).
+​5. Chat Button (Interactive Claude Chat Overlay):
+​Opens a clean, scrollable chat window showing the on</div>
+<a class="btn alt" href="https://www.freelancer.com/projects/android/Xubuntu-Android-Control-Bridge" target="_blank" rel="noopener">Abrir publicación en Freelancer</a></div>
+<div class="muted">Generado 2026-11-28 05:54 &middot; Dev Lead Hunter</div>
+<div class="toast" id="toast">Copiado</div>
+<textarea id="clip" style="position:fixed;left:-9999px;top:0"></textarea>
+<script>
+const DATA={"proposal": "", "opener": "Hi, I saw your project for the Xubuntu Android AI Control Bridge. I have strong experience in Kotlin and Linux backend integration, and I'd love to help you build this modular system.", "question": ""};
+function toast(t){const e=document.getElementById('toast');e.textContent=t;e.classList.add('show');setTimeout(()=>e.classList.remove('show'),1600);}
+async function copyText(t,label){try{await navigator.clipboard.writeText(t);toast(label||'Copiado');}catch(e){const ta=document.getElementById('clip');ta.value=t;ta.select();document.execCommand('copy');toast(label||'Copiado');}}
+function copyProposal(){copyText(DATA.proposal,'Propuesta copiada');}
+function copyOpener(){copyText(DATA.opener,'Mensaje copiado');}
+function copyAll(){copyText(DATA.proposal+"\n\n"+(DATA.question?('Pregunta: '+DATA.question):''),'Todo copiado');}
+</script></div></body></html>
